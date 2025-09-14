@@ -563,7 +563,7 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
   <img src="images/Colores.png" alt="PB" width="1000">
 </p>
 
-# Colores
+## Colores
 La paleta de colores utilizada representa un diseño minimalista, basado en la combinación de algunos tonos neutros con acentos vibrantes. Los colores claros y oscuros aporten balance y legibilidad, mientras que los tonos de acento transmiten dinamismo y confianza en el uso de la aplicación.
 
 El color E9F1FA (Azul muy claro): Genera sensación de frescura y limpieza visual.
@@ -582,7 +582,7 @@ El color FFFFFF (Blanco): Simboliza pureza y claridad, garantizando contraste y 
   <img src="images/Fuente.png" alt="PB" width="1000">
 </p>
 
-# Tipografía
+## Tipografía
 
 Nuestra tipografía principal es Poppins, una fuente sans serif de estilo geométrico que refuerza el carácter moderno y minimalista de nuestro diseño.
 
@@ -592,7 +592,7 @@ La elección de esta tipografía busca transmitir modernidad, claridad y versati
   <img src="images/Logo.png" alt="PB" width="1000">
 </p>
 
-# Branding
+## Branding
 
 El logo representa la esencia de nuestra aplicación a través de un diseño moderno y funcional. Cada elemento visual ha sido pensado para reflejar nuestros valores de profesionalismo, confianza y seguridad, mientras que la tipografía y la paleta cromática minimalista.
 
@@ -616,8 +616,28 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 ## **4.4. Web Applications UX/UI Design**
 ### ***4.4.1. Web Applications Wireframes***
+**Inicio Sesión**
+<p align="center">
+  <img src="images/login-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Registro**
+<p align="center">
+  <img src="images/register-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
 ### ***4.4.2. Web Applications Wireflow Diagrams***
 ### ***4.4.2. Web Applications Mock-ups***
+**Inicio Sesión**
+<p align="center">
+  <img src="images/login-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Registro**
+<p align="center">
+  <img src="images/register-energix-mockup.png" alt="PB" width="1000">
+</p>
+
 ### ***4.4.3. Web Applications User Flow Diagrams***
 ## **4.5. Web Applications Prototyping**
 
