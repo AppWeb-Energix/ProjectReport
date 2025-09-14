@@ -556,6 +556,7 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
   <img src="images/To-Be Scenario Map – Diego Rojas.jpg" alt="PB" width="1000">
 </p>
 
+# **Capítulo IV: Product UX/UI Design**
 ## **4.1. Style Guidelines**
 ### ***4.1.1. General Style Guidelines***
 <p align="center">
