@@ -596,6 +596,32 @@ La elección de esta tipografía busca transmitir modernidad, claridad y versati
 
 El logo representa la esencia de nuestra aplicación a través de un diseño moderno y funcional. Cada elemento visual ha sido pensado para reflejar nuestros valores de profesionalismo, confianza y seguridad, mientras que la tipografía y la paleta cromática minimalista.
 
+## **4.3. Landing Page UI Design**
+### ***4.3.1. Landing Page Wireframe***
+
+[Diseño en Figma: Landing Page Wireframe - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
+
+<p align="center">
+  <img src="images/landingpage-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+### ***4.3.2. Landing Page Mock-up***
+
+[Diseño en Figma: Landing Page Mockup - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
+<p align="center">
+  <img src="images/landingpage-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+## **4.4. Web Applications UX/UI Design**
+### ***4.4.1. Web Applications Wireframes***
+### ***4.4.2. Web Applications Wireflow Diagrams***
+### ***4.4.2. Web Applications Mock-ups***
+### ***4.4.3. Web Applications User Flow Diagrams***
+## **4.5. Web Applications Prototyping**
+
+
 ## **4.6 Domain-Driven Software Architecture**
 ### ***4.6.1 Design-Level EventStorming***
 ![Design-Level EventStorming](/images/EventStorming.jpg)
