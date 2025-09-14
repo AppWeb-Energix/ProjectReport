@@ -556,6 +556,45 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
   <img src="images/To-Be Scenario Map – Diego Rojas.jpg" alt="PB" width="1000">
 </p>
 
+## **4.1. Style Guidelines**
+### ***4.1.1. General Style Guidelines***
+<p align="center">
+  <img src="images/Colores.png" alt="PB" width="1000">
+</p>
+
+# Colores
+La paleta de colores utilizada representa un diseño minimalista, basado en la combinación de algunos tonos neutros con acentos vibrantes. Los colores claros y oscuros aporten balance y legibilidad, mientras que los tonos de acento transmiten dinamismo y confianza en el uso de la aplicación.
+
+El color E9F1FA (Azul muy claro): Genera sensación de frescura y limpieza visual.
+
+El color 000000 (Negro): Expresa fuerza, elegancia y sobriedad.
+
+El color E2D226 (Amarillo brillante): Aporta energía y optimismo, ideal para destacar acciones importantes.
+
+El color 2C2C2C (Gris carbón): Equilibra la paleta, aportando modernidad y neutralidad.
+
+El color 002349 (Azul marino): Representa confianza, seriedad y profesionalismo.
+
+El color FFFFFF (Blanco): Simboliza pureza y claridad, garantizando contraste y legibilidad.
+
+<p align="center">
+  <img src="images/Fuente.png" alt="PB" width="1000">
+</p>
+
+# Tipografía
+
+Nuestra tipografía principal es Poppins, una fuente sans serif de estilo geométrico que refuerza el carácter moderno y minimalista de nuestro diseño.
+
+La elección de esta tipografía busca transmitir modernidad, claridad y versatilidad.
+
+<p align="center">
+  <img src="images/Logo.png" alt="PB" width="1000">
+</p>
+
+# Branding
+
+El logo representa la esencia de nuestra aplicación a través de un diseño moderno y funcional. Cada elemento visual ha sido pensado para reflejar nuestros valores de profesionalismo, confianza y seguridad, mientras que la tipografía y la paleta cromática minimalista.
+
 ## **4.6 Domain-Driven Software Architecture**
 ### ***4.6.1 Design-Level EventStorming***
 ![Design-Level EventStorming](/images/EventStorming.jpg)
@@ -576,3 +615,5 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
 ## **4.8 Database Design**
 ### **4.8.1 Database Diagrams**
 ![Database Diagrams](/images/Database-Diagram.png)
+
+
