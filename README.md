@@ -44,6 +44,7 @@
 <h3 align="center"><strong>Ciclo 2025-02</strong></h3>
 <hr>
 <hr>
+
 # **Tabla de Contenidos**
 
 <a href="#registro-de-versiones-del-informe">Registro de Versiones del Informe</a><br>
