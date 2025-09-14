@@ -556,3 +556,23 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
   <img src="images/To-Be Scenario Map – Diego Rojas.jpg" alt="PB" width="1000">
 </p>
 
+## **4.6 Domain-Driven Software Architecture**
+### ***4.6.1 Design-Level EventStorming***
+![Design-Level EventStorming](/images/EventStorming.jpg)
+
+### ***4.6.2 Software Architecture Context Diagram***
+![Software Architecture Context Diagram](/images/Context-Diagram.png)
+
+### ***4.6.3 Software Architecture Container Diagram***
+![Software Architecture Container Diagram](/images/Container-Diagram.png)
+
+### ***4.6.4 Software Architecture Components Diagram***
+![Software Architecture Components Diagram](/images/Components-Diagram.png)
+
+## **4.7 Software Object-Oriented Design**
+### ***4.7.1 Class Diagrams***
+![Class Diagrams](/images/Class-Diagrams.png)
+
+## **4.8 Database Design**
+### **4.8.1 Database Diagrams**
+![Database Diagrams](/images/Database-Diagram.png)
