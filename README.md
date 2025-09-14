@@ -7,8 +7,8 @@
 <h4 align="center"><strong>Ingeniería de Software</strong></h4>
 <h4 align="center"><strong>Aplicaciones Web - 7470</strong></h4>
 <h4 align="center"><strong>Docente: Rafael Oswaldo Castro Veramendi</h4>
-<h4 align="center"><strong>Startup: PanPun</strong></h4>
-<h4 align="center">Product: Energix</strong></h4>
+<h4 align="center"><strong>Startup: Energix</strong></h4>
+<h4 align="center">Product: Energix Manager</strong></h4>
 
 <p align="center"><strong>Team members:</strong></p>
 
