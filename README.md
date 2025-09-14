@@ -250,6 +250,7 @@ El problema ocurre debido a la falta de conocimiento y capacitación sobre el us
 *¿Qué llevó al usuario a esta situación?*
 
 Los usuarios se encuentran en esta situación debido a la falta de información y educación. Según Chucuya Fuentes (2021), el 93% de los encuestados desconocía la existencia de normas o leyes para el ahorro de energía, lo que demuestra una brecha de conocimiento que impide la toma de decisiones informadas para ahorrar energía y dinero.
+
 **How**
 
 *¿En qué condiciones los clientes usan nuestro producto?*
@@ -390,6 +391,7 @@ Este segmento es nuestro público objetivo principal. Son los adultos o miembros
 La clase media en el Perú ha crecido significativamente, representando un segmento con un poder de consumo energético importante. Un hogar promedio en Lima consume alrededor de 172 kWh/mes, un valor que supera ampliamente el promedio nacional y refleja un alto uso de electrodomésticos (Autosolar Perú).
 
 <ins>**2. Estudiantes y Jóvenes con Presupuesto Ajustado**</ins>
+
 Este segmento busca soluciones prácticas para reducir gastos, ya que viven con presupuestos limitados. Son nativos digitales y están abiertos a probar aplicaciones que les ofrezcan beneficios tangibles de forma inmediata.
 
 **Características Demográficas:**
@@ -407,3 +409,22 @@ Las viviendas alquiladas en zonas universitarias o céntricas suelen tener un al
 Este segmento está muy influenciado por la información en línea y las recomendaciones. Una solución fácil de usar que demuestre un ahorro real podría ser adoptada rápidamente y difundida a través de sus círculos sociales.
 
 <hr>
+
+# **Capítulo III: Requirements Specification**
+
+## **3.1. To-Be Scenario Mapping**
+
+El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen con la solución propuesta en el futuro. Permite visualizar de manera narrativa y estructurada los procesos deseados, identificando mejoras frente a la situación actual y sirviendo como base para la definición de requerimientos.
+
+**Segmento 1:** Familias Urbanas de Clase Media
+
+<p align="center">
+  <img src="images/To-Be Scenario Map – Laura Fernández.jpg" alt="PB" width="1000">
+</p>
+
+**Segmento 2:** Estudiantes y Jóvenes con Presupuesto Ajustado
+
+<p align="center">
+  <img src="images/To-Be Scenario Map – Diego Rojas.jpg" alt="PB" width="1000">
+</p>
+
