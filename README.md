@@ -462,9 +462,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 | **Amenazas** | Competencia de apps móviles, resistencia al cambio de hábitos, apps gratuitas, conectividad limitada. | Nuevas soluciones IoT más económicas. | Competencia de apps sin hardware, saturación de mercado. | Competencia de apps multimarca, usuarios fuera de Samsung no pueden usarla. |
 
 ---
-|
 
-### ***2.1.1. Análisis competitivo***
 ### ***2.1.2. Estrategias y tácticas frente a competidores***
 
 - **Plan Freemium accesible**: Ofreceremos funciones esenciales de monitoreo y alertas personalizadas, mucho más accesibles que las soluciones de hardware costoso como **Sense Home Energy Monitor** o **Wibeee Box**.
@@ -481,7 +479,54 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 ## **2.2. Entrevistas**
 
 ### ***2.2.1. Diseño de entrevistas***
-### 2.2.2. Registro de entrevistas
+
+## Segmento 1: Estudiantes que alquilan vivienda
+
+- ¿Compartes el pago de la electricidad con tus compañeros de vivienda? ¿Cómo organizan ese gasto?  
+- ¿Qué tanta atención presta al consumo eléctrico diario o mensual en tu alojamiento?  
+- ¿Qué tipo de alertas (horario, sobreconsumo, dispositivos encendidos) serían más útiles en tu caso?  
+- ¿Usas alguna app para organizar tus finanzas personales? ¿Te gustaría incluir el gasto eléctrico ahí?  
+- ¿Prefieres recibir información simple (costo total por persona) o detallada (por artefacto)?  
+- ¿Qué dispositivo usas más para revisar este tipo de información: ¿celular, laptop o ambos?  
+- ¿Qué tan dispuesto estarías a cambiar tus hábitos (apagar equipos, desconectar cargadores) si recibes recomendaciones personalizadas?  
+- ¿Qué barreras ves para adoptar una app que te ayude a reducir el gasto eléctrico?  
+
+---
+
+## Segmento 2: Jóvenes adultos responsables del pago de la electricidad
+
+- ¿Qué importancia le das al control del consumo eléctrico dentro de tu presupuesto mensual?  
+- ¿Has tenido experiencias de aumentos inesperados en el recibo de luz? ¿Cómo los enfrentas?  
+- ¿Qué información te gustaría recibir de una plataforma para sentir que tienes control sobre tu consumo?  
+- ¿Con qué frecuencia revisarías un reporte de consumo (diario, semanal, mensual)?  
+- ¿Qué tan útil sería para ti recibir alertas sobre consumos anormales en ciertos horarios?  
+- ¿Qué dispositivos de tu hogar crees que más impactan en tu recibo de luz?  
+- ¿Qué tan dispuesto estarías a pagar por una app que te ayude a ahorrar en tu consumo eléctrico?  
+- ¿Qué funcionalidades consideras esenciales en una plataforma web o app para controlar tu consumo de energía?  
+
+---
+
+### ***2.2.2. Registro de entrevistas***
+
+## Entrevistas por segmento
+
+## Segmento 1: Estudiantes que alquilan vivienda
+
+
+| Número de registro | Datos del entrevistado | Captura |
+|--------------------|-------------------------|---------|
+| **1** | **Nombre:** Willy Guzman  <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración de la entrevista:** 4:28 minutos <br> **Link:** [Ver entrevista](https://youtu.be/aIU7QD1wmsY?si=HNDRV-ROwd8d3h-v) <br> **Resumen:** El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | ![Captura 1](/images/Evi_Seg1_1.png) |
+| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración de la entrevista:** 3:10 minutos <br> **Link:** [Ver entrevista](https://youtu.be/SAUm95CV8Es?si=0MLN1B0BIJtAsKv) <br> **Resumen:** La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | ![Captura 2](/images/Evi_Seg1_2.png) |
+
+---
+
+## Segmento 2: Jóvenes adultos responsables del pago de la electricidad
+
+| Número de registro | Datos del entrevistado | Captura |
+|--------------------|-------------------------|---------|
+| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración de la entrevista:** 2:16 minutos <br> **Link:** [Ver entrevista](https://youtu.be/cHQaPFnEpZ4?si=Ng9bz2GVPsAnIhbc) <br> **Resumen:** Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | ![Captura 3](/images/Evi_Seg2_1.png) |
+| **2** | **Nombre:** Nestor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración de la entrevista:** 3:07 minutos <br> **Link:** [Ver entrevista](https://youtu.be/kTpOOhvGQ0?si=uij_7x1AlAWEkW39) <br> **Resumen:** Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | ![Captura 4](/images/Evi_Seg2_2.png) |
+
 ### ***2.2.3. Análisis de entrevistas***
 ## **2.3. Needfinding**
 ### ***2.3.1. User Personas***
@@ -511,23 +556,3 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
   <img src="images/To-Be Scenario Map – Diego Rojas.jpg" alt="PB" width="1000">
 </p>
 
-## **4.6 Domain-Driven Software Architecture**
-### ***4.6.1 Design-Level EventStorming***
-![Design-Level EventStorming](/images/EventStorming.jpg)
-
-### ***4.6.2 Software Architecture Context Diagram***
-![Software Architecture Context Diagram](/images/Context-Diagram.png)
-
-### ***4.6.3 Software Architecture Container Diagram***
-![Software Architecture Container Diagram](/images/Container-Diagram.png)
-
-### ***4.6.4 Software Architecture Components Diagram***
-![Software Architecture Components Diagram](/images/Components-Diagram.png)
-
-## **4.7 Software Object-Oriented Design**
-### ***4.7.1 Class Diagrams***
-![Class Diagrams](/images/Class-Diagrams.png)
-
-## **4.8 Database Design**
-### **4.8.1 Database Diagrams**
-![Database Diagrams](/images/Database-Diagram.png)
