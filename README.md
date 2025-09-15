@@ -528,8 +528,59 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 | **2** | **Nombre:** Nestor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración de la entrevista:** 3:07 minutos <br> **Link:** [Ver entrevista](https://youtu.be/SaUrn95CV8E?si=BDsRBMo3lKQccWOW) <br> **Resumen:** Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | ![Captura 4](/images/Evi_Seg2_2.png) |
 
 ### ***2.2.3. Análisis de entrevistas***
+
+# Segmento 1: Estudiantes que alquilan vivienda
+
+A partir de las entrevistas realizadas a estudiantes que comparten vivienda alquilada, podemos concluir lo siguiente:
+
+- **a)** El pago de electricidad suele organizarse de manera colectiva y equitativa, dividiendo el monto total entre todos los ocupantes, sin importar el consumo individual. Esto genera poca motivación para vigilar el gasto diario.  
+- **b)** La atención al consumo eléctrico es baja; los entrevistados solo revisan el recibo cuando llega y rara vez analizan el detalle. Esto refleja una gestión reactiva más que preventiva.  
+- **c)** Se valora como útil la posibilidad de recibir alertas sobre dispositivos encendidos innecesariamente, como luces o televisores, ya que los descuidos son comunes en viviendas compartidas.  
+- **d)** Existe interés en contar con información simple y clara, sobre todo el costo total dividido entre personas. Sin embargo, también se reconoce el valor de un análisis más detallado por artefacto en casos específicos (ej. calentador, refrigerador).  
+- **e)** Los principales dispositivos que afectan el consumo identificados son: computadora, calentador, refrigerador, microondas, impresora y televisor, los cuales suelen usarse intensivamente en grupo.  
+- **f)** Hay disposición a cambiar hábitos si la app ofrece recomendaciones personalizadas, por ejemplo, apagar enchufes o controlar el uso de focos en pasadizos. Esto muestra apertura hacia soluciones prácticas que faciliten el ahorro.  
+- **g)** Una barrera importante para la adopción de estas plataformas es la complejidad de uso, es decir, aplicaciones con exceso de datos técnicos o incompatibilidad con dispositivos del hogar. Los estudiantes prefieren interfaces simples, visuales e intuitivas.  
+
+**Resumen:** Este segmento experimenta un bajo nivel de control consciente sobre el gasto eléctrico debido al carácter compartido de los pagos, lo que diluye la responsabilidad individual. Sin embargo, ven valor en herramientas que ofrezcan alertas en tiempo real, información clara y división automática de costos, siempre que sean fáciles de usar. La compatibilidad con dispositivos y la sencillez de la interfaz son claves para la adopción.
+
+---
+
+# Segmento 2: Jóvenes adultos responsables del pago de electricidad
+
+A partir de las dos entrevistas realizadas a jóvenes que asumen el pago de la electricidad en el hogar, podemos concluir lo siguiente:
+
+- **a)** Existe una clara preocupación por el control del gasto eléctrico, ya sea destinando un porcentaje fijo del presupuesto mensual (10–15%) o analizando la factura en familia para ajustar consumos.  
+- **b)** Ambos entrevistados han experimentado aumentos inesperados en el recibo, ocasionados por mayor uso de aparatos en ciertas temporadas o por descuidos como enchufes olvidados. Esto refuerza la necesidad de mecanismos preventivos.  
+- **c)** Se valoran funciones de la aplicación como comparativas de consumo mes a mes y la identificación del gasto por dispositivo, lo cual genera una sensación de control y transparencia.  
+- **d)** En cuanto a la frecuencia de revisión, se evidencian perfiles distintos: un entrevistado revisaría el consumo a diario desde el móvil, mientras que el otro lo haría de forma mensual al llegar la factura.  
+- **e)** Ambos destacan la importancia de las alertas en tiempo real para detectar consumos anormales (ejemplo: terma encendida), considerándolas fundamentales para tomar acciones inmediatas.  
+- **f)** Los dispositivos electrónicos de uso continuo (aire acondicionado, computadoras, laptops) son percibidos como los que más impacto tienen en el recibo de luz.  
+- **g)** Existe disposición a pagar por una app de este tipo, aunque de forma moderada y condicionada al valor percibido; se mencionan montos bajos o indeterminados.  
+- **h)** Como funcionalidades esenciales se destacan la facilidad de acceso, la visualización de datos en soles, las comparativas históricas y la notificación en tiempo real de consumos anormales.  
+
+**Resumen:** Este segmento busca mantener el gasto eléctrico bajo control sin que afecte su presupuesto mensual. Consideran clave contar con alertas preventivas, métricas claras expresadas en dinero y un sistema flexible que permita tanto revisiones rápidas y diarias como reportes más globales. La disposición de pago existe, pero dependerá de que la aplicación ofrezca un valor tangible y práctico en la gestión del consumo.
+
 ## **2.3. Needfinding**
 ### ***2.3.1. User Personas***
+
+Los **User Personas** representan arquetipos basados en los segmentos clave de usuarios identificados a través de entrevistas.  
+Permiten comprender sus motivaciones, hábitos, frustraciones y comportamientos, sirviendo como guía en el diseño de soluciones enfocadas en sus necesidades reales.
+
+En el caso de **Energix Manager**, se han definido dos perfiles principales:
+
+- **Estudiantes con Presupuesto Ajustado**  
+- **Familias Urbanas de Clase Media**
+
+---
+
+## User Persona 1: Laura Fernández — Familias Urbanas de Clase Media
+
+![User Persona Laura](/images/UserPersona_LauraFernández.png)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jóvenes con Presupuesto Ajustado
+
+![User Persona Diego](/images/UserPersona_DiegoRojas.png)
+
 ### ***2.3.2. User Task Matrix***
 ### ***2.3.3. User Journey Mapping***
 ### ***2.3.4. Empathy Mapping***
