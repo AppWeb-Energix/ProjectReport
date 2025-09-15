@@ -582,6 +582,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 ![User Persona Diego](/images/UserPersona_DiegoRojas.png)
 
 ### ***2.3.2. User Task Matrix***
+
+![Task Matrix](/images/Task%20Matrix.png)
+
 ### ***2.3.3. User Journey Mapping***
 ### ***2.3.4. Empathy Mapping***
 ### ***2.3.5. As-is Scenario Mapping***
