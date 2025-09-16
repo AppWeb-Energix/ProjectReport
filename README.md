@@ -771,7 +771,69 @@ time el ahorro potencial al aplicar un consejo. | **Escenario:** Cálculo correc
 | TS37 | Multilenguaje en landing                      | Como developer, quiero implementar cambio de idioma entre español e inglés. | **Escenario:** Cambio idioma<br>Given que el visitante selecciona “EN/ES”<br>When cambia<br>Then la landing se traduce automáticamente. | US34 |
 | TS38 | Módulo de autenticación                       | Como developer, quiero implementar el login, registro, recuperación y logout de usuarios. | **Escenario 1:** Login válido<br>Given credenciales correctas<br>When inicia sesión<br>Then accede.<br>**Escenario 2:** Registro exitoso<br>Given datos correctos<br>When se registra<br>Then se crea cuenta.<br>**Escenario 3:** Recuperación de contraseña<br>Given correo válido<br>When solicita recuperación<br>Then recibe enlace.<br>**Escenario 4:** Logout<br>Given sesión activa<br>When selecciona “Cerrar sesión”<br>Then el sistema lo desconecta. | US35, US36, US37, US38 |git commit -m "docs(chapter-3): add user stories and technical stories"
 
+## **3.3. Impact Mapping**
 
+El Impact Mapping es una técnica de planificación estratégica que conecta los objetivos del negocio con los entregables del producto. Ayuda a visualizar cómo las funcionalidades contribuyen a alcanzar los resultados esperados, identificando actores, impactos deseados y soluciones clave.
+
+<p align="center">
+  <img src="images/Impactmap_Energixmanager.png" alt="PB" width="1000">
+</p>
+
+## **3.4. Product Backlog**
+
+El Product Backlog es una lista priorizada de funcionalidades, mejoras y requisitos técnicos que guiarán la evolución del producto. Su propósito es organizar el trabajo en función del valor que aporta al usuario y al negocio, sirviendo como una hoja de ruta flexible y adaptable durante el desarrollo.
+
+Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
+
+<p align="center">
+  <img src="images/Trello_ProductBacklog.png" alt="PB" width="1000">
+</p>
+
+[https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)
+
+| Orden  | User Story Id | Título                                    | Descripción                                                                                                   | Story Points |
+|----|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|
+| 1  | US01          | Consumo en tiempo real                   | Como usuario, quiero ver mi consumo energético en vivo para reaccionar de inmediato y no pasarme de mi presupuesto. | 5            |
+| 2  | US02          | Historial de consumo                     | Como usuario, quiero ver el historial de consumo (día/semana/mes) para identificar patrones y planificar gastos. | 3            |
+| 3  | US03          | Consumo por electrodoméstico             | Como usuario, quiero ver el consumo por aparato en un gráfico circular para identificar cuáles generan más gasto en mi hogar. | 5            |
+| 4  | US05          | Comparación mensual y gráfica de consumo | Como usuario, quiero comparar mi consumo entre meses y verlo en gráficas para evaluar mis medidas de ahorro. | 5            |
+| 5  | US17          | Gráfica de consumo diario por horas      | Como usuario, quiero ver mi consumo a lo largo del día en una gráfica de líneas para detectar picos de gasto. | 5            |
+| 6  | US07          | Visualizar promedio de consumo           | Como usuario, quiero ver el consumo promedio en watts para entender mi nivel típico de gasto. | 2            |
+| 7  | US06          | Pronóstico y costo estimado              | Como usuario, quiero estimar mi consumo futuro en base a hábitos para anticipar el monto de la factura. | 8            |
+| 8  | US08          | Alerta de consumo inusual                | Como usuario, quiero recibir alertas cuando un electrodoméstico consuma más de lo normal. | 5            |
+| 9  | US09          | Límite de consumo mensual                | Como usuario, quiero establecer un límite mensual y recibir avisos al acercarme. | 5            |
+| 10 | US10          | Aviso por luces encendidas               | Como usuario, quiero recibir recordatorios cuando se detecten luces encendidas demasiado tiempo. | 3            |
+| 11 | US11          | Alertas personalizables en Panel         | Como usuario, quiero configurar qué alertas recibir y verlas reflejadas en el ícono del Panel. | 5            |
+| 12 | US04          | Resumen diario automático por correo     | Como usuario, quiero recibir un resumen automático diario en mi correo. | 3            |
+| 13 | US12          | Consejos adaptados al usuario            | Como usuario, quiero recibir consejos personalizados en base a mis patrones de consumo. | 5            |
+| 14 | US13          | Buenas prácticas generales               | Como usuario, quiero ver un listado de buenas prácticas rápidas para reducir consumo. | 2            |
+| 15 | US14          | Horarios de menor costo                  | Como usuario, quiero conocer las horas más económicas de electricidad. | 3            |
+| 16 | US15          | Estimación de ahorro                     | Como usuario, quiero ver el ahorro potencial de aplicar un consejo. | 3            |
+| 17 | US16          | Panel integral de métricas y gráficas    | Como usuario, quiero ver en un panel mis indicadores principales (kWh, costo, ahorro). | 5            |
+| 18 | US18          | Acceso a reportes desde menú lateral     | Como usuario, quiero acceder a la sección de reportes desde el menú lateral. | 2            |
+| 19 | US25          | Exportación de reportes                  | Como usuario, quiero exportar mis estadísticas en PDF o Excel. | 3            |
+| 20 | US23          | Integración con facturas eléctricas      | Como usuario, quiero vincular mi recibo digital de electricidad y comparar consumos. | 5            |
+| 21 | US24          | Compatibilidad con smart devices         | Como usuario premium, quiero compatibilidad con dispositivos inteligentes IoT. | 8            |
+| 22 | US21          | Registro de electrodomésticos            | Como usuario, quiero añadir o eliminar electrodomésticos en mi perfil. | 3            |
+| 23 | US22          | Personalización del panel                | Como usuario, quiero elegir qué métricas ver primero en mi panel. | 3            |
+| 24 | US19          | Gestión y acceso al perfil personal      | Como usuario, quiero registrar, actualizar y acceder a mis datos personales. | 2            |
+| 25 | US20          | Configuración completa                   | Como usuario, quiero configurar idioma y notificaciones desde el menú lateral. | 3            |
+| 26 | US26          | Página de bienvenida clara               | Como visitante, quiero que la landing muestre qué es Energix Manager de manera simple. | 2            |
+| 27 | US27          | Información en el footer                 | Como visitante, quiero ver información útil en el pie de página. | 1            |
+| 28 | US28          | Encabezado con navegación                | Como visitante, quiero un encabezado con menú de navegación. | 2            |
+| 29 | US30          | Planes de suscripción                    | Como visitante, quiero ver distintos planes de suscripción. | 2            |
+| 30 | US31          | Características de Energix Manager       | Como visitante, quiero ver lista de características de la app. | 2            |
+| 31 | US32          | Conociendo al equipo                     | Como visitante, quiero ver un video de presentación del equipo. | 3            |
+| 32 | US33          | Video tutorial introductorio             | Como visitante, quiero acceder a un tutorial para comprender cómo funciona la app. | 3            |
+| 33 | US34          | Multilenguaje                            | Como visitante, quiero cambiar entre español e inglés en la landing. | 3            |
+| 34 | US29          | Formulario de contacto                   | Como visitante, quiero un formulario para comunicarme con soporte. | 2            |
+| 35 | US35          | Inicio con credenciales                  | Como usuario, quiero acceder con correo y contraseña de forma segura. | 3            |
+| 36 | US36          | Recuperación de contraseña               | Como usuario, quiero recuperar mi contraseña olvidada. | 2            |
+| 37 | US37          | Creación de cuenta                       | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | 3            |
+| 38 | US38          | Cierre de sesión                         | Como usuario, quiero cerrar sesión de forma segura. | 1            |
+
+
+<hr>
 
 
 
