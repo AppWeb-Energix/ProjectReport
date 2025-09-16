@@ -415,24 +415,54 @@ Este segmento está muy influenciado por la información en línea y las recomen
 
 ## **2.1. Competidores**
 
-# Competitive Analysis Landscape
+## 2.1.1. Análisis competitivo
 
-| Sección / Criterio | Su startup (Energix Manager) | Competidor 1 (Sense Home Energy Monitor) | Competidor 2 (Wibeee Box) | Competidor 3 (SmartThings Energy) |
-|--------------------|-------------------------------|------------------------------------------|---------------------------|-----------------------------------|
-| **¿Por qué llevar a cabo este análisis?** | Este análisis permite entender el posicionamiento de **Energix Manager** en el mercado de plataformas de monitoreo y optimización de consumo energético en hogares, identificar oportunidades de diferenciación y anticipar amenazas de competidores. Así se optimizan estrategias de producto y marketing, asegurando que Energix Manager responda a las necesidades de los hogares urbanos interesados en eficiencia y ahorro energético. | | | |
-| **Perfil – Overview** | Plataforma web que permite monitoreo en tiempo real, análisis por electrodoméstico, alertas personalizadas y consejos de ahorro. | Dispositivo físico que se instala en el panel eléctrico para monitoreo detallado a nivel de electrodoméstico. | Sistema conectado al cuadro eléctrico que ofrece análisis integral del consumo energético. | Aplicación que permite controlar y monitorear dispositivos inteligentes Samsung. |
-| **Perfil – Valor al cliente** | Interfaz intuitiva, recomendaciones personalizadas, predicción de consumo, alertas inteligentes, consejos de eficiencia y ahorro. | Alertas de consumo anormal, reportes detallados, monitoreo específico de cada aparato. | Informes precisos, análisis predictivo, sugerencias de tarifas para optimizar consumo. | Integración con ecosistema Samsung, control remoto de electrodomésticos, visualización de consumo. |
-| **Marketing – Mercado objetivo** | Hogares urbanos de clase media y estudiantes jóvenes preocupados por eficiencia y ahorro en Perú. | Propietarios de viviendas que buscan control detallado del consumo eléctrico. | Hogares que desean optimizar su consumo integralmente. | Usuarios de dispositivos Samsung interesados en eficiencia energética y control remoto. |
-| **Marketing – Estrategias** | Marketing digital, colaboraciones con empresas eléctricas y Ministerio de Energía y Minas, campañas educativas. | Marketing de producto, asociaciones con instaladores eléctricos, campañas. | Campañas educativas sobre ahorro energético, presencia en ferias de eficiencia. | Promociones cruzadas con productos Samsung y marketing digital. |
-| **Producto & Servicios** | Monitoreo en tiempo real, análisis detallado por dispositivo, alertas, recomendaciones personalizadas, gráficos comparativos, panel web. | Dispositivo + app móvil para monitoreo en tiempo real y alertas. | Hardware + app móvil para análisis de consumo y recomendaciones de ahorro. | App móvil para control de dispositivos, reportes de consumo, alertas. |
-| **Precios & Costos** | Freemium: plan básico gratuito, plan premium $5–15/mes. | Dispositivo ~$250–300, app incluida. | Hardware + suscripción mensual ~$15–50. | App gratuita; requiere dispositivos Samsung. |
-| **Canales de distribución** | Plataforma web accesible desde cualquier navegador, aplicación móvil complementaria. | Venta online, distribuidores especializados, app móvil. | Venta online, distribuidores autorizados, app móvil. | Samsung Galaxy Store, Google Play, control vía app móvil. |
-| **SWOT – Fortalezas** | Web intuitiva, alertas y recomendaciones, plan freemium, enfoque en ahorro y sostenibilidad. | Monitoreo preciso por dispositivo, alertas detalladas. | Informes predictivos, análisis integral, buenas recomendaciones de ahorro. | Integración con Samsung, control remoto, app consolidada. |
-| **SWOT – Debilidades** | Sin app móvil, depende de datos del usuario, marca poco conocida, integración limitada. | Requiere instalación, costo inicial alto, curva de aprendizaje. | Depende de hardware, costo mensual, adopción limitada. | Solo funciona con dispositivos Samsung, limitada fuera del ecosistema. |
-| **SWOT – Oportunidades** | Alianzas con empresas y gobierno, expansión en Latinoamérica, gamificación. | Expansión a hogares residenciales, integración con domótica. | Expansión internacional, alianzas con compañías de energía. | Crecimiento de smart homes, colaboración con Samsung. |
-| **SWOT – Amenazas** | Competencia de apps móviles, resistencia al cambio de hábitos, apps gratuitas, conectividad limitada. | Nuevas soluciones IoT más económicas. | Competencia de apps sin hardware, saturación de mercado. | Competencia de apps multimarca, usuarios fuera de Samsung no pueden usarla. |
+# Análisis Competitivo – Energix Manager
 
-### ***2.1.1. Análisis competitivo***
+## ¿Por qué llevar a cabo este análisis?
+Este análisis permite entender el posicionamiento de **Energix Manager** en el mercado de plataformas de monitoreo y optimización de consumo energético en hogares, identificar oportunidades de diferenciación y anticipar amenazas de competidores. Así se optimizan estrategias de producto y marketing, asegurando que Energix Manager responda a las necesidades de los hogares urbanos interesados en eficiencia y ahorro energético.
+
+---
+
+## Competitive Analysis Landscape
+
+|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+|-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
+| **Perfil / Overview** | Plataforma web que permite monitoreo en tiempo real, análisis por electrodoméstico, alertas personalizadas y consejos de ahorro. | Dispositivo físico que se instala en el panel eléctrico para monitoreo detallado a nivel de electrodoméstico. | Sistema conectado al cuadro eléctrico que ofrece análisis integral del consumo energético. | Aplicación que permite controlar y monitorear dispositivos inteligentes Samsung. |
+| **Ventaja competitiva / Valor** | Interfaz intuitiva, recomendaciones personalizadas, predicción de consumo, alertas inteligentes, enfoque en ahorro económico y hábitos sostenibles. | Alertas de consumo anormal, reportes detallados, monitoreo preciso de cada dispositivo. | Informes precisos, análisis predictivo, sugerencias de tarifas para optimizar gasto. | Integración con ecosistema Samsung, control remoto de electrodomésticos, visualización de consumo. |
+
+---
+
+## Perfil de Marketing
+
+|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+|-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
+| **Mercado objetivo** | Hogares urbanos de clase media y estudiantes jóvenes preocupados por eficiencia y ahorro energético en Perú. | Propietarios de viviendas que buscan control detallado del consumo eléctrico. | Hogares que desean optimizar su consumo integralmente. | Usuarios de dispositivos Samsung interesados en eficiencia energética y control remoto. |
+| **Estrategias de marketing** | Marketing digital, colaboraciones con empresas eléctricas y Ministerio de Energía y Minas, campañas educativas. | Marketing de producto, asociaciones con instaladores eléctricos, campañas educativas. | Campañas educativas sobre ahorro energético, presencia en ferias de eficiencia. | Promociones cruzadas con productos Samsung y marketing digital. |
+
+---
+
+## Perfil de Producto
+
+|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+|-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
+| **Productos & Servicios** | Monitoreo en tiempo real, análisis detallado por dispositivo, alertas, recomendaciones personalizadas, gráficos comparativos, panel web. | Dispositivo + app móvil para monitoreo en tiempo real y alertas. | Hardware + app móvil para análisis de consumo y recomendaciones de ahorro. | App móvil para control de dispositivos, reportes de consumo, alertas. |
+| **Precios & Costos** | Freemium: plan básico gratuito, plan premium $5–$15/mes. | Dispositivo ~$250–$300, app incluida. | Hardware + suscripción mensual ~$15–$50. | App gratuita; requiere dispositivos Samsung. |
+| **Canales de distribución (Web y/o Móvil)** | Plataforma web accesible desde cualquier navegador, marketing digital y alianzas estratégicas. | Venta online, distribuidores especializados, app móvil complementaria. | Venta online, distribuidores autorizados, app móvil. | Samsung Galaxy Store, Google Play, control vía app móvil. |
+
+---
+
+## Análisis SWOT
+
+|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+|-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
+| **Fortalezas** | Web intuitiva, alertas y recomendaciones, plan freemium, enfoque en ahorro y sostenibilidad. | Monitoreo preciso por dispositivo, alertas, reportes detallados. | Informes predictivos, análisis integral, buenas recomendaciones de ahorro. | Integración con Samsung, control remoto, app consolidada. |
+| **Debilidades** | Sin app móvil, depende de datos del usuario, marca poco conocida, integración limitada. | Requiere instalación, costo inicial alto, curva de aprendizaje. | Depende de hardware, costo mensual, adopción limitada. | Solo funciona con dispositivos Samsung, funcionalidad limitada fuera del ecosistema. |
+| **Oportunidades** | Alianzas con empresas y gobierno, expansión en Latinoamérica, gamificación, tendencia hacia eficiencia energética. | Expansión a hogares residenciales, integración con domótica. | Expansión internacional, alianzas con compañías de energía. | Crecimiento de smart homes, colaboración con Samsung. |
+| **Amenazas** | Competencia de apps móviles, resistencia al cambio de hábitos, apps gratuitas, conectividad limitada. | Nuevas soluciones IoT más económicas. | Competencia de apps sin hardware, saturación de mercado. | Competencia de apps multimarca, usuarios fuera de Samsung no pueden usarla. |
+
+---
+
 ### ***2.1.2. Estrategias y tácticas frente a competidores***
 
 - **Plan Freemium accesible**: Ofreceremos funciones esenciales de monitoreo y alertas personalizadas, mucho más accesibles que las soluciones de hardware costoso como **Sense Home Energy Monitor** o **Wibeee Box**.
@@ -449,15 +479,173 @@ Este segmento está muy influenciado por la información en línea y las recomen
 ## **2.2. Entrevistas**
 
 ### ***2.2.1. Diseño de entrevistas***
-### 2.2.2. Registro de entrevistas
+
+## Segmento 1: Familias Urbanas de Clase Media
+
+- ¿Compartes el pago de la electricidad con tus compañeros de vivienda? ¿Cómo organizan ese gasto?  
+- ¿Qué tanta atención presta al consumo eléctrico diario o mensual en tu alojamiento?  
+- ¿Qué tipo de alertas (horario, sobreconsumo, dispositivos encendidos) serían más útiles en tu caso?  
+- ¿Usas alguna app para organizar tus finanzas personales? ¿Te gustaría incluir el gasto eléctrico ahí?  
+- ¿Prefieres recibir información simple (costo total por persona) o detallada (por artefacto)?  
+- ¿Qué dispositivo usas más para revisar este tipo de información: ¿celular, laptop o ambos?  
+- ¿Qué tan dispuesto estarías a cambiar tus hábitos (apagar equipos, desconectar cargadores) si recibes recomendaciones personalizadas?  
+- ¿Qué barreras ves para adoptar una app que te ayude a reducir el gasto eléctrico?  
+
+---
+
+## Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
+
+- ¿Qué importancia le das al control del consumo eléctrico dentro de tu presupuesto mensual?  
+- ¿Has tenido experiencias de aumentos inesperados en el recibo de luz? ¿Cómo los enfrentas?  
+- ¿Qué información te gustaría recibir de una plataforma para sentir que tienes control sobre tu consumo?  
+- ¿Con qué frecuencia revisarías un reporte de consumo (diario, semanal, mensual)?  
+- ¿Qué tan útil sería para ti recibir alertas sobre consumos anormales en ciertos horarios?  
+- ¿Qué dispositivos de tu hogar crees que más impactan en tu recibo de luz?  
+- ¿Qué tan dispuesto estarías a pagar por una app que te ayude a ahorrar en tu consumo eléctrico?  
+- ¿Qué funcionalidades consideras esenciales en una plataforma web o app para controlar tu consumo de energía?  
+
+---
+
+### ***2.2.2. Registro de entrevistas***
+
+## Entrevistas por segmento
+
+## Segmento 1: Familias Urbanas de Clase Media
+
+
+| Número de registro | Datos del entrevistado | Captura |
+|--------------------|-------------------------|---------|
+| **1** | **Nombre:** Willy Guzman  <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración de la entrevista:** 4:28 minutos <br> **Link:** [Ver entrevista](https://youtu.be/gCHaPFnEpZ4?si=Kx5f6Wv6fKwcg4Qe) <br> **Resumen:** El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | ![Captura 1](/images/Evi_Seg1_1.png) |
+| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración de la entrevista:** 3:10 minutos <br> **Link:** [Ver entrevista](https://youtu.be/aIU7QD1wems?si=Xt_kOwqgm8nAsZdM) <br> **Resumen:** La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | ![Captura 2](/images/Evi_Seg1_2.png) |
+
+---
+
+## Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
+
+| Número de registro | Datos del entrevistado | Captura |
+|--------------------|-------------------------|---------|
+| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración de la entrevista:** 2:16 minutos <br> **Link:** [Ver entrevista](https://youtu.be/fkTpOOHVGQ0?si=tNZzRJI2dFmMgi7F) <br> **Resumen:** Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | ![Captura 3](/images/Evi_Seg2_1.png) |
+| **2** | **Nombre:** Nestor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración de la entrevista:** 3:07 minutos <br> **Link:** [Ver entrevista](https://youtu.be/SaUrn95CV8E?si=BDsRBMo3lKQccWOW) <br> **Resumen:** Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | ![Captura 4](/images/Evi_Seg2_2.png) |
+
 ### ***2.2.3. Análisis de entrevistas***
+
+# Segmento 1: Familias Urbanas de Clase Media
+
+A partir de las entrevistas realizadas a estudiantes que comparten vivienda alquilada, podemos concluir lo siguiente:
+
+- **a)** El pago de electricidad suele organizarse de manera colectiva y equitativa, dividiendo el monto total entre todos los ocupantes, sin importar el consumo individual. Esto genera poca motivación para vigilar el gasto diario.  
+- **b)** La atención al consumo eléctrico es baja; los entrevistados solo revisan el recibo cuando llega y rara vez analizan el detalle. Esto refleja una gestión reactiva más que preventiva.  
+- **c)** Se valora como útil la posibilidad de recibir alertas sobre dispositivos encendidos innecesariamente, como luces o televisores, ya que los descuidos son comunes en viviendas compartidas.  
+- **d)** Existe interés en contar con información simple y clara, sobre todo el costo total dividido entre personas. Sin embargo, también se reconoce el valor de un análisis más detallado por artefacto en casos específicos (ej. calentador, refrigerador).  
+- **e)** Los principales dispositivos que afectan el consumo identificados son: computadora, calentador, refrigerador, microondas, impresora y televisor, los cuales suelen usarse intensivamente en grupo.  
+- **f)** Hay disposición a cambiar hábitos si la app ofrece recomendaciones personalizadas, por ejemplo, apagar enchufes o controlar el uso de focos en pasadizos. Esto muestra apertura hacia soluciones prácticas que faciliten el ahorro.  
+- **g)** Una barrera importante para la adopción de estas plataformas es la complejidad de uso, es decir, aplicaciones con exceso de datos técnicos o incompatibilidad con dispositivos del hogar. Los estudiantes prefieren interfaces simples, visuales e intuitivas.  
+
+**Resumen:** Este segmento experimenta un bajo nivel de control consciente sobre el gasto eléctrico debido al carácter compartido de los pagos, lo que diluye la responsabilidad individual. Sin embargo, ven valor en herramientas que ofrezcan alertas en tiempo real, información clara y división automática de costos, siempre que sean fáciles de usar. La compatibilidad con dispositivos y la sencillez de la interfaz son claves para la adopción.
+
+---
+
+# Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
+
+A partir de las dos entrevistas realizadas a jóvenes que asumen el pago de la electricidad en el hogar, podemos concluir lo siguiente:
+
+- **a)** Existe una clara preocupación por el control del gasto eléctrico, ya sea destinando un porcentaje fijo del presupuesto mensual (10–15%) o analizando la factura en familia para ajustar consumos.  
+- **b)** Ambos entrevistados han experimentado aumentos inesperados en el recibo, ocasionados por mayor uso de aparatos en ciertas temporadas o por descuidos como enchufes olvidados. Esto refuerza la necesidad de mecanismos preventivos.  
+- **c)** Se valoran funciones de la aplicación como comparativas de consumo mes a mes y la identificación del gasto por dispositivo, lo cual genera una sensación de control y transparencia.  
+- **d)** En cuanto a la frecuencia de revisión, se evidencian perfiles distintos: un entrevistado revisaría el consumo a diario desde el móvil, mientras que el otro lo haría de forma mensual al llegar la factura.  
+- **e)** Ambos destacan la importancia de las alertas en tiempo real para detectar consumos anormales (ejemplo: terma encendida), considerándolas fundamentales para tomar acciones inmediatas.  
+- **f)** Los dispositivos electrónicos de uso continuo (aire acondicionado, computadoras, laptops) son percibidos como los que más impacto tienen en el recibo de luz.  
+- **g)** Existe disposición a pagar por una app de este tipo, aunque de forma moderada y condicionada al valor percibido; se mencionan montos bajos o indeterminados.  
+- **h)** Como funcionalidades esenciales se destacan la facilidad de acceso, la visualización de datos en soles, las comparativas históricas y la notificación en tiempo real de consumos anormales.  
+
+**Resumen:** Este segmento busca mantener el gasto eléctrico bajo control sin que afecte su presupuesto mensual. Consideran clave contar con alertas preventivas, métricas claras expresadas en dinero y un sistema flexible que permita tanto revisiones rápidas y diarias como reportes más globales. La disposición de pago existe, pero dependerá de que la aplicación ofrezca un valor tangible y práctico en la gestión del consumo.
+
 ## **2.3. Needfinding**
 ### ***2.3.1. User Personas***
+
+Los **User Personas** representan arquetipos basados en los segmentos clave de usuarios identificados a través de entrevistas.  
+Permiten comprender sus motivaciones, hábitos, frustraciones y comportamientos, sirviendo como guía en el diseño de soluciones enfocadas en sus necesidades reales.
+
+En el caso de **Energix Manager**, se han definido dos perfiles principales:
+
+- **Estudiantes con Presupuesto Ajustado**  
+- **Familias Urbanas de Clase Media**
+
+---
+
+## User Persona 1: Laura Fernández — Familias Urbanas de Clase Media
+
+![User Persona Laura](/images/UserPersona_LauraFernández.png)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jóvenes con Presupuesto Ajustado
+
+![User Persona Diego](/images/UserPersona_DiegoRojas.png)
+
 ### ***2.3.2. User Task Matrix***
+
+![Task Matrix](/images/Task%20Matrix.png)
+
 ### ***2.3.3. User Journey Mapping***
+
+## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+
+![User Persona 1](/images/JourneyMap_LauraFernández.png)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jovenes con Presupuesto Ajustado
+
+![User Persona 2](/images/JourneyMap_DiegoRojas.png)
+
 ### ***2.3.4. Empathy Mapping***
+
+## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+
+![User Persona 1](/images/EmpathyMap_LauraFernández.png)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jovenes con Presupuesto Ajustado
+
+![User Persona 2](/images/EmpathyMap_DiegoRojas.png)
+
 ### ***2.3.5. As-is Scenario Mapping***
-## **2.4. Ubiquitous Language**
+
+## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+
+![User Persona 1](/images/As-Is%20Scenario%20Map%20–%20Laura%20Fernández.jpg)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jovenes con Presupuesto Ajustado
+
+![User Persona 2](/images/As-Is%20Scenario%20Map%20–%20Diego%20Rojas.jpg)
+
+## **2.4. Big Picture Evenstorming**
+
+![Event Storming](/images/EventStorming.jpg)
+
+## **2.5. Ubiquitous Language**
+
+## Glosario de Términos
+
+- **Consumo**: Cantidad de energía eléctrica que un hogar utiliza en un periodo determinado (por ejemplo, kWh por día o mes).  
+
+- **Presupuesto**: Límite definido por el usuario —en kWh o en dinero— para restringir el gasto de energía o los costos asociados.  
+
+- **Factura de Luz (Recibo)**: Documento mensual emitido por la empresa eléctrica que muestra el consumo total y los cargos correspondientes.  
+
+- **Monitoreo en Tiempo Real**: Seguimiento instantáneo del consumo de energía, que permite visualizar el uso al momento.  
+
+- **Alertas**: Notificaciones enviadas cuando el consumo se acerca o excede los límites predefinidos, como el presupuesto o picos inusuales.  
+
+- **Consejos**: Recomendaciones personalizadas de ahorro energético basadas en las tendencias y hábitos de consumo del usuario.  
+
+- **Reporte Histórico**: Resúmenes gráficos o en tablas que comparan el consumo eléctrico en periodos anteriores (día, semana o mes).  
+
+- **Desglose por Aparato**: Estimación o visualización del consumo energético de cada electrodoméstico o dispositivo conectado.  
+
+- **Pronóstico**: Proyección del consumo y costo eléctrico futuro a partir de patrones de uso pasados.  
+
+- **Tendencias de Uso**: Identificación de patrones en el consumo de electricidad, como horas pico o días de mayor gasto.  
+
+- **Roommates (Compañeros de Piso)**: Usuarios que comparten vivienda y necesitan dividir de manera justa los costos de la electricidad.  
+
+- **Administrador del Hogar**: Miembro de la familia encargado de gestionar el consumo eléctrico y el presupuesto del hogar.  
 
 <hr>
 
@@ -478,4 +666,112 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
 <p align="center">
   <img src="images/To-Be Scenario Map – Diego Rojas.jpg" alt="PB" width="1000">
 </p>
+
+# **Capítulo IV: Product UX/UI Design**
+## **4.1. Style Guidelines**
+### ***4.1.1. General Style Guidelines***
+<p align="center">
+  <img src="images/Colores.png" alt="PB" width="1000">
+</p>
+
+## Colores
+La paleta de colores utilizada representa un diseño minimalista, basado en la combinación de algunos tonos neutros con acentos vibrantes. Los colores claros y oscuros aporten balance y legibilidad, mientras que los tonos de acento transmiten dinamismo y confianza en el uso de la aplicación.
+
+El color E9F1FA (Azul muy claro): Genera sensación de frescura y limpieza visual.
+
+El color 000000 (Negro): Expresa fuerza, elegancia y sobriedad.
+
+El color E2D226 (Amarillo brillante): Aporta energía y optimismo, ideal para destacar acciones importantes.
+
+El color 2C2C2C (Gris carbón): Equilibra la paleta, aportando modernidad y neutralidad.
+
+El color 002349 (Azul marino): Representa confianza, seriedad y profesionalismo.
+
+El color FFFFFF (Blanco): Simboliza pureza y claridad, garantizando contraste y legibilidad.
+
+<p align="center">
+  <img src="images/Fuente.png" alt="PB" width="1000">
+</p>
+
+## Tipografía
+
+Nuestra tipografía principal es Poppins, una fuente sans serif de estilo geométrico que refuerza el carácter moderno y minimalista de nuestro diseño.
+
+La elección de esta tipografía busca transmitir modernidad, claridad y versatilidad.
+
+<p align="center">
+  <img src="images/Logo.png" alt="PB" width="1000">
+</p>
+
+## Branding
+
+El logo representa la esencia de nuestra aplicación a través de un diseño moderno y funcional. Cada elemento visual ha sido pensado para reflejar nuestros valores de profesionalismo, confianza y seguridad, mientras que la tipografía y la paleta cromática minimalista.
+
+## **4.3. Landing Page UI Design**
+### ***4.3.1. Landing Page Wireframe***
+
+[Diseño en Figma: Landing Page Wireframe - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
+
+<p align="center">
+  <img src="images/landingpage-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+### ***4.3.2. Landing Page Mock-up***
+
+[Diseño en Figma: Landing Page Mockup - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
+<p align="center">
+  <img src="images/landingpage-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+## **4.4. Web Applications UX/UI Design**
+### ***4.4.1. Web Applications Wireframes***
+**Inicio Sesión**
+<p align="center">
+  <img src="images/login-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Registro**
+<p align="center">
+  <img src="images/register-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+### ***4.4.2. Web Applications Wireflow Diagrams***
+### ***4.4.2. Web Applications Mock-ups***
+**Inicio Sesión**
+<p align="center">
+  <img src="images/login-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Registro**
+<p align="center">
+  <img src="images/register-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+### ***4.4.3. Web Applications User Flow Diagrams***
+## **4.5. Web Applications Prototyping**
+
+
+## **4.6 Domain-Driven Software Architecture**
+### ***4.6.1 Design-Level EventStorming***
+![Design-Level EventStorming](/images/EventStorming.jpg)
+
+### ***4.6.2 Software Architecture Context Diagram***
+![Software Architecture Context Diagram](/images/Context-Diagram.png)
+
+### ***4.6.3 Software Architecture Container Diagram***
+![Software Architecture Container Diagram](/images/Container-Diagram.png)
+
+### ***4.6.4 Software Architecture Components Diagram***
+![Software Architecture Components Diagram](/images/Components-Diagram.png)
+
+## **4.7 Software Object-Oriented Design**
+### ***4.7.1 Class Diagrams***
+![Class Diagrams](/images/Class-Diagrams.png)
+
+## **4.8 Database Design**
+### **4.8.1 Database Diagrams**
+![Database Diagrams](/images/Database-Diagram.png)
+
 
