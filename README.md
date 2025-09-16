@@ -606,7 +606,46 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 ![User Persona 2](/images/EmpathyMap_DiegoRojas.png)
 
 ### ***2.3.5. As-is Scenario Mapping***
-## **2.4. Ubiquitous Language**
+
+## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+
+![User Persona 1](/images/As-Is%20Scenario%20Map%20–%20Laura%20Fernández.jpg)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jovenes con Presupuesto Ajustado
+
+![User Persona 2](/images/As-Is%20Scenario%20Map%20–%20Diego%20Rojas.jpg)
+
+## **2.4. Big Picture Evenstorming**
+
+![Event Storming](/images/EventStorming.jpg)
+
+## **2.5. Ubiquitous Language**
+
+## Glosario de Términos
+
+- **Consumo**: Cantidad de energía eléctrica que un hogar utiliza en un periodo determinado (por ejemplo, kWh por día o mes).  
+
+- **Presupuesto**: Límite definido por el usuario —en kWh o en dinero— para restringir el gasto de energía o los costos asociados.  
+
+- **Factura de Luz (Recibo)**: Documento mensual emitido por la empresa eléctrica que muestra el consumo total y los cargos correspondientes.  
+
+- **Monitoreo en Tiempo Real**: Seguimiento instantáneo del consumo de energía, que permite visualizar el uso al momento.  
+
+- **Alertas**: Notificaciones enviadas cuando el consumo se acerca o excede los límites predefinidos, como el presupuesto o picos inusuales.  
+
+- **Consejos**: Recomendaciones personalizadas de ahorro energético basadas en las tendencias y hábitos de consumo del usuario.  
+
+- **Reporte Histórico**: Resúmenes gráficos o en tablas que comparan el consumo eléctrico en periodos anteriores (día, semana o mes).  
+
+- **Desglose por Aparato**: Estimación o visualización del consumo energético de cada electrodoméstico o dispositivo conectado.  
+
+- **Pronóstico**: Proyección del consumo y costo eléctrico futuro a partir de patrones de uso pasados.  
+
+- **Tendencias de Uso**: Identificación de patrones en el consumo de electricidad, como horas pico o días de mayor gasto.  
+
+- **Roommates (Compañeros de Piso)**: Usuarios que comparten vivienda y necesitan dividir de manera justa los costos de la electricidad.  
+
+- **Administrador del Hogar**: Miembro de la familia encargado de gestionar el consumo eléctrico y el presupuesto del hogar.  
 
 <hr>
 
