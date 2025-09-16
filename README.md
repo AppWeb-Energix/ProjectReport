@@ -480,7 +480,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ### ***2.2.1. Diseño de entrevistas***
 
-## Segmento 1: Estudiantes que alquilan vivienda
+## Segmento 1: Familias Urbanas de Clase Media
 
 - ¿Compartes el pago de la electricidad con tus compañeros de vivienda? ¿Cómo organizan ese gasto?  
 - ¿Qué tanta atención presta al consumo eléctrico diario o mensual en tu alojamiento?  
@@ -493,7 +493,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ---
 
-## Segmento 2: Jóvenes adultos responsables del pago de la electricidad
+## Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
 
 - ¿Qué importancia le das al control del consumo eléctrico dentro de tu presupuesto mensual?  
 - ¿Has tenido experiencias de aumentos inesperados en el recibo de luz? ¿Cómo los enfrentas?  
@@ -510,7 +510,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ## Entrevistas por segmento
 
-## Segmento 1: Estudiantes que alquilan vivienda
+## Segmento 1: Familias Urbanas de Clase Media
 
 
 | Número de registro | Datos del entrevistado | Captura |
@@ -520,7 +520,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ---
 
-## Segmento 2: Jóvenes adultos responsables del pago de la electricidad
+## Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
 
 | Número de registro | Datos del entrevistado | Captura |
 |--------------------|-------------------------|---------|
@@ -529,7 +529,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ### ***2.2.3. Análisis de entrevistas***
 
-# Segmento 1: Estudiantes que alquilan vivienda
+# Segmento 1: Familias Urbanas de Clase Media
 
 A partir de las entrevistas realizadas a estudiantes que comparten vivienda alquilada, podemos concluir lo siguiente:
 
@@ -545,7 +545,7 @@ A partir de las entrevistas realizadas a estudiantes que comparten vivienda alqu
 
 ---
 
-# Segmento 2: Jóvenes adultos responsables del pago de electricidad
+# Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
 
 A partir de las dos entrevistas realizadas a jóvenes que asumen el pago de la electricidad en el hogar, podemos concluir lo siguiente:
 
@@ -586,7 +586,25 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 ![Task Matrix](/images/Task%20Matrix.png)
 
 ### ***2.3.3. User Journey Mapping***
+
+## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+
+![User Persona 1](/images/JourneyMap_LauraFernández.png)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jovenes con Presupuesto Ajustado
+
+![User Persona 2](/images/JourneyMap_DiegoRojas.png)
+
 ### ***2.3.4. Empathy Mapping***
+
+## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+
+![User Persona 1](/images/EmpathyMap_LauraFernández.png)
+
+## User Persona 2: Diego Rojas - Estudiantes y Jovenes con Presupuesto Ajustado
+
+![User Persona 2](/images/EmpathyMap_DiegoRojas.png)
+
 ### ***2.3.5. As-is Scenario Mapping***
 ## **2.4. Ubiquitous Language**
 
