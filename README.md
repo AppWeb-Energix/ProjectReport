@@ -912,6 +912,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 ### ***4.4.2. Web Applications Wireflow Diagrams***
 ### ***4.4.2. Web Applications Mock-ups***
+
 **Inicio Sesión**
 <p align="center">
   <img src="images/login-energix-mockup.png" alt="PB" width="1000">
@@ -920,6 +921,11 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 **Registro**
 <p align="center">
   <img src="images/register-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Dashboard**
+<p align="center">
+  <img src="images/dashboard-energix-mockup.png" alt="PB" width="1000">
 </p>
 
 ### ***4.4.3. Web Applications User Flow Diagrams***
