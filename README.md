@@ -953,6 +953,21 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
   <img src="images/settings-energix-mockup.png" alt="PB" width="1000">
 </p>
 
+**Cambiar Plan**
+<p align="center">
+  <img src="images/plans-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+
+**Cerrar Sesión**
+<p align="center">
+  <img src="images/logout-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/logoutconfirm-energix-mockup.png" alt="PB" width="1000">
+</p>
+
 ### ***4.4.3. Web Applications User Flow Diagrams***
 ## **4.5. Web Applications Prototyping**
 
