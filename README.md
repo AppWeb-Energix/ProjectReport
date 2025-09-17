@@ -928,6 +928,31 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
   <img src="images/dashboard-energix-mockup.png" alt="PB" width="1000">
 </p>
 
+**Consumo**
+<p align="center">
+  <img src="images/consumption-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Alertas**
+<p align="center">
+  <img src="images/alerts-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Consejos & Ahorros**
+<p align="center">
+  <img src="images/tips&savings-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Reportes**
+<p align="center">
+  <img src="images/reports-energix-mockup.png" alt="PB" width="1000">
+</p>
+
+**Configuración**
+<p align="center">
+  <img src="images/settings-energix-mockup.png" alt="PB" width="1000">
+</p>
+
 ### ***4.4.3. Web Applications User Flow Diagrams***
 ## **4.5. Web Applications Prototyping**
 
