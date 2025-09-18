@@ -1068,4 +1068,42 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 ### **4.8.1 Database Diagrams**
 ![Database Diagrams](/images/Database-Diagram.png)
 
+# **Capítulo V: Product Implementation Validation & Deployment**
+## **5.1 Software Configuration Management**
+En esta sección, el equipo establece las decisiones y convenciones para  mantener la consistencia durante el ciclo de vida del desarrollo del software. Estas convenciones son cruciales para asegurar que todo esté alineado en términos de uso de herramientas, procesos de despliegue y prácticas de codificación
+
+### **5.1.1 Software Development Environment Configuration**
+En este apartado se mencionarán los distintos productos de software empleados por el equipo de desarrollo para llevar a cabo las actividades relacionadas con la elaboración del proyecto ENERGIX.
+
+**Producto UX/UI Design**
+- **UXPressia**: https://uxpressia.com/ Se utilizó para la creación de User Personas, Empathy Maps, Journey Maps e Impact Maps, proporcionando una visión centrada en el usuario.
+- **Figma**: https://www.figma.com/ Herramienta de diseño colaborativo utilizada para la creación de wireframes, mock-ups y prototipos de escritorio.
+- **Miro**: https://miro.com/ Utilizada para la creación de los As-Is y To-Be Scenarios Maps, ayudando a visualizar y planificar los diferentes escenarios de uso de plataforma.
+
+**Software Development**
+- **Visual Studio Code**: https://code.visualstudio.com/ Entorno de desarrollo ligero empleado para la creación del landing page y las aplicaciones web, utilizando HTML5, CSS3, JavaScript y TypeScript.
+- **WebStorm**: Entorno de desarrollo utilizado para trabajar con HTML, CSS, JavaScript y frameworks como Vue y Angular.
+- **Rider**: Entorno de desarrollo usado para trabajar con el
+lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en ASP.NET para el proyecto.
+- **Spring Boot Framework**: Framework utilizado para desarrollar servicios web RESTful en Java, proporcionando una base escalable y robusta.
+- **GitHub**: https://github.com/ Plataforma de control de versiones utilizada para la gestión del código fuente, aplicando el flujo de trabajo GitFlow para garantizar un desarrollo ordenado.
+- **Git**: https://git-scm.com/ Software de control de versiones utilizado para gestionar los cambios en el código a través de commits y facilitar el trabajo colaborativo.
+
+**Project Management and Collaboration**
+- **WhatsApp**: https://web.whatsapp.com/ Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real
+- **Google Docs**: https://docs.google.com/ Utilizado para la creación y edición colaborativa de documentos relacionados con el proyecto, permitiendo a varios miembros trabajar simultáneamente.
+
+**Software Documentation**
+- **Vertabelo**: https://vertabelo.com/ Herramienta online utilizada para el diseño, creación y gestión colaborativa de bases de datos para el proyecto.
+- **LucidChart**: https://lucid.app/ Plataforma utilizada para la creación de diagramas UML, wireflows y user flows, facilitando la visualización y planificación del sistema
+- **Structurizr**: https://www.structurizr.com/ Herramienta utilizada para modelar la arquitectura de software mediante diagramas C4, permitiendo un modelado claro de la estructura del proyecto.
+
+**Software Testing**
+- **Swagger / OpenAPI Specification**: https://swagger.io/specification/ Utilizado para documentar y probar las APIs RESTful desarrolladas con Spring Boot, facilitando la creación de documentación interactiva.
+- **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
+
+ 
+
+
+
 
