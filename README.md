@@ -1102,11 +1102,68 @@ lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en 
 - **Swagger / OpenAPI Specification**: https://swagger.io/specification/ Utilizado para documentar y probar las APIs RESTful desarrolladas con Spring Boot, facilitando la creación de documentación interactiva.
 - **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
 
+## **5.1.2 Source Code Management**
+La gestión del código fuente es una parte fundamental del desarrollo de cualquier proyecto de software, ya que permite rastrear cambios, revertir versiones y coordinar a varios desarrolladores trabajando simultáneamente. En ENERGIX, utilizaremos Git como sistema de control de versiones y GitHub como plataforma para alojar nuestros repositorios.
 
+**URL de los Repositorios**
+- **Organization:**  https://github.com/AppWeb-Energix 
+- **Reporte:** https://github.com/AppWeb-Energix/ProjectReport
+- **Landing Page** :
 
+**GitFlow**
 
+Para la gestión del desarrollo de código, ENERGIX sigue el flujo de trabajo GitFlow, que permite la creación de ramas para distintas funciones y asegura un proceso de integración continuo y ordenado. A continuación, se detallan las ramas y su funcionamiento:
 
+- Master Branch: Rama principal que contiene las versiones estables del proyecto. Todas las demás ramas se derivan de aquí.
 
+- Develop Branch: Rama secundaria que almacena las características en desarrollo antes de fusionarse a la rama principal.
+
+- Feature Branches: Ramas temporales que se crean para desarrollar nuevas funcionalidades. Estas se crean desde develop y, al completarse, se fusionan de nuevo en develop.
+
+- Feature Branches:
+
+- - Son ramas temporales que se crean para desarrollar nuevas funcionalidades o solucionar problemas específicos. Estas ramas se crean a partir de develop y, una vez finalizado el trabajo, se fusionan nuevamente en develop. Cada feature branch debe tener un nombre descriptivo, como feature/nueva-funcionalidad, que indique la naturaleza de la tarea en desarrollo.
+- Release Branches:
+
+- - Estas ramas se crean cuando el equipo decide que la rama develop está lista para ser convertida en una nueva versión estable. A partir de aquí, se realizan los últimos ajustes y correcciones antes de fusionarse en la Master. Esta rama también permite preparar versiones de prueba para el equipo de QA.
+- Hotfix Branches:
+
+- - Son ramas dedicadas a solucionar errores críticos en la Master que no pueden esperar a la siguiente versión. Se crean a partir de Master y, una vez solucionado el error, se fusionan tanto en Master como en develop para asegurar que las correcciones también se apliquen a la rama de desarrollo.
+
+**Implementación de GitFlow**
+
+Para implementar GitFlow en ENERGIX, se utiliza la siguiente estructura de ramas:
+
+- **Master**: La versión estable del proyecto, lista para ser lanzada o en producción.
+Develop: La rama de desarrollo donde se integran todas las nuevas características antes de ser lanzadas.
+- **Feature Branches**: Ramas temporales, nombradas feature/nombre-funcionalidad, para el desarrollo de características individuales.
+- **Release Branches**: Ramas temporales, nombradas release/nombre-version, utilizadas para preparar versiones finales antes de ser fusionadas en Master.
+- **Hotfix Branches**: Ramas temporales, nombradas hotfix/nombre-problema, que permiten arreglar errores críticos en la Master y luego se fusionan en Develop para mantener el proyecto sincronizado.
+
+**Commits Convencionales**
+Para los mensajes de commit en el proyecto ENERGIX, se sigue la convención Conventional Commits. Estos mensajes deben seguir el formato estándar para facilitar la lectura y entendimiento del historial del proyecto:
+
+``` html
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+```
+- **Type:**
+- - **feat**: Se usa cuando se añade una nueva característica.
+- - **fix**: Para la corrección de errores.
+- - **docs**: Modificaciones en la documentación.
+- - **style**: Cambios que no afectan la lógica del código, como formato o estilo.
+- - **refactor**: Modificaciones que no añaden características ni corrigen errores.
+- - **test**: Adición o modificación de pruebas.
+ 
+- **Scope:** Proporciona información adicional sobre el área del código afectada. Ejemplo: feat(auth): add login functionality.
+  
+**Ejemplo de coomits**
+- feat(login): add user authentication module
+- fix(payment): resolve payment gateway issue
+- docs(README): update setup instructions
+
+Con esta estructura, ENERGIX puede gestionar eficientemente el flujo de trabajo del desarrollo, asegurando una integración continua y una organización clara del código fuente.
 
 ## **5.1.4 Software Deployment Configuration**
 En esta sección se detalla la configuración necesaria para el despliegue de la solución ENERGIX, incluyendo los pasos clave para lograr la publicación satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando GitHub Pages para visualizar cada commit del Landing Page.
