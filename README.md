@@ -1102,7 +1102,7 @@ lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en 
 - **Swagger / OpenAPI Specification**: https://swagger.io/specification/ Utilizado para documentar y probar las APIs RESTful desarrolladas con Spring Boot, facilitando la creación de documentación interactiva.
 - **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
 
-## **5.1.2 Source Code Management**
+### **5.1.2 Source Code Management**
 La gestión del código fuente es una parte fundamental del desarrollo de cualquier proyecto de software, ya que permite rastrear cambios, revertir versiones y coordinar a varios desarrolladores trabajando simultáneamente. En ENERGIX, utilizaremos Git como sistema de control de versiones y GitHub como plataforma para alojar nuestros repositorios.
 
 **URL de los Repositorios**
@@ -1165,7 +1165,106 @@ Para los mensajes de commit en el proyecto ENERGIX, se sigue la convención Conv
 
 Con esta estructura, ENERGIX puede gestionar eficientemente el flujo de trabajo del desarrollo, asegurando una integración continua y una organización clara del código fuente.
 
-## **5.1.4 Software Deployment Configuration**
+### **5.1.3. Source Code Style Guide & Conventions**
+
+En el proyecto ENERGIX, hemos implementado una serie de guías de estilo y convenciones para asegurar que todo el equipo de desarrollo siga una estructura consistente y clara en todo el ciclo de vida del proyecto. Esto facilita la legibilidad del código, mejora la colaboración entre los desarrolladores y asegura que el código sea mantenible a largo plazo.
+
+**Nomenclatura General**
+Para asegurar la coherencia en todo el código, se seguirán las siguientes directrices:
+- Los nombres de variables, funciones y métodos deben utilizar **camelCase**.
+- Los nombres de clases y componentes seguirán la convención **PascalCase**.
+- Para los archivos y carpetas, se empleará la convención **kebab-case.**
+
+El uso de inglés para todos los nombres es obligatorio, con el fin de asegurar la comprensión entre los miembros del equipo y facilitar la colaboración internacional.
+
+**Ejemplos:**
+- **Variables:** device, userLocation
+- **Clases:** HomeOwner, User
+- **Archivos:** home-owmer.service.ts, user.controller.js
+
+**Espacios y Sangría**
+
+La **sangría** de código en ENERGIX seguirá las siguientes reglas para asegurar la claridad y el orden del código:
+
+- Se utilizarán 2 espacios para la sangría en archivos HTML, CSS, JavaScript y TypeScript.
+- En archivos Java, se utilizarán 4 espacios para la sangría.
+
+Esta convención ayuda a mantener la consistencia en todos los lenguajes empleados en el proyecto y facilita la colaboración entre diferentes desarrolladores.
+
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Energix</title>
+  </head>
+  <body>
+    <h1>Reportes Disponibles</h1>
+    <p>Encuentra tu consumo semanal y mensual fácilmente</p>
+  </body>
+</html>
+```
+
+Convenciones por Lenguaje
+- **HTML/CSS/JavaScript:**
+
+- - Se utilizará la Google HTML/CSS Style Guide (https://google.github.io/styleguide/htmlcssguide.html) para asegurar la consistencia en la estructura y la presentación de los archivos HTML y CSS.
+- -Para JavaScript, adoptamos la Airbnb JavaScript Style Guide (https://google.github.io/styleguide/htmlcssguide.html), ampliamente conocida y utilizada en la industria.
+- **TypeScript:**
+
+- - Angular es el framework elegido para el frontend de PARKINGNOW, por lo que seguimos la Angular Style Guide (https://v17.angular.io/guide/styleguide), que dicta cómo deben estructurarse los módulos, servicios y componentes.
+- - También seguimos la Google TypeScript Style Guide (https://google.github.io/styleguide/tsguide.html) para garantizar la correcta tipificación y legibilidad del código.
+- **Java:**
+
+- - En el backend, utilizamos Spring Boot para crear APIs y servicios web. Seguimos la Google Java Style Guide (https://google.github.io/styleguide/javaguide.html) para mantener consistencia en la estructura de las clases y los métodos.
+- - Los nombres de clases serán descriptivos, utilizando sustantivos para clases y verbos para métodos.
+
+**Ejemplo de una clase Java**
+
+``` Java
+public class HomeOwner {
+  private int availableSpaces;
+
+  public HomeOwner(int spaces) {
+    this.availableSpaces = spaces;
+  }
+
+  public void device() {
+    if (availableSpaces > 0) {
+      availableSpaces--;
+    }
+  }
+}
+
+```
+
+- **Gherkin**
+-  - Para escribir los tests automatizados, seguimos la convención de Gherkin Syntax. (https://cucumber.io/docs/gherkin/) Esto permite una descripción clara y precisa de los escenarios de prueba en los archivos .feature.
+- - Utilizamos Given-When-Then para describir el comportamiento esperado en cada escenario.
+
+**Ejemplo de Gherkin**
+``` Gherkin
+Feature: Registro de nuevo dispositivo
+
+  Scenario: Regristo exitoso
+    Given el usuario ha iniciado sesión
+    When selecciona registrar dispositivo
+    Then el usuario debe elegir el dispositivo
+    Then el sistem debe confirma el registro
+```
+
+**Espaciado y Comillas**
+- **Espacios:** Siempre se debe colocar un espacio alrededor de los operadores y entre los parámetros en las funciones.
+``` Java
+let totalSpaces = 50;
+let bookedSpaces = 10;
+let availableSpaces = totalSpaces - bookedSpaces;
+```
+- **Comillas:** En JavaScript y TypeScript, se utilizan comillas simples (') para cadenas, mientras que en HTML se prefieren las comillas dobles (").
+
+**Límite de Longitud de Línea**
+El código no debe exceder las 80 columnas por línea. En caso de necesitar más espacio, se recomienda dividir la línea de código para mejorar la legibilidad.
+
+### **5.1.4. Software Deployment Configuration**
 En esta sección se detalla la configuración necesaria para el despliegue de la solución ENERGIX, incluyendo los pasos clave para lograr la publicación satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando GitHub Pages para visualizar cada commit del Landing Page.
 
 A continuación, se describen los pasos para realizar el despliegue de la Landing Page del proyecto PARKINGNOW:
