@@ -910,6 +910,51 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
   <img src="images/register-energix-wireframe.png" alt="PB" width="1000">
 </p>
 
+**Dashboard**
+<p align="center">
+  <img src="images/dashboard-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Consumo**
+<p align="center">
+  <img src="images/consumption-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Alertas**
+<p align="center">
+  <img src="images/alerts-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Consejos & Ahorro**
+<p align="center">
+  <img src="images/tips&savings-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Reportes**
+<p align="center">
+  <img src="images/reports-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Configuración**
+<p align="center">
+  <img src="images/settings-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Cambiar Plan**
+<p align="center">
+  <img src="images/plans-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+**Cerrar Sesión**
+<p align="center">
+  <img src="images/logout-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/logoutconfirm-energix-wireframe.png" alt="PB" width="1000">
+</p>
+
+
 ### ***4.4.2. Web Applications Wireflow Diagrams***
 ### ***4.4.2. Web Applications Mock-ups***
 
@@ -938,7 +983,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
   <img src="images/alerts-energix-mockup.png" alt="PB" width="1000">
 </p>
 
-**Consejos & Ahorros**
+**Consejos & Ahorro**
 <p align="center">
   <img src="images/tips&savings-energix-mockup.png" alt="PB" width="1000">
 </p>
@@ -957,7 +1002,6 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 <p align="center">
   <img src="images/plans-energix-mockup.png" alt="PB" width="1000">
 </p>
-
 
 **Cerrar Sesión**
 <p align="center">
