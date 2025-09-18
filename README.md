@@ -152,6 +152,37 @@
     <a href="#481-database-diagrams">4.8.1. Database Diagrams.</a><br>
   </ul>
 </ul>
+<a href="#capítulo-v-product-implementation-validation-deployment">Capítulo V: Product Implementation, Validation & Deployment</a>
+<ul>
+  <a href="#51-software-configuration-management">5.1. Software Configuration Management</a><br>
+  <ul>
+    <a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a><br>
+    <a href="#512-source-code-management">5.1.2. Source Code Management</a><br>
+    <a href="#513-source-code-style-guide-conventions">5.1.3. Source Code Style Guide & Conventions</a><br>
+    <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration</a><br>
+  </ul>
+
+  <a href="#52-landing-page-services-applications-implementation">5.2. Landing Page, Services & Applications Implementation</a><br>
+  <ul>
+    <a href="#521-sprint-1">5.2.1. Sprint 1</a><br>
+    <ul>
+      <a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a><br>
+      <a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators</a><br>
+      <a href="#5213-sprint-backlog-1">5.2.1.3. Sprint Backlog 1</a><br>
+      <a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review</a><br>
+      <a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review</a><br>
+      <a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review</a><br>
+      <a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</a><br>
+      <a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights During Sprint</a><br>
+    </ul>
+  </ul>
+
+  <a href="#53-validation-interviews">5.3. Validation Interviews</a><br>
+  <ul>
+    <a href="#531-diseño-de-entrevistas">5.3.1. Diseño de Entrevistas</a><br>
+    <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas</a><br>
+  </ul>
+</ul>
 
 <a href="#bibliografía">Bibliografía</a>
 
