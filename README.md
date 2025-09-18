@@ -1114,12 +1114,15 @@ En esta sección se detalla la configuración necesaria para el despliegue de la
 A continuación, se describen los pasos para realizar el despliegue de la Landing Page del proyecto PARKINGNOW:
 - **Actualización de Ramas**: Asegúrate de que todas las ramas del repositorio estén actualizadas. Luego, ingresa a GitHub y dirígete al repositorio del proyecto ENERGIX
 - **Acceso a las Configuraciones**: Una vez dentro del repositorio, haz clic en la pestaña Settings en la parte superior del repositorio.
-
+![Configuration](images/Configuration.png)
 - **Selección de GitHub Pages**: Dentro de la sección Settings, en el menú lateral, busca la opción llamada Pages. Esta opción permite configurar el despliegue de la página desde una rama específica del repositorio.
+![Deploy](images/Deploy.png)
 - **Configuración de la Rama Principal**: En la opción Pages, selecciona la rama principal (generalmente llamada main o master). Luego, haz clic en el botón Save para iniciar el proceso de despliegue de la página.
+![GitHub-Pages](images/GitHub-Pages.png)
 - **Confirmación del Deploy**: Una vez que GitHub complete el proceso de deploy, en la parte superior de la sección Pages se mostrará un mensaje de confirmación junto con el enlace generado para acceder a la Landing Page del proyecto.
+![URL](images/URL.png)
 - **Acceso a la Página**: Finalmente, podrás acceder a la Landing Page desde el enlace que se generó al finalizar el deploy. Aquí está el enlace para el proyecto ENERGIX:
-
+![Landing](images/Landing.png)
 
 
 
