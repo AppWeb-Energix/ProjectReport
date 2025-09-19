@@ -1400,3 +1400,45 @@ A continuación mostraremos nuestro sprint planning. Se detallará lo que se aco
 |                                                                | **Feature/main** | 19991dcc5b811ef087c7e5db6bf160521d1c380b | add contact                                        | .                        |18/09/25                 |
 |                                                                | **Feature/main** | 12a00370e53bc9213b0ee6219ed07010bb9c3f72 | add footer and modal for login and registration    | .                        |18/09/25                 |
 
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para la revisión de sprint, se realizó el despliegue del sitio mediante **GitHub Pages**, garantizando que la documentación/landing sea accesible públicamente.
+
+Primero, se creó y configuró el repositorio público **AppWeb-Energix/ProjectReport**. Luego, se cargaron los archivos del sitio, se habilitó **GitHub Pages** seleccionando la rama **main** y la carpeta **/(docs)**, y se validó la disponibilidad en el enlace oficial:
+
+🔗 https://appweb-energix.github.io/ProjectReport/
+
+Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub Pages publica automáticamente la nueva versión.
+
+---
+
+### Evidencia de Deployment 1
+![Evidencia 1: Configuración de GitHub Pages](images/GitHub-Pages.png)  
+**Nota.** Elaboración propia.
+
+---
+
+### Evidencia de Deployment 2
+![Evidencia 2: Sitio en producción](images/Landing.png)  
+**Nota.** Elaboración propia.
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+| Alumno                          | Actividad                                                                 |
+|---------------------------------|---------------------------------------------------------------------------|
+| Bryan Eduardo Barba Estrada     | Implementación de secciones de la landing page y contribución al README.md |
+| Sofia Alessandra Cotrina Siclla | Implementación de secciones de la landing page y contribución al README.md |
+| Alexis Encalada Salazar         | Implementación de secciones de la landing page y contribución al README.md |
+| Esther Abigail Goñe Araccata    | Implementación de secciones de la landing page y contribución al README.md |
+| Alvaro Fabrizzio Salazar Caballero | Implementación de secciones de la landing page y contribución al README.md |
+
+![Evidencia Team Collaboration 1](/images/Evidencia_Team_Collaboration_1.png)
+
+READ.ME
+
+![Evidencia Team Collaboration 2](/images/Evidencia_Team_Collaboration_2.png)
+
+Landing Page
+
+![Evidencia Team Collaboration 3](/images/Evidencia_Team_Collaboration_3.png)
+
