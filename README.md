@@ -21,6 +21,7 @@
     <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: center;">Barba Estrada, Bryan Eduardo</td>
     <td style="border: 1px solid black; padding: 8px; text-align: center;">U202323479</td>
+    
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: center;">Cotrina Siclla, Sofia Alessandra</td>
@@ -59,7 +60,9 @@ Se elabor贸 el informe del proyecto en un repositorio llamado 鈥淧rojectReport鈥
 
 TB1: Para facilitar la elaboraci贸n colaborativa de este informe, el equipo comenz贸 trabajando en un documento compartido en Google. Posteriormente, el contenido se traslad贸 y organiz贸 en un repositorio de GitHub, empleando el formato markdown para estructurar cada secci贸n. A continuaci贸n, se presenta una imagen con los insights de los commits realizados por cada integrante dentro de dicho repositorio.
 
-![TeamCollaboration](/images/Evidencia_Team_Collaboration_2)
+<p align="center">
+  <img src="images/report_collaboration.jpg" alt="PB" width="1000">
+</p>
 
 # **Tabla de Contenidos**
 
