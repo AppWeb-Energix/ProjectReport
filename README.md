@@ -1281,6 +1281,14 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 ![Landing](images/Landing.png)
 
 
-
-
+## **5.2 Software Configuration Management**
+### **5.2.1.4 Development Evidence for Sprint Review**
+|**Repository**                                                  |**Branch**        |**Commit ID**                             |**Commit Message**                                  |**Commit Message Body**    |**Commited on (Date)**  |
+|----------------------------------------------------------------|------------------|------------------------------------------|----------------------------------------------------|--------------------------|-------------------------|
+|AppWeb-Energix/Landing-Page: Landing Page del proyecto Energix  | **Feature/main** | f1dc735e91462ae27a3f7e8c18cc9f29e28f2d22 | Create index.html                                  | .                        |18/09/25                 |
+|                                                                | **Feature/main** | ab4d5c58aa7f9eef8902a4ad2f22dbab4f9190d9 | add header                                         | .                        |18/09/25                 |
+|                                                                | **Feature/main** | 6ad07d4e9d5e87e51b5afa6e9ab11846e3b7966d | add hero                                           | .                        |18/09/25                 |
+|                                                                | **Feature/main** | 28c51717e4b1949ee922d750ea058dabbd4bd25d | add videos & services                              | .                        |18/09/25                 |
+|                                                                | **Feature/main** | 19991dcc5b811ef087c7e5db6bf160521d1c380b | add contact                                        | .                        |18/09/25                 |
+|                                                                | **Feature/main** | 12a00370e53bc9213b0ee6219ed07010bb9c3f72 | add footer and modal for login and registration    | .                        |18/09/25                 |
 
