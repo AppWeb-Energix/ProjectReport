@@ -49,7 +49,7 @@
 
 | **Versión** | **Fecha**    | **Autor** | **Descripción de la modificación** |
 |-------------|--------------|-----------|------------------------------------|
-| TB1         | 19/09/2025   | Barba Estrada, Bryan Eduardo <br> Cotrina Siclla, Sofia Alessandra <br> Encalada Salazar, Alexis <br> Goñe Araccata, Esther Abigail <br> Salazar Caballero, Fabrizzio Alvaro | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros 5 capítulos del informe y también la primera versión del landing page de Energix. |
+| TB1         | 19/09/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros 5 capítulos del informe y también la primera versión del landing page de Energix. |
 
 # **Project Report Collaboration Insights**
 
