@@ -60,7 +60,7 @@ Se elabor贸 el informe del proyecto en un repositorio llamado 鈥淧rojectReport鈥
 TB1: Para facilitar la elaboraci贸n colaborativa de este informe, el equipo comenz贸 trabajando en un documento compartido en Google. Posteriormente, el contenido se traslad贸 y organiz贸 en un repositorio de GitHub, empleando el formato markdown para estructurar cada secci贸n. A continuaci贸n, se presenta una imagen con los insights de los commits realizados por cada integrante dentro de dicho repositorio.
 
 <p align="center">
-  <img src="images/reportcollaborationinsights-energix.png" alt="PB" width="1000">
+  <img src="images/evidencia_team_collaboration_2.png" alt="PB" width="1000">
 </p>
 
 # **Tabla de Contenidos**
