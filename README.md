@@ -1045,6 +1045,13 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 ### ***4.4.3. Web Applications User Flow Diagrams***
 ## **4.5. Web Applications Prototyping**
+Para la elaboración del prototype utilizamos la herramienta Figma, en la cual desarrollamos los mockups y añadimos las interacciones necesarias directamente dentro del mismo programa.
+
+[Diseño en Figma: Prototype - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
+
+
+
 
 
 ## **4.6 Domain-Driven Software Architecture**
