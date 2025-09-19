@@ -1400,7 +1400,39 @@ A continuación mostraremos nuestro sprint planning. Se detallará lo que se aco
 |                                                                | **Feature/main** | 19991dcc5b811ef087c7e5db6bf160521d1c380b | add contact                                        | .                        |18/09/25                 |
 |                                                                | **Feature/main** | 12a00370e53bc9213b0ee6219ed07010bb9c3f72 | add footer and modal for login and registration    | .                        |18/09/25                 |
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el sprint 1, se avanzó significativamente con la página de inicio. La versión actual permite a los usuarios explorar las secciones principales con información del producto y de la empresa, aunque todavía quedan algunas funciones por completar. A continuación se muestran algunas evidencias:
+
+Imagenes del despliegue de la landing page [https://appweb-energix.github.io/Landing-Page/](https://appweb-energix.github.io/Landing-Page/)
+
+<p align="center">
+  <img src="images/landing_captura1.png" alt="UH" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/landing_captura2.png" alt="UH" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/landing_captura3.png" alt="UH" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/landing_captura4.png" alt="UH" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/landing_captura5.png" alt="UH" width="1000">
+</p>
+
+<p align="center">
+  <img src="images/landing_captura6.png" alt="UH" width="1000">
+</p>
+
+Link del video de ejecución de la landing page: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EVDbKR78XHVAhreZKcqiB_MBGsgkqmTKEi11q74yi0yTJQ?e=q5N3u0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EVDbKR78XHVAhreZKcqiB_MBGsgkqmTKEi11q74yi0yTJQ?e=q5N3u0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Para la revisión de sprint, se realizó el despliegue del sitio mediante **GitHub Pages**, garantizando que la documentación/landing sea accesible públicamente.
 
@@ -1422,7 +1454,7 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 ![Evidencia 2: Sitio en producción](images/Landing.png)  
 **Nota.** Elaboración propia.
 
-### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 | Alumno                          | Actividad                                                                 |
 |---------------------------------|---------------------------------------------------------------------------|
