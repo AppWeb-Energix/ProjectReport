@@ -1118,6 +1118,9 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
   <img src="images/prototype-energix.png" alt="PB" width="1000">
 </p>
 
+[Obtenido de: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL)
+
+
 ## **4.6 Domain-Driven Software Architecture**
 ### ***4.6.1 Design-Level EventStorming***
 ![Design-Level EventStorming](/images/EventStorming.jpg)
