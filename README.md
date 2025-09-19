@@ -1430,7 +1430,7 @@ Imagenes del despliegue de la landing page [https://appweb-energix.github.io/Lan
   <img src="images/landing_captura6.png" alt="UH" width="1000">
 </p>
 
-Link del video de ejecución de la landing page: [https://upcedupe-my.sharepoint.com/:l:/g/personal/u202318049_upc_edu_pe/FMgfYsLDtkVBpviY9W4NvKgBVutCMNXNB6bEhAqi6-iDPg?e=yVSc0O](https://upcedupe-my.sharepoint.com/:l:/g/personal/u202318049_upc_edu_pe/FMgfYsLDtkVBpviY9W4NvKgBVutCMNXNB6bEhAqi6-iDPg?e=yVSc0O)
+Link del video de ejecución de la landing page: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D)
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
