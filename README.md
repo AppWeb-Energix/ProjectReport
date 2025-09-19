@@ -846,7 +846,7 @@ Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
   <img src="images/Trello_ProductBacklog.png" alt="PB" width="1000">
 </p>
 
-[https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)
+[Product Backlog Trello - Energix: https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)
 
 | Orden  | User Story Id | Título                                    | Descripción                                                                                                   | Story Points |
 |----|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|
@@ -957,6 +957,9 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 ## **4.4. Web Applications UX/UI Design**
 ### ***4.4.1. Web Applications Wireframes***
+
+[Diseño en Figma: Web Applications Wireframes - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
 **Inicio Sesión**
 <p align="center">
   <img src="images/login-energix-wireframe.png" alt="PB" width="1000">
@@ -1079,6 +1082,8 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### ***4.4.2. Web Applications Mock-ups***
 
+[Diseño en Figma: Web Applications Mock-ups - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
+
 **Inicio Sesión**
 <p align="center">
   <img src="images/login-energix-mockup.png" alt="PB" width="1000">
@@ -1144,7 +1149,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
   <img src="images/prototype-energix.png" alt="PB" width="1000">
 </p>
 
-[Obtenido de: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL)
+[Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL)
 
 
 ## **4.6 Domain-Driven Software Architecture**
@@ -1425,7 +1430,7 @@ A continuación mostraremos nuestro sprint planning. Se detallará lo que se aco
 |                                                                | **Feature/main** | 19991dcc5b811ef087c7e5db6bf160521d1c380b | add contact                                        | .                        |18/09/25                 |
 |                                                                | **Feature/main** | 12a00370e53bc9213b0ee6219ed07010bb9c3f72 | add footer and modal for login and registration    | .                        |18/09/25                 |
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### **5.2.1.5. Execution Evidence for Sprint Review**
 
 En el sprint 1, se avanzó significativamente con la página de inicio. La versión actual permite a los usuarios explorar las secciones principales con información del producto y de la empresa, aunque todavía quedan algunas funciones por completar. A continuación se muestran algunas evidencias:
 
@@ -1457,7 +1462,7 @@ Imagenes del despliegue de la landing page [https://appweb-energix.github.io/Lan
 
 Link del video de ejecución de la landing page: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D)
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 
 Para la revisión de sprint, se realizó el despliegue del sitio mediante **GitHub Pages**, garantizando que la documentación/landing sea accesible públicamente.
 
@@ -1499,3 +1504,35 @@ Landing Page
 
 ![Evidencia Team Collaboration 3](/images/Evidencia_Team_Collaboration_3.png)
 
+## **Conclusiones**
+
+A lo largo del primer entregable se evidenció un liderazgo distribuido y una colaboración constante. Cada integrante asumió un rol clave en el diseño, documentación y validación de los avances, lo que permitió cumplir los objetivos planteados en los sprints iniciales.  
+
+Mediante entrevistas, análisis de hábitos de consumo y aplicación de metodologías como Lean UX y DDD, se logró comprender de manera profunda las necesidades de las familias urbanas y estudiantes, validando así la pertinencia de la solución propuesta.  
+
+El proyecto no solo permitió aplicar conocimientos de ingeniería de software, sino que también fortaleció competencias asociadas al Student Outcome ABET 5, relacionadas con trabajo en equipo, planificación, liderazgo compartido e inclusión en la toma de decisiones.  
+
+La propuesta de Energix Manager se alinea con la necesidad social y ambiental de fomentar un uso más eficiente de la energía en los hogares, aportando una solución tecnológica que combina usabilidad, ahorro económico y conciencia ecológica.  
+
+
+## **Bibliografía**
+
+- Ministerio de Energía y Minas del Perú. (2022). *Boletín estadístico de electricidad 2022*. Dirección General de Electricidad. [https://www.gob.pe/minem](https://www.gob.pe/minem)  
+
+- Ministerio de Energía y Minas del Perú. (2022). *Guía de orientación del uso eficiente de la energía y de diagnóstico energético sector residencial*. Ministerio de Energía y Minas. [https://eficienciaenergetica.minem.gob.pe/Content/fileman/Uploads/Documents/Gu%C3%ADas%202022/GUIA%20SECTOR%20RESIDENCIAL_VF3.pdf](https://eficienciaenergetica.minem.gob.pe/Content/fileman/Uploads/Documents/Gu%C3%ADas%202022/GUIA%20SECTOR%20RESIDENCIAL_VF3.pdf)  
+
+- Chucuya Fuentes, E. E. (2021). *Hábitos inadecuados del uso y consumo de energía eléctrica que influyen en la facturación a las familias del distrito de Ciudad Nueva - Tacna en el año 2019* [Tesis de licenciatura, Universidad Continental]. Repositorio Institucional de la Universidad Continental. [https://repositorio.continental.edu.pe/bitstream/20.500.12394/9774/4/IV_FIN_109_TE_Chucuya_Fuentes_2021.pdf](https://repositorio.continental.edu.pe/bitstream/20.500.12394/9774/4/IV_FIN_109_TE_Chucuya_Fuentes_2021.pdf)  
+
+- Autosolar Perú. (s.f.). *Consumo energético familiar en Perú*. [https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru?srsltid=AfmBOoq0OeX8EQ6pqgCOG22w2vKRg0PCjXZnSkKVlPKlIssj2zNpBm8p](https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru?srsltid=AfmBOoq0OeX8EQ6pqgCOG22w2vKRg0PCjXZnSkKVlPKlIssj2zNpBm8p)  
+
+
+## **Anexos**
+
+- [Diseño en Figma: Landing Page Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
+- [Diseño en Figma: Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
+- [Diseño en Figma: Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
+- [Diseño en Figma: Web Application Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
+- [Diseño en Figma: Web Application Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
+- [Link Presentación Canva - Energix: https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+- [Product Backlog Trello - Energix: https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)  
+- [Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL)  
