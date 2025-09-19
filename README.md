@@ -1139,6 +1139,28 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 </p>
 
 ### ***4.4.3. Web Applications User Flow Diagrams***
+- **User goal 1:** Iniciar sesión para poder obversar el dashboard informativo
+<img width="6409" height="2509" alt="image" src="https://github.com/user-attachments/assets/815034fa-1643-45a9-a344-e74c056341c4" />
+- **User goal 2:** Entrar al dashboard interactivo para luego ir a la opción de consumo y poder visualizar mi historial de consumo energético a lo largo de los últimos 3 meses
+<img width="4720" height="1255" alt="image" src="https://github.com/user-attachments/assets/eaa6b817-a81f-4a5e-a683-98a9990b286a" />
+- **User goal 3:** Comprar una subscripción desde la página principal rellenando información del medio de pago elegido
+<img width="5707" height="2803" alt="image" src="https://github.com/user-attachments/assets/d8359d7c-ff5f-4753-bc5b-5c627f6fd10b" />
+- **User goal 4:** Entrar al dashboard informativo para luego entrar en la opción de Reportes y descargar mi reporte generado a lo largo del mes
+<img width="5840" height="1255" alt="image" src="https://github.com/user-attachments/assets/e3ae8c7a-169b-40cf-9f1b-91f1b10a0308" />
+
+- Happy y Unhappy paths de cada User goal:
+- **User goal 1**:
+- - (Happy path) El usuario entra a la landing page y encuentra el botón de Iniciar sesión, como ya tiene una cuenta ingresa sus credenciales y son validadas por el sistema, una vez todo correcto es redirigido al dashboard informativo donde podrá interactuar con las diferentes herrameintas disponibles.
+- - (Unhappy path) El usuario entra a la landing page y presiona el botón de Inicar sesión, ingresa sus credenciales pero son incorrectas por lo que el sistema le manda un mensaje de error que dice "Correo o contraseña incorrectos", por lo que no será redirigido al dashboard informativo.
+- - **User goal 2**:
+- - (Happy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Consumo, donde puede visualizar más detalladamente los kilowhats consumidos, el porcentaje total, los tiempos de uso de cada dispositivo y el costo estimado para el mes.
+- - (Unhappy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Consumo, al momemto de entar el usuario no podrá visualizar los datos completos, estarán imcompletos o desactualizados en los indicadores principales, por lo que no podrá visualizar la información detallada.    
+- **User goal 3**:
+- - (Happy path) El usuario ingresa a la landing page y se desplaza hacia la parte de subscripciones, selecciona uno de los planes que están disponibles, luego se le habilitará una ventana para que eliga el método de pago preferido, una vez que rellene la información necesaria el sistema validará los datos y le dará un mensaje diciendo "Pago realizado, gracias" junto al logo con el método seleccionado.
+- - (Unhappy path) El usuario ingresa a la landing page y se desplaza hacia la parte de subscripciones, selecciona uno de los planes que están disponibles, luego se le habilitará una ventana para que eliga el método de pago preferido, una vez que el usuario rellene toda la información necesaría le dará click al botón de "pagar", pero no pasará nada, no le aparecerá otra ventana diciendo "Pago realizado, gracias", debido a un error interno con los métodos de pago por lo que no se puede continuar con la transacción, por consiguiente el usuario no podrá comprar ningún producto.
+- - **User goal 4**:
+- - (Happy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de Reportes donde visualiza el panel con la información de su consumo de mes, cumplimiento de metas, ranking de dispositivos y ahorro acumulado, entonces el usuario presiona el botón para descarga la información en formato PDF y Excel, luego aparece un mensaje diciendo "Reporte descargado exito" con la opción de visualizar el reporte.
+- - (Unhappy path) El usuario accede al landing page y hace click en Iniciar Sesión, ingresa con sus credenciales y tras una validación es redirigido al dashboard informativo. Navega por el menú lateral y hace click en la opción de Reportes, al momento de entrar no le aparecerá ninguna información disponible por lo que el sistema le dará un mensaje diciendo "Error al momento de cargar la información", del mismo modo si presiona el botón de descargar el sistema le dirá "Error al momento de descargar intente más tarde", por lo que el usuario no podrá visualizar su información ni descargarla.
 ## **4.5. Web Applications Prototyping**
 Para la elaboración del prototype utilizamos la herramienta Figma, en la cual desarrollamos los mockups y añadimos las interacciones necesarias directamente dentro del mismo programa.
 
