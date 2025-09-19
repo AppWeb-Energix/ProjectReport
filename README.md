@@ -1462,6 +1462,16 @@ Imagenes del despliegue de la landing page [https://appweb-energix.github.io/Lan
 
 Link del video de ejecución de la landing page: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D)
 
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review**
+
+
+| **Endpoint**                | **Path**              | **Descripción**                                               |
+|------------------------------|-----------------------|---------------------------------------------------------------|
+| Login                        | /api/auth/login       | Punto de acceso para la autenticación de usuarios.            |
+| Registro                     | /api/auth/register    | Punto de acceso para crear nuevas cuentas de usuario.         |
+| Recuperación de Contraseña   | /api/auth/recover     | Punto de acceso para solicitar el restablecimiento de contraseña. |
+| Formulario de Contacto       | /api/contact          | Punto de acceso para gestionar los mensajes del formulario de contacto. |
+
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 
 Para la revisión de sprint, se realizó el despliegue del sitio mediante **GitHub Pages**, garantizando que la documentación/landing sea accesible públicamente.
