@@ -45,6 +45,24 @@
 <hr>
 <hr>
 
+# **Registro de Versiones del Informe**
+
+| **Versión** | **Fecha**    | **Autor** | **Descripción de la modificación** |
+|-------------|--------------|-----------|------------------------------------|
+| TB1         | 19/09/2025   | Barba Estrada, Bryan Eduardo <br> Cotrina Siclla, Sofia Alessandra <br> Encalada Salazar, Alexis <br> Goñe Araccata, Esther Abigail <br> Salazar Caballero, Fabrizzio Alvaro | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros 5 capítulos del informe y también la primera versión del landing page de Energix. |
+
+# **Project Report Collaboration Insights**
+
+Se elaboró el informe del proyecto en un repositorio llamado “ProjectReport” en la organización “AppWeb-Energix”.
+
+[Enlace del repositorio “ProjectReport”](https://github.com/AppWeb-Energix/ProjectReport)
+
+TB1: Para facilitar la elaboración colaborativa de este informe, el equipo comenzó trabajando en un documento compartido en Google. Posteriormente, el contenido se trasladó y organizó en un repositorio de GitHub, empleando el formato markdown para estructurar cada sección. A continuación, se presenta una imagen con los insights de los commits realizados por cada integrante dentro de dicho repositorio.
+
+<p align="center">
+  <img src="images/reportcollaborationinsights-energix.png" alt="PB" width="1000">
+</p>
+
 # **Tabla de Contenidos**
 
 <a href="#registro-de-versiones-del-informe">Registro de Versiones del Informe</a><br>
@@ -186,6 +204,20 @@
 <hr>
 
 # **Student Outcome**
+
+El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 5**
+
+Criterio: *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+**Objetivo general**: Como equipo Energix, desarrollaremos Energix Manager, una aplicación web orientada a optimizar la gestión integral de proyectos de construcción. Nuestro objetivo es diseñar e implementar una solución tecnológica innovadora fundamentada en el enfoque Domain-Driven Design (DDD), que permita abordar de manera eficiente la complejidad del dominio y garantizar un sistema escalable y alineado a las necesidades del sector.
+
+| **Criterio Específico** | **Acciones realizadas (TB1)** | **Conclusiones** |
+|--------------------------|-------------------------------|------------------|
+| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Barba Estrada, Bryan Eduardo:** Lideró la estructuración de la Domain-Driven Software Architecture, promoviendo la participación activa y equitativa de todos los integrantes. <br><br> **Cotrina Siclla, Sofía Alessandra:** Elaboró artefactos clave como el Impact Mapping, organizando reuniones para definir objetivos de arquitectura. <br><br> **Encalada Salazar, Alexis:** Implementó la Landing Page inicial, coordinando la asignación de tareas específicas para el Sprint 1 y brindando apoyo a sus compañeros. <br><br> **Goñe Araccata, Esther Abigail:** Organizó y distribuyó las tareas del diseño de la Landing Page y la Web Application, logrando la colaboración entre roles de diseño y desarrollo. <br><br> **Salazar Caballero, Fabrizzio Álvaro:** Coordinó entrevistas con usuarios, realizó análisis de escenarios y elaboró documentación de gestión de configuración. | **Objetivo:** Promover el liderazgo distribuido entre los miembros para organizar y ejecutar las primeras actividades del proyecto, incluyendo la definición de la arquitectura, el diseño de la Landing Page, la elaboración de artefactos de análisis y la documentación inicial. <br><br> **Conclusión:** El equipo demostró liderazgo compartido en la organización y ejecución de las actividades iniciales. Cada miembro asumió responsabilidades específicas, lo que permitió establecer una base sólida para el proyecto y garantizar que los primeros entregables fueran completados de manera efectiva y colaborativa. |
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Barba Estrada, Bryan Eduardo:** Promovió la participación equitativa en las reuniones iniciales, facilitando la integración de las ideas de todos los miembros en la definición de la arquitectura. <br><br> **Cotrina Siclla, Sofía Alessandra:** Coordinó sesiones de trabajo colaborativo para elaborar los artefactos de análisis, garantizando la diversidad de aportes. <br><br> **Encalada Salazar, Alexis:** Apoyó de manera constante a sus compañeros en la implementación técnica, brindando acompañamiento en la Landing Page. <br><br> **Goñe Araccata, Esther Abigail:** Estableció dinámicas inclusivas en el diseño, integrando aportes técnicos y creativos para fortalecer la cohesión grupal. <br><br> **Salazar Caballero, Fabrizzio Álvaro:** Organizó el análisis de escenarios de usuario con la participación de todos, recogiendo diversas perspectivas para enriquecer la documentación. | **Objetivo:** Fomentar un entorno de trabajo inclusivo y participativo en el que cada miembro pueda aportar sus ideas y habilidades. <br><br> **Conclusión:** El equipo consolidó un entorno de colaboración inclusiva, en el que cada integrante tuvo la oportunidad de contribuir según sus fortalezas. La definición de objetivos permitió cumplir satisfactoriamente con las metas del primer entregable, evidenciando la capacidad del grupo para trabajar de manera coordinada. |
+
 
 # **Capítulo I: Introducción** 
 
@@ -899,7 +931,7 @@ Nuestra tipografía principal es Poppins, una fuente sans serif de estilo geomé
 La elección de esta tipografía busca transmitir modernidad, claridad y versatilidad.
 
 <p align="center">
-  <img src="images/Logo.png" alt="PB" width="1000">
+  <img src="images/logo-energix.png" alt="PB" width="1000">
 </p>
 
 ## Branding
