@@ -380,7 +380,7 @@ Para los usuarios:
 
 * Consejos personalizados: Ofrece sugerencias específicas para ahorrar energía según los hábitos del usuario.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### **1.2.2.3. Lean UX Hypothesis Statements**
 
 **Hipótesis 1: Monitoreo y conciencia**
 
@@ -446,7 +446,7 @@ Este segmento está muy influenciado por la información en línea y las recomen
 
 ## **2.1. Competidores**
 
-## 2.1.1. Análisis competitivo
+### ***2.1.1. Análisis competitivo***
 
 # Análisis Competitivo – Energix Manager
 
@@ -1146,7 +1146,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 ## **5.1 Software Configuration Management**
 En esta sección, el equipo establece las decisiones y convenciones para  mantener la consistencia durante el ciclo de vida del desarrollo del software. Estas convenciones son cruciales para asegurar que todo esté alineado en términos de uso de herramientas, procesos de despliegue y prácticas de codificación
 
-### **5.1.1 Software Development Environment Configuration**
+### ***5.1.1 Software Development Environment Configuration***
 En este apartado se mencionarán los distintos productos de software empleados por el equipo de desarrollo para llevar a cabo las actividades relacionadas con la elaboración del proyecto ENERGIX.
 
 **Producto UX/UI Design**
@@ -1176,7 +1176,7 @@ lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en 
 - **Swagger / OpenAPI Specification**: https://swagger.io/specification/ Utilizado para documentar y probar las APIs RESTful desarrolladas con Spring Boot, facilitando la creación de documentación interactiva.
 - **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
 
-### **5.1.2 Source Code Management**
+### ***5.1.2 Source Code Management***
 La gestión del código fuente es una parte fundamental del desarrollo de cualquier proyecto de software, ya que permite rastrear cambios, revertir versiones y coordinar a varios desarrolladores trabajando simultáneamente. En ENERGIX, utilizaremos Git como sistema de control de versiones y GitHub como plataforma para alojar nuestros repositorios.
 
 **URL de los Repositorios**
@@ -1239,7 +1239,7 @@ Para los mensajes de commit en el proyecto ENERGIX, se sigue la convención Conv
 
 Con esta estructura, ENERGIX puede gestionar eficientemente el flujo de trabajo del desarrollo, asegurando una integración continua y una organización clara del código fuente.
 
-### **5.1.3. Source Code Style Guide & Conventions**
+### ***5.1.3. Source Code Style Guide & Conventions***
 
 En el proyecto ENERGIX, hemos implementado una serie de guías de estilo y convenciones para asegurar que todo el equipo de desarrollo siga una estructura consistente y clara en todo el ciclo de vida del proyecto. Esto facilita la legibilidad del código, mejora la colaboración entre los desarrolladores y asegura que el código sea mantenible a largo plazo.
 
@@ -1338,7 +1338,7 @@ let availableSpaces = totalSpaces - bookedSpaces;
 **Límite de Longitud de Línea**
 El código no debe exceder las 80 columnas por línea. En caso de necesitar más espacio, se recomienda dividir la línea de código para mejorar la legibilidad.
 
-### **5.1.4. Software Deployment Configuration**
+### ***5.1.4. Software Deployment Configuration***
 En esta sección se detalla la configuración necesaria para el despliegue de la solución ENERGIX, incluyendo los pasos clave para lograr la publicación satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando GitHub Pages para visualizar cada commit del Landing Page.
 
 A continuación, se describen los pasos para realizar el despliegue de la Landing Page del proyecto PARKINGNOW:
@@ -1356,7 +1356,41 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 
 ## **5.2 Software Configuration Management**
-### **5.2.1.4 Development Evidence for Sprint Review**
+
+### ***5.2.1 Sprint 1***
+#### **5.2.1.1 Sprint Planning 1**
+A continuación mostraremos nuestro sprint planning. Se detallará lo que se acordó y revisó en la reunión.
+
+| **Sprint #** | Sprint 1 |
+|--------------|----------|
+| **Sprint Planning Background** | Durante el sprint realizamos una reunión para evaluar el avance individual de cada integrante y el progreso del equipo. A partir de esta revisión, identificamos puntos de mejora y establecimos acciones importantes para optimizar el trabajo grupal. |
+| **Date** | 2025-09-20 |
+| **Time** | 22:00 |
+| **Location** | Server AppWeb |
+| **Prepared By** | Goñe Araccata, Esther Abigail |
+| **Attendees (to planning meeting)** | Barba Estrada, Cotrina Siclla, Encalada Salazar, Goñe Araccata, Salazar Caballero |
+| **Sprint Review Summary** | En esta revisión analizamos el avance del sprint, destacando los logros alcanzados y los pendientes por resolver. Se discutieron las user stories en curso y se dieron comentarios para mejorar el trabajo en equipo. Finalmente, se evaluó el progreso individual y grupal para asegurar el cumplimiento de las tareas. |
+| **Sprint Retrospective Summary** | **Start:** Debemos organizar revisiones cortas al cierre de cada día de trabajo.<br> **Stop:** Dejar tareas sin responsables definidos, esto genera retrasos.<br> **Continue:** Mantener la comunicación activa en el servidor y la colaboración constante en el reporte. |
+| **Sprint Goal & User Stories** | |
+| **Sprint Goal** | Our focus is on **delivering the key functionalities of the consumption and reporting modules**. This includes enabling users **to track their energy usage in real time, review historical consumption data, and generate clear reports**. <br><br> We believe this sprint goal ensures a **transparent and reliable experience**, allowing users to make **informed decisions** about their energy habits while improving the system’s **overall usability and performance**. |
+| **Sprint Velocity** | 3 |
+| **Sum of Story Points** | 10 |
+
+#### **5.2.1.2 Aspect Leaders and Collaborators**
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Landing Page Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **Epics Leader (L) / Collaborator (C)** |
+|------------------------------------------|----------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------|
+| Barba Estrada, Bryan Eduardo             | br14nbe              | C                                             | C                                             | C                                        |
+| Cotrina Siclla, Sofia Alessandra         | IamAndreek           | C                                             | C                                             | C                                        |
+| Encalada Salazar, Alexis                 | Alexiz248            | L                                             | C                                             | C                                        |
+| Goñe Araccata, Esther Abigail            | abigoe02             | C                                             | L                                             | L                                        |
+| Salazar Caballero, Alvaro Fabrizzio      | IDymian              | C                                             | C                                             | C                                        |
+
+
+
+
+
+#### **5.2.1.4 Development Evidence for Sprint Review**
 |**Repository**                                                  |**Branch**        |**Commit ID**                             |**Commit Message**                                  |**Commit Message Body**    |**Commited on (Date)**  |
 |----------------------------------------------------------------|------------------|------------------------------------------|----------------------------------------------------|--------------------------|-------------------------|
 |AppWeb-Energix/Landing-Page: Landing Page del proyecto Energix  | **Feature/main** | f1dc735e91462ae27a3f7e8c18cc9f29e28f2d22 | Create index.html                                  | .                        |18/09/25                 |
