@@ -987,6 +987,70 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 
 ### ***4.4.2. Web Applications Wireflow Diagrams***
+
+**User Goal: Iniciar Sesión**  
+**Usuario**: Cliente registrado
+
+El usuario ingresa a la aplicación desde la vista de login, donde introduce sus credenciales (correo y contraseña). Si las credenciales son correctas, el sistema lo redirige al dashboard principal, donde puede visualizar métricas de consumo energético en tiempo real. En caso de error (credenciales incorrectas), se muestra un mensaje de validación y se permite reintentar.
+
+<p align="center">
+  <img src="images/usergoal_iniciarsesion.png" alt="PB" width="1000">
+</p>
+
+**User Goal: Monitorear Consumo Energético**  
+**Usuario**: Cliente registrado
+
+Desde el dashboard, el usuario accede a la sección Consumo. En esta vista puede revisar su consumo energético en diferentes rangos de tiempo (día, últimos 7, 30 o 90 días), filtrar el consumo por dispositivo o visualizar el total general. Además, dispone de un resumen del periodo, que muestra el consumo total en kWh junto con su equivalente monetario, el promedio diario de consumo y el plan de suscripción activo.
+
+<p align="center">
+  <img src="images/usergoal_monitorearconsumo.png" alt="PB" width="1000">
+</p>
+
+**User Goal: Gestión de alertas automáticas**  
+**Usuario**: Cliente registrado
+
+Desde el Dashboard, el usuario selecciona la sección de Alertas, donde se muestran notificaciones generadas automáticamente por el sistema: consumo inusual, límites alcanzados o luces encendidas demasiado tiempo. El usuario puede revisar las alertas activas y gestionarlas según corresponda.
+
+<p align="center">
+  <img src="images/usergoal_gestiondealertasautomaticas.png" alt="PB" width="1000">
+</p>
+
+**User Goal: Tips & Savings**  
+**Usuario**: Cliente registrado
+
+El usuario accede a la sección de Tips & Savings, donde se le presentan consejos personalizados en base a sus patrones de consumo, buenas prácticas generales de ahorro, horarios de menor costo y una estimación del ahorro potencial. Esto facilita la adopción de hábitos eficientes de consumo.
+
+<p align="center">
+  <img src="images/usergoal_tips&savings.png" alt="PB" width="1000">
+</p> 
+
+**User Goal: Generación y consulta de reportes**  
+**Usuario**: Cliente registrado
+
+Desde la barra lateral, el usuario ingresa a Reportes para visualizar estadísticas detalladas y gráficas comparativas de su consumo energético. Allí puede consultar tendencias, realizar comparaciones entre periodos y, si lo requiere, exportar los reportes en formato PDF o Excel.
+
+<p align="center">
+  <img src="images/usergoal_generacionyconsultadereportes.png" alt="PB" width="1000">
+</p>
+
+**User Goal: Configuración y gestión de plan de usuario**  
+**Usuario**: Cliente registrado
+
+En la sección Settings, el usuario puede actualizar sus datos personales, configurar idioma y notificaciones, registrar o eliminar dispositivos, personalizar su panel y modificar el plan de suscripción. Estas opciones permiten adaptar la aplicación a sus necesidades específicas.
+
+<p align="center">
+  <img src="images/usergoal_configuracionygestiondeplandeusuario.png" alt="PB" width="1000">
+</p>
+
+**User Goal: Cerrar Sesión**  
+**Usuario**: Cliente registrado
+
+Desde el dashboard, el usuario selecciona la opción Log out, confirmando su intención de cerrar sesión. El sistema valida la acción y redirige a la pantalla de inicio de sesión, finalizando el acceso de manera segura.
+
+<p align="center">
+  <img src="images/usergoal_cerrarsesion.png" alt="PB" width="1000">
+</p>
+
 ### ***4.4.2. Web Applications Mock-ups***
 
 **Inicio Sesión**
