@@ -1191,8 +1191,7 @@ lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en 
 - **Git**: https://git-scm.com/ Software de control de versiones utilizado para gestionar los cambios en el código a través de commits y facilitar el trabajo colaborativo.
 
 **Project Management and Collaboration**
-- **WhatsApp**: https://web.whatsapp.com/ Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real
-- **Google Docs**: https://docs.google.com/ Utilizado para la creación y edición colaborativa de documentos relacionados con el proyecto, permitiendo a varios miembros trabajar simultáneamente.
+- **Discord**: https://discord.com/ Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real
 
 **Software Documentation**
 - **Vertabelo**: https://vertabelo.com/ Herramienta online utilizada para el diseño, creación y gestión colaborativa de bases de datos para el proyecto.
@@ -1209,7 +1208,7 @@ La gestión del código fuente es una parte fundamental del desarrollo de cualqu
 **URL de los Repositorios**
 - **Organization:**  https://github.com/AppWeb-Energix 
 - **Reporte:** https://github.com/AppWeb-Energix/ProjectReport
-- **Landing Page** :
+- **Landing Page** :  https://github.com/AppWeb-Energix/Landing-Page 
 
 **GitFlow**
 
@@ -1309,7 +1308,7 @@ Convenciones por Lenguaje
 - **HTML/CSS/JavaScript:**
 
 - - Se utilizará la Google HTML/CSS Style Guide (https://google.github.io/styleguide/htmlcssguide.html) para asegurar la consistencia en la estructura y la presentación de los archivos HTML y CSS.
-- -Para JavaScript, adoptamos la Airbnb JavaScript Style Guide (https://google.github.io/styleguide/htmlcssguide.html), ampliamente conocida y utilizada en la industria.
+- - Para JavaScript, adoptamos la Airbnb JavaScript Style Guide (https://google.github.io/styleguide/htmlcssguide.html), ampliamente conocida y utilizada en la industria.
 - **TypeScript:**
 
 - - Angular es el framework elegido para el frontend de PARKINGNOW, por lo que seguimos la Angular Style Guide (https://v17.angular.io/guide/styleguide), que dicta cómo deben estructurarse los módulos, servicios y componentes.
