@@ -1439,7 +1439,29 @@ A continuación mostraremos nuestro sprint planning. Se detallará lo que se aco
 | Salazar Caballero, Alvaro Fabrizzio      | IDymian              | C                                             | C                                             | C                                        |
 
 
+#### **5.2.1.3 Sprint Backlog 1.**
 
+En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. Para lograrlo, dividimos el trabajo en tareas específicas basadas en cada historia de usuario relacionada con la Landing Page, asignándolas a diferentes miembros del equipo. Además, utilizamos la herramienta “Trello” para organizar de manera más eficiente nuestro Backlog.
+
+**Figura** *sprint 1 de Energix*
+
+![Tablero de Energix](/images/Trello_ProductBacklog.png)
+
+*Nota.* Obtenido de [**Trello**](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATT19188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)
+
+| Sprint #   | Sprint 1                           |                |                          |                                                                       |                    |                 |                                              |
+|------------|------------------------------------|----------------|--------------------------|-----------------------------------------------------------------------|--------------------|-----------------|----------------------------------------------|
+| User Story |                                    | Work Item/Task |                          |                                                                       |                    |                 |                                              |
+| id         | Tittle                             | id             | Tittle                   | Description                                                           | Estimation (Hours) | Assigned to     | Status (To-do / InProcess / ToReview / Done) |
+| US26       | Página de bienvenida clara         | T1             | Implementar hero y CTA   | Diseño hero HTML/CSS responsive                                       | 3                  | Bryan Barba     | Done                                         |
+| US27       | Información en el footer           | T2             | Implementar footer       | Contenido y enlaces legales HTML/CSS responsive pruebas               | 1                  | Sofia Cotrina   | Done                                         |
+| US28       | Encabezado con navegación          | T3             | Header y menú responsive | Diseño header menú responsive manejo estado sesión pruebas móviles    | 3                  | Alexis Encalada | Done                                         |
+| US29       | Formulario de contacto             | T4             | Form + backend envío     | Formulario front API backend; validaciones confirmación/alertas tests | 1                  | Abigail Goñe    | Done                                         |
+| US30       | Planes de suscripción              | T5             | Sección planes y CTAs    | Diseño tablas de planes implementación front integración precios QA   | 2                  | Alvaro Salazar  | Done                                         |
+| US31       | Características de Energix Manager | T1             | Sección características  | Redacción de beneficios diseño tarjetas con iconos implementación QA  | 1                  | Bryan Barba     | Done                                         |
+| US32       | Conociendo al equipo               | T2             | Página equipo            | Contenido de miembros grid de fotos responsive accesibilidad          | 2                  | Sofia Cotrina   | Done                                         |
+| US33       | Video tutorial introductorio       | T3             | Producción y embed video | Guion corto grabación/edición 2-3 min export embed en web QA          | 3                  | Alexis Encalada | Done                                         |
+| US34       | Multilenguaje                      | T4             | Soporte i18n ES/EN       | Extraer textos integrar traducción inicial pruebas                    | 2                  | Abigail Goñe    | Done     
 
 
 #### **5.2.1.4 Development Evidence for Sprint Review**
