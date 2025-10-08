@@ -51,6 +51,7 @@
 | **Versión** | **Fecha**    | **Autor** | **Descripción de la modificación** |
 |-------------|--------------|-----------|------------------------------------|
 | TB1         | 19/09/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros 5 capítulos del informe y también la primera versión del landing page de Energix. |
+| TP         | 10/08/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la segunda entrega del informe de nuestro proyecto, se realizó la documentación correspondiente al Sprint 2 y se realizó actualizaciones en las conclusiones y anexos del informe de reporte. Por otro lado, se realizó las respectivas mejoras y se desarrolló la primera versión del Fronted Web Applications. |
 
 # **Project Report Collaboration Insights**
 
