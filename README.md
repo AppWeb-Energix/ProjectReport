@@ -1577,6 +1577,76 @@ Landing Page
 
 ![Evidencia Team Collaboration 3](/images/Evidencia_Team_Collaboration_3.png)
 
+## 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning
+
+A continuación mostraremos nuestro **Sprint Planning**.  
+Se detallará lo que se acordó y revisó en la reunión.
+
+| **Sprint #** | **Sprint 2** |
+|--------------|--------------|
+
+| **Sprint Planning Background** | Durante el sprint 2 realizamos una reunión de planificación para coordinar el desarrollo de funcionalidades orientadas a la experiencia de usuario y la gestión administrativa del sistema. A partir del análisis del tablero, se identificaron las historias de usuario prioritarias relacionadas con métricas, reportes, gestión de perfil, autenticación y personalización. Se distribuyeron las tareas entre los integrantes del equipo para optimizar el trabajo grupal. |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date** | 2025-10-03 |
+| **Time** | 16:00 |
+| **Location** | Server AppWeb |
+| **Prepared By** | Goñe Araccata, Esther Abigail |
+| **Attendees (to planning meeting)** | Barba Estrada, Cotrina Siclla, Encalada Salazar, Goñe Araccata, Salazar Caballero |
+| **Sprint Review Summary** | En esta revisión analizamos el avance del sprint 2, destacando el progreso en las funcionalidades de métricas (**US16–US18**), gestión de perfil y configuración (**US19–US22**), y módulo de autenticación (**US35–US38**). Se discutieron las *user stories* en curso, se dieron comentarios para mejorar la integración entre componentes, y se evaluó el progreso individual y grupal para asegurar el cumplimiento de las tareas planificadas. |
+| **Sprint Retrospective Summary** | **Start:** Debemos organizar revisiones cortas al cierre de cada día de trabajo.<br><br>**Stop:** Dejar tareas sin responsables definidos, esto genera retrasos.<br><br>**Continue:** Mantener la comunicación activa en el servidor y la colaboración constante en el reporte. |
+| **Sprint Goal** | Our current focus is on implementing the core frontend features of the admin dashboard and user authentication system: comprehensive metrics panel, daily consumption graphics, report access from sidebar navigation, profile management interface, complete user configuration, appliance registration, panel personalization, and the complete authentication flow including login, password recovery, account creation, and logout. Success will be validated when users can authenticate securely, navigate seamlessly to their personalized dashboard, and access key modules like consumption metrics, reports, profile configuration, and appliance management according to their registered data. |
+| **Sprint Velocity** | 6 |
+| **Sum of Story Points** | 32 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Landing Page Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **Frontend Web Application Leader (L) / Collaborator (C)** |
+|----------------------------------------|----------------------|-----------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
+| Barba Estrada, Bryan Eduardo | br14nbe | C | C | C |
+| Cotrina Siclla, Sofia Alessandra | IamAndreek | C | C | C |
+| Encalada Salazar, Alexis | Alexiz248 | **L** | C | C |
+| Goñe Araccata, Esther Abigail | abigoe02 | C | **L** | **L** |
+| Salazar Caballero, Alvaro Fabrizzio | IDymian | C | C | C |
+
+### 5.2.2.3. Sprint Backlog 2
+
+En este segundo sprint, nos enfocamos en desarrollar el **Frontend de Energix**.  
+Para lograrlo, dividimos el trabajo en tareas específicas basadas en cada historia de usuario relacionada con el Frontend, asignándolas a diferentes miembros del equipo.  
+
+Además, utilizamos la herramienta **Trello** para organizar de manera más eficiente nuestro **Backlog**.
+
+<img src="images/Trello_ProductBacklog_2.png" alt="Sprint 2 - Energix Trello Board" width="800">
+
+**Figura:** Sprint 2 de Energix
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### Capturas de pantalla de las principales vistas
+
+- **Login y Autenticación**
+- **Dashboard principal**
+- **Mis dispositivos**
+- **Suscripciones**
+
+**URL de la web:**  
+
+Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**.
+
+---
+
+#### Endpoints del Sistema
+
+| **Endpoint** | **Path** | **Descripción** |
+|---------------|-----------|------------------|
+| **Login** | `/api/auth/login` | Punto de acceso para la autenticación de usuarios. |
+| **Registro** | `/api/auth/register` | Punto de acceso para crear nuevas cuentas de usuario. |
+| **Recuperación de Contraseña** | `/api/auth/recover` | Punto de acceso para solicitar el restablecimiento de contraseña. |
+| **Formulario de Contacto** | `/api/contact` | Punto de acceso para gestionar los mensajes del formulario de contacto. |
+
+
+
 ## **Conclusiones**
 
 A lo largo del primer entregable se evidenció un liderazgo distribuido y una colaboración constante. Cada integrante asumió un rol clave en el diseño, documentación y validación de los avances, lo que permitió cumplir los objetivos planteados en los sprints iniciales.  
@@ -1606,7 +1676,8 @@ La propuesta de Energix Manager se alinea con la necesidad social y ambiental de
 - [Diseño en Figma: Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
 - [Diseño en Figma: Web Application Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
 - [Diseño en Figma: Web Application Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
-- [Link Presentación Canva - Energix: https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+- [Link Presentación Canva - Energix: https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Video Energix-Web Application: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EVFsMRCxAixAtYLDpoIkfAcBWlDRPccrbQBV9Sowpk9fvQ?e=k4hTJ6
 - [Product Backlog Trello - Energix: https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)
 - [Video About the Team - Energix](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EXM7nKqXdhxLp_6iB44XQLYBB8OdF42uC1cEGUgiJGPbMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ouYaCj)
 - [Video de Exposición TB1 - Energix](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EeuZpSD1L_ROkiPGq5apd9UBVC0xGJ3x2QnicAJwW6zE4w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0S7xa9)
