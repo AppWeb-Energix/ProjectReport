@@ -953,7 +953,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 [Diseño en Figma: Landing Page Mockup - Energix](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)
 
 <p align="center">
-  <img src="images/landingpage-energix-mockup.png" alt="PB" width="1000">
+  <img src="images/nuevalandingpage-energix-mockup.png" alt="PB" width="1000">
 </p>
 
 ## **4.4. Web Applications UX/UI Design**
