@@ -1651,38 +1651,68 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
 
 ---
 
-#### 📸 Capturas de pantalla de las principales vistas
+#### Capturas de pantalla de las principales vistas
 
 - **Login y Autenticación**
+<img src="images/frontend-capture-1.png" alt="Frontend Capture 1 - Energix" width="800">
+
+- **Dashboard principal**
+<img src="images/frontend-capture-2.png" alt="Frontend Capture 2 - Energix" width="800">
+  
+- **Mis dispositivos**
+<img src="images/frontend-capture-3.png" alt="Frontend Capture 3 - Energix" width="800">
+  
+- **Suscripciones**
+<img src="images/frontend-capture-4.png" alt="Frontend Capture 4 - Energix" width="800">
 
 
-<img src="images/Login_Auth.png" alt="Login y Autenticación - Energix Manager">
+**URL de la web:**  
+
+Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**:  
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EVFsMRCxAixAtYLDpoIkfAcBWlDRPccrbQBV9Sowpk9fvQ?e=k4hTJ6
+
 
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-#### Capturas de pantalla de las principales vistas
-
-- **Login y Autenticación**
-- **Dashboard principal**
-- **Mis dispositivos**
-- **Suscripciones**
-
-**URL de la web:**  
-
-Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**.
-
----
-
-#### Endpoints del Sistema
-
 | **Endpoint** | **Path** | **Descripción** |
 |---------------|-----------|------------------|
-| **Login** | `/api/auth/login` | Punto de acceso para la autenticación de usuarios. |
-| **Registro** | `/api/auth/register` | Punto de acceso para crear nuevas cuentas de usuario. |
-| **Recuperación de Contraseña** | `/api/auth/recover` | Punto de acceso para solicitar el restablecimiento de contraseña. |
-| **Formulario de Contacto** | `/api/contact` | Punto de acceso para gestionar los mensajes del formulario de contacto. |
+| **POST /auth/login** | `/auth/login` | Inicia sesión de un usuario (valida correo y contraseña). |
+| **POST /auth/register** | `/auth/register` | Registra un nuevo usuario (estudiante, familia o sin código). |
+| **POST /auth/validate-code** | `/auth/validate-code` | Verifica si el código ingresado pertenece a un estudiante o familia. |
+| **GET /dashboard** | `/dashboard` | Obtiene información principal del usuario: consumo, dispositivos y alertas. |
+| **GET /alerts** | `/alerts` | Devuelve la lista de alertas del usuario (como dispositivos conectados). |
+| **GET /devices** | `/devices` | Lista los dispositivos asociados a la cuenta del usuario. |
+| **POST /devices** | `/devices` | Agrega un nuevo dispositivo (enchufe, sensor, etc.). |
+| **PUT /devices/:id** | `/devices/:id` | Actualiza información de un dispositivo (nombre, zona, consumo, etc.). |
+| **DELETE /devices/:id** | `/devices/:id` | Elimina un dispositivo registrado. |
+| **GET /subscriptions** | `/subscriptions` | Consulta el plan actual (estudiantil, familiar o básico). |
+| **POST /subscriptions/activate** | `/subscriptions/activate` | Activa la suscripción mediante el código de registro. |
+| **GET /rewards** | `/rewards` | Muestra los puntos acumulados y los referidos del usuario. |
+| **GET /config** | `/config` | Obtiene la configuración actual del perfil y del panel. |
+| **PUT /config/profile** | `/config/profile` | Actualiza datos personales (nombre, apellido, correo, DNI, etc.). |
+| **PUT /config/password** | `/config/password` | Cambia la contraseña del usuario. |
+| **PUT /config/panel** | `/config/panel` | Personaliza el panel (gráficos, preferencias, visualización). |
+| **POST /logout** | `/logout` | Cierra la sesión actual del usuario. |
 
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este sprint, configuramos un **entorno de backend local** utilizando **JSON Server** y un archivo `db.json`, el cual actúa como una **base de datos simulada** para el sistema.  
+
+Esta estrategia nos permitió **emular operaciones CRUD** (*crear, leer, actualizar y eliminar*) sin necesidad de un servidor completo, facilitando el desarrollo y las pruebas del **frontend**.
+
+El archivo `db.json` contiene las siguientes **colecciones principales**:
+
+- **users:** datos de usuarios y credenciales simuladas.  
+- **codes:** códigos de acceso y suscripciones.  
+- **devices:** dispositivos inteligentes registrados por el usuario.  
+- **zones:** zonas de uso o habitaciones asociadas a los dispositivos.  
+- **alerts:** alertas generadas en función del consumo energético y configuración de los dispositivos.
+
+### 5.2.2.8. Team Collaboration Insights During Sprint
+
+<img src="images/team_collaboration_2.png" alt="Team Collaboration 2 - Energix" width="800">
 
 
 ## **Conclusiones**
