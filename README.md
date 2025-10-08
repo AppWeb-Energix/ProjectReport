@@ -1647,7 +1647,9 @@ Durante este sprint, hemos logrado implementar **funcionalidades esenciales** pa
 
 Estas implementaciones representan un **avance significativo** en nuestro objetivo de crear una plataforma integral para la gestión inteligente de energía, permitiendo a los usuarios **gestionar eficientemente sus recursos, monitorear el consumo y optimizar el uso de dispositivos** en sus hogares y organizaciones.
 
-Link de la web: https://frontend-energix.netlify.app/login
+Link de la web: https://68e6f933d72446951ae973f4--frontend-energix.netlify.app/login
+
+Link de la web 2: https://appweb-energix.github.io/Frontend-Energix/
 
 ---
 
@@ -1666,7 +1668,7 @@ Link de la web: https://frontend-energix.netlify.app/login
 <img src="images/frontend-capture-4.png" alt="Frontend Capture 4 - Energix" width="800">
 
 
-**URL de la web:**  
+**URL de la web:** https://appweb-energix.github.io/Frontend-Energix/
 
 Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**:  
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EVFsMRCxAixAtYLDpoIkfAcBWlDRPccrbQBV9Sowpk9fvQ?e=k4hTJ6
@@ -1709,6 +1711,10 @@ El archivo `db.json` contiene las siguientes **colecciones principales**:
 - **devices:** dispositivos inteligentes registrados por el usuario.  
 - **zones:** zonas de uso o habitaciones asociadas a los dispositivos.  
 - **alerts:** alertas generadas en función del consumo energético y configuración de los dispositivos.
+
+Link de la web: https://68e6f933d72446951ae973f4--frontend-energix.netlify.app/login
+
+Link de la web 2: https://appweb-energix.github.io/Frontend-Energix/
 
 ### 5.2.2.8. Team Collaboration Insights During Sprint
 
