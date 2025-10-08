@@ -1717,13 +1717,7 @@ El archivo `db.json` contiene las siguientes **colecciones principales**:
 
 ## **Conclusiones**
 
-A lo largo del primer entregable se evidenció un liderazgo distribuido y una colaboración constante. Cada integrante asumió un rol clave en el diseño, documentación y validación de los avances, lo que permitió cumplir los objetivos planteados en los sprints iniciales.  
-
-Mediante entrevistas, análisis de hábitos de consumo y aplicación de metodologías como Lean UX y DDD, se logró comprender de manera profunda las necesidades de las familias urbanas y estudiantes, validando así la pertinencia de la solución propuesta.  
-
-El proyecto no solo permitió aplicar conocimientos de ingeniería de software, sino que también fortaleció competencias asociadas al Student Outcome ABET 5, relacionadas con trabajo en equipo, planificación, liderazgo compartido e inclusión en la toma de decisiones.  
-
-La propuesta de Energix Manager se alinea con la necesidad social y ambiental de fomentar un uso más eficiente de la energía en los hogares, aportando una solución tecnológica que combina usabilidad, ahorro económico y conciencia ecológica.  
+Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optimizar su consumo de energía eléctrica, promoviendo el ahorro económico y la conciencia ambiental. El trabajo en equipo permitió fortalecer la colaboración, la planificación y el liderazgo compartido, consolidando una propuesta innovadora orientada al bienestar de los usuarios. En conjunto, Energix Manager refleja el compromiso por aprovechar la tecnología para mejorar la calidad de vida, impulsando un uso más eficiente y responsable de la energía.  
 
 
 ## **Bibliografía**
