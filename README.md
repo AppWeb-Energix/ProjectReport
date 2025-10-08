@@ -1542,9 +1542,7 @@ Link del video de ejecución de la landing page: [https://upcedupe-my.sharepoint
 
 Para la revisión de sprint, se realizó el despliegue del sitio mediante **GitHub Pages**, garantizando que la documentación/landing sea accesible públicamente.
 
-Primero, se creó y configuró el repositorio público **AppWeb-Energix/ProjectReport**. Luego, se cargaron los archivos del sitio, se habilitó **GitHub Pages** seleccionando la rama **main** y la carpeta **/(docs)**, y se validó la disponibilidad en el enlace oficial:
-
-🔗 https://appweb-energix.github.io/ProjectReport/
+Primero, se creó y configuró el repositorio público **AppWeb-Energix/ProjectReport**. Luego, se cargaron los archivos del sitio, se habilitó **GitHub Pages** seleccionando la rama **main** y la carpeta **/(docs)**, y se validó la disponibilidad en el enlace oficial: https://frontend-energix.netlify.app/login
 
 Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub Pages publica automáticamente la nueva versión.
 
@@ -1648,6 +1646,8 @@ Durante este sprint, hemos logrado implementar **funcionalidades esenciales** pa
 - Se incluyen **incentivos mediante recompensas y referidos** que promueven el uso continuado de la plataforma.  
 
 Estas implementaciones representan un **avance significativo** en nuestro objetivo de crear una plataforma integral para la gestión inteligente de energía, permitiendo a los usuarios **gestionar eficientemente sus recursos, monitorear el consumo y optimizar el uso de dispositivos** en sus hogares y organizaciones.
+
+Link de la web: https://frontend-energix.netlify.app/login
 
 ---
 
