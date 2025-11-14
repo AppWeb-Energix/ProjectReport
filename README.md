@@ -1726,6 +1726,148 @@ Link de la web 2: https://appweb-energix.github.io/Frontend-Energix/
 
 <img src="images/team_collaboration_2.png" alt="Team Collaboration 2 - Energix" width="800">
 
+¡Claro! Aquí tienes la información solicitada en formato Markdown, organizada con títulos y tablas para mayor claridad.
+
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning
+
+A continuación, se presenta el Sprint Planning correspondiente al Sprint 3. En esta sección se detallan los acuerdos, revisiones y decisiones tomadas durante la reunión llevada a cabo por el equipo para la planificación del sprint.
+
+| Aspecto | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | En esta reunión se revisaron las necesidades actuales del backend y se definió el alcance del Sprint 3. Se acordó enfocarse en la implementación completa del módulo de consumo histórico, la optimización de servicios existentes, mejoras de seguridad básica, manejo de errores y documentación interna del API. También se revisaron dependencias y tareas pendientes para asegurar una estructura estable para los próximos sprints. |
+| **Date** | 2025-11-12 |
+| **Time** | 17:00 |
+| **Location** | Server AppWeb |
+| **Prepared By** | Goñe Araccata, Esther Abigail |
+| **Attendees (to planning meeting)** | Barba Estrada, Cotrina Siclla, Encalada Salazar, Goñe Araccata, Salazar Caballero |
+| **Sprint Review Summary** | Se identificó que el backend requería nuevas capacidades para soportar análisis de datos y endpoints más robustos. Se decidió priorizar el módulo histórico y la estandarización de los servicios. |
+
+#### Resumen de la Retrospectiva del Sprint
+
+| Categoría | Acciones |
+| :--- | :--- |
+| **Start** | Desarrollar el módulo de consumo histórico desde backend (entidades, repositorios, servicios y endpoints). Implementar middleware de validación y estandarización de respuestas. Documentar todos los endpoints creados en Swagger. |
+| **Stop** | Avanzar funcionalidades sin pruebas unitarias mínimas. Realizar integraciones sin revisar dependencias internas de dominio. |
+| **Continue** | Mantener sesiones breves de daily para detectar bloqueos. Continuar con la revisión cruzada de código antes del merge. Mantener prácticas de GitFlow y commits convencionales. |
+
+#### Meta del Sprint y Métricas
+
+| Métrica | Valor |
+| :--- | :--- |
+| **Sprint Goal** | Implement the backend for the historical consumption module and strengthen the Energix Manager service architecture through optimized endpoints, comprehensive documentation, centralized validations, and improved data flow management. The main objective is to have a robust, standardized, and functional backend ready for full integration with the frontend in subsequent sprints. |
+| **Sprint Velocity** | 4 |
+| **Sum of Story Points** | 31 |
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Documentation Leader (L) / Collaborator (C) | App Web Leader (L) / Collaborator (C) | BackEnd Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- |
+| Barba Estrada, Bryan Eduardo | br14nbe | C | C | C |
+| Cotrina Siclla, Sofia Alessandra | IamAndreek | C | C | C |
+| Encalada Salazar, Alexis | Alexiz248 | L | C | C |
+| Goñe Araccata, Esther Abigail | abigoe02 | C | L | L |
+| Salazar Caballero, Alvaro Fabrizzio | IDymian | C | C | C |
+
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+En este tercer sprint, nos enfocamos en la implementación completa del módulo de consumo histórico desde el backend, así como en optimizaciones clave para mejorar la estabilidad, consistencia y escalabilidad del API. Todas las tareas asignadas en el sprint están alineadas al objetivo principal: preparar un backend sólido, documentado y listo para integrarse con las funcionalidades del frontend.
+
+> 
+
+| User Story | Subtarea | Descripción | Criterio de aceptación | Estimación (horas) | Asignado a | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US01 | TS01 | Como developer, quiero implementar un endpoint que devuelva el consumo energético en tiempo real del usuario autenticado. | Escenario: Consulta exitosa - Given que el usuario está autenticado - When consulta su consumo actual - Then el sistema retorna el valor en kWh y soles. | 4 | Abigail Goñe | DO |
+| US02 | TS02 | Como developer, quiero implementar un endpoint que devuelva el historial de consumo por rango de fechas. | Escenario: Consulta por rango - Given que el usuario selecciona un rango de fechas - When envía la solicitud - Then el sistema retorna el consumo total y promedio. | 4 | Alvaro Salazar | DO |
+| US03 | TS03 | Como developer, quiero implementar un endpoint que devuelva el consumo agregado por electrodoméstico. | Escenario: Distribución por dispositivos - Given que el usuario tiene dispositivos registrados - When consulta su distribución de consumo - Then el sistema muestra el consumo agrupado por aparato. | 4 | Bryan Barba | DO |
+| US04 | TS04 | Como developer, quiero programar un job que genere y envíe por correo el resumen de consumo al final del día. | Escenario: Envío de correo automático - Given que el usuario activó las notificaciones - When finaliza el día - Then recibe un correo con su resumen de consumo. | 2 | Sofia Cotrina | DO |
+| US05 | TS05 | Como developer, quiero implementar un endpoint que compare el consumo entre dos meses distintos. | Escenario: Comparación exitosa - Given que existen datos de ambos meses - When el usuario solicita la comparación - Then el sistema muestra los consumos y la diferencia porcentual. | 2 | Alexis Encalada | DO |
+| US06 | TS06 | Como developer, quiero implementar un endpoint que genere una predicción de consumo futuro usando datos históricos. | Escenario: Predicción generada - Given que existen datos históricos - When el usuario consulta proyección - Then se devuelve estimación en kWh y soles. | 2 | Abigail Goñe | DO |
+| US07 | TS07 | Como developer, quiero implementar un endpoint que calcule el consumo promedio. | Escenario: Promedio calculado - Given que existen datos - When el usuario solicita su promedio - Then el sistema devuelve el valor calculado. | 2 | Alvaro Salazar | DO |
+| US08 | TS08 | Como developer, quiero implementar un servicio que detecte consumos inusuales y genere alertas. | Escenario: Detección de anomalía - Given que un dispositivo supera su promedio - When ocurre el evento - Then el sistema genera una alerta al usuario. | 3 | Bryan Barba | DO |
+| US09 | TS09 | Como developer, quiero implementar un endpoint que permita fijar y almacenar un límite de consumo mensual. | Escenario: Registro de límite - Given que el usuario define un valor - When guarda el límite - Then queda almacenado y disponible para validación. | 1 | Sofia Cotrina | DO |
+| | TS10 | Como developer, quiero implementar un proceso que monitoree el límite mensual y envíe notificaciones. | Escenario: Aviso de consumo - Given que el usuario fijó un límite - When se alcanza el 80% o se supera - Then el sistema envía alerta. | 1 | Alexis Encalada | DO |
+| US10 | TS11 | Como developer, quiero programar un servicio que detecte luces encendidas demasiado tiempo. | Escenario: Detección de luces - Given que un foco permanece encendido X horas - When el sistema lo detecta - Then envía notificación al usuario. | 2 | Abigail Goñe | DO |
+| US11 | TS12 | Como developer, quiero habilitar que el usuario configure qué alertas recibir. | Escenario: Personalización - Given que el usuario accede a configuración - When selecciona/deselecciona alertas - Then el sistema guarda las preferencias. | 2 | Alvaro Salazar | |
+| | TS13 | Como developer, quiero implementar un ícono en el panel que muestre alertas pendientes. | Escenario: Visualización - Given que el usuario recibe alertas - When entra al panel - Then el ícono refleja las notificaciones. | 2 | Bryan Barba | |
+
+---
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| AppWeb-Energix/Backend-Energix | origin/develop | dd1d47958961be846ae4200bdee8184e256501d7 | Merge pull request #10 from AppWeb-Energix/feature/release | 14/11/2025 |
+| | origin/develop | 5f7879363de4dcd7c7a66637646cfdfaa2e8be73 | Merge pull request #9 from AppWeb-Energix/feature/config-backend | 14/11/2025 |
+| | origin/develop | 4560589de14df6fa272b68bcb6bde8c0f7b13166 | Merge pull request #7 from AppWeb-Energix/feature/identity | 14/11/2025 |
+| | origin/develop | 75f97e624be43f3677716601c30d63f17939d1cd | Merge pull request #5 from AppWeb-Energix/feature/devices | 10/11/2025 |
+| | origin/develop | | | |
+| | origin/develop | | | |
+
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+A continuación, se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando el funcionamiento de los endpoints implementados en el backend. Las capturas reflejan las pruebas realizadas mediante herramientas como Postman, Swagger UI y la respuesta directa del servidor, verificando que los módulos desarrollados funcionan correctamente.
+
+> 
+>
+> **url:** http://localhost:5045/swagger/index.html
+
+---
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Path | Descripción |
+| :--- | :--- | :--- |
+| **POST** | `/api/v1/authentication/sign-in` | Permite a un usuario iniciar sesión y recibir un token JWT válido. |
+| **POST** | `/api/v1/authentication/sign-up` | Registra a un nuevo usuario en el sistema con validaciones de datos. |
+| **GET** | `/api/v1/dbinfo/tables` | Obtiene información sobre las tablas registradas en la base de datos del sistema. |
+| **GET** | `/api/v1/Devices` | Retorna la lista completa de dispositivos registrados para el usuario. |
+| **POST** | `/api/v1/Devices` | Registra un nuevo dispositivo asociado a un usuario. |
+| **GET** | `/api/v1/Devices/{id}` | Obtiene los detalles del dispositivo especificado por su ID. |
+| **PATCH** | `/api/v1/Devices/{id}` | Actualiza los datos de un dispositivo existente. |
+| **DELETE** | `/api/v1/Devices/{id}` | Elimina un dispositivo registrado por su ID. |
+| **GET** | `/` | Endpint base del API. Verifica el estado general del servidor Energix. |
+| **GET** | `/api/v1/Personalization/{id}` | Obtiene las preferencias de personalización asociadas al usuario. |
+| **PATCH** | `/api/v1/Personalization/{id}` | Actualiza las preferencias de personalización del usuario. |
+| **GET** | `/api/v1/users/{id}` | Obtiene la información del usuario indicado por su ID. |
+| **GET** | `/api/v1/users/me` | Retorna la información del usuario actualmente autenticado. |
+| **GET** | `/api/v1/Zones` | Retorna todas las zonas asociadas a un usuario o propiedad. |
+| **POST** | `/api/v1/Zones` | Registra una nueva zona dentro del sistema. |
+| **GET** | `/api/v1/Zones/{id}` | Obtiene la información detallada de una zona específica. |
+| **PATCH** | `/api/v1/Zones/{id}` | Actualiza los datos de una zona registrada. |
+| **DELETE** | `/api/v1/Zones/{id}` | Elimina una zona mediante su ID. |
+
+---
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el despliegue del backend de Energix en un entorno de ejecución local para su validación y pruebas internas. El equipo utilizó el repositorio oficial del proyecto y ejecutó el servidor en modo desarrollo y producción local para verificar el funcionamiento de los endpoints implementados.
+
+A continuación, se detallan las evidencias del proceso de ejecución y despliegue del backend:
+
+* Primero se realizaron ajustes en el archivo `Dockerfile` ubicado en la raíz del proyecto para asegurar que el proceso de construcción y despliegue del backend utilice correctamente el archivo de proyecto principal `Energix.API.csproj`.
+* Además, se revisaron y configuraron los archivos de entorno (`appsettings.json`, `appsettings.Development.json`, `appsettings.Production.json`) para definir las cadenas de conexión y parámetros de autenticación JWT.
+* También se verificó la configuración de los servicios en `docker-compose.yml` para garantizar la correcta comunicación entre la API y la base de datos MySQL.
+* Todos estos cambios se aplicaron en la rama `feature/release` y se subieron al repositorio remoto para su despliegue automático en Render.
+
+**Link del despliegue en render:** [Insertar aquí el link del despliegue en Render]
+
+---
+
+### 5.2.3.8. Team Collaboration Insights During Sprint
+
+Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las tareas asignadas en el backend, manteniendo comunicación constante y aplicando prácticas colaborativas que permitieron avanzar con eficiencia.
+
+**Link del repositorio:** [https://github.com/AppWeb-Energix/Backend-Energix](https://github.com/AppWeb-Energix/Backend-Energix)
+
 
 ## **Conclusiones**
 
