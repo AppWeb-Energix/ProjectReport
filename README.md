@@ -1868,6 +1868,119 @@ Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las 
 
 **Link del repositorio:** [https://github.com/AppWeb-Energix/Backend-Energix](https://github.com/AppWeb-Energix/Backend-Energix)
 
+## 5.3. Validation Interviews (Entrevistas de Validación)
+
+---
+
+### 5.3.1. Diseño de Entrevistas
+
+Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos segmentos objetivos de **Energix**.
+
+#### User Flows Clave
+
+| Segmento | Flujos de Usuario (User Stories) |
+| :--- | :--- |
+| **1: Estudiantes que alquilan vivienda** | * **Cálculo de gasto:** Ver gasto total y dividido entre ocupantes. |
+| | * **Alertas de olvido:** Recibir alertas cuando un dispositivo queda encendido innecesariamente. |
+| | * **Simplicidad:** Tener una vista simple y clara del consumo sin tecnicismos. |
+| | * **Identificación de alto consumo:** Identificar qué dispositivos consumen más para evitar gastos excesivos. |
+| **2: Jóvenes adultos responsables del pago de electricidad** | * **Comparación de consumo:** Comparar el consumo mes a mes para entender las variaciones del recibo. |
+| | * **Métricas en Soles:** Visualizar el consumo en soles, no solo en kilowatts. |
+| | * **Alertas inmediatas:** Recibir alertas si un dispositivo está consumiendo más de lo normal (ej. terma, AC). |
+| | * **Detalle por dispositivo:** Ver el consumo por dispositivo para identificar incrementos inesperados. |
+
+#### Cuestionario (Segmento Objetivo #2)
+
+**Perfil del entrevistado:** Jóvenes adultos responsables del pago de la electricidad.
+
+| Etapa | Pregunta |
+| :--- | :--- |
+| **Inicio** | * ¿Cuál es tu nombre y cómo manejas actualmente el pago de electricidad en tu hogar? |
+| | * ¿Revisas tu consumo eléctrico con frecuencia o solo cuando llega la factura? |
+| **Landing Page** | * ¿Qué es lo primero que te transmite esta página? |
+| | * ¿Entiendes qué hace Energix solo con ver la landing? |
+| | * ¿Qué tan claro te parece lo que ofrecemos aquí? |
+| | * ¿El valor del plan te parece razonable? |
+| **Demostración App**| * ¿Qué tan fácil te parece el proceso de registrarte? |
+| | * ¿Hubo algún punto donde hayas dudado qué hacer? |
+| | * ¿Hay algo que no entiendas a primera vista? |
+| | * ¿Te parece fácil agregar un dispositivo? |
+| **Cierre** | * Si esta plataforma estuviera disponible hoy, ¿la usarías? |
+| | * ¿Qué tendríamos que mejorar para que definitivamente la uses cada semana? |
+
+---
+
+### 5.3.2. Registro de Entrevistas
+
+**Segmento objetivo #2:** Jóvenes adultos responsables del pago de la electricidad.
+
+| Entrevistado | Edad | Link de Entrevista |
+| :--- | :--- | :--- |
+| **Néstor Rojas** | 22 | [Validation Interview - Segmento 2](https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318049%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20Interview%20%2D%20Segmento%202%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E03c28430%2De8c1%2D4e64%2D919b%2Dda955151fb51) |
+
+#### Resumen de Feedback (Néstor Rojas)
+
+* **Hábito actual:** Revisa el consumo solo cuando llega la factura, pero desea una herramienta en tiempo real para ahorrar.
+* **Percepción de Landing Page:** Transmite **modernidad y claridad**. Entiende rápidamente el propósito (monitorear consumo). El precio le parece **razonable**.
+* **Percepción de la App:** El registro, navegación y la función de agregar dispositivos le parecieron **simples e intuitivos**.
+* **Mejora Principal:** Sugiere **ampliar la cantidad de dispositivos** que pueden vincularse en el plan estudiantil, ya que usa más de dos equipos (celular, tablet, etc.).
+* **Conclusión:** Usaría Energix si estuviera disponible, especialmente si se incrementa el límite de dispositivos en el plan.
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+| Auditor | Cliente(s) | Sitio a Evaluar |
+| :--- | :--- | :--- |
+| ENERGIX | Néstor Alonso Rojas Tello | Energix |
+
+**Tareas Evaluadas:** Visualización de Landing Page, Comprensión del valor ofrecido, Proceso de registro, Primera navegación, Comprensión de métricas, Vinculación de dispositivos, Percepción general.
+
+#### Escala de Severidad (Nielsen)
+
+| Nivel | Descripción |
+| :--- | :--- |
+| **1** | Problema superficial: fácilmente superado, no requiere arreglo urgente. |
+| **2** | Problema menor: ocurre frecuentemente o es ligeramente difícil de superar. Se recomienda atenderlo en el siguiente release. |
+| **3** | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Se debe corregir con prioridad alta. |
+| **4** | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento. |
+
+#### Tabla Resumen de Problemas
+
+| # | Problema | Severidad | Heurística/Principio Violado |
+| :--- | :--- | :--- | :--- |
+| **1** | La sección de “promedios” puede generar ligera confusión inicial sobre su cálculo o lo que representan. | 1 | Correspondencia entre el sistema y el mundo real. |
+| **2** | El plan estudiantil permite vincular solo dos dispositivos, lo que es limitado para estudiantes que usan múltiples equipos. | 2 | Flexibilidad y eficiencia de uso / Conocer al usuario. |
+
+---
+
+### Detalle de Problemas Encontrados
+
+#### PROBLEMA #1: Confusión en la métrica de "Promedios"
+
+| Aspecto | Detalle |
+| :--- | :--- |
+| **Severidad** | 1 (Problema superficial) |
+| **Heurística Violada** | Correspondencia entre el sistema y el mundo real. |
+| **Problema** | La sección de "promedios" dentro de la aplicación puede generar una ligera confusión en usuarios nuevos, ya que no queda totalmente claro cómo se calcula este valor o qué representa. No impide la navegación, pero afecta la comprensión. |
+| **Recomendación** | Ampliar la información contextual (e.g., tooltips, descripciones breves) sobre el cálculo del promedio para que el usuario pueda tomar decisiones informadas. |
+
+> 
+
+#### PROBLEMA #2: Límite de dispositivos en el Plan Estudiantil
+
+| Aspecto | Detalle |
+| :--- | :--- |
+| **Severidad** | 2 (Problema menor) |
+| **Heurística Violada** | Flexibilidad y eficiencia de uso / Conocer al usuario. |
+| **Problema** | El límite de dos dispositivos en el plan estudiantil es insuficiente para el segmento, ya que los estudiantes suelen usar múltiples equipos (celular, tablet, Kindle), lo que limita la utilidad percibida de la plataforma. |
+| **Recomendación** | Aumentar el número permitido de dispositivos en el plan estudiantil o brindar mayor flexibilidad, alineándose mejor con el comportamiento típico de este segmento de usuarios. |
+
+> 
+
+---
+
+¿Te gustaría que resuma o me centre en las recomendaciones clave para el Sprint 4 basadas en estas entrevistas?
 
 ## **Conclusiones**
 
