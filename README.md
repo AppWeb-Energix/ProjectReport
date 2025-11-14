@@ -71,6 +71,12 @@ TP: Para la elaboración del informe del TP1, seguimos una metodología similar 
   <img src="images/report_collaborationtp.jpg" alt="PB" width="1000">
 </p>
 
+TB2: Para la elaboración del informe del TB2, seguimos una metodología similar a la empleada en la entrega anterior. Iniciamos el trabajo en un documento colaborativo de Google, lo que nos permitió registrar y monitorear los avances correspondientes al Sprint 3. Posteriormente, el contenido desarrollado fue migrado al formato Markdown y subido al repositorio del project report en GitHub mediante commits. A continuación, se presenta una imagen con los insights de los commits realizados por cada integrante dentro de dicho repositorio.
+
+<p align="center">
+  <img src="images/report_collaborationtb2.jpg" alt="PB" width="1000">
+</p>
+
 # **Tabla de Contenidos**
 
 <a href="#registro-de-versiones-del-informe">Registro de Versiones del Informe</a><br>
