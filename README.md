@@ -1980,8 +1980,6 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 ---
 
-¿Te gustaría que resuma o me centre en las recomendaciones clave para el Sprint 4 basadas en estas entrevistas?
-
 ## **Conclusiones**
 
 Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optimizar su consumo de energía eléctrica, promoviendo el ahorro económico y la conciencia ambiental. El trabajo en equipo permitió fortalecer la colaboración, la planificación y el liderazgo compartido, consolidando una propuesta innovadora orientada al bienestar de los usuarios. En conjunto, Energix Manager refleja el compromiso por aprovechar la tecnología para mejorar la calidad de vida, impulsando un uso más eficiente y responsable de la energía.  
