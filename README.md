@@ -50,7 +50,11 @@
   </tr>
 </table>
 
+<br><br>
+
 <h3 align="center"><strong>Periodo 2025-02</strong></h3>
+
+<br>
 
 <hr>
 
@@ -213,7 +217,7 @@ TF:
     <a href="#513-source-code-style-guide-conventions">5.1.3. Source Code Style Guide & Conventions</a><br>
     <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration</a><br>
   </ul>
-  <a href="#52-landing-page-services-applications-implementation">5.2. Landing Page, Services & Applications Implementation</a><br>
+  <a href="#52-landing-page-services-applications-implementation">5.2. Landing Page, Services & Applications Implementation</a>
   <ul>
     <a href="#521-sprint-1">5.2.1. Sprint 1</a><br>
     <ul>
@@ -268,7 +272,7 @@ TF:
   </ul>
   <a href="#54-video-about-the-product">5.3. Video About The Product</a><br>
 
-<br><br>
+<br>
 
 <a href="#conclusiones">Conclusiones</a>
 
@@ -520,6 +524,7 @@ Este segmento es nuestro público objetivo principal. Son los adultos o miembros
 * **Edad:** 35 a 60 años.
 * **Nivel Socioeconómico:** C y B.
 * **Composición Familiar:** Familias consolidadas, con o sin hijos en casa.
+<br>
 
 **Hábitos y Motivación:** Pasan la mayor parte del día en el hogar y son los principales gestores del consumo de electrodomésticos. Buscan soluciones prácticas y sencillas para controlar y reducir los costos de la factura de luz.
 
