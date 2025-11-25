@@ -62,6 +62,8 @@
 | TP         | 10/08/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la segunda entrega del informe de nuestro proyecto, se realizó la documentación correspondiente al Sprint 2 y se realizó actualizaciones en las conclusiones y anexos del informe de reporte. Por otro lado, se realizó las respectivas mejoras y se desarrolló la primera versión del Fronted Web Applications. |
 | TF         |    | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro |  |
 
+<hr>
+
 # **Project Report Collaboration Insights**
 
 Se elaboró el informe del proyecto en un repositorio llamado “ProjectReport” en la organización “AppWeb-Energix”.
@@ -91,6 +93,8 @@ TF:
 <p align="center">
   <img src="images/report_collaborationtf.jpg" alt="PB" width="1000">
 </p>
+
+<hr>
 
 # **Tabla de Contenidos**
 
@@ -200,9 +204,8 @@ TF:
   </ul>
 </ul>
 
-<a href="#capítulo-v-product-implementation-validation-deployment">Capítulo V: Product Implementation, Validation & Deployment</a>
+<a href="#capítulo-v-product-implementation-validation-deployment">Capítulo V: Product Implementation, Validation & Deployment</a><br><br>
 <ul>
-  
   <a href="#51-software-configuration-management">5.1. Software Configuration Management</a><br>
   <ul>
     <a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a><br>
@@ -265,6 +268,7 @@ TF:
   </ul>
   <a href="#54-video-about-the-product">5.3. Video About The Product</a><br>
 
+<br><br>
 
 <a href="#conclusiones">Conclusiones</a>
 
@@ -291,7 +295,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Barba Estrada, Bryan Eduardo**<br>**TB1**<br>Lideró la estructuración de la *Domain-Driven Software Architecture*, promoviendo la participación activa y equitativa de todos los integrantes.<br><br>**TP**<br>Lideró la implementación del módulo de autenticación de usuarios (*Feature/auth-login*), integrando la lógica de inicio de sesión.<br><br>**Cotrina Siclla, Sofía Alessandra**<br>**TB1**<br>Elaboró artefactos clave como el *Impact Mapping*, organizando reuniones para definir objetivos de arquitectura.<br><br>**TP**<br>Encabezó el desarrollo de la sección de ajustes del usuario (*Feature/settings*), coordinando reuniones para definir su estructura y promoviendo la colaboración entre diseño y desarrollo.<br><br>**Encalada Salazar, Alexis**<br>**TB1**<br>Implementó la *Landing Page* inicial, coordinando la asignación de tareas específicas para el Sprint 1 y brindando apoyo a sus compañeros.<br><br>**TP**<br>Lideró la implementación del *Dashboard principal* (*Feature/dashboard*), integrando gráficos de consumo energético con datos del backend y apoyando en la configuración visual del panel.<br><br>**Goñe Araccata, Esther Abigail**<br>**TB1**<br>Organizó y distribuyó las tareas del diseño de la *Landing Page* y la *Web Application*, logrando la colaboración entre roles de diseño y desarrollo.<br><br>**TP**<br>Coordinó el diseño y la estructura de las vistas del módulo de autenticación, asegurando coherencia visual.<br><br>**Salazar Caballero, Fabrizzio Álvaro**<br>**TB1**<br>Coordinó entrevistas con usuarios, realizó análisis de escenarios y elaboró documentación de gestión de configuración.<br><br>**TP**<br>Desarrolló el módulo de suscripciones y recompensas (*Feature/subscriptions-and-rewards*), liderando la integración de los beneficios y el sistema de planes de usuario dentro del flujo general de la aplicación. | **TB1:**<br>**Objetivo:** Promover el liderazgo distribuido entre los miembros para organizar y ejecutar las primeras actividades del proyecto, incluyendo la definición de la arquitectura, el diseño de la *Landing Page*, la elaboración de artefactos de análisis y la documentación inicial.<br><br>**Conclusión:** El equipo demostró liderazgo compartido en la organización y ejecución de las actividades iniciales. Cada miembro asumió responsabilidades específicas, lo que permitió establecer una base sólida para el proyecto y garantizar que los primeros entregables fueran completados de manera efectiva y colaborativa.<br><br>**TP:**<br>**Objetivo específico:** Fortalecer el liderazgo técnico compartido en el equipo, orientando la implementación de funcionalidades clave del sistema como autenticación, configuración, panel de control y recompensas. Se buscó coordinar de forma efectiva las tareas y decisiones técnicas, garantizando la integración de cada módulo dentro de la arquitectura general.<br><br>**Conclusión:** Durante el desarrollo del Sprint 2, el liderazgo se ejerció de manera equitativa y colaborativa. Cada integrante asumió la responsabilidad de un módulo específico (autenticación, ajustes, dashboard o recompensas), demostrando autonomía y compromiso en la coordinación de su implementación. |
 | **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Barba Estrada, Bryan Eduardo**<br>**TB1**<br>Promovió la participación equitativa en las reuniones iniciales, facilitando la integración de ideas en la definición de la arquitectura.<br><br>**TP**<br>Fomentó un entorno colaborativo en la implementación del *login*, orientando a sus compañeros sobre buenas prácticas de estructura de código y revisión de ramas en GitHub.<br><br>**Cotrina Siclla, Sofía Alessandra**<br>**TB1**<br>Coordinó sesiones de trabajo colaborativo para elaborar los artefactos de análisis, garantizando la diversidad de aportes.<br><br>**TP**<br>Promovió la participación equitativa en la definición de configuraciones del sistema, recopilando sugerencias de usabilidad y adaptándolas al diseño del módulo *Settings*.<br><br>**Encalada Salazar, Alexis**<br>**TB1**<br>Apoyó constantemente a sus compañeros en la implementación técnica, brindando acompañamiento en la *Landing Page*.<br><br>**TP**<br>Brindó soporte constante en la integración de componentes y conexiones con la API, garantizando la coherencia técnica entre módulos.<br><br>**Goñe Araccata, Esther Abigail**<br>**TB1**<br>Estableció dinámicas inclusivas en el diseño, integrando aportes técnicos y creativos para fortalecer la cohesión grupal.<br><br>**TP**<br>Estableció dinámicas de revisión visual, integrando aportes del equipo de frontend para mantener consistencia en los estilos y estructuras de la interfaz.<br><br>**Salazar Caballero, Fabrizzio Álvaro**<br>**TB1**<br>Organizó el análisis de escenarios de usuario con la participación de todos, recogiendo diversas perspectivas para enriquecer la documentación.<br><br>**TP**<br>Coordinó pruebas funcionales conjuntas del módulo de recompensas, promoviendo la colaboración para validar los resultados e incorporar mejoras sugeridas por el equipo. | **TB1:**<br>**Objetivo:** Fomentar un entorno de trabajo inclusivo y participativo en el que cada miembro pueda aportar sus ideas y habilidades.<br><br>**Conclusión:** El equipo consolidó un entorno de colaboración inclusiva, en el que cada integrante tuvo la oportunidad de contribuir según sus fortalezas. La definición de objetivos permitió cumplir satisfactoriamente con las metas del primer entregable, evidenciando la capacidad del grupo para trabajar de manera coordinada.<br><br>**TP:**<br>**Objetivo:** Guiar técnicamente la planificación y desarrollo de los distintos módulos del sistema, fomentando un entorno colaborativo e inclusivo donde cada integrante participe activamente en la definición de metas, la distribución de tareas y la integración de funcionalidades para fortalecer el trabajo en equipo y alcanzar los objetivos del sprint.<br><br>**Conclusión:** Durante el Sprint 2, el equipo mantuvo un entorno de trabajo colaborativo basado en la comunicación constante y la integración de ideas. Cada miembro participó activamente en la planificación y desarrollo de su módulo, compartiendo avances y brindando apoyo técnico a sus compañeros. Esta dinámica fortaleció la cohesión grupal y permitió cumplir los objetivos del sprint de manera organizada y efectiva, garantizando un ambiente inclusivo donde todos aportaron según sus habilidades. |
 
-
+<hr>
 
 # **Capítulo I: Introducción** 
 
