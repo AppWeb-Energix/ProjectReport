@@ -16,8 +16,6 @@
 <h4 align="center"><strong>Startup: Energix</strong></h4>
 <h4 align="center"><strong>Producto: Energix Manager</strong></h4>
 
-<p align="center"><strong>Integrantes del equipo:</strong></p>
-
 <p align="center"><strong>Team members:</strong></p>
 
 <table align="center" style="width: 100%; border-collapse: collapse; margin: 0 auto;">
@@ -54,7 +52,7 @@
 
 <h3 align="center"><strong>Periodo 2025-02</strong></h3>
 
-<hr><hr>
+<hr>
 
 # **Registro de Versiones del Informe**
 
@@ -201,8 +199,10 @@ TF:
     <a href="#481-database-diagrams">4.8.1. Database Diagrams.</a><br>
   </ul>
 </ul>
+
 <a href="#capítulo-v-product-implementation-validation-deployment">Capítulo V: Product Implementation, Validation & Deployment</a>
 <ul>
+  
   <a href="#51-software-configuration-management">5.1. Software Configuration Management</a><br>
   <ul>
     <a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a><br>
@@ -210,7 +210,6 @@ TF:
     <a href="#513-source-code-style-guide-conventions">5.1.3. Source Code Style Guide & Conventions</a><br>
     <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration</a><br>
   </ul>
-
   <a href="#52-landing-page-services-applications-implementation">5.2. Landing Page, Services & Applications Implementation</a><br>
   <ul>
     <a href="#521-sprint-1">5.2.1. Sprint 1</a><br>
@@ -265,6 +264,7 @@ TF:
     <a href="#533-análisis-de-entrevistas">5.3.3. Análisis de entrevistas.</a><br>
   </ul>
   <a href="#54-video-about-the-product">5.3. Video About The Product</a><br>
+
 
 <a href="#conclusiones">Conclusiones</a>
 
