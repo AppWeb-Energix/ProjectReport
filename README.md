@@ -52,7 +52,7 @@
 
 <br><br>
 
-<h3 align="center"><strong>Periodo 2025-02</strong></h3>
+<h3 align="center"><strong>Periodo 202502</strong></h3>
 
 <br>
 
