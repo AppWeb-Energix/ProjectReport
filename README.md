@@ -991,7 +991,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 ## **4.3. Landing Page UI Design**
 ### **4.3.1. Landing Page Wireframe**
 
-Diseño en Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+> Enlace Diseño en Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 
 <p align="center">
@@ -1000,7 +1000,7 @@ Diseño en Figma Landing Page Wireframe - Energix: https://www.figma.com/design/
 
 ### **4.3.2. Landing Page Mock-up**
 
-Diseño en Figma Landing Page Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+> Enlace Diseño en Figma Landing Page Mock-up - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 <p align="center">
   <img src="images/nuevalandingpage-energix-mockup.png" alt="PB" width="1000">
@@ -1009,7 +1009,7 @@ Diseño en Figma Landing Page Mockup - Energix: https://www.figma.com/design/5OJ
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
 
-Diseño en Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+> Enlace Diseño en Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 **Inicio Sesión**
 <p align="center">
@@ -1133,7 +1133,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### **4.4.2. Web Applications Mock-ups**
 
-Diseño en Figma Web Applications Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+> Enlace Diseño en Figma Web Application Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 **Inicio Sesión**
 <p align="center">
@@ -1223,14 +1223,14 @@ Diseño en Figma Web Applications Mock-ups - Energix: https://www.figma.com/desi
 ## **4.5. Web Applications Prototyping**
 Para la elaboración del prototype utilizamos la herramienta Figma, en la cual desarrollamos los mockups y añadimos las interacciones necesarias directamente dentro del mismo programa.
 
-Diseño en Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+> Enlace Diseño en Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 
 <p align="center">
   <img src="images/prototype-energix.png" alt="PB" width="1000">
 </p>
 
-Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+> Enlace Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 ## **4.6 Domain-Driven Software Architecture**
 ### **4.6.1 Design-Level EventStorming**
@@ -1289,7 +1289,6 @@ lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en 
 **Software Testing**
 - **Swagger / OpenAPI Specification**: https://swagger.io/specification/ Utilizado para documentar y probar las APIs RESTful desarrolladas con Spring Boot, facilitando la creación de documentación interactiva.
 - **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
-<br>
 
 ### **5.1.2 Source Code Management**
 La gestión del código fuente es una parte fundamental del desarrollo de cualquier proyecto de software, ya que permite rastrear cambios, revertir versiones y coordinar a varios desarrolladores trabajando simultáneamente. En ENERGIX, utilizaremos Git como sistema de control de versiones y GitHub como plataforma para alojar nuestros repositorios.
@@ -1464,7 +1463,7 @@ let availableSpaces = totalSpaces - bookedSpaces;
 **Límite de Longitud de Línea**
 El código no debe exceder las 80 columnas por línea. En caso de necesitar más espacio, se recomienda dividir la línea de código para mejorar la legibilidad.
 
-### ***5.1.4. Software Deployment Configuration***
+### **5.1.4. Software Deployment Configuration**
 En esta sección se detalla la configuración necesaria para el despliegue de la solución ENERGIX, incluyendo los pasos clave para lograr la publicación satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando GitHub Pages para visualizar cada commit del Landing Page.
 
 A continuación, se describen los pasos para realizar el despliegue de la Landing Page del proyecto PARKINGNOW:
@@ -1521,7 +1520,7 @@ A continuación mostraremos nuestro sprint planning. Se detallará lo que se aco
 
 En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. Para lograrlo, dividimos el trabajo en tareas específicas basadas en cada historia de usuario relacionada con la Landing Page, asignándolas a diferentes miembros del equipo. Además, utilizamos la herramienta “Trello” para organizar de manera más eficiente nuestro Backlog.
 
-**Figura** *sprint 1 de Energix*
+**Figura** *Sprint 1 de Energix*
 
 ![Tablero de Energix](/images/Trello_ProductBacklog.png)
 
@@ -1540,7 +1539,6 @@ En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. 
 | US32       | Conociendo al equipo               | T2             | Página equipo            | Contenido de miembros grid de fotos responsive accesibilidad          | 2                  | Sofia Cotrina   | Done                                         |
 | US33       | Video tutorial introductorio       | T3             | Producción y embed video | Guion corto grabación/edición 2-3 min export embed en web QA          | 3                  | Alexis Encalada | Done                                         |
 | US34       | Multilenguaje                      | T4             | Soporte i18n ES/EN       | Extraer textos integrar traducción inicial pruebas                    | 2                  | Abigail Goñe    | Done     
-
 
 #### **5.2.1.4 Development Evidence for Sprint Review**
 |**Repository**                                                  |**Branch**        |**Commit ID**                             |**Commit Message**                                  |**Commit Message Body**    |**Commited on (Date)**  |
@@ -1668,9 +1666,9 @@ Para lograrlo, dividimos el trabajo en tareas específicas basadas en cada histo
 
 Además, utilizamos la herramienta **Trello** para organizar de manera más eficiente nuestro **Backlog**.
 
-<img src="images/Trello_ProductBacklog_2.png" alt="Sprint 2 - Energix Trello Board" width="800">
+**Figura:** *Sprint 2 de Energix*
 
-**Figura:** Sprint 2 de Energix
+<img src="images/Trello_ProductBacklog_2.png" alt="Sprint 2 - Energix Trello Board" width="800">
 
 #### **5.2.2.4. Development Evidence for Sprint Review**
 
@@ -1698,9 +1696,7 @@ Durante este sprint, hemos logrado implementar **funcionalidades esenciales** pa
 
 Estas implementaciones representan un **avance significativo** en nuestro objetivo de crear una plataforma integral para la gestión inteligente de energía, permitiendo a los usuarios **gestionar eficientemente sus recursos, monitorear el consumo y optimizar el uso de dispositivos** en sus hogares y organizaciones.
 
-> Enlace del proyecto (FrontEnd) deploy - Energix: https://68e6f933d72446951ae973f4--frontend-energix.netlify.app/login
-
-> Enlace del proyecto (FrontEnd) deploy 2 - Energix: https://appweb-energix.github.io/Frontend-Energix/
+> Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
 
 #### Capturas de pantalla de las principales vistas
 
@@ -1717,10 +1713,9 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
 <img src="images/frontend-capture-4.png" alt="Frontend Capture 4 - Energix" width="800">
 <br>
 
-**URL de la web:** https://appweb-energix.github.io/Frontend-Energix/
+Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**:
 
-Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**:  
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EVFsMRCxAixAtYLDpoIkfAcBWlDRPccrbQBV9Sowpk9fvQ?e=k4hTJ6
+> Enlace Video Web Application - Energix: https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 #### 5.2.2.6. **Services Documentation Evidence for Sprint Review**
 
@@ -1759,9 +1754,7 @@ El archivo `db.json` contiene las siguientes **colecciones principales**:
 - **zones:** zonas de uso o habitaciones asociadas a los dispositivos.  
 - **alerts:** alertas generadas en función del consumo energético y configuración de los dispositivos.
 
-Enlace del proyecto (FrontEnd) deploy - Energix: https://68e6f933d72446951ae973f4--frontend-energix.netlify.app/login
-
-Enlace del proyecto (FrontEnd) deploy 2 - Energix: https://appweb-energix.github.io/Frontend-Energix/
+> Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
 
 #### **5.2.2.8. Team Collaboration Insights During Sprint**
 
@@ -1870,8 +1863,6 @@ A continuación, se presentan las evidencias de ejecución correspondientes al S
 | **PATCH** | `/api/v1/Zones/{id}` | Actualiza los datos de una zona registrada. |
 | **DELETE** | `/api/v1/Zones/{id}` | Elimina una zona mediante su ID. |
 
----
-
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
 Durante el Sprint 3 se realizó el despliegue del backend de Energix en un entorno de ejecución local para su validación y pruebas internas. El equipo utilizó el repositorio oficial del proyecto y ejecutó el servidor en modo desarrollo y producción local para verificar el funcionamiento de los endpoints implementados.
@@ -1883,15 +1874,33 @@ A continuación, se detallan las evidencias del proceso de ejecución y desplieg
 * También se verificó la configuración de los servicios en `docker-compose.yml` para garantizar la correcta comunicación entre la API y la base de datos MySQL.
 * Todos estos cambios se aplicaron en la rama `feature/release` y se subieron al repositorio remoto para su despliegue automático en Render.
 
-> Enlace del proyecto (BackEnd) API deploy - Energix: 
+> Enlace del proyecto (BackEnd) API deploy - Energix: https://backend-energix.onrender.com
 
 #### **5.2.3.8. Team Collaboration Insights During Sprint**
 
 Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las tareas asignadas en el backend, manteniendo comunicación constante y aplicando prácticas colaborativas que permitieron avanzar con eficiencia.
 
-> Link del repositorio: https://github.com/AppWeb-Energix/Backend-Energix
+> Enlace Repositorio BackEnd - Energix: https://github.com/AppWeb-Energix/Backend-Energix
 
-## 5.3. Validation Interviews (Entrevistas de Validación)
+### **5.2.4. Sprint 4**
+
+#### **5.2.4.1. Sprint Planning 4**
+
+#### **5.2.4.2. Aspect Leaders and Collaborators**
+
+#### **5.2.4.3. Sprint Backlog 4**
+
+#### **5.2.4.4. Development Evidence for Sprint Review**
+
+#### **5.2.4.5. Execution Evidence for Sprint Review**
+
+#### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+
+#### **5.2.4.7. Software Deployment Evidence for Sprint Review**
+
+#### **5.2.4.8. Team Collaboration Insights During Sprint**
+
+## 5.3. Validation Interviews
 
 ### **5.3.1. Diseño de Entrevistas**
 
@@ -1935,7 +1944,7 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 | Entrevistado | Edad | Link de Entrevista |
 | :--- | :--- | :--- |
-| **Néstor Rojas** | 22 | Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create |
+| **Néstor Rojas** | 22 | Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create |
 
 #### Resumen de Feedback (Néstor Rojas)
 
@@ -1989,13 +1998,17 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 | **Problema** | El límite de dos dispositivos en el plan estudiantil es insuficiente para el segmento, ya que los estudiantes suelen usar múltiples equipos (celular, tablet, Kindle), lo que limita la utilidad percibida de la plataforma. |
 | **Recomendación** | Aumentar el número permitido de dispositivos en el plan estudiantil o brindar mayor flexibilidad, alineándose mejor con el comportamiento típico de este segmento de usuarios. |
 
+## 5.4. Video About-The-Product
+
+> Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
 ## **Conclusiones**
 
 Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optimizar su consumo de energía eléctrica, promoviendo el ahorro económico y la conciencia ambiental. El trabajo en equipo permitió fortalecer la colaboración, la planificación y el liderazgo compartido, consolidando una propuesta innovadora orientada al bienestar de los usuarios. En conjunto, Energix Manager refleja el compromiso por aprovechar la tecnología para mejorar la calidad de vida, impulsando un uso más eficiente y responsable de la energía.  
 
 ## **Bibliografía**
 
-- Ministerio de Energía y Minas del Perú. (2022). *Boletín estadístico de electricidad 2022*. Dirección General de Electricidad. https://www.gob.pe/minem](https://www.gob.pe/minem
+- Ministerio de Energía y Minas del Perú. (2022). *Boletín estadístico de electricidad 2022*. Dirección General de Electricidad. https://www.gob.pe/minem
 
 - Ministerio de Energía y Minas del Perú. (2022). *Guía de orientación del uso eficiente de la energía y de diagnóstico energético sector residencial*. Ministerio de Energía y Minas. https://eficienciaenergetica.minem.gob.pe/Content/fileman/Uploads/Documents/Gu%C3%ADas%202022/GUIA%20SECTOR%20RESIDENCIAL_VF3.pdf
 
@@ -2005,6 +2018,7 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 ## **Anexos**
 
+<<<<<<< HEAD
 - [Diseño en Figma: Landing Page Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
 - [Diseño en Figma: Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
 - [Diseño en Figma: Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
@@ -2022,3 +2036,63 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 - [Video Entrevista 2 - Segmento 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321941_upc_edu_pe/EZiC85f1k8NGl8fDYIqq-q8BC6G0R_u9hteJ2wByHdrurA?e=o5jxvM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - [Entrevista de Validación - Segmento 2]([https://upcedupe-](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/IQCVGe73YA5-SJFbPH-YnlL5AXnziWXFvuoBSHngB4pUrD4?e=JK7lUP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 - [About the Product]([https://upcedupe-m](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/IQAu6dnWit7_S7YXAdl_Ej9NAd9hVb3DOc0bHwRNHnEPtvg?e=tpeIGx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+=======
+- Enlace Repositorio Project Report - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
+
+- Enlace Repositorio Landing Page - Energix: https://github.com/AppWeb-Energix/Landing-Page
+
+- Enlace Repositorio FrontEnd - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
+
+- Enlace Repositorio BackEnd - Energix: https://github.com/AppWeb-Energix/Backend-Energix
+
+- Enlace Repositorio Trabajo Responsabilidad Social - Energix: https://github.com/AppWeb-Energix/srca-app-web
+
+- Enlace de Documentación Swagger - Energix: https://backend-energix.onrender.com/swagger/index.html
+
+- Enlace del proyecto (BackEnd) API deploy - Energix: https://backend-energix.onrender.com
+
+- Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
+
+- Enlace Diseño en Figma Landing Page Mock-up - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño en Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño en Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño en Figma Web Application Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño en Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&
+
+- Enlace Video Web Application - Energix: https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video About The Team - Sprint 1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=aa9c3b73-7697-4b1c-a7fe-a2078e1740b6&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video About The Team - Sprint 2 - Energix:
+
+- Enlace Video About The Team - Sprint 3 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=4b518f41-e1ee-4478-9c6b-a38375b795a6&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video About The Team - Sprint 4 - Energix:
+
+
+- Enlace Video de Exposición TB1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=20a599eb-2ff5-4ef4-9223-c6ab96a977d5&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video de Exposición TP - Energix:
+
+- Enlace Video de Exposición TB2 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f01210be-d21c-4db9-8f37-1d8855e9de9a&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video de Exposición TF - Energix:
+
+- Enlace Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Entrevista 1 - Segmento 1: 
+
+- Enlace Video Entrevista 2 - Segmento 1: 
+
+- Enlace Video Entrevista 1 - Segmento 2: 
+
+- Enlace Video Entrevista 2 - Segmento 2:
+
+- Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+>>>>>>> dc7f88b (docs: update readme content)
