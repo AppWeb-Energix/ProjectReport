@@ -430,13 +430,14 @@ En esta parte se llevará a cabo el proceso de Lean UX, el cual incluye la defin
 * Familias urbanas en el Perú.
 * Adultos o jóvenes de 20 a 45 años, con educación media o superior, que gestionan las finanzas del hogar.
 * Personas preocupadas por el ahorro económico y la sostenibilidad.
-  
+
+
 **¿Dónde encaja nuestro servicio en su trabajo o vida?**
 
 * En la gestión de sus gastos mensuales.
 * En la toma de decisiones sobre el uso de electrodomésticos.
 * En la rutina de monitoreo del hogar.
-  
+
 **¿Qué problemas tiene nuestro producto y cómo se puede resolver?**
 
 Problema de Integración: La conexión a los sistemas de facturación de empresas eléctricas.
@@ -464,6 +465,7 @@ claras para hacer el ahorro tangible y gratificante.
 * Alertas y notificaciones personalizables sobre consumos elevados.
 * Sugerencias de ahorro y análisis predictivo.
 * Escalabilidad para añadir nuevas funcionalidades y electrodomésticos.
+<br>
 
 **¿Cómo debe verse nuestro producto y cómo comportarse?**
 
@@ -477,6 +479,7 @@ Para los usuarios:
 * Mayor control y visibilidad sobre su consumo energético.
 * Menos estrés y frustración al entender por qué sus recibos son altos.
 * Adopción de hábitos de consumo más eficientes y sostenibles.
+<br>
 
 **Features**
 
@@ -2018,25 +2021,6 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 ## **Anexos**
 
-<<<<<<< HEAD
-- [Diseño en Figma: Landing Page Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
-- [Diseño en Figma: Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
-- [Diseño en Figma: Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
-- [Diseño en Figma: Web Application Mockup - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
-- [Diseño en Figma: Web Application Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&](https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1)  
-- [Link Presentación Canva - Energix: https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGzPbtktFA/rWxK99v1u15qz5hZDSu4Mg/edit?utm_content=DAGzPbtktFA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- Video Energix-Web Application: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EVFsMRCxAixAtYLDpoIkfAcBWlDRPccrbQBV9Sowpk9fvQ?e=k4hTJ6
-- [Product Backlog Trello - Energix: https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog](https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog)
-- [Video About the Team - Energix](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EXM7nKqXdhxLp_6iB44XQLYBB8OdF42uC1cEGUgiJGPbMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ouYaCj)
-- [Video de Exposición TB1 - Energix](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EeuZpSD1L_ROkiPGq5apd9UBVC0xGJ3x2QnicAJwW6zE4w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0S7xa9)
-- [Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/EWBf_RMhDAVAvHBHMHi80Y0B_oiI2S5d9GtbI-BDe0U7gQ?e=prQmAL)
-- [Video Entrevista 1 - Segmento 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321941_upc_edu_pe/EaV5RzlTludGoYRQ-GzsleQB2-eZ0qJ9rk_67Z3PJzAJXg?e=fAG7ON&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- [Video Entrevista 2 - Segmento 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321941_upc_edu_pe/EfmqM2p1eOBDmcNeIoqUs5YB2UlbNMQIWuasCxtlPYyurQ?e=mALfeW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- [Video Entrevista 1 - Segmento 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321941_upc_edu_pe/EZS9_HKr_7hJjwnreRvupxEBMh7h1NHNt41IbjJl5H7vqA?e=dKstEi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- [Video Entrevista 2 - Segmento 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321941_upc_edu_pe/EZiC85f1k8NGl8fDYIqq-q8BC6G0R_u9hteJ2wByHdrurA?e=o5jxvM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- [Entrevista de Validación - Segmento 2]([https://upcedupe-](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/IQCVGe73YA5-SJFbPH-YnlL5AXnziWXFvuoBSHngB4pUrD4?e=JK7lUP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
-- [About the Product]([https://upcedupe-m](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/IQAu6dnWit7_S7YXAdl_Ej9NAd9hVb3DOc0bHwRNHnEPtvg?e=tpeIGx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
-=======
 - Enlace Repositorio Project Report - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
 
 - Enlace Repositorio Landing Page - Energix: https://github.com/AppWeb-Energix/Landing-Page
@@ -2073,7 +2057,6 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video About The Team - Sprint 4 - Energix:
 
-
 - Enlace Video de Exposición TB1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=20a599eb-2ff5-4ef4-9223-c6ab96a977d5&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 - Enlace Video de Exposición TP - Energix:
@@ -2095,4 +2078,3 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 - Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 - Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
->>>>>>> dc7f88b (docs: update readme content)
