@@ -52,7 +52,7 @@
 
 <br><br>
 
-<h3 align="center"><strong>Periodo 202520</strong></h3>
+<h3 align="center"><strong>Periodo 2025-20</strong></h3>
 
 <br>
 
@@ -72,7 +72,7 @@
 
 Se elaboró el informe del proyecto en un repositorio llamado “ProjectReport” en la organización “AppWeb-Energix”.
 
-[Enlace del repositorio “ProjectReport”](https://github.com/AppWeb-Energix/ProjectReport)
+**Enlace del repositorio “ProjectReport”:** https://github.com/AppWeb-Energix/ProjectReport
 
 TB1: Para facilitar la elaboración colaborativa de este informe, el equipo comenzó trabajando en un documento compartido en Google. Posteriormente, el contenido se trasladó y organizó en un repositorio de GitHub, empleando el formato markdown para estructurar cada sección. A continuación, se presenta una imagen con los insights de los commits realizados por cada integrante dentro de dicho repositorio.
 
@@ -640,15 +640,15 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 | Número de registro | Datos del entrevistado | Captura |
 |--------------------|-------------------------|---------|
-| **1** | **Nombre:** Willy Guzman  <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración de la entrevista:** 4:28 minutos <br> **Link:** https://youtu.be/aIU7QD1wems?si=Q6-a7qwEVHUx9Qr8 <br> **Resumen:** El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | ![Captura 1](/images/Evi_Seg1_2.png) |
-| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración de la entrevista:** 3:10 minutos <br> **Link:** https://youtu.be/SaUrn95CV8E?si=zV5xGSbz7BuQLPQP <br> **Resumen:** La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | ![Captura 2](/images/Evi_Seg2_2.png) |
+| **1** | **Nombre:** Willy Guzman  <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración de la entrevista:** 4:28 minutos <br> **Enlace Video Entrevista - Segmento 1 - Willy Guzman:** https://youtu.be/aIU7QD1wems?si=Q6-a7qwEVHUx9Qr8 <br> **Resumen:** El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | ![Captura 1](/images/Evi_Seg1_2.png) |
+| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración de la entrevista:** 3:10 minutos <br> **Enlace Video Entrevista - Segmento 1 - Leimy Nuñez:** https://youtu.be/SaUrn95CV8E?si=zV5xGSbz7BuQLPQP <br> **Resumen:** La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | ![Captura 2](/images/Evi_Seg2_2.png) |
 
 ### Segmento 2: Estudiantes y Jovenes con Presupuesto Ajustado
 
 | Número de registro | Datos del entrevistado | Captura |
 |--------------------|-------------------------|---------|
-| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración de la entrevista:** 2:16 minutos <br> **Link:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 <br> **Resumen:** Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | ![Captura 3](/images/Evi_Seg1_1.png) |
-| **2** | **Nombre:** Nestor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración de la entrevista:** 3:07 minutos <br> **Link:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N <br> **Resumen:** Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | ![Captura 4](/images/Evi_Seg2_1.png) |
+| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración de la entrevista:** 2:16 minutos <br> **Enlace Video Entrevista - Segmento 2 - Braden Garcia:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 <br> **Resumen:** Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | ![Captura 3](/images/Evi_Seg1_1.png) |
+| **2** | **Nombre:** Nestor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración de la entrevista:** 3:07 minutos <br> **Enlace Video Entrevista - Segmento 2 - Nestor Rojas:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N <br> **Resumen:** Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | ![Captura 4](/images/Evi_Seg2_1.png) |
 
 ### **2.2.3. Análisis de entrevistas**
 
@@ -994,7 +994,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 ## **4.3. Landing Page UI Design**
 ### **4.3.1. Landing Page Wireframe**
 
-> Enlace Diseño en Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Landing Page Wireframe - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 
 <p align="center">
@@ -1003,7 +1003,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 ### **4.3.2. Landing Page Mock-up**
 
-> Enlace Diseño en Figma Landing Page Mock-up - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Landing Page Mock-up - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 <p align="center">
   <img src="images/nuevalandingpage-energix-mockup.png" alt="PB" width="1000">
@@ -1012,7 +1012,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
 
-> Enlace Diseño en Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Web Application Wireframes - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 **Inicio Sesión**
 <p align="center">
@@ -1136,7 +1136,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### **4.4.2. Web Applications Mock-ups**
 
-> Enlace Diseño en Figma Web Application Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Web Application Mock-ups - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 **Inicio Sesión**
 <p align="center">
@@ -1226,14 +1226,14 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 ## **4.5. Web Applications Prototyping**
 Para la elaboración del prototype utilizamos la herramienta Figma, en la cual desarrollamos los mockups y añadimos las interacciones necesarias directamente dentro del mismo programa.
 
-> Enlace Diseño en Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Prototype - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
 
 <p align="center">
   <img src="images/prototype-energix.png" alt="PB" width="1000">
 </p>
 
-> Enlace Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Enlace Video Web Application Prototype - Energix:** https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 ## **4.6 Domain-Driven Software Architecture**
 ### **4.6.1 Design-Level EventStorming**
@@ -1557,7 +1557,7 @@ En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. 
 
 En el sprint 1, se avanzó significativamente con la página de inicio. La versión actual permite a los usuarios explorar las secciones principales con información del producto y de la empresa, aunque todavía quedan algunas funciones por completar. A continuación se muestran algunas evidencias:
 
-> Enlace Landing Page Deploy Evidence - Energix: https://appweb-energix.github.io/Landing-Page/
+**Enlace Landing Page deploy - Energix:** https://appweb-energix.github.io/Landing-Page/
 
 <p align="center">
   <img src="images/landing_captura1.png" alt="UH" width="1000">
@@ -1583,7 +1583,7 @@ En el sprint 1, se avanzó significativamente con la página de inicio. La versi
   <img src="images/landing_captura6.png" alt="UH" width="1000">
 </p>
 
-> Enlace del Video De Ejecución de la Landing Page - Energix: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D
+**Enlace Video Ejecución Landing Page - Energix:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D
 
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
 
@@ -1654,7 +1654,7 @@ Se detallará lo que se acordó y revisó en la reunión.
 
 #### **5.2.2.2. Aspect Leaders and Collaborators**
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Landing Page Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **Frontend Web Application Leader (L) / Collaborator (C)** |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Fronted-Energix Leader (L) / Collaborator (C)** | **Fronted-Energix Leader (L) / Collaborator (C)** | **Fronted-Energix Leader (L) / Collaborator (C)** |
 |----------------------------------------|----------------------|-----------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
 | Barba Estrada, Bryan Eduardo | br14nbe | C | C | C |
 | Cotrina Siclla, Sofia Alessandra | IamAndreek | C | C | C |
@@ -1699,7 +1699,7 @@ Durante este sprint, hemos logrado implementar **funcionalidades esenciales** pa
 
 Estas implementaciones representan un **avance significativo** en nuestro objetivo de crear una plataforma integral para la gestión inteligente de energía, permitiendo a los usuarios **gestionar eficientemente sus recursos, monitorear el consumo y optimizar el uso de dispositivos** en sus hogares y organizaciones.
 
-> Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
+**Enlace del proyecto (FrontEnd) deploy - Energix:** https://frontend-energix.vercel.app/
 
 #### Capturas de pantalla de las principales vistas
 
@@ -1718,7 +1718,7 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
 
 Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**:
 
-> Enlace Video Web Application - Energix: https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Enlace Video Presentación FrontEnd - Energix:** https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 #### 5.2.2.6. **Services Documentation Evidence for Sprint Review**
 
@@ -1757,7 +1757,7 @@ El archivo `db.json` contiene las siguientes **colecciones principales**:
 - **zones:** zonas de uso o habitaciones asociadas a los dispositivos.  
 - **alerts:** alertas generadas en función del consumo energético y configuración de los dispositivos.
 
-> Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
+**Enlace del proyecto (FrontEnd) deploy - Energix:** https://frontend-energix.vercel.app/
 
 #### **5.2.2.8. Team Collaboration Insights During Sprint**
 
@@ -1841,7 +1841,7 @@ En este tercer sprint, nos enfocamos en la implementación completa del módulo 
 
 A continuación, se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando el funcionamiento de los endpoints implementados en el backend. Las capturas reflejan las pruebas realizadas mediante herramientas como Postman, Swagger UI y la respuesta directa del servidor, verificando que los módulos desarrollados funcionan correctamente.
 
-> Enlace de Documentación Swagger - Energix: http://localhost:5045/swagger/index.html
+**Enlace Documentación Swagger - Energix:** https://backend-energix.onrender.com/swagger/index.html
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
@@ -1877,13 +1877,13 @@ A continuación, se detallan las evidencias del proceso de ejecución y desplieg
 * También se verificó la configuración de los servicios en `docker-compose.yml` para garantizar la correcta comunicación entre la API y la base de datos MySQL.
 * Todos estos cambios se aplicaron en la rama `feature/release` y se subieron al repositorio remoto para su despliegue automático en Render.
 
-> Enlace del proyecto (BackEnd) API deploy - Energix: https://backend-energix.onrender.com
+**Enlace del proyecto (BackEnd) API deploy - Energix:** https://backend-energix.onrender.com
 
 #### **5.2.3.8. Team Collaboration Insights During Sprint**
 
 Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las tareas asignadas en el backend, manteniendo comunicación constante y aplicando prácticas colaborativas que permitieron avanzar con eficiencia.
 
-> Enlace Repositorio BackEnd - Energix: https://github.com/AppWeb-Energix/Backend-Energix
+**Enlace Repositorio BackEnd - Energix:** https://github.com/AppWeb-Energix/Backend-Energix
 
 ### **5.2.4. Sprint 4**
 
@@ -1945,9 +1945,9 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 **Segmento objetivo #2:** Jóvenes adultos responsables del pago de la electricidad.
 
-| Entrevistado | Edad | Link de Entrevista |
+| Entrevistado | Edad | Enlace Entrevista |
 | :--- | :--- | :--- |
-| **Néstor Rojas** | 22 | Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create |
+| **Néstor Rojas** | 22 | **Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas:** https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create |
 
 #### Resumen de Feedback (Néstor Rojas)
 
@@ -1985,6 +1985,8 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 #### PROBLEMA #1: Confusión en la métrica de "Promedios"
 
+<img src="images/problema1_heuristicas.jpg" alt="Problema 1 - Heurísticas - Energix" width="800">
+
 | Aspecto | Detalle |
 | :--- | :--- |
 | **Severidad** | 1 (Problema superficial) |
@@ -1993,6 +1995,8 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 | **Recomendación** | Ampliar la información contextual (e.g., tooltips, descripciones breves) sobre el cálculo del promedio para que el usuario pueda tomar decisiones informadas. |
 
 #### PROBLEMA #2: Límite de dispositivos en el Plan Estudiantil
+
+<img src="images/problema2_heuristicas.jpg" alt="Problema 2 - Heurísticas - Energix" width="800">
 
 | Aspecto | Detalle |
 | :--- | :--- |
@@ -2003,7 +2007,7 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 ## 5.4. Video About-The-Product
 
-> Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Enlace Video About The Product - Energix:** https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
 ## **Conclusiones**
 
@@ -2021,33 +2025,41 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 ## **Anexos**
 
-- Enlace Repositorio Project Report - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
+**Despliegues y Documentación**
 
-- Enlace Repositorio Landing Page - Energix: https://github.com/AppWeb-Energix/Landing-Page
-
-- Enlace Repositorio FrontEnd - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
-
-- Enlace Repositorio BackEnd - Energix: https://github.com/AppWeb-Energix/Backend-Energix
-
-- Enlace Repositorio Trabajo Responsabilidad Social - Energix: https://github.com/AppWeb-Energix/srca-app-web
-
-- Enlace de Documentación Swagger - Energix: https://backend-energix.onrender.com/swagger/index.html
+- Enlace Documentación Swagger - Energix: https://backend-energix.onrender.com/swagger/index.html
 
 - Enlace del proyecto (BackEnd) API deploy - Energix: https://backend-energix.onrender.com
 
 - Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
 
-- Enlace Diseño en Figma Landing Page Mock-up - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Landing Page deploy - Energix:** https://appweb-energix.github.io/Landing-Page/
 
-- Enlace Diseño en Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Repositorios GitHub**
 
-- Enlace Diseño en Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Repositorio BackEnd - Energix: https://github.com/AppWeb-Energix/Backend-Energix
 
-- Enlace Diseño en Figma Web Application Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Repositorio FrontEnd - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
 
-- Enlace Diseño en Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&
+- Enlace Repositorio Landing Page - Energix: https://github.com/AppWeb-Energix/Landing-Page
 
-- Enlace Video Web Application - Energix: https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Repositorio Project Report - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
+
+- Enlace Repositorio Trabajo Responsabilidad Social - Energix: https://github.com/AppWeb-Energix/srca-app-web
+
+**Videos Exposiciones**
+
+- Enlace Video Exposición TB1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=20a599eb-2ff5-4ef4-9223-c6ab96a977d5&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Exposición TP - Energix:
+
+- Enlace Video Exposición TB2 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f01210be-d21c-4db9-8f37-1d8855e9de9a&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Exposición TF - Energix:
+
+**Videos About The Team**
+
+- Enlace Video About The Team - Energix:
 
 - Enlace Video About The Team - Sprint 1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=aa9c3b73-7697-4b1c-a7fe-a2078e1740b6&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
@@ -2057,24 +2069,46 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video About The Team - Sprint 4 - Energix:
 
-- Enlace Video de Exposición TB1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=20a599eb-2ff5-4ef4-9223-c6ab96a977d5&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Video About The Product**
 
-- Enlace Video de Exposición TP - Energix:
+- Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video de Exposición TB2 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f01210be-d21c-4db9-8f37-1d8855e9de9a&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Videos Aplicación**
 
-- Enlace Video de Exposición TF - Energix:
+- Enlace Video Ejecución Landing Page - Energix: 
 
 - Enlace Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video Entrevista 1 - Segmento 1: 
+- Enlace Video Presentación FrontEnd - Energix: https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video Entrevista 2 - Segmento 1: 
+- Enlace Video Presentación BackEnd - Energix:
 
-- Enlace Video Entrevista 1 - Segmento 2: 
+**Diseño Figma**
 
-- Enlace Video Entrevista 2 - Segmento 2:
+- Enlace Diseño Figma Landing Page Mock-up - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño Figma Web Application Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+
+- Enlace Diseño Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&
+
+**Videos Entrevistas y Validaciones**
+
+- Enlace Video Entrevista - Segmento 1 - Leimy Nuñez: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=c93113a2-00a9-4a0a-9379-a42de373a3a9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Entrevista - Segmento 1 - Willy Guzman: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=187c2b4a-39da-42ea-842b-d91279ae34cb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Entrevista - Segmento 2 - Braden Garcia: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=e4d05e86-b3ac-405d-b951-526695ae58aa&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Entrevista - Segmento 2 - Nestor Rojas: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=534e0101-c2d6-425d-a69c-63f40550bd31&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+
+- Enlace Video Validación Entrevista - Segmento 1 - Willy Guzman:
+
+- Enlace Video Validación Entrevista - Segmento 1 - Leimy Nuñez:
+
+- Enlace Video Validación Entrevista - Segmento 2 - Braden Garcia:
 
 - Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
-
-- Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
