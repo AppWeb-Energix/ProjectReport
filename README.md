@@ -1,5 +1,3 @@
-<h1 align="center"><strong>Informe del Trabajo Final</strong></h1>
-<h3 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h1>
 
 <p align="center">
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Descripción de la imagen" style="width: 50%; height: auto;"></p>
@@ -7,20 +5,23 @@
 <h3 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h3>
 <h4 align="center"><strong>Facultad de Ingeniería</strong></h4>
 <h4 align="center"><strong>Carrera de Ingeniería de Software</strong></h4>
-
-<h4 align="center"><strong>Curso: Aplicaciones Web</strong></h4>
+<h4 align="center"><strong>Periodo 202520</strong></h4>
+<h4 align="center"><strong>Código del curso: A1ASI0729</strong></h4>
+<h4 align="center"><strong>Nombre del curso: Aplicaciones Web</strong></h4>
 <h4 align="center"><strong>NRC: 7470</strong></h4>
 
-<h4 align="center"><strong>Docente: Rafael Oswaldo Castro Veramendi</strong></h4>
+<h4 align="center"><strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi</strong></h4>
+<h4 align="center"><strong>Informe del trabajo final</strong></h4> 
 
-<h4 align="center"><strong>Startup: Energix</strong></h4>
-<h4 align="center"><strong>Producto: Energix Manager</strong></h4>
+
+<h4 align="center"><strong>Nombre del startup: Energix</strong></h4>
+<h4 align="center"><strong>Nombre del producto: Energix Manager</strong></h4>
 
 <p align="center"><strong>Team members:</strong></p>
 
 <table align="center" style="width: 100%; border-collapse: collapse; margin: 0 auto;">
   <tr>
-    <th style="border: 1px solid black; padding: 8px; text-align: center;">Nombre</th>
+    <th style="border: 1px solid black; padding: 8px; text-align: center;">Apellidos y Nombres</th>
     <th style="border: 1px solid black; padding: 8px; text-align: center;">Código</th>
   </tr>
 
@@ -52,7 +53,7 @@
 
 <br><br>
 
-<h3 align="center"><strong>Periodo 2025-20</strong></h3>
+<h3 align="center"><strong>Diciembre 2025</strong></h3>
 
 <br>
 
