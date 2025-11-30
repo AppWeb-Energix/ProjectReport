@@ -5,16 +5,17 @@
 <h3 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h3>
 <h4 align="center"><strong>Facultad de Ingeniería</strong></h4>
 <h4 align="center"><strong>Carrera de Ingeniería de Software</strong></h4>
-<h4 align="center"><strong>Periodo 202520</strong></h4>
-<h4 align="center"><strong>Código del curso: A1ASI0729</strong></h4>
-<h4 align="center"><strong>Nombre del curso: Aplicaciones Web</strong></h4>
+<h4 align="center"><strong>Periodo 2025-20</strong></h4>
+<h4 align="center"><strong>Código del Curso: A1ASI0729</strong></h4>
+<h4 align="center"><strong>Nombre del Curso: Aplicaciones Web</strong></h4>
 <h4 align="center"><strong>NRC: 7470</strong></h4>
 
-<h4 align="center"><strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi</strong></h4>
-<h4 align="center"><strong>Informe del trabajo final</strong></h4> 
+<h4 align="center"><strong>Nombre del Profesor: Rafael Oswaldo Castro Veramendi</strong></h4>
+<h4 align="center"><strong>Informe del Trabajo Final</strong></h4> 
 
-<h4 align="center"><strong>Nombre del startup: Energix</strong></h4>
-<h4 align="center"><strong>Nombre del producto: Energix Manager</strong></h4>
+<h4 align="center"><strong>Nombre del Startup: Energix</strong></h4>
+<h4 align="center"><strong>Nombre del Producto: Energix Manager</strong></h4>
+<h4 align="center"><em><strong>“Energía inteligente y conectada en la palma de tu mano”</strong></em></h4>
 
 <p align="center"><strong>Team members:</strong></p>
 
