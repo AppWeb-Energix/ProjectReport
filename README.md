@@ -2,62 +2,39 @@
 <p align="center">
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Descripción de la imagen" style="width: 50%; height: auto;"></p>
 
-<h3 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h3>
-<h4 align="center"><strong>Facultad de Ingeniería</strong></h4>
-<h4 align="center"><strong>Carrera de Ingeniería de Software</strong></h4>
-<h4 align="center"><strong>Periodo 2025-20</strong></h4>
-<h4 align="center"><strong>Código del Curso: A1ASI0729</strong></h4>
-<h4 align="center"><strong>Nombre del Curso: Aplicaciones Web</strong></h4>
-<h4 align="center"><strong>NRC: 7470</strong></h4>
-<h4 align="center"><strong>Nombre del Profesor: Rafael Oswaldo Castro Veramendi</strong></h4>
-<h4 align="center"><strong>Informe del Trabajo Final</strong></h4> 
-<h4 align="center"><strong>Nombre del Startup: Energix</strong></h4>
-<h4 align="center"><strong>Nombre del Producto: Energix Manager</strong></h4>
-<h4 align="center"><strong>“Energía inteligente y conectada en la palma de tu mano”</strong></h4>
+## Universidad Peruana de Ciencias Aplicadas
 
-<br><br>
+**Facultad:** Ingeniería  
+**Carrera:** Ingeniería de Software
 
-<p align="center"><strong>Team members:</strong></p>
+**Periodo:** 2025-20
+**Código del Curso:** A1ASI0729
+**Curso:** Aplicaciones Web
+**NRC:** 7470
+**Profesor:** Castro Veramendi, Rafael Oswaldo
 
-<table align="center" style="width: 100%; border-collapse: collapse; margin: 0 auto;">
-  <tr>
-    <th style="border: 1px solid black; padding: 8px; text-align: center;">Apellidos y Nombres</th>
-    <th style="border: 1px solid black; padding: 8px; text-align: center;">Código</th>
-  </tr>
+### Informe del Trabajo Final
 
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Barba Estrada, Bryan Eduardo</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U202323479</td>
-  </tr>
-  
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Cotrina Siclla, Sofia Alessandra</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U20231B120</td>
-  </tr>
+**Startup:** Energix  
+**Nombre del producto:** Energix Manager  
+<strong>“Energía inteligente y conectada en la palma de tu mano”</strong>
 
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Encalada Salazar, Alexis</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U20211G491</td>
-  </tr>
+#### Relación de integrantes
 
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Goñe Araccata, Esther Abigail</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U202318049</td>
-  </tr>
+| Integrante                              | Código         |
+|-----------------------------------------|----------------|
+| Barba Estrada, Bryan Eduardo            | U202323479     |
+| Cotrina Siclla, Sofia Alessandra        | U20231B120     |
+| Encalada Salazar, Alexis                | U20211G491     |
+| Goñe Araccata, Esther Abigail           | U202318049     |
+| Salazar Caballero, Alvaro Fabrizzio     | U202321941     |
 
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Salazar Caballero, Alvaro Fabrizzio</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U202321941</td>
-  </tr>
-</table>
+<br><div align="center"><h3>Diciembre 2025</h3></div><br>
 
-<br><br>
-
-<h3 align="center"><strong>Diciembre 2025</strong></h3>
-
+</div>
 <br>
 
-<hr>
+---
 
 # **Registro de Versiones del Informe**
 
