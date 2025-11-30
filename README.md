@@ -13,7 +13,6 @@
 <h4 align="center"><strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi</strong></h4>
 <h4 align="center"><strong>Informe del trabajo final</strong></h4> 
 
-
 <h4 align="center"><strong>Nombre del startup: Energix</strong></h4>
 <h4 align="center"><strong>Nombre del producto: Energix Manager</strong></h4>
 
@@ -65,6 +64,7 @@
 |-------------|--------------|-----------|------------------------------------|
 | TB1         | 19/09/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros 5 capítulos del informe y también la primera versión del landing page de Energix. |
 | TP         | 10/08/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la segunda entrega del informe de nuestro proyecto, se realizó la documentación correspondiente al Sprint 2 y se realizó actualizaciones en las conclusiones y anexos del informe de reporte. Por otro lado, se realizó las respectivas mejoras y se desarrolló la primera versión del Fronted Web Applications. |
+| TB2        | 14/11/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la tercera entrega se revisaron las necesidades actuales del backend y se definió el alcance del Sprint 3. Se acordó enfocarse en la implementación completa del módulo de consumo histórico, la optimización de los servicios existentes, mejoras de seguridad básica, manejo adecuado de errores y la documentación interna del API. Asimismo, se revisaron las dependencias y tareas pendientes con el fin de asegurar una estructura estable en el próximo sprint. |
 | TF         |    | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro |  |
 
 <hr>
