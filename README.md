@@ -9,13 +9,13 @@
 <h4 align="center"><strong>Código del Curso: A1ASI0729</strong></h4>
 <h4 align="center"><strong>Nombre del Curso: Aplicaciones Web</strong></h4>
 <h4 align="center"><strong>NRC: 7470</strong></h4>
-
 <h4 align="center"><strong>Nombre del Profesor: Rafael Oswaldo Castro Veramendi</strong></h4>
 <h4 align="center"><strong>Informe del Trabajo Final</strong></h4> 
-
 <h4 align="center"><strong>Nombre del Startup: Energix</strong></h4>
 <h4 align="center"><strong>Nombre del Producto: Energix Manager</strong></h4>
-<h4 align="center"><em><strong>“Energía inteligente y conectada en la palma de tu mano”</strong></em></h4>
+<h4 align="center"><strong>“Energía inteligente y conectada en la palma de tu mano”</strong></h4>
+
+<br><br>
 
 <p align="center"><strong>Team members:</strong></p>
 
