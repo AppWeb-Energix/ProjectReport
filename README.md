@@ -3768,7 +3768,7 @@ El **Frontend de Energix** continúa desplegado en **Vercel**, aprovechando su i
 
 **Características del despliegue Frontend:**
 - **Plataforma:** Vercel
-- **URL de producción:** https://frontend-energix.vercel.app/
+- **URL de producción:** https://frontend-energix.vercel.app
 - **Rama de despliegue:** main
 - **Mejoras implementadas:** Corrección de bugs, optimización de formularios, mejoras en navegación
 
@@ -3847,8 +3847,8 @@ Se verificó exitosamente la comunicación entre el frontend desplegado en **Ver
 | Componente | Plataforma | URL |
 |------------|-----------|-----|
 | **Frontend** | Vercel | https://frontend-energix.vercel.app/ |
-| **Backend API** | Render | https://backend-energix.onrender.com |
-| **Swagger Docs** | Render | https://backend-energix.onrender.com/swagger |
+| **Backend API** | Railway | https://backend-energix-production.up.railway.app |
+| **Swagger Docs** | Railway | https://backend-energix-production.up.railway.app/swagger/index.html |
 
 *Nota.* Elaboración propia.
 
