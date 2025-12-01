@@ -3717,9 +3717,9 @@ Finalmente, la API mantiene activo Swagger UI como herramienta de verificación 
 
 **Enlace del proyecto (FrontEnd) deploy - Energix**: https://frontend-energix.vercel.app/
 
-**Enlace Documentación Swagger - Energix**: https://backend-energix.onrender.com/swagger/index.html
+**Enlace Documentación Swagger - Energix**: https://backend-energix-production.up.railway.app/swagger/index.html
 
-**Enlace del proyecto (BackEnd) API deploy - Energix**: https://backend-energix.onrender.com
+**Enlace del proyecto (BackEnd) API deploy - Energix**: https://backend-energix-production.up.railway.app
 
 #### **5.2.4.6. Services Documentation Evidence for Sprint Review**
 
@@ -3774,27 +3774,19 @@ El **Frontend de Energix** continúa desplegado en **Vercel**, aprovechando su i
 
 ##### **Despliegue del Backend**
 
-El **Backend de Energix** se mantiene desplegado en **Render**, utilizando contenedores Docker para garantizar consistencia entre entornos. Durante este sprint se añadieron endpoints de **administración** (`/api/v1/admin/*`) que permiten monitorear la salud del sistema y consultar métricas operativas.
+El **Backend de Energix** se encuentra desplegado en **Railway**, conectándose a una instancia de **MySQL** en contenedor.  
+Durante este sprint se realizaron correcciones en la API, se habilitaron endpoints de administración y se verificó su funcionamiento mediante **Swagger UI**.
 
-**Figura 99**<br>
-*Servicio Backend en Render — Vista de producción*
+**Figura 99**  
+*Servicio Backend en Railway — Vista de producción*
 
 <p align="center">
-  <img src="images/render-service.jpg" alt="Servicio Backend Sprint 4 en Render" width="1000">
+  <img src="images/backend-railway.jpg" alt="Backend Energix Railway" width="1000">
 </p>
 
-*Nota.* Panel de control de Render mostrando el servicio backend activo.
+*Nota.* Captura del panel de Railway mostrando el servicio backend activo.
 
 **Figura 100**<br>
-*Logs del Backend — Inicialización exitosa*
-
-<p align="center">
-  <img src="images/render-logs.jpg" alt="Logs Backend Sprint 4" width="1000">
-</p>
-
-*Nota.* Logs de Render confirmando la correcta inicialización del servicio y conexión a la base de datos.
-
-**Figura 101**<br>
 *Swagger UI — Documentación API actualizada*
 
 <p align="center">
@@ -3806,20 +3798,29 @@ El **Backend de Energix** se mantiene desplegado en **Render**, utilizando conte
 
 *Nota.* Interfaz de Swagger mostrando los nuevos endpoints de administración implementados en Sprint 4.
 
+##### **Integración con Base de Datos en Railway**
+
+El despliegue incluye una base de datos **MySQL** asociada al servicio de backend, garantizando persistencia y conectividad estable en producción.
+
+**Figura 101**  
+*Base de Datos MySQL en Railway*
+
+<p align="center">
+  <img src="images/mysql-railway.jpg" alt="BD MySQL Railway" width="1000">
+</p>
+
+*Nota.* Railway administrando la base de datos utilizada por Energix Manager.
+
 **Características del despliegue Backend:**
-- **Plataforma:** Render
-- **URL de producción:** https://backend-energix.onrender.com
-- **Rama de despliegue:** feature/release
-- **Contenedorización:** Docker con docker-compose.yml
-- **Base de datos:** MySQL en contenedor
-- **Nuevos endpoints:** `/api/v1/admin/health`, `/api/v1/admin/dashboard`, `/api/v1/admin/audit`
-- **Documentación:** Swagger UI disponible en `/swagger`
+- **Plataforma:** Railway
+- **URL de producción:** https://backend-energix-production.up.railway.app
+- **Base de datos:** MySQL en contenedor dentro de Railway
+- **Rama de despliegue:** main
+- **Documentación:** Swagger UI disponible en producción
+- **Monitoreo:** Panel de logs y métricas de Railway
 
-##### **Integración Frontend-Backend**
+##### **Endpoints implementados en Sprint 4:**
 
-Durante este sprint se validó exitosamente la integración completa entre el frontend desplegado en Vercel y el backend en Render. Los endpoints administrativos fueron probados y están completamente funcionales:
-
-**Endpoints implementados en Sprint 4:**
 - `GET /api/v1/admin/health` → Verificación de estado del sistema
 - `GET /api/v1/admin/dashboard` → Dashboard con métricas generales del sistema
 - `GET /api/v1/admin/audit` → Consulta de registro de auditoría de acciones administrativas
@@ -3833,6 +3834,10 @@ Durante este sprint se validó exitosamente la integración completa entre el fr
 </p>
 
 *Nota.* Captura de Swagger UI mostrando los endpoints administrativos desplegados y operativos en producción.
+
+##### **Integración Frontend-Backend**
+
+Se verificó exitosamente la comunicación entre el frontend desplegado en **Vercel** y el backend en **Railway**, asegurando autenticación, roles y acceso a rutas administrativas.
 
 ##### **Resumen de URLs de Producción**
 
@@ -3877,7 +3882,7 @@ Durante el Sprint 4, el equipo trabajó de manera coordinada para completar las 
 
 *Nota.* Elaboración propia.
 
-**Figura 88**  
+**Figura 103**  
 *Team Collaboration Insights Sprint 4 — Energix*
 
 <p align="center">
@@ -4056,35 +4061,9 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 ### **5.3.2. Registro de Entrevistas**
 
-## Segmento objetivo #1: Familias Urbanas con Casas Inteligentes
-
-**Tabla 42**  
-*Registro de entrevistas — Segmento Objetivo #1*
-
-<table>
-  <thead>
-    <tr>
-      <th>N° Registro</th>
-      <th>Entrevistado</th>
-      <th>Edad</th>
-      <th>Enlace Entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td></td>
-      <td></td>
-      <td><strong></strong></td>
-    </tr>
-  </tbody>
-</table>
-
-*Nota.* Elaboración propia a partir del registro audiovisual de entrevistas realizadas.
-
 ## Segmento objetivo #2: Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Tabla 43**  
+**Tabla 42**  
 *Registro de entrevistas — Segmento Objetivo #2*
 
 <table>
@@ -4115,7 +4094,6 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
   </tbody>
 </table>
 
-
 *Nota.* Elaboración propia a partir del registro audiovisual de entrevistas realizadas.
 
 #### Resumen de Feedback (Néstor Rojas)
@@ -4126,14 +4104,13 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 * **Mejora Principal:** Sugiere **ampliar la cantidad de dispositivos** que pueden vincularse en el plan estudiantil, ya que usa más de dos equipos (celular, tablet, etc.).
 * **Conclusión:** Usaría Energix si estuviera disponible, especialmente si se incrementa el límite de dispositivos en el plan.
 
-### Resumen de Feedback (Braden García)
+#### Resumen de Feedback (Braden García)
 
 * **Hábito actual:** Revisa su consumo eléctrico solo cuando la factura llega con un monto más alto de lo esperado. Comenta que le gustaría una herramienta en tiempo real para entender mejor qué genera esos picos de consumo.
 * **Percepción de la Web App:** Le transmite **modernidad y simplicidad**. Le gusta que no necesita instalar nada y que puede acceder desde cualquier dispositivo. Entendió rápidamente el propósito: monitorear y visualizar su consumo eléctrico.
 * **Percepción de la App:** La navegación, la interfaz y los gráficos le parecieron **claros y fáciles de interpretar**. Destacó que los datos se actualizan sin recargar la página, lo que le dio sensación de fluidez.
 * **Mejora Principal:** Sugiere agregar un modo **vista compacta** para ver datos esenciales en una sola pantalla, especialmente desde el celular. También propuso incluir recomendaciones automáticas según su patrón de consumo.
 * **Conclusión:** Usaría la web app Energix si estuviera disponible, especialmente por la simplicidad del diseño y la posibilidad de ver su consumo en tiempo real sin necesidad de instalar una aplicación.
-
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
@@ -4181,7 +4158,7 @@ Energix Manager
 ### Escala de severidad:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
-**Tabla 44**  
+**Tabla 43**  
 *Escala de severidad empleada para la clasificación de problemas de usabilidad*
 
 | Nivel | Descripción |
@@ -4195,7 +4172,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 #### Tabla de resumen
 
-**Tabla 45**  
+**Tabla 44**  
 *Resumen de problemas identificados con su severidad y heurística afectada*
 
 | # | Problema | Severidad | Heurística/Principio Violado |
@@ -4216,8 +4193,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ***Problema:***   
 La sección de "promedios" dentro de la aplicación puede generar una ligera confusión en usuarios nuevos, ya que no queda totalmente claro cómo se calcula este valor o qué representa. No impide la navegación, pero afecta la comprensión.
 
+**Figura 104**  
+*Promedio de consumo — Dashboard*
+
 <img src="images/problema1_heuristicas.jpg" alt="Problema 1 - Heurísticas - Energix" width="800">
 <br>
+
+*Nota.* Ejemplo visual del componente que puede causar confusión sobre la información presentada.
 
 ***Recomendación:***   
 Ampliar la información contextual (e.g., tooltips, descripciones breves) sobre el cálculo del promedio para que el usuario pueda tomar decisiones informadas.
@@ -4231,8 +4213,13 @@ Ampliar la información contextual (e.g., tooltips, descripciones breves) sobre 
 ***Problema:***   
 El límite de dos dispositivos en el plan estudiantil es insuficiente para el segmento, ya que los estudiantes suelen usar múltiples equipos (celular, tablet, Kindle), lo que limita la utilidad percibida de la plataforma.
 
+**Figura 105**  
+*Plan Estudiantil*
+
 <img src="images/problema2_heuristicas.jpg" alt="Problema 2 - Heurísticas - Energix" width="800">
 <br>
+
+*Nota.* Vista del componente que muestra la restricción actual del número de dispositivos permitidos.
 
 ***Recomendación:***   
 Aumentar el número permitido de dispositivos en el plan estudiantil o brindar mayor flexibilidad, alineándose mejor con el comportamiento típico de este segmento de usuarios.
@@ -4261,11 +4248,11 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 **Despliegues y Documentación**
 
-- Enlace Documentación Swagger - Energix: https://backend-energix.onrender.com/swagger/index.html
+- Enlace Documentación Swagger - Energix: https://backend-energix-production.up.railway.app/swagger/index.html
 
 - Enlace del proyecto (BackEnd) API deploy - Energix: https://backend-energix.onrender.com
 
-- Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
+- Enlace del proyecto (FrontEnd) deploy - Energix: https://backend-energix-production.up.railway.app
 
 - Enlace Landing Page deploy - Energix: https://appweb-energix.github.io/Landing-Page/
 
@@ -4285,7 +4272,7 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video Exposición TB1 - Energix: https://tinyurl.com/expo-tb1-energix
 
-- Enlace Video Exposición TP - Energix:
+- Enlace Video Exposición TP - Energix: 
 
 - Enlace Video Exposición TB2 - Energix: https://tinyurl.com/expo-tb2-energix
 
@@ -4297,11 +4284,11 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video About The Team - Sprint 1 - Energix: https://tinyurl.com/sprint-1-energix
 
-- Enlace Video About The Team - Sprint 2 - Energix:
+- Enlace Video About The Team - Sprint 2 - Energix: https://tinyurl.com/sprint-2-energix
 
 - Enlace Video About The Team - Sprint 3 - Energix: https://tinyurl.com/sprint-3-energix
 
-- Enlace Video About The Team - Sprint 4 - Energix:
+- Enlace Video About The Team - Sprint 4 - Energix: 
 
 **Video About The Product**
 
