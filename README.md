@@ -4101,10 +4101,20 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
       <td>1</td>
       <td>Néstor Rojas</td>
       <td>22</td>
-      <td><strong>Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas:</strong> https://tinyurl.com/val-seg-2-nes-energix </td>
+      <td><strong>Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas:</strong> https://tinyurl.com/val-seg-2-nes-energix</td>
+    </tr>
+     <tr>
+      <td>2</td>
+      <td>Braden Garcia</td>
+      <td>22</td>
+      <td>
+        <strong>Enlace Video de Validación Entrevista - Segmento #2 - Braden Garcia:</strong>
+        https://tinyurl.com/val-seg-2-bra-energix
+      </td>
     </tr>
   </tbody>
 </table>
+
 
 *Nota.* Elaboración propia a partir del registro audiovisual de entrevistas realizadas.
 
@@ -4115,6 +4125,15 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 * **Percepción de la App:** El registro, navegación y la función de agregar dispositivos le parecieron **simples e intuitivos**.
 * **Mejora Principal:** Sugiere **ampliar la cantidad de dispositivos** que pueden vincularse en el plan estudiantil, ya que usa más de dos equipos (celular, tablet, etc.).
 * **Conclusión:** Usaría Energix si estuviera disponible, especialmente si se incrementa el límite de dispositivos en el plan.
+
+### Resumen de Feedback (Braden García)
+
+* **Hábito actual:** Revisa su consumo eléctrico solo cuando la factura llega con un monto más alto de lo esperado. Comenta que le gustaría una herramienta en tiempo real para entender mejor qué genera esos picos de consumo.
+* **Percepción de la Web App:** Le transmite **modernidad y simplicidad**. Le gusta que no necesita instalar nada y que puede acceder desde cualquier dispositivo. Entendió rápidamente el propósito: monitorear y visualizar su consumo eléctrico.
+* **Percepción de la App:** La navegación, la interfaz y los gráficos le parecieron **claros y fáciles de interpretar**. Destacó que los datos se actualizan sin recargar la página, lo que le dio sensación de fluidez.
+* **Mejora Principal:** Sugiere agregar un modo **vista compacta** para ver datos esenciales en una sola pantalla, especialmente desde el celular. También propuso incluir recomendaciones automáticas según su patrón de consumo.
+* **Conclusión:** Usaría la web app Energix si estuviera disponible, especialmente por la simplicidad del diseño y la posibilidad de ver su consumo en tiempo real sin necesidad de instalar una aplicación.
+
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
