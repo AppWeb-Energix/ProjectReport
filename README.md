@@ -85,7 +85,7 @@ TB2: Para la elaboración del informe del TB2, seguimos una metodología similar
 TF: Durante la elaboración del informe del TF correspondiente al Sprint 4, se llevó a cabo una revisión exhaustiva del contenido previamente entregado, corrigiendo errores identificados en la versión anterior y asegurando que toda la documentación esté alineada con el estado actual del proyecto. Para ello, se verificaron y restauraron enlaces, se actualizaron imágenes faltantes o desactualizadas, se mejoró la redacción y la estructura del reporte, y se integraron las nuevas evidencias del frontend y backend resultantes de este sprint. Todo el contenido actualizado fue posteriormente migrado al formato Markdown y subido al repositorio en GitHub mediante commits estructurados, garantizando trazabilidad, coherencia y calidad en la entrega final.
 
 <p align="center">
-  <img src="images/report_collaborationtf.jpg" alt="PB" width="1000">
+  <img src="images/report_collaborationtf.png" alt="PB" width="1000">
 </p>
 
 <hr>
@@ -285,8 +285,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Criterio Específico** | **Acciones realizadas** | **Conclusiones** |
 |--------------------------|-------------------------------|------------------|
-| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Barba Estrada, Bryan Eduardo**<br>**TB1**<br>Lideró la estructuración de la *Domain-Driven Software Architecture*, promoviendo la participación activa y equitativa de todos los integrantes.<br><br>**TP**<br>Lideró la implementación del módulo de autenticación de usuarios (*Feature/auth-login*), integrando la lógica de inicio de sesión.<br><br>**TB2**<br>Participó activamente en la definición del alcance del Sprint 3, liderando la organización de requerimientos del backend y promoviendo la colaboración para priorizar correctamente el módulo de consumo histórico y las optimizaciones de servicios.<br><br>**TF**<br><br>**Cotrina Siclla, Sofía Alessandra**<br>**TB1**<br>Elaboró artefactos clave como el *Impact Mapping*, organizando reuniones para definir objetivos de arquitectura.<br><br>**TP**<br>Encabezó el desarrollo de la sección de ajustes del usuario (*Feature/settings*), coordinando reuniones para definir su estructura y promoviendo la colaboración entre diseño y desarrollo.<br><br>**TB2**<br>Contribuyó al análisis de las necesidades del backend proponiendo mejoras funcionales para el módulo de consumo histórico; organizó la revisión conjunta de dependencias para asegurar alineación entre equipos.<br><br>**TF**<br><br>**Encalada Salazar, Alexis**<br>**TB1**<br>Implementó la *Landing Page* inicial, coordinando la asignación de tareas específicas para el Sprint 1 y brindando apoyo a sus compañeros.<br><br>**TP**<br>Lideró la implementación del *Dashboard principal* (*Feature/dashboard*), integrando gráficos de consumo energético con datos del backend y apoyando en la configuración visual del panel.<br><br>**TB2**<br>Lideró la evaluación técnica del backend, guiando la detección de mejoras en los servicios existentes y proponiendo soluciones estructurales para el módulo de consumo histórico, trabajando de manera conjunta con sus compañeros.<br><br>**TF**<br><br>**Goñe Araccata, Esther Abigail**<br>**TB1**<br>Organizó y distribuyó las tareas del diseño de la *Landing Page* y la *Web Application*, logrando la colaboración entre roles de diseño y desarrollo.<br><br>**TP**<br>Coordinó el diseño y la estructura de las vistas del módulo de autenticación, asegurando coherencia visual.<br><br>**TB2**<br>Colaboró en la revisión del alcance del Sprint 3, participando en la toma conjunta de decisiones sobre seguridad básica y documentación interna, contribuyendo a mantener cohesión entre los integrantes.<br><br>**TF**<br><br>**Salazar Caballero, Fabrizzio Álvaro**<br>**TB1**<br>Coordinó entrevistas con usuarios, realizó análisis de escenarios y elaboró documentación de gestión de configuración.<br><br>**TP**<br>Desarrolló el módulo de suscripciones y recompensas (*Feature/subscriptions-and-rewards*), liderando la integración de los beneficios y el sistema de planes de usuario dentro del flujo general de la aplicación.<br><br>**TB2**<br>Lideró la recopilación y análisis de requerimientos técnicos del backend para Sprint 3, coordinando la identificación de dependencias críticas y fortaleciendo la toma conjunta de decisiones.<br><br>**TF** | **TB1:**<br>**Objetivo:** Promover el liderazgo distribuido entre los miembros para organizar y ejecutar las primeras actividades del proyecto, incluyendo la definición de la arquitectura, el diseño de la *Landing Page*, la elaboración de artefactos de análisis y la documentación inicial.<br><br>**Conclusión:** El equipo demostró liderazgo compartido en la organización y ejecución de las actividades iniciales. Cada miembro asumió responsabilidades específicas, lo que permitió establecer una base sólida para el proyecto y garantizar que los primeros entregables fueran completados de manera efectiva y colaborativa.<br><br>**TP:**<br>**Objetivo específico:** Fortalecer el liderazgo técnico compartido en el equipo, orientando la implementación de funcionalidades clave del sistema como autenticación, configuración, panel de control y recompensas. Se buscó coordinar de forma efectiva las tareas y decisiones técnicas, garantizando la integración de cada módulo dentro de la arquitectura general.<br><br>**Conclusión:** Durante el desarrollo del Sprint 2, el liderazgo se ejerció de manera equitativa y colaborativa. Cada integrante asumió la responsabilidad de un módulo específico (autenticación, ajustes, dashboard o recompensas), demostrando autonomía y compromiso en la coordinación de su implementación.<br><br>**TB2:**<br>**Objetivo específico:** Fortalecer el liderazgo compartido del equipo mediante la revisión conjunta del backend y la definición del alcance del Sprint 3, promoviendo la participación equitativa en la toma de decisiones técnicas <br><br>**Conclusión:** El equipo ejerció un liderazgo colaborativo al analizar necesidades, priorizar el módulo de consumo histórico y coordinar mejoras en seguridad y servicios. Las decisiones se tomaron de forma conjunta, manteniendo una dinámica de apoyo mutuo y responsabilidad compartida. <br><br>**TF:**<br>**Objetivo específico:**<br><br>**Conclusión:** |
-| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Barba Estrada, Bryan Eduardo**<br>**TB1**<br>Promovió la participación equitativa en las reuniones iniciales, facilitando la integración de ideas en la definición de la arquitectura.<br><br>**TP**<br>Fomentó un entorno colaborativo en la implementación del *login*, orientando a sus compañeros sobre buenas prácticas de estructura de código y revisión de ramas en GitHub.<br><br>**TB2**<br>Facilitó espacios de discusión técnica sobre seguridad y manejo de errores, integrando aportes del equipo para establecer metas claras y garantizar una planificación realista del backend para el Sprint 3.<br><br>**TF**<br><br>**Cotrina Siclla, Sofía Alessandra**<br>**TB1**<br>Coordinó sesiones de trabajo colaborativo para elaborar los artefactos de análisis, garantizando la diversidad de aportes.<br><br>**TP**<br>Promovió la participación equitativa en la definición de configuraciones del sistema, recopilando sugerencias de usabilidad y adaptándolas al diseño del módulo *Settings*.<br><br>**TB2**<br>Fomentó la participación equitativa en la identificación de tareas pendientes, coordinando la definición de metas relacionadas con la documentación interna del API y promoviendo una comunicación abierta.<br><br>**TF**<br><br>**Encalada Salazar, Alexis**<br>**TB1**<br>Apoyó constantemente a sus compañeros en la implementación técnica, brindando acompañamiento en la *Landing Page*.<br><br>**TP**<br>Brindó soporte constante en la integración de componentes y conexiones con la API, garantizando la coherencia técnica entre módulos.<br><br>**TB2**<br>Brindó soporte al equipo en la planificación de tareas y en el análisis de errores del backend, promoviendo un ambiente donde todos pudieran participar en la definición de prioridades del Sprint 3.<br><br>**TF**<br><br>**Goñe Araccata, Esther Abigail**<br>**TB1**<br>Estableció dinámicas inclusivas en el diseño, integrando aportes técnicos y creativos para fortalecer la cohesión grupal.<br><br>**TP**<br>Estableció dinámicas de revisión visual, integrando aportes del equipo de frontend para mantener consistencia en los estilos y estructuras de la interfaz.<br><br>**TB2**<br>Promovió un entorno inclusivo durante la revisión de tareas pendientes del backend, integrando distintas perspectivas para asegurar claridad en las metas del módulo de consumo histórico.<br><br>**TF**<br><br>**Salazar Caballero, Fabrizzio Álvaro**<br>**TB1**<br>Organizó el análisis de escenarios de usuario con la participación de todos, recogiendo diversas perspectivas para enriquecer la documentación.<br><br>**TP**<br>Coordinó pruebas funcionales conjuntas del módulo de recompensas, promoviendo la colaboración para validar los resultados e incorporar mejoras sugeridas por el equipo.<br><br>**TB2**<br>Organizó la revisión colaborativa del manejo de errores y mejoras de seguridad, facilitando la creación de metas alcanzables y asegurando que todos los integrantes participaran en el diseño de soluciones.<br><br>**TF** | **TB1:**<br>**Objetivo específico:** Fomentar un entorno de trabajo inclusivo y participativo en el que cada miembro pueda aportar sus ideas y habilidades.<br><br>**Conclusión:** El equipo consolidó un entorno de colaboración inclusiva, en el que cada integrante tuvo la oportunidad de contribuir según sus fortalezas. La definición de objetivos permitió cumplir satisfactoriamente con las metas del primer entregable, evidenciando la capacidad del grupo para trabajar de manera coordinada.<br><br>**TP:**<br>**Objetivo específico:** Guiar técnicamente la planificación y desarrollo de los distintos módulos del sistema, fomentando un entorno colaborativo e inclusivo donde cada integrante participe activamente en la definición de metas, la distribución de tareas y la integración de funcionalidades para fortalecer el trabajo en equipo y alcanzar los objetivos del sprint.<br><br>**Conclusión:** Durante el Sprint 2, el equipo mantuvo un entorno de trabajo colaborativo basado en la comunicación constante y la integración de ideas. Cada miembro participó activamente en la planificación y desarrollo de su módulo, compartiendo avances y brindando apoyo técnico a sus compañeros. Esta dinámica fortaleció la cohesión grupal y permitió cumplir los objetivos del sprint de manera organizada y efectiva, garantizando un ambiente inclusivo donde todos aportaron según sus habilidades.<br><br>**TB2:**<br>**Objetivo específico:** Fomentar un entorno inclusivo donde todos los integrantes participen en la planificación del Sprint 3, estableciendo metas claras y distribuyendo tareas de manera organizada para asegurar el avance del backend <br><br>**Conclusión:** Se logró un ambiente de trabajo colaborativo en el que cada integrante aportó a la planificación, identificación de dependencias y definición de objetivos. Esto permitió organizar mejor las tareas, priorizar optimizaciones y consolidar una coordinación efectiva dentro del equipo.<br><br>**TF:**<br>**Objetivo específico:**<br><br>**Conclusión:** |
+| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Barba Estrada, Bryan Eduardo**<br>**TB1**<br>Lideró la estructuración de la *Domain-Driven Software Architecture*, promoviendo la participación activa y equitativa de todos los integrantes.<br><br>**TP**<br>Lideró la implementación del módulo de autenticación de usuarios (*Feature/auth-login*), integrando la lógica de inicio de sesión.<br><br>**TB2**<br>Participó activamente en la definición del alcance del Sprint 3, liderando la organización de requerimientos del backend y promoviendo la colaboración para priorizar correctamente el módulo de consumo histórico y las optimizaciones de servicios.<br><br>**TF**<br>Asumió liderazgo en la corrección de su parte del backend para el Trabajo Final, guiando la resolución de errores pendientes y aportando en la estabilización de los servicios existentes.<br><br>**Cotrina Siclla, Sofía Alessandra**<br>**TB1**<br>Elaboró artefactos clave como el *Impact Mapping*, organizando reuniones para definir objetivos de arquitectura.<br><br>**TP**<br>Encabezó el desarrollo de la sección de ajustes del usuario (*Feature/settings*), coordinando reuniones para definir su estructura y promoviendo la colaboración entre diseño y desarrollo.<br><br>**TB2**<br>Contribuyó al análisis de las necesidades del backend proponiendo mejoras funcionales para el módulo de consumo histórico; organizó la revisión conjunta de dependencias para asegurar alineación entre equipos.<br><br>**TF**<br>Lideró la implementación y el refinamiento del módulo de administración en el backend, así como el despliegue en producción, asegurando la integración correcta del rol admin y sus funciones.<br><br>**Encalada Salazar, Alexis**<br>**TB1**<br>Implementó la *Landing Page* inicial, coordinando la asignación de tareas específicas para el Sprint 1 y brindando apoyo a sus compañeros.<br><br>**TP**<br>Lideró la implementación del *Dashboard principal* (*Feature/dashboard*), integrando gráficos de consumo energético con datos del backend y apoyando en la configuración visual del panel.<br><br>**TB2**<br>Lideró la evaluación técnica del backend, guiando la detección de mejoras en los servicios existentes y proponiendo soluciones estructurales para el módulo de consumo histórico, trabajando de manera conjunta con sus compañeros.<br><br>**TF**<br>Tomó el liderazgo técnico en la corrección y ajuste del backend relacionado con el dashboard, garantizando la correcta visualización de métricas y estabilidad del módulo.<br><br>**Goñe Araccata, Esther Abigail**<br>**TB1**<br>Organizó y distribuyó las tareas del diseño de la *Landing Page* y la *Web Application*, logrando la colaboración entre roles de diseño y desarrollo.<br><br>**TP**<br>Coordinó el diseño y la estructura de las vistas del módulo de autenticación, asegurando coherencia visual.<br><br>**TB2**<br>Colaboró en la revisión del alcance del Sprint 3, participando en la toma conjunta de decisiones sobre seguridad básica y documentación interna, contribuyendo a mantener cohesión entre los integrantes.<br><br>**TF**<br>Lideró la actualización, revisión y cierre del reporte final, organizando evidencias, validando enlaces y asegurando que la documentación refleje correctamente el trabajo del equipo.<br><br>**Salazar Caballero, Fabrizzio Álvaro**<br>**TB1**<br>Coordinó entrevistas con usuarios, realizó análisis de escenarios y elaboró documentación de gestión de configuración.<br><br>**TP**<br>Desarrolló el módulo de suscripciones y recompensas (*Feature/subscriptions-and-rewards*), liderando la integración de los beneficios y el sistema de planes de usuario dentro del flujo general de la aplicación.<br><br>**TB2**<br>Lideró la recopilación y análisis de requerimientos técnicos del backend para Sprint 3, coordinando la identificación de dependencias críticas y fortaleciendo la toma conjunta de decisiones.<br><br>**TF**<br>Contribuyó al desarrollo y corrección del módulo de administración en el backend, ajustando su código y consolidando las funcionalidades admin para el entorno final. <br><br> | **TB1:**<br>**Objetivo:** Promover el liderazgo distribuido entre los miembros para organizar y ejecutar las primeras actividades del proyecto, incluyendo la definición de la arquitectura, el diseño de la *Landing Page*, la elaboración de artefactos de análisis y la documentación inicial.<br><br>**Conclusión:** El equipo demostró liderazgo compartido en la organización y ejecución de las actividades iniciales. Cada miembro asumió responsabilidades específicas, lo que permitió establecer una base sólida para el proyecto y garantizar que los primeros entregables fueran completados de manera efectiva y colaborativa.<br><br>**TP:**<br>**Objetivo específico:** Fortalecer el liderazgo técnico compartido en el equipo, orientando la implementación de funcionalidades clave del sistema como autenticación, configuración, panel de control y recompensas. Se buscó coordinar de forma efectiva las tareas y decisiones técnicas, garantizando la integración de cada módulo dentro de la arquitectura general.<br><br>**Conclusión:** Durante el desarrollo del Sprint 2, el liderazgo se ejerció de manera equitativa y colaborativa. Cada integrante asumió la responsabilidad de un módulo específico (autenticación, ajustes, dashboard o recompensas), demostrando autonomía y compromiso en la coordinación de su implementación.<br><br>**TB2:**<br>**Objetivo específico:** Fortalecer el liderazgo compartido del equipo mediante la revisión conjunta del backend y la definición del alcance del Sprint 3, promoviendo la participación equitativa en la toma de decisiones técnicas <br><br>**Conclusión:** El equipo ejerció un liderazgo colaborativo al analizar necesidades, priorizar el módulo de consumo histórico y coordinar mejoras en seguridad y servicios. Las decisiones se tomaron de forma conjunta, manteniendo una dinámica de apoyo mutuo y responsabilidad compartida. <br><br>**TF:**<br>**Objetivo específico:** Consolidar el liderazgo compartido durante el desarrollo del Trabajo Final mediante la corrección del backend, la integración del nuevo rol de administrador y la preparación integral de la entrega final; asegurando que cada miembro lidere y concluya sus propios módulos, contribuyendo de manera equitativa al éxito del proyecto.<br><br>**Conclusión:** Durante la última fase del proyecto, el equipo demostró un liderazgo maduro y colaborativo, gestionando de manera autónoma la corrección de funcionalidades del backend, la implementación del módulo de administración y la preparación de la entrega final. Cada integrante asumió responsabilidad plena sobre sus tareas, manteniendo comunicación efectiva y apoyo constante, lo que permitió cumplir los objetivos planteados y garantizar un producto estable para su despliegue final.|
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Barba Estrada, Bryan Eduardo**<br>**TB1**<br>Promovió la participación equitativa en las reuniones iniciales, facilitando la integración de ideas en la definición de la arquitectura.<br><br>**TP**<br>Fomentó un entorno colaborativo en la implementación del *login*, orientando a sus compañeros sobre buenas prácticas de estructura de código y revisión de ramas en GitHub.<br><br>**TB2**<br>Facilitó espacios de discusión técnica sobre seguridad y manejo de errores, integrando aportes del equipo para establecer metas claras y garantizar una planificación realista del backend para el Sprint 3.<br><br>**TF**<br>Coordinó el proceso de corrección del backend identificando errores, priorizando tareas y validando los cambios realizados en equipo para garantizar el cumplimiento de los objetivos técnicos.<br><br>**Cotrina Siclla, Sofía Alessandra**<br>**TB1**<br>Coordinó sesiones de trabajo colaborativo para elaborar los artefactos de análisis, garantizando la diversidad de aportes.<br><br>**TP**<br>Promovió la participación equitativa en la definición de configuraciones del sistema, recopilando sugerencias de usabilidad y adaptándolas al diseño del módulo *Settings*.<br><br>**TB2**<br>Fomentó la participación equitativa en la identificación de tareas pendientes, coordinando la definición de metas relacionadas con la documentación interna del API y promoviendo una comunicación abierta.<br><br>**TF**<br>Promovió un entorno colaborativo en torno al despliegue y consolidación del módulo admin, coordinando pruebas y ajustes junto al equipo para asegurar una integración correcta.<br><br>**Encalada Salazar, Alexis**<br>**TB1**<br>Apoyó constantemente a sus compañeros en la implementación técnica, brindando acompañamiento en la *Landing Page*.<br><br>**TP**<br>Brindó soporte constante en la integración de componentes y conexiones con la API, garantizando la coherencia técnica entre módulos.<br><br>**TB2**<br>Brindó soporte al equipo en la planificación de tareas y en el análisis de errores del backend, promoviendo un ambiente donde todos pudieran participar en la definición de prioridades del Sprint 3.<br><br>**TF**<br>Colaboró activamente en la corrección del backend del dashboard, manteniendo comunicación constante con el equipo para asegurar alineación técnica y cumplimiento de objetivos.<br><br>**Goñe Araccata, Esther Abigail**<br>**TB1**<br>Estableció dinámicas inclusivas en el diseño, integrando aportes técnicos y creativos para fortalecer la cohesión grupal.<br><br>**TP**<br>Estableció dinámicas de revisión visual, integrando aportes del equipo de frontend para mantener consistencia en los estilos y estructuras de la interfaz.<br><br>**TB2**<br>Promovió un entorno inclusivo durante la revisión de tareas pendientes del backend, integrando distintas perspectivas para asegurar claridad en las metas del módulo de consumo histórico.<br><br>**TF**<br>Coordinó la recopilación de evidencias, validación de información y organización del reporte final, generando un entorno colaborativo que permitió completar la entrega de forma ordenada.<br><br>**Salazar Caballero, Fabrizzio Álvaro**<br>**TB1**<br>Organizó el análisis de escenarios de usuario con la participación de todos, recogiendo diversas perspectivas para enriquecer la documentación.<br><br>**TP**<br>Coordinó pruebas funcionales conjuntas del módulo de recompensas, promoviendo la colaboración para validar los resultados e incorporar mejoras sugeridas por el equipo.<br><br>**TB2**<br>Organizó la revisión colaborativa del manejo de errores y mejoras de seguridad, facilitando la creación de metas alcanzables y asegurando que todos los integrantes participaran en el diseño de soluciones.<br><br>**TF**<br>Facilitó espacios de coordinación para validar las funcionalidades del módulo admin y sus dependencias, integrando retroalimentación y apoyando la planificación de los últimos ajustes.<br><br> | **TB1:**<br>**Objetivo específico:** Fomentar un entorno de trabajo inclusivo y participativo en el que cada miembro pueda aportar sus ideas y habilidades.<br><br>**Conclusión:** El equipo consolidó un entorno de colaboración inclusiva, en el que cada integrante tuvo la oportunidad de contribuir según sus fortalezas. La definición de objetivos permitió cumplir satisfactoriamente con las metas del primer entregable, evidenciando la capacidad del grupo para trabajar de manera coordinada.<br><br>**TP:**<br>**Objetivo específico:** Guiar técnicamente la planificación y desarrollo de los distintos módulos del sistema, fomentando un entorno colaborativo e inclusivo donde cada integrante participe activamente en la definición de metas, la distribución de tareas y la integración de funcionalidades para fortalecer el trabajo en equipo y alcanzar los objetivos del sprint.<br><br>**Conclusión:** Durante el Sprint 2, el equipo mantuvo un entorno de trabajo colaborativo basado en la comunicación constante y la integración de ideas. Cada miembro participó activamente en la planificación y desarrollo de su módulo, compartiendo avances y brindando apoyo técnico a sus compañeros. Esta dinámica fortaleció la cohesión grupal y permitió cumplir los objetivos del sprint de manera organizada y efectiva, garantizando un ambiente inclusivo donde todos aportaron según sus habilidades.<br><br>**TB2:**<br>**Objetivo específico:** Fomentar un entorno inclusivo donde todos los integrantes participen en la planificación del Sprint 3, estableciendo metas claras y distribuyendo tareas de manera organizada para asegurar el avance del backend <br><br>**Conclusión:** Se logró un ambiente de trabajo colaborativo en el que cada integrante aportó a la planificación, identificación de dependencias y definición de objetivos. Esto permitió organizar mejor las tareas, priorizar optimizaciones y consolidar una coordinación efectiva dentro del equipo.<br><br>**TF:**<br>**Objetivo específico:** Mantener un entorno de trabajo altamente colaborativo durante el cierre del proyecto, planificando actividades finales como la validación del backend, las pruebas del módulo administrador y la consolidación de documentación y evidencias; asegurando que todos los integrantes contribuyan a cumplir los objetivos del Trabajo Final. <br><br>**Conclusión:** El equipo logró cumplir de manera organizada y colaborativa con todas las metas del cierre del proyecto. Se realizaron reuniones constantes de validación, apoyo entre integrantes para resolver errores y coordinación en la documentación del producto final. Gracias a esta dinámica inclusiva, se aseguró un resultado alineado con los estándares del curso, reflejando un trabajo sólido y conjunto durante toda la entrega final. |
 
 <hr>
 
@@ -986,12 +986,9 @@ Las User Stories representan las necesidades y expectativas de los usuarios fina
 | US30     | Cierre de sesión                           | Como usuario, quiero cerrar sesión de forma segura. | **Escenario 1:** Logout<br>Given que estoy autenticado<br>When selecciono "Cerrar sesión"<br>Then el sistema finaliza la sesión y me redirige a la página de inicio. | EP08 |
 | US31     | Consulta de metadatos de la base de datos         | Como administrador de datos, quiero consultar información estructural de las tablas monitoreadas, para validar que la base de datos mantiene su integridad y estructura esperada. | **Escenario 1:** Obtención de metadatos<br>Given que deseo obtener información de la BD<br>When realizo una petición GET a `/api/v1/dbinfo/tables`<br>Then el sistema retorna una lista de tablas con nombre, columnas y tipos. | EP09 |
 | US32     | Estado de conexión de la base de datos    | Como administrador de datos, quiero validar que la API mantiene conexión activa con la base de datos, para asegurar el servicio sin interrupciones. | **Escenario 1:** Validación de conexión<br>Given que necesito comprobar disponibilidad de BD<br>When realizo una petición GET a `/api/v1/dbinfo/status`<br>Then recibo un JSON con estado de conexión y tiempo de respuesta. | EP09 |
-| US33     | Monitoreo del crecimiento de la BD        | Como administrador de datos, quiero visualizar la cantidad de registros por tabla monitoreada, para prevenir problemas de almacenamiento o degradación del rendimiento. | **Escenario 1:** Consulta de tamaño de tablas<br>Given que deseo analizar crecimiento de datos<br>When realizo GET `/api/v1/dbinfo/tables/size`<br>Then recibo cantidad de registros por tabla y fecha de actualización. | EP09 |
-| US34     | Listado de usuarios registrados            | Como administrador, quiero ver un listado completo de todos los usuarios registrados en el sistema para gestionar las cuentas. | **Escenario 1:** Visualización de usuarios<br>Given que soy administrador autenticado<br>When accedo al panel de administración<br>Then veo listado con nombre, email, plan y fecha de registro de cada usuario. | EP10 |
-| US35     | Editar plan de suscripción de usuario      | Como administrador, quiero cambiar el plan de suscripción de un usuario para ajustar sus permisos y funcionalidades. | **Escenario 1:** Cambio de plan exitoso<br>Given que selecciono un usuario<br>When modifico su plan (Free/Student/Family)<br>Then el sistema actualiza el plan y muestra confirmación. | EP10 |
-| US36     | Activar y desactivar cuentas de usuario    | Como administrador, quiero activar o desactivar cuentas de usuario para controlar el acceso al sistema. | **Escenario 1:** Desactivación de cuenta<br>Given que selecciono un usuario activo<br>When desactivo su cuenta<br>Then el usuario no puede iniciar sesión.<br>**Escenario 2:** Activación de cuenta<br>Given que selecciono un usuario inactivo<br>When activo su cuenta<br>Then el usuario puede volver a acceder. | EP10 |
-| US37     | Estadísticas de uso por plan               | Como administrador, quiero ver estadísticas de usuarios por plan de suscripción para análisis de negocio. | **Escenario 1:** Dashboard de estadísticas<br>Given que accedo a estadísticas<br>When cargo la vista<br>Then veo gráficas con distribución de usuarios por plan, usuarios activos vs inactivos y tendencias. | EP10 |
-| US38     | Búsqueda y filtrado de usuarios            | Como administrador, quiero buscar y filtrar usuarios por nombre, email o plan para encontrar cuentas específicas rápidamente. | **Escenario 1:** Búsqueda por criterios<br>Given que ingreso texto en el buscador<br>When aplico filtros<br>Then el sistema muestra solo usuarios que coinciden con los criterios. | EP10 |
+| US33     | Verificación de salud del sistema admin    | Como administrador, quiero verificar el estado de salud del sistema para asegurar que todos los servicios estén operativos. | **Escenario 1:** Health check exitoso<br>Given que soy administrador autenticado<br>When accedo al endpoint de health<br>Then el sistema retorna estado 200 y confirmación de servicios activos. | EP10 |
+| US34     | Dashboard de administración                | Como administrador, quiero acceder a un dashboard con métricas generales del sistema para tener visibilidad completa. | **Escenario 1:** Acceso al dashboard admin<br>Given que soy administrador autenticado<br>When accedo al dashboard de administración<br>Then veo métricas de usuarios, dispositivos y consumo general del sistema. | EP10 |
+| US35     | Auditoría de acciones administrativas      | Como administrador, quiero consultar un registro de auditoría de todas las acciones administrativas para rastrear cambios en el sistema. | **Escenario 1:** Consulta de audit log<br>Given que soy administrador autenticado<br>When accedo al log de auditoría<br>Then veo registro de acciones con timestamp, usuario y tipo de acción. | EP10 |
 
 *Nota.* Elaboración propia.
 
@@ -1028,14 +1025,11 @@ Las Technical Stories detallan requerimientos técnicos derivados de las User St
 | TS22 | Actualización de zona con validaciones        | Como developer, quiero implementar un endpoint que actualice zonas validando que el nuevo nombre no esté duplicado. | **Escenario:** Actualizar zona<br>Given que la zona existe<br>When envía PATCH a /api/v1/zones/{id} con nuevo nombre<br>Then valida unicidad y actualiza la zona correctamente. | US16 | PATCH /api/v1/zones/{id} |
 | TS23 | Eliminación de zona con verificación          | Como developer, quiero implementar un endpoint que elimine zonas solo si no tienen dispositivos asociados. | **Escenario:** Eliminar zona vacía<br>Given que la zona no tiene dispositivos asociados<br>When envía DELETE a /api/v1/zones/{id}<br>Then elimina la zona del sistema. | US16 | DELETE /api/v1/zones/{id} |
 | TS24 | Prevención de eliminación de zonas con uso   | Como developer, quiero que el endpoint rechace eliminación de zonas con dispositivos activos. | **Escenario:** Zona con dispositivos<br>Given que la zona tiene dispositivos asociados<br>When intenta eliminarla<br>Then retorna error 409 indicando que debe reasignar dispositivos primero. | US16 | DELETE /api/v1/zones/{id} |
-| TS25 | Endpoint de metadatos de tablas                        | Implementar consulta de tablas monitoreadas y sus columnas. | **Escenario:** Consulta correcta<br>Given que la BD responde<br>When se llama GET /api/v1/dbinfo/tables<br>Then retorna nombre de tablas, columnas y tipos. | US31 | GET /api/v1/dbinfo/tables |
-| TS26 | Endpoint de verificación de conexión a BD              | Proveer estado de conectividad con la base de datos. | **Escenario:** BD conectada<br>When GET /api/v1/dbinfo/status<br>Then retorna estado de conexión y tiempo de respuesta.<br>400 si falla conexión. | US32 | GET /api/v1/dbinfo/status |
-| TS27 | Endpoint de métricas de crecimiento de tablas          | Obtener conteo de registros por tabla y fecha de última actualización. | **Escenario:** Tablas monitoreadas<br>When GET /api/v1/dbinfo/tables/size<br>Then retorna lista con cantidad de registros. | US33 | GET /api/v1/dbinfo/tables/size |
-| TS28 | Listado de usuarios para panel admin              | Implementar listado completo con datos básicos. | **Escenario:** Admin autenticado<br>When GET /api/v1/admin/users<br>Then retorna todos los usuarios con nombre, email, plan y estado. | US34 | GET /api/v1/admin/users |
-| TS29 | Actualización del plan de suscripción             | Implementar cambio de plan y reglas de validación. | **Escenario:** Cambio válido<br>PATCH /api/v1/admin/users/{id}/plan<br>Then retorna plan actualizado. | US35 | PATCH /api/v1/admin/users/{id}/plan |
-| TS30 | Activación / desactivación de cuentas de usuario  | Habilitar cambios en el estado de la cuenta. | **Escenario:** Cambiar estado<br>PATCH /api/v1/admin/users/{id}/status<br>Then activa o desactiva acceso. | US36 | PATCH /api/v1/admin/users/{id}/status |
-| TS31 | Estadísticas de usuarios por plan                 | Obtener datos agregados por plan. | **Escenario:** Estadísticas<br>GET /api/v1/admin/users/stats<br>Then retorna lista de planes con conteos y tendencias. | US37 | GET /api/v1/admin/users/stats |
-| TS32 | Búsqueda y filtrado de usuarios                   | Soporte de parámetros de búsqueda y filtros. | **Escenario:** Filtro válido<br>GET /api/v1/admin/users?search=...&plan=...<br>Then muestra coincidencias. | US38 | GET /api/v1/admin/users?search&plan |
+| TS25 | Endpoint de metadatos de tablas                        | Como developer, quiero implementar un endpoint que consulte tablas monitoreadas y sus columnas. | **Escenario:** Consulta correcta<br>Given que la BD responde<br>When se llama GET /api/v1/dbinfo/tables<br>Then retorna nombre de tablas, columnas y tipos de datos. | US31 | GET /api/v1/dbinfo/tables |
+| TS26 | Endpoint de verificación de conexión a BD              | Como developer, quiero implementar un endpoint que provea el estado de conectividad con la base de datos. | **Escenario:** BD conectada<br>Given que se consulta el estado<br>When ejecuta GET /api/v1/dbinfo/status<br>Then retorna estado de conexión y tiempo de respuesta. Si falla conexión retorna error 400. | US32 | GET /api/v1/dbinfo/status |
+| TS27 | Endpoint health check de administración      | Como developer, quiero implementar un endpoint que verifique el estado de salud del sistema administrativo. | **Escenario:** Health check exitoso<br>Given que se consulta el endpoint<br>When ejecuta GET /api/v1/admin/health<br>Then retorna status 200 con estado de servicios críticos (BD, API, conexiones). | US33 | GET /api/v1/admin/health |
+| TS28 | Endpoint dashboard de métricas administrativas| Como developer, quiero implementar un endpoint que retorne métricas generales del sistema para el panel admin. | **Escenario:** Dashboard admin<br>Given que el admin está autenticado<br>When ejecuta GET /api/v1/admin/dashboard<br>Then retorna estadísticas: total usuarios, dispositivos, zonas y consumo agregado del sistema. | US34 | GET /api/v1/admin/dashboard |
+| TS29 | Endpoint de registro de auditoría            | Como developer, quiero implementar un endpoint que registre y consulte acciones administrativas. | **Escenario:** Consulta de audit log<br>Given que el admin está autenticado<br>When ejecuta GET /api/v1/admin/audit<br>Then retorna log de acciones con detalles: usuario, acción, timestamp y entidad afectada. | US35 | GET /api/v1/admin/audit |
 
 *Nota.* Elaboración propia.
 
@@ -1104,14 +1098,11 @@ Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
 | 28    | US28          | Inicio con credenciales                  | Como usuario, quiero acceder con correo y contraseña de forma segura. | 3            |
 | 29    | US29          | Creación de cuenta                       | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | 3            |
 | 30    | US30          | Cierre de sesión                         | Como usuario, quiero cerrar sesión de forma segura. | 1            |
-| 31    | US31          | Consulta de metadatos de la base de datos                         | Como administrador de datos, quiero consultar información estructural de las tablas monitoreadas. | 3            |
-| 32    | US32          | Estado de conexión de la base de datos                         | Como administrador de datos, quiero validar que la API mantiene conexión activa con la base de datos. | 2            |
-| 33    | US33          | Monitoreo del crecimiento de la BD                         | Como administrador de datos, quiero visualizar la cantidad de registros por tabla monitoreada. | 5            |
-| 34    | US34          | Listado de usuarios registrados                         | Como administrador, quiero ver un listado completo de todos los usuarios registrados. | 3            |
-| 35    | US35          | Editar plan de suscripción de usuario                         | Como administrador, quiero cambiar el plan de suscripción de un usuario. | 3            |
-| 36    | US36          | Activar y desactivar cuentas de usuario                         | Como administrador, quiero activar o desactivar cuentas de usuario. | 3            |
-| 37    | US37          | Estadísticas de uso por plan                         | Como administrador, quiero ver estadísticas de usuarios por plan de suscripción. | 5            |
-| 38    | US38          | Búsqueda y filtrado de usuarios                         | Como administrador, quiero buscar y filtrar usuarios por nombre, email o plan. | 3            |
+| 31    | US31          | Consulta de metadatos de la base de datos | Como administrador de datos, quiero consultar información estructural de las tablas monitoreadas, para validar que la base de datos mantiene su integridad y estructura esperada. | 3            |
+| 32    | US32          | Estado de conexión de la base de datos    | Como administrador de datos, quiero validar que la API mantiene conexión activa con la base de datos, para asegurar el servicio sin interrupciones. | 2            |
+| 33    | US33          | Verificación de salud del sistema admin   | Como administrador, quiero verificar el estado de salud del sistema para asegurar que todos los servicios estén operativos. | 2            |
+| 34    | US34          | Dashboard de administración               | Como administrador, quiero acceder a un dashboard con métricas generales del sistema para tener visibilidad completa. | 5            |
+| 35    | US35          | Auditoría de acciones administrativas     | Como administrador, quiero consultar un registro de auditoría de todas las acciones administrativas para rastrear cambios en el sistema. | 3            |
 
 *Nota.* Elaboración propia.
 
@@ -2825,7 +2816,7 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
 
 Para una comprensión de las funcionalidades implementadas, hemos realizado un **video demostrativo**:
 
-**Enlace Video Presentación FrontEnd - Energix:** https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Enlace Video Presentación FrontEnd - Energix:** https://tinyurl.com/web-app-fronted-energix
 
 #### 5.2.2.6. **Services Documentation Evidence for Sprint Review**
 
@@ -3297,17 +3288,17 @@ En esta sección se detallan los acuerdos, revisiones y decisiones tomadas duran
 
 | **Sprint #** | **Sprint 4** |
 |--------------|--------------|
-| **Sprint Planning Background** | Durante esta reunión se analizó la necesidad de habilitar un rol de administración en Energix para facilitar el control interno del sistema y gestión de cuentas reales. Se acordó desarrollar el módulo de administrador en backend, incorporar funciones de gestión de usuarios y roles, así como ajustes al flujo de suscripciones y métricas. También se priorizaron correcciones detectadas en la evaluación heurística del sprint anterior. |
+| **Sprint Planning Background** | Durante esta reunión se analizó la necesidad de habilitar **monitoreo de infraestructura y administración** en Energix Manager para facilitar el control interno del sistema. Se acordó desarrollar endpoints de metadatos de BD, verificación de estado, health checks administrativos, dashboard de métricas y auditoría de acciones para garantizar visibilidad operativa completa. |
 | **Date** | 2025-11-30 |
 | **Time** | 17:00 |
 | **Location** | Server AppWeb |
 | **Prepared By** | Goñe Araccata, Esther Abigail |
 | **Attendees (to planning meeting)** | Barba Estrada, Cotrina Siclla, Encalada Salazar, Goñe Araccata, Salazar Caballero |
-| **Sprint Review Summary** | Se identificó la necesidad de reforzar el manejo administrativo de usuarios y suscripciones, así como mejorar la claridad de las métricas del panel y la gestión de alertas. Los endpoints desarrollados previamente funcionan correctamente, pero requieren mayor control de roles y visualización integral del sistema. |
-| **Sprint Retrospective Summary** | **Start:** Implementar un módulo completo de administración con permisos avanzados. Ajustar visualización y cálculo de promedios. Optimizar notificaciones y límites de dispositivos.<br><br>**Stop:** Realizar despliegues sin validación final de seguridad. Depender de datos no controlados para pruebas críticas.<br><br>**Continue:** Mantener prácticas de testing con Postman/Swagger, code review antes de merge y comunicación activa en daily meetings. |
-| **Sprint Goal** | Enable and secure the new Energix Administrator role, allowing full user management (roles, plans, account status) and perform essential corrections to subscription and metrics modules ensuring a stable and scalable ecosystem for the final product delivery. |
-| **Sprint Velocity** | 11 |
-| **Sum of Story Points** | 13 |
+| **Sprint Review Summary** | Se identificó la necesidad de contar con herramientas de infraestructura y administrativas para monitorear la salud del sistema, verificar el estado de la base de datos, visualizar métricas operativas y rastrear acciones críticas. Los endpoints existentes funcionan correctamente pero falta visibilidad global del sistema y monitoreo de BD. |
+| **Sprint Retrospective Summary** | **Start:** Implementar módulos de infraestructura (dbinfo) y administración con health checks, dashboard de métricas y audit logs. Añadir middleware de autenticación para rutas admin.<br><br>**Stop:** Realizar cambios críticos sin logging adecuado. Depender de validaciones manuales para verificar estado del sistema y BD.<br><br>**Continue:** Mantener prácticas de testing con Postman/Swagger, code review antes de merge y comunicación activa en daily meetings. |
+| **Sprint Goal** | Enable infrastructure monitoring and administrative capabilities including database metadata queries, connection status checks, system health verification, operational metrics dashboard, and audit logging to ensure complete visibility and control over the Energix Manager ecosystem. |
+| **Sprint Velocity** | 5 |
+| **Sum of Story Points** | 15 |
 
 *Nota.* Elaboración propia.
 
@@ -3363,34 +3354,54 @@ Además, utilizamos la herramienta **Trello** para organizar de manera más efic
   </thead>
   <tbody>
     <tr>
-      <td rowspan="1">US34</td><td rowspan="1">Listado de usuarios</td>
-      <td>TS28</td><td>Listado de usuarios</td>
-      <td>GET /api/v1/admin/users retorna listado completo con filtros básicos.</td>
-      <td>5</td><td>Bryan Barba</td><td>Done</td>
+      <td>US31</td>
+      <td>Consulta de metadatos de la base de datos</td>
+      <td>TS25</td>
+      <td>Endpoint de metadatos de tablas</td>
+      <td>Implementar GET /api/v1/dbinfo/tables que retorne nombres de tablas, columnas y tipos de datos monitoreados.</td>
+      <td>3</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
     </tr>
     <tr>
-      <td rowspan="1">US35</td><td rowspan="1">Editar plan del usuario</td>
-      <td>TS29</td><td>Cambiar plan</td>
-      <td>PATCH /api/v1/admin/users/{id}/plan con validaciones.</td>
-      <td>4</td><td>Sofia Cotrina</td><td>Done</td>
+      <td>US32</td>
+      <td>Estado de conexión de la base de datos</td>
+      <td>TS26</td>
+      <td>Endpoint de verificación de conexión a BD</td>
+      <td>Implementar GET /api/v1/dbinfo/status que retorne estado de conectividad con la BD y tiempo de respuesta.</td>
+      <td>2</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
     </tr>
     <tr>
-      <td rowspan="1">US36</td><td rowspan="1">Activar/desactivar cuentas</td>
-      <td>TS30</td><td>Estado de cuenta</td>
-      <td>PATCH /api/v1/admin/users/{id}/status bloquea y habilita el acceso.</td>
-      <td>3</td><td>Alvaro Salazar</td><td>Done</td>
+      <td>US33</td>
+      <td>Verificación de salud del sistema admin</td>
+      <td>TS27</td>
+      <td>Endpoint health check de administración</td>
+      <td>Implementar GET /api/v1/admin/health que retorne estado de servicios críticos (BD, API, conexiones).</td>
+      <td>2</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
     </tr>
     <tr>
-      <td rowspan="1">US37</td><td rowspan="1">Estadísticas por plan</td>
-      <td>TS31</td><td>Dashboard de estadísticas</td>
-      <td>GET /api/v1/admin/users/stats con uso activo/inactivo.</td>
-      <td>3</td><td>Alexis Encalada</td><td>Done</td>
+      <td>US34</td>
+      <td>Dashboard de administración</td>
+      <td>TS28</td>
+      <td>Endpoint dashboard de métricas administrativas</td>
+      <td>Implementar GET /api/v1/admin/dashboard que retorne estadísticas generales: total usuarios, dispositivos, zonas, consumo agregado.</td>
+      <td>4</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
     </tr>
     <tr>
-      <td rowspan="1">US38</td><td rowspan="1">Buscar y filtrar usuarios</td>
-      <td>TS32</td><td>Search + Filter</td>
-      <td>GET /api/v1/admin/users?search & plan</td>
-      <td>3</td><td>Abigail Goñe</td><td>Done</td>
+      <td>US35</td>
+      <td>Auditoría de acciones administrativas</td>
+      <td>TS29</td>
+      <td>Endpoint de registro de auditoría</td>
+      <td>Implementar GET /api/v1/admin/audit que retorne log de acciones admin con timestamp, usuario, acción y entidad afectada.</td>
+      <td>3</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
     </tr>
   </tbody>
 </table>
@@ -3414,47 +3425,180 @@ Además, utilizamos la herramienta **Trello** para organizar de manera más efic
   </thead>
   <tbody>
     <tr>
-      <td rowspan="7"><b>AppWeb-Energix/Backend-Energix</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td rowspan="25"><b>AppWeb-Energix/Backend-Energix</b></td>
+      <td>feature/identity</td>
+      <td>5f687cc</td>
+      <td>feat(identity): add initial identity migration and configuration for user, zone, and device tables</td>
+      <td>Nov 14, 2025</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>feature/identity</td>
+      <td>992c609</td>
+      <td>feat(identity): add JWT authentication packages and update connection string</td>
+      <td>Nov 14, 2025</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>feature/identity</td>
+      <td>0a99669</td>
+      <td>feat(identity): implement user authentication and management services</td>
+      <td>Nov 14, 2025</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>feature/identity</td>
+      <td>309963b</td>
+      <td>feat(identity): enhance user authentication flow with middleware and password migration service</td>
+      <td>Nov 14, 2025</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>feature/identity</td>
+      <td>7ea11d6</td>
+      <td>refactor(identity): simplify authorization pipeline to use ASP.NET standard</td>
+      <td>Nov 14, 2025</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>feature/config-backend</td>
+      <td>fdec0e8</td>
+      <td>feat(config-backend): add complete Personalization bounded context implementation</td>
+      <td>Nov 14, 2025</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>feature/subscriptions</td>
+      <td>6ef94de</td>
+      <td>feat(subscriptions): add subscription management features</td>
+      <td>Nov 14, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/connection</td>
+      <td>32fc9d1</td>
+      <td>Merge pull request #6 from AppWeb-Energix/feature/connection</td>
+      <td>Nov 10, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/devices</td>
+      <td>75f57e6</td>
+      <td>Merge pull request #5 from AppWeb-Energix/feature/devices</td>
+      <td>Nov 10, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/devices</td>
+      <td>5057b85</td>
+      <td>feat(device): add complete Device bounded context implementation</td>
+      <td>Nov 10, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/connection</td>
+      <td>4107383</td>
+      <td>feat(auth): implement JWT authentication and user management</td>
+      <td>Nov 10, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/subscriptions</td>
+      <td>66f3d7f</td>
+      <td>feat(subscriptions): refactor to use unified AppDbContext and add subscription-related tables</td>
+      <td>Nov 25, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/subscriptions</td>
+      <td>2c29381</td>
+      <td>feat(subscriptions): add PaymentMethods and Subscriptions tables with necessary columns and constraints</td>
+      <td>Nov 25, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/subscriptions</td>
+      <td>d7b46f8</td>
+      <td>Merge pull request #13 from AppWeb-Energix/feature/subscriptions</td>
+      <td>Nov 25, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>bc5699e</td>
+      <td>feat(database): implement database migration on application start</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>370865a</td>
+      <td>feat(database): create initial migration with the new user table</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>c725d51</td>
+      <td>feat(user): add dni and district fields to user DTO</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>ad920dd</td>
+      <td>feat(user): update sign-up process</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>ade5e37</td>
+      <td>feat(session): add cancellation token support to sign-in and sign-up methods</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>420856b</td>
+      <td>feat(session): add SessionController with sign-in and sign-up endpoints</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>add71a2</td>
+      <td>feat(payments): change UserId type from Guid to int across payment-related commands and queries</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>752437f</td>
+      <td>Merge pull request #14 from AppWeb-Energix/release/1.0.0</td>
+      <td>Nov 26, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>c06e262</td>
+      <td>feat(subscription): update payment validation logic</td>
+      <td>Nov 28, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>a6d5587</td>
+      <td>feat(api): update Swagger configuration for Bearer token security definition</td>
+      <td>Nov 28, 2025</td>
+    </tr>
+    <tr>
+      <td>release/1.0.0</td>
+      <td>f0eab59</td>
+      <td>feat(session): enhance token generation with plan details and update sign-up process</td>
+      <td>Nov 28, 2025</td>
+    </tr>
+        <tr>
+      <td rowspan="4"><b>AppWeb-Energix/Frontend-Energix</b></td>
+      <td>feature/devices</td>
+      <td>4f7db60</td>
+      <td>Merge pull request #17 from AppWeb-Energix/feature/devices</td>
+      <td>Dec 1, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/devices</td>
+      <td>ba7d775</td>
+      <td>fix: fix connection between frontend and backend</td>
+      <td>Dec 1, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/hotfix-personalization</td>
+      <td>cd9c7c8</td>
+      <td>Merge pull request #18 from AppWeb-Energix/feature/hotfix-personalization</td>
+      <td>Dec 1, 2025</td>
+    </tr>
+    <tr>
+      <td>feature/hotfix-personalization</td>
+      <td>2c33721</td>
+      <td>Resuelve conflictos de fusion con develop</td>
+      <td>Dec 1, 2025</td>
     </tr>
   </tbody>
 </table>
@@ -3477,7 +3621,7 @@ Las principales acciones realizadas fueron:
 
 - Corrección de errores y mejoras de usabilidad observadas durante pruebas internas.
 
-- Mantenimiento del acceso a documentación Swagger del servicio desplegado (sin cambios en endpoints del sprint anterior).
+- Mantenimiento del acceso a documentación Swagger del servicio desplegado.
 
 A continuación se presentan las evidencia actualizadas del sistema desplegado en entorno web:
 
@@ -3565,6 +3709,7 @@ Finalmente, la API mantiene activo Swagger UI como herramienta de verificación 
 <p align="center">
   <img src="images/swagger-part1.png" alt="Swagger Backend Energix Parte 1" width="1000"><br><br>
   <img src="images/swagger-part2.png" alt="Swagger Backend Energix Parte 2" width="1000"><br><br>
+  <img src="images/render-swagger-new.jpg" alt="Swagger API Sprint 4" width="1000"><br><br>
   <img src="images/swagger-part3.png" alt="Swagger Backend Energix Parte 3" width="1000">
 </p>
 
@@ -3600,16 +3745,17 @@ Finalmente, la API mantiene activo Swagger UI como herramienta de verificación 
 | **PUT /config/password** | `/config/password` | Cambia la contraseña del usuario. |
 | **PUT /config/panel** | `/config/panel` | Personaliza el panel (gráficos, preferencias, visualización). |
 | **POST /logout** | `/logout` | Cierra la sesión actual del usuario. |
+| **GET /dbinfo/tables** | `/api/v1/dbinfo/tables` | Consulta nombres de tablas, columnas y tipos de datos de la base de datos monitoreada. |
+| **GET /dbinfo/status** | `/api/v1/dbinfo/status` | Verifica el estado de conexión con la base de datos y retorna tiempo de respuesta. |
+| **GET /admin/health** | `/api/v1/admin/health` | Verifica el estado de salud del sistema administrativo (BD, API, servicios críticos). |
+| **GET /admin/dashboard** | `/api/v1/admin/dashboard` | Retorna métricas generales del sistema: total usuarios, dispositivos, zonas y consumo agregado. |
+| **GET /admin/audit** | `/api/v1/admin/audit` | Consulta el registro de auditoría de acciones administrativas con timestamp, usuario y tipo de acción. |
 
 *Nota.* Elaboración propia.
 
 #### **5.2.4.7. Software Deployment Evidence for Sprint Review**
 
-Durante el Sprint 4 se mantuvo la infraestructura de despliegue establecida en sprints anteriores, consolidando tanto el **Frontend** como el **Backend** de Energix Manager en entornos productivos estables. A continuación, se presenta la evidencia del despliegue de ambos componentes:
-
-##### **Despliegue del Frontend**
-
-El **Frontend de Energix** continúa desplegado en **Vercel**, aprovechando su integración con GitHub para despliegues automáticos. Durante este sprint se implementaron mejoras de performance y el panel de administración, las cuales se desplegaron automáticamente al hacer merge a la rama **main**.
+El **Frontend de Energix** continúa desplegado en **Vercel**, aprovechando su integración con GitHub para despliegues automáticos. Durante este sprint se implementaron mejoras de usabilidad y correcciones de bugs, las cuales se desplegaron automáticamente al hacer merge a la rama **main**.
 
 **Figura 98**<br>
 *Despliegue del Frontend en Vercel — Energix Manager*
@@ -3624,12 +3770,11 @@ El **Frontend de Energix** continúa desplegado en **Vercel**, aprovechando su i
 - **Plataforma:** Vercel
 - **URL de producción:** https://frontend-energix.vercel.app/
 - **Rama de despliegue:** main
-- **Despliegue automático:** Habilitado con CI/CD
-- **Optimizaciones aplicadas:** Code splitting, lazy loading, React Query para caché
+- **Mejoras implementadas:** Corrección de bugs, optimización de formularios, mejoras en navegación
 
 ##### **Despliegue del Backend**
 
-El **Backend de Energix** se mantiene desplegado en **Render**, utilizando contenedores Docker para garantizar consistencia entre entornos. Durante este sprint se añadieron endpoints de administración (`/api/v1/admin/*`) que fueron desplegados exitosamente.
+El **Backend de Energix** se mantiene desplegado en **Render**, utilizando contenedores Docker para garantizar consistencia entre entornos. Durante este sprint se añadieron endpoints de **administración** (`/api/v1/admin/*`) que permiten monitorear la salud del sistema y consultar métricas operativas.
 
 **Figura 99**<br>
 *Servicio Backend en Render — Vista de producción*
@@ -3653,7 +3798,10 @@ El **Backend de Energix** se mantiene desplegado en **Render**, utilizando conte
 *Swagger UI — Documentación API actualizada*
 
 <p align="center">
-  <img src="images/render-swagger-new.jpg" alt="Swagger API Sprint 4" width="1000">
+  <img src="images/swagger-part1.png" alt="Swagger Backend Energix Parte 1" width="1000"><br><br>
+  <img src="images/swagger-part2.png" alt="Swagger Backend Energix Parte 2" width="1000"><br><br>
+  <img src="images/render-swagger-new.jpg" alt="Swagger API Sprint 4" width="1000"><br><br>
+  <img src="images/swagger-part3.png" alt="Swagger Backend Energix Parte 3" width="1000">
 </p>
 
 *Nota.* Interfaz de Swagger mostrando los nuevos endpoints de administración implementados en Sprint 4.
@@ -3663,28 +3811,28 @@ El **Backend de Energix** se mantiene desplegado en **Render**, utilizando conte
 - **URL de producción:** https://backend-energix.onrender.com
 - **Rama de despliegue:** feature/release
 - **Contenedorización:** Docker con docker-compose.yml
-- **Base de datos:** PostgreSQL/MySQL en contenedor
-- **Nuevos endpoints:** `/api/v1/admin/users`, `/api/v1/admin/stats`
+- **Base de datos:** MySQL en contenedor
+- **Nuevos endpoints:** `/api/v1/admin/health`, `/api/v1/admin/dashboard`, `/api/v1/admin/audit`
 - **Documentación:** Swagger UI disponible en `/swagger`
 
 ##### **Integración Frontend-Backend**
 
-Durante este sprint se validó exitosamente la integración completa entre el frontend desplegado en Vercel y el backend en Render, específicamente para las nuevas funcionalidades del panel de administración:
+Durante este sprint se validó exitosamente la integración completa entre el frontend desplegado en Vercel y el backend en Render. Los endpoints administrativos fueron probados y están completamente funcionales:
 
-**Endpoints integrados:**
-- `GET /api/v1/admin/users` → Panel de usuarios
-- `PATCH /api/v1/admin/users/{id}/plan` → Edición de planes
-- `PATCH /api/v1/admin/users/{id}/status` → Activación/desactivación de cuentas
-- `GET /api/v1/admin/stats` → Dashboard de estadísticas
+**Endpoints implementados en Sprint 4:**
+- `GET /api/v1/admin/health` → Verificación de estado del sistema
+- `GET /api/v1/admin/dashboard` → Dashboard con métricas generales del sistema
+- `GET /api/v1/admin/audit` → Consulta de registro de auditoría de acciones administrativas
+<br>
 
 **Figura 102**<br>
-*Panel de Administración funcionando en producción*
+*Swagger UI mostrando endpoints administrativos funcionando*
 
 <p align="center">
-  <img src="images/admin-panel-production.jpg" alt="Panel Admin en producción" width="1000">
+  <img src="images/render-swagger-new.jpg" alt="Endpoints Admin en Swagger" width="1000">
 </p>
 
-*Nota.* Captura del panel de administración accediendo correctamente al backend desde el frontend desplegado.
+*Nota.* Captura de Swagger UI mostrando los endpoints administrativos desplegados y operativos en producción.
 
 ##### **Resumen de URLs de Producción**
 
@@ -3703,15 +3851,14 @@ Durante este sprint se validó exitosamente la integración completa entre el fr
 
 Durante este sprint se implementaron las siguientes optimizaciones en el proceso de despliegue:
 
-1. **Variables de entorno segregadas:** Configuración diferenciada para development, staging y production.
-2. **Health checks configurados:** Endpoint `GET /` para monitoreo del estado del servidor.
-3. **Middleware de autenticación reforzado:** Validación de roles para rutas administrativas.
-4. **Optimización de bundle frontend:** Reducción del 30% en tamaño inicial mediante code splitting.
-5. **Logs estructurados:** Sistema de logging mejorado para debugging en producción.
+1. **Endpoints administrativos:** Implementación completa de módulo admin con health check, dashboard de métricas y audit logging.
+2. **Middleware de autenticación reforzado:** Validación de roles para rutas administrativas (`/api/v1/admin/*`).
+3. **Health checks automatizados:** Endpoint `GET /api/v1/admin/health` para monitoreo continuo del estado del servidor.
+4. **Logs estructurados:** Sistema de logging mejorado para rastrear acciones administrativas críticas.
+5. **Documentación actualizada:** Swagger UI con ejemplos y esquemas de todos los endpoints administrativos.
+6. **Variables de entorno segregadas:** Configuración diferenciada para development, staging y production.
 
 Ambos servicios se encuentran **operativos y estables**, listos para soportar las funcionalidades implementadas en este sprint y futuros desarrollos.
-
-*Nota.* Elaboración propia.
 
 #### **5.2.3.8. Team Collaboration Insights During Sprint**
 
@@ -3722,11 +3869,11 @@ Durante el Sprint 4, el equipo trabajó de manera coordinada para completar las 
 
 | Alumno                             | Actividad / Responsabilidades asumidas |
 |------------------------------------|---------------------------------------|
-| Bryan Eduardo Barba Estrada        | Implementación de componentes del backend relacionados con autenticación y contribución al desarrollo de funcionalidades. |
-| Sofia Alessandra Cotrina Siclla    | Implementación de componentes del backend relacionados con personalización y contribución al desarrollo de funcionalidades. |
-| Alexis Encalada Salazar            | Configuración y despliegue del backend, así como soporte técnico en la estructura del proyecto. |
-| Esther Abigail Goñe Araccata       | Implementación del backend para la gestión de dispositivos. |
-| Alvaro Fabrizzio Salazar Caballero | Implementación de componentes del backend relacionados con suscripción y contribución al desarrollo de funcionalidades. |
+| Bryan Eduardo Barba Estrada        | Implementación de mejoras en el backend, desarrollo del endpoint de dashboard administrativo y optimización de servicios existentes. |
+| Sofia Alessandra Cotrina Siclla    | Implementación del módulo de administración en el backend, desarrollo del endpoint de auditoría y contribución al desarrollo de funcionalidades admin. |
+| Alexis Encalada Salazar            | Implementación de mejoras en el backend, desarrollo de endpoints de health check y verificación de estado de BD, así como configuración y despliegue del sistema. |
+| Esther Abigail Goñe Araccata       | Actualización y cierre del reporte final, organización de evidencias, corrección de formatos y validación de links. Gestión documental del proyecto para entrega final. |
+| Alvaro Fabrizzio Salazar Caballero | Implementación del módulo de administración en el backend, desarrollo de endpoint de metadatos de BD y contribución al desarrollo de funcionalidades admin. |
 
 *Nota.* Elaboración propia.
 
@@ -3734,13 +3881,12 @@ Durante el Sprint 4, el equipo trabajó de manera coordinada para completar las 
 *Team Collaboration Insights Sprint 4 — Energix*
 
 <p align="center">
-  <img src="images/team_collaboration_4.jpg" alt="Team Collaboration Sprint 4 — Energix" width="1000">
+  <img src="images/team_collaboration_4.png" alt="Team Collaboration Sprint 4 — Energix" width="1000">
 </p>
 
 *Nota.* Estadísticas de contribución durante Sprint 4 obtenidas del repositorio Backend-Energix.
 
-**Enlace Repositorio BackEnd - Energix:**  
-https://github.com/AppWeb-Energix/Backend-Energix
+**Enlace Repositorio BackEnd - Energix:** https://github.com/AppWeb-Energix/Backend-Energix
 
 ## 5.3. Validation Interviews
 
@@ -4175,6 +4321,6 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video Entrevista - Segmento #2 - Néstor Rojas: https://tinyurl.com/ent-seg-2-nes-energix
 
-- Enlace Video Validación Entrevista - Segmento #1 - Leimy Nuñez:
+- Enlace Video Validación Entrevista - Segmento #2 - Braden García: https://tinyurl.com/val-seg-2-bra-energix
 
 - Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas: https://tinyurl.com/val-seg-2-nes-energix
