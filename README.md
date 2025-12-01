@@ -3858,13 +3858,20 @@ Energix Manager
 
 *El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
 
-1. Visualización de Landing Page
-2. Comprensión del valor ofrecido
+1. Visualización de Landing Page 
+2. Comprensión del valor ofrecido 
 3. Proceso de registro
-4. Primera navegación
-5. Comprensión de métricas
-6. Vinculación de dispositivos
-7. Percepción general
+4. Primera navegación  
+5. Comprensión de métricas  
+6. Vinculación de dispositivos 
+7. Percepción general  
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*  
+
+1. Integración con dispositivos reales
+2. Personalización avanzada
+3. Flujos administrativos
+4. Gráficos de consumo histórico detallados
 
 ### Escala de severidad:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
