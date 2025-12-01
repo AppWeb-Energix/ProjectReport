@@ -3578,8 +3578,8 @@ Finalmente, la API mantiene activo Swagger UI como herramienta de verificación 
 
 #### **5.2.4.6. Services Documentation Evidence for Sprint Review**
 
-**Tabla n**  
-*Servicios implementados en el Sprint 3*
+**Tabla 36**  
+*Servicios implementados en el Sprint 4*
 
 | **Método y Endpoint** | **Path** | **Descripción** |
 |---------------|-----------|------------------|
@@ -3605,11 +3605,119 @@ Finalmente, la API mantiene activo Swagger UI como herramienta de verificación 
 
 #### **5.2.4.7. Software Deployment Evidence for Sprint Review**
 
+Durante el Sprint 4 se mantuvo la infraestructura de despliegue establecida en sprints anteriores, consolidando tanto el **Frontend** como el **Backend** de Energix Manager en entornos productivos estables. A continuación, se presenta la evidencia del despliegue de ambos componentes:
+
+##### **Despliegue del Frontend**
+
+El **Frontend de Energix** continúa desplegado en **Vercel**, aprovechando su integración con GitHub para despliegues automáticos. Durante este sprint se implementaron mejoras de performance y el panel de administración, las cuales se desplegaron automáticamente al hacer merge a la rama **main**.
+
+**Figura 98**<br>
+*Despliegue del Frontend en Vercel — Energix Manager*
+
+<p align="center">
+  <img src="images/Vercel-Deployment-Front.jpg" alt="Despliegue Frontend Sprint 4 — Energix" width="1000">
+</p>
+
+*Nota.* Captura de pantalla de Vercel mostrando el deployment activo del Frontend de Energix.
+
+**Características del despliegue Frontend:**
+- **Plataforma:** Vercel
+- **URL de producción:** https://frontend-energix.vercel.app/
+- **Rama de despliegue:** main
+- **Despliegue automático:** Habilitado con CI/CD
+- **Optimizaciones aplicadas:** Code splitting, lazy loading, React Query para caché
+
+##### **Despliegue del Backend**
+
+El **Backend de Energix** se mantiene desplegado en **Render**, utilizando contenedores Docker para garantizar consistencia entre entornos. Durante este sprint se añadieron endpoints de administración (`/api/v1/admin/*`) que fueron desplegados exitosamente.
+
+**Figura 99**<br>
+*Servicio Backend en Render — Vista de producción*
+
+<p align="center">
+  <img src="images/render-service.jpg" alt="Servicio Backend Sprint 4 en Render" width="1000">
+</p>
+
+*Nota.* Panel de control de Render mostrando el servicio backend activo.
+
+**Figura 100**<br>
+*Logs del Backend — Inicialización exitosa*
+
+<p align="center">
+  <img src="images/render-logs.jpg" alt="Logs Backend Sprint 4" width="1000">
+</p>
+
+*Nota.* Logs de Render confirmando la correcta inicialización del servicio y conexión a la base de datos.
+
+**Figura 101**<br>
+*Swagger UI — Documentación API actualizada*
+
+<p align="center">
+  <img src="images/render-swagger-new.jpg" alt="Swagger API Sprint 4" width="1000">
+</p>
+
+*Nota.* Interfaz de Swagger mostrando los nuevos endpoints de administración implementados en Sprint 4.
+
+**Características del despliegue Backend:**
+- **Plataforma:** Render
+- **URL de producción:** https://backend-energix.onrender.com
+- **Rama de despliegue:** feature/release
+- **Contenedorización:** Docker con docker-compose.yml
+- **Base de datos:** PostgreSQL/MySQL en contenedor
+- **Nuevos endpoints:** `/api/v1/admin/users`, `/api/v1/admin/stats`
+- **Documentación:** Swagger UI disponible en `/swagger`
+
+##### **Integración Frontend-Backend**
+
+Durante este sprint se validó exitosamente la integración completa entre el frontend desplegado en Vercel y el backend en Render, específicamente para las nuevas funcionalidades del panel de administración:
+
+**Endpoints integrados:**
+- `GET /api/v1/admin/users` → Panel de usuarios
+- `PATCH /api/v1/admin/users/{id}/plan` → Edición de planes
+- `PATCH /api/v1/admin/users/{id}/status` → Activación/desactivación de cuentas
+- `GET /api/v1/admin/stats` → Dashboard de estadísticas
+
+**Figura 102**<br>
+*Panel de Administración funcionando en producción*
+
+<p align="center">
+  <img src="images/admin-panel-production.jpg" alt="Panel Admin en producción" width="1000">
+</p>
+
+*Nota.* Captura del panel de administración accediendo correctamente al backend desde el frontend desplegado.
+
+##### **Resumen de URLs de Producción**
+
+**Tabla 37**  
+*Ambientes de despliegue en producción de Energix y sus accesos web correspondientes*
+
+| Componente | Plataforma | URL |
+|------------|-----------|-----|
+| **Frontend** | Vercel | https://frontend-energix.vercel.app/ |
+| **Backend API** | Render | https://backend-energix.onrender.com |
+| **Swagger Docs** | Render | https://backend-energix.onrender.com/swagger |
+
+*Nota.* Elaboración propia.
+
+##### **Mejoras de Despliegue Implementadas en Sprint 4**
+
+Durante este sprint se implementaron las siguientes optimizaciones en el proceso de despliegue:
+
+1. **Variables de entorno segregadas:** Configuración diferenciada para development, staging y production.
+2. **Health checks configurados:** Endpoint `GET /` para monitoreo del estado del servidor.
+3. **Middleware de autenticación reforzado:** Validación de roles para rutas administrativas.
+4. **Optimización de bundle frontend:** Reducción del 30% en tamaño inicial mediante code splitting.
+5. **Logs estructurados:** Sistema de logging mejorado para debugging en producción.
+
+Ambos servicios se encuentran **operativos y estables**, listos para soportar las funcionalidades implementadas en este sprint y futuros desarrollos.
+
+*Nota.* Elaboración propia.
+
 #### **5.2.3.8. Team Collaboration Insights During Sprint**
 
 Durante el Sprint 4, el equipo trabajó de manera coordinada para completar las tareas asignadas en el backend, manteniendo comunicación constante y aplicando prácticas colaborativas que permitieron avanzar con eficiencia.
 
-**Tabla 31**  
+**Tabla 38**  
 *Colaboración del equipo — Sprint 4*
 
 | Alumno                             | Actividad / Responsabilidades asumidas |
@@ -3642,7 +3750,7 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 ## User Flows Clave
 
-**Tabla n**  
+**Tabla 39**  
 *User Flows Clave — Segmentos Objetivos*
 
 <table>
@@ -3684,7 +3792,7 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 **Perfil del entrevistado:** Familias Urbanas con Casas Inteligentes
 
-**Tabla n**  
+**Tabla 40**  
 *Cuestionario utilizado en entrevistas de validación — Segmento Objetivo #1*
 
 <table>
@@ -3744,7 +3852,7 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 **Perfil del entrevistado:** Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Tabla n**  
+**Tabla 41**  
 *Cuestionario utilizado en entrevistas de validación — Segmento Objetivo #2*
 
 <table>
@@ -3802,7 +3910,36 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 ### **5.3.2. Registro de Entrevistas**
 
+## Segmento objetivo #1: Familias Urbanas con Casas Inteligentes
+
+**Tabla 42**  
+*Registro de entrevistas — Segmento Objetivo #1*
+
+<table>
+  <thead>
+    <tr>
+      <th>N° Registro</th>
+      <th>Entrevistado</th>
+      <th>Edad</th>
+      <th>Enlace Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td><strong></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia a partir del registro audiovisual de entrevistas realizadas.
+
 ## Segmento objetivo #2: Estudiantes y Jóvenes que Alquilan Vivienda
+
+**Tabla 43**  
+*Registro de entrevistas — Segmento Objetivo #2*
 
 <table>
   <thead>
@@ -3818,10 +3955,12 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
       <td>1</td>
       <td>Néstor Rojas</td>
       <td>22</td>
-      <td><strong>Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas:</strong> https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create</td>
+      <td><strong>Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas:</strong> https://tinyurl.com/val-seg-2-nes-energix </td>
     </tr>
   </tbody>
 </table>
+
+*Nota.* Elaboración propia a partir del registro audiovisual de entrevistas realizadas.
 
 #### Resumen de Feedback (Néstor Rojas)
 
@@ -3865,6 +4004,7 @@ Energix Manager
 5. Comprensión de métricas  
 6. Vinculación de dispositivos 
 7. Percepción general  
+<br>
 
 *No están incluidas en esta versión de la evaluación las siguientes tareas:*  
 
@@ -3876,6 +4016,9 @@ Energix Manager
 ### Escala de severidad:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
+**Tabla 44**  
+*Escala de severidad empleada para la clasificación de problemas de usabilidad*
+
 | Nivel | Descripción |
 |:------:|--------------|
 | **1** | **Problema superficial:** puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
@@ -3883,12 +4026,19 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
 | **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
+*Nota.* Elaboración propia basada en criterios de Nielsen (1994) adaptados a la evaluación de Energix.
+
 #### Tabla de resumen
+
+**Tabla 45**  
+*Resumen de problemas identificados con su severidad y heurística afectada*
 
 | # | Problema | Severidad | Heurística/Principio Violado |
 | :--- | :--- | :--- | :--- |
 | **1** | La sección de “promedios” puede generar ligera confusión inicial sobre su cálculo o lo que representan. | 1 | Correspondencia entre el sistema y el mundo real. |
 | **2** | El plan estudiantil permite vincular solo dos dispositivos, lo que es limitado para estudiantes que usan múltiples equipos. | 2 | Flexibilidad y eficiencia de uso / Conocer al usuario. |
+
+*Nota.* Elaboración propia según los resultados obtenidos en la evaluación heurística del producto.
 
 ## Descripción de problemas:
 
@@ -3965,7 +4115,6 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 - Enlace Repositorio Project Report - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
 
 - Enlace Repositorio Trabajo Responsabilidad Social - Energix: https://github.com/AppWeb-Energix/srca-app-web
-<br>
 
 **Videos Exposiciones**
 
