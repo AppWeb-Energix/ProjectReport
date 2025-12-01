@@ -27,7 +27,6 @@
 **Nombre del producto:** Energix Manager
 
 <strong>“Energía inteligente y conectada en la palma de tu mano”</strong>
-<br><br>
 
 #### Relación de integrantes
 
@@ -39,9 +38,10 @@
 | Goñe Araccata, Esther Abigail           | U202318049     |
 | Salazar Caballero, Alvaro Fabrizzio     | U202321941     |
 
-<br><div align="center"><h3>Diciembre 2025</h3></div><br>
-
+<div align="center"><h3>Diciembre 2025</h3></div>
+   
 </div>
+<br>
 
 ---
 
