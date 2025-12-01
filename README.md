@@ -689,7 +689,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 | Número de registro | Datos del entrevistado | Resumen | Evidencia |
 |-------------------|----------------------|---------|-----------|
 | **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración:** 2:16 min <br> **Enlace Video Entrevista - Segmento #2 - Braden Garcia:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 | Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | Ver **Figura 5** |
-| **2** | **Nombre:** Néstor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración:** 3:07 min <br> **Enlace Video Entrevista - Segmento #2 - Nestor Rojas:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N | Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar el consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | Ver **Figura 6** |
+| **2** | **Nombre:** Néstor Rojas <br> **Edad:** 22 años <br> **Distrito:** Comas <br> **Duración:** 3:07 min <br> **Enlace Video Entrevista - Segmento #2 - Nestor Rojas:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N | Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar el consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | Ver **Figura 6** |
 
 *Nota.* Elaboración propia.
 <br>
@@ -938,11 +938,13 @@ Las User Stories representan las necesidades y expectativas de los usuarios fina
 | Monitoreo Inteligente del Consumo         | EP01 |
 | Alertas Automáticas                       | EP02 |
 | Recomendaciones Personalizadas            | EP03 |
-| Panel Estadístico                         | EP04 |
+| Dashboard y Visualización                 | EP04 |
 | Perfil y Configuración del Usuario        | EP05 |
 | Integración & Exportación de Datos        | EP06 |
 | Landing Page                              | EP07 |
-| Inicio de Sesión                          | EP08 |
+| Autenticación y Gestión de Sesión         | EP08 |
+| Infraestructura y Servicios del API       | EP09 |
+| Panel de Administración                   | EP10 |
 
 *Nota.* Elaboración propia.
 <br>
@@ -952,44 +954,44 @@ Las User Stories representan las necesidades y expectativas de los usuarios fina
 
 | Story ID | Título                                     | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |----------|---------------------------------------------|-------------|--------------------------|----------------------------|
-| US01     | Consumo en tiempo real                     | Como usuario, quiero ver mi consumo energético en vivo para reaccionar de inmediato y no pasarme de mi presupuesto. | **Escenario 1:** Visualización del consumo instantáneo<br>Given que accedo al panel principal<br>When me encuentro en la pestaña “Panel”<br>Then el sistema muestra los kWh y su equivalente en soles en tiempo real. | EP01 |
+| US01     | Consumo en tiempo real                     | Como usuario, quiero ver mi consumo energético en vivo para reaccionar de inmediato y no pasarme de mi presupuesto. | **Escenario 1:** Visualización del consumo instantáneo<br>Given que accedo al panel principal<br>When me encuentro en la pestaña "Panel"<br>Then el sistema muestra los kWh y su equivalente en soles en tiempo real. | EP01 |
 | US02     | Historial de consumo                       | Como usuario, quiero ver el historial de consumo (día/semana/mes) para identificar patrones y planificar los gastos de mi hogar. | **Escenario 1:** Consulta del historial<br>Given que ingreso al módulo de historial<br>When selecciono un rango de fechas<br>Then el sistema muestra consumo total y promedio en ese período. | EP01 |
-| US03     | Consumo por dispositivo               | Como miembro de familia urbana de clase media, quiero ver el consumo por aparato en un gráfico circular para identificar cuáles generan más gasto en mi hogar. | **Escenario 1:** Distribución por dispositivos<br>Given que tengo varios dispositivos registrados<br>When ingreso al “Panel”<br>Then el sistema muestra un gráfico circular con porcentajes de consumo por aparato. | EP01 |
-| US04     | Resumen diario automático por correo       | Como estudiante con presupuesto ajustado, quiero recibir un resumen automático diario para controlar mis gastos sin necesidad de revisar la app constantemente. | **Escenario 1:** Recepción de resumen diario<br>Given que configuro notificaciones<br>When finaliza el día<br>Then recibo un resumen de consumo en mi correo. | EP01 |
-| US05     | Comparación mensual y gráfica de consumo   | Como miembro de familia urbana de clase media, quiero comparar mi consumo entre meses y visualizarlo en barras para evaluar mis medidas de ahorro. | **Escenario 1:** Comparación de meses<br>Given que selecciono la opción “Comparar meses”<br>When elijo dos períodos<br>Then el sistema muestra consumos y diferencias porcentuales.<br>**Escenario 2:** Visualización mensual<br>Given que ingreso al “Panel”<br>When consulto “Uso este mes”<br>Then veo un gráfico de barras con consumo diario. | EP01 |
-| US06     | Pronóstico y costo estimado de consumo     | Como miembro de familia urbana de clase media, quiero estimar mi consumo futuro en base a mis hábitos para anticipar el monto de mi factura de electricidad. | **Escenario 1:** Proyección de consumo<br>Given que el sistema tiene mis datos históricos<br>When consulto la predicción<br>Then se muestra la proyección del gasto mensual y su costo estimado. | EP01 |
-| US07     | Visualizar promedio de consumo             | Como usuario, quiero ver el consumo promedio en watts para entender mi nivel típico de gasto. | **Escenario 1:** Consumo promedio<br>Given que ingreso al “Panel”<br>When reviso el cuadro “Promedio”<br>Then el sistema muestra el promedio de consumo registrado. | EP01 |
-| US08     | Alerta de consumo inusual                  | Como estudiante con presupuesto ajustado, quiero recibir alertas cuando un dispositivo consuma más de lo normal para desconectarlo y no gastar de más. | **Escenario 1:** Notificación por consumo anormal<br>Given que un dispositivo excede su consumo promedio<br>When ocurre la variación<br>Then recibo una notificación inmediata. | EP02 |
-| US09     | Límite de consumo mensual                  | Como miembro de familia urbana de clase media, quiero establecer un límite mensual y recibir avisos al acercarme para mantener control financiero en el hogar. | **Escenario 1:** Aviso preventivo al 80% del límite<br>Given que fijo un límite<br>When alcanzo el 80%<br>Then recibo una notificación.<br>**Escenario 2:** Aviso al superar el límite<br>Given que fijo un límite<br>When lo supero<br>Then recibo una alerta indicando exceso. | EP02 |
-| US10     | Aviso por luces encendidas                 | Como miembro de familia urbana de clase media, quiero recibir recordatorios cuando se detecten luces encendidas demasiado tiempo para evitar gastos innecesarios. | **Escenario 1:** Recordatorio por luces activas<br>Given que una luz permanece encendida más de X horas<br>When el sistema lo detecta<br>Then me envía una notificación. | EP02 |
-| US11     | Alertas personalizables en “Panel”         | Como usuario, quiero configurar qué alertas recibir y verlas reflejadas en el ícono del “Panel” para mantenerme informado. | **Escenario 1:** Personalización de alertas<br>Given que ingreso a configuración<br>When ajusto parámetros<br>Then las notificaciones se adaptan a mis preferencias.<br>**Escenario 2:** Visualización de alertas<br>Given que recibo una alerta<br>When accedo al “Panel”<br>Then el ícono de campana muestra la notificación pendiente. | EP02 |
-| US12     | Consejos adaptados al usuario              | Como usuario, quiero recibir consejos personalizados en base a mis patrones de consumo. | **Escenario 1:** Recomendación personalizada<br>Given que el sistema detecta mis hábitos<br>When consulto sugerencias<br>Then recibo tips de ahorro adaptados a mi consumo. | EP03 |
-| US13     | Buenas prácticas generales                 | Como usuario, quiero ver un listado de buenas prácticas rápidas para reducir consumo. | **Escenario 1:** Acceso a buenas prácticas<br>Given que accedo a la sección de consejos<br>When selecciono “Prácticas generales”<br>Then visualizo una lista con sugerencias estándar de ahorro. | EP03 |
-| US14     | Horarios de menor costo                    | Como usuario, quiero conocer las horas más económicas de electricidad. | **Escenario 1:** Consulta de horarios<br>Given que accedo a la sección de tarifas<br>When selecciono “Horas económicas”<br>Then el sistema muestra los tramos horarios de menor costo. | EP03 |
-| US15     | Estimación de ahorro                       | Como usuario, quiero ver el ahorro potencial de aplicar un consejo. | **Escenario 1:** Cálculo de ahorro<br>Given que selecciono un consejo<br>When activo la opción “Estimar ahorro”<br>Then el sistema muestra el ahorro estimado en kWh y soles. | EP03 |
-| US16     | Panel integral de métricas y gráficas      | Como usuario, quiero ver en un panel mis indicadores principales (kWh, costo, ahorro). | **Escenario 1:** Visualización integral<br>Given que accedo al “Panel”<br>When cargo la vista<br>Then aparecen indicadores clave y gráficas relacionadas. | EP04 |
-| US17     | Gráfica de consumo diario por horas        | Como usuario, quiero ver mi consumo a lo largo del día en una gráfica de líneas para detectar picos de gasto. | **Escenario 1:** Consumo horario<br>Given que ingreso a la vista diaria<br>When consulto la gráfica<br>Then observo un gráfico de líneas con variaciones por hora. | EP04 |
-| US18     | Acceso a reportes desde menú lateral       | Como usuario, quiero acceder a la sección de reportes desde el menú lateral. | **Escenario 1:** Navegación lateral<br>Given que abro el menú lateral<br>When selecciono “Reportes”<br>Then soy redirigido a la sección de reportes. | EP04 |
-| US19     | Gestión y acceso al perfil personal        | Como usuario, quiero registrar, actualizar y acceder a mis datos personales. | **Escenario 1:** Registro de datos<br>Given que accedo a “Mi perfil”<br>When agrego información<br>Then se guarda correctamente.<br>**Escenario 2:** Actualización de datos<br>Given que accedo a “Mi perfil”<br>When edito mis datos<br>Then el sistema guarda los cambios. | EP05 |
-| US20     | Configuración completa                     | Como usuario, quiero configurar idioma y notificaciones desde el menú lateral. | **Escenario 1:** Configuración de idioma<br>Given que accedo a ajustes<br>When selecciono otro idioma<br>Then la interfaz cambia automáticamente.<br>**Escenario 2:** Configuración de notificaciones<br>Given que accedo a ajustes<br>When activo/desactivo notificaciones<br>Then el sistema aplica las preferencias. | EP05 |
-| US21     | Registro de dispositivos electrónicos              | Como usuario, quiero añadir o eliminar dispositivos en mi perfil. | **Escenario 1:** Agregar dispositivo<br>Given que accedo a la sección de dispositivos<br>When ingreso datos de un electrodoméstico<br>Then se guarda en mi perfil.<br>**Escenario 2:** Eliminar dispositivo<br>Given que accedo a la sección de dispositivos<br>When selecciono eliminar<br>Then el sistema borra el electrodoméstico de la lista. | EP05 |
-| US22     | Personalización del panel                  | Como usuario, quiero elegir qué métricas ver primero en mi panel. | **Escenario 1:** Configuración de métricas<br>Given que accedo al “Panel”<br>When selecciono personalizar<br>Then puedo ordenar métricas según mi preferencia. | EP05 |
-| US23     | Integración con facturas eléctricas        | Como usuario, quiero vincular mi recibo digital de electricidad y comparar consumos. | **Escenario 1:** Carga de recibo<br>Given que accedo a “Facturas”<br>When subo un archivo de recibo<br>Then el sistema lo procesa y guarda.<br>**Escenario 2:** Comparación<br>Given que tengo facturas cargadas<br>When selecciono dos períodos<br>Then veo la comparación gráfica de consumo. | EP06 |
-| US24     | Compatibilidad con smart devices           | Como usuario premium, quiero compatibilidad con dispositivos inteligentes IoT. | **Escenario 1:** Vinculación IoT<br>Given que tengo un dispositivo IoT<br>When lo vinculo en “Dispositivos”<br>Then el sistema reconoce y muestra su consumo en el panel. | EP06 |
-| US25     | Exportación de reportes                    | Como usuario, quiero exportar mis estadísticas en PDF o Excel. | **Escenario 1:** Exportar a PDF<br>Given que accedo a reportes<br>When selecciono “Exportar PDF”<br>Then recibo el archivo descargable.<br>**Escenario 2:** Exportar a Excel<br>Given que accedo a reportes<br>When selecciono “Exportar Excel”<br>Then recibo el archivo en formato .xlsx. | EP06 |
-| US26     | Página de bienvenida clara                 | Como visitante, quiero que la landing muestre qué es Energix Manager de manera simple. | **Escenario 1:** Página introductoria<br>Given que ingreso a la web<br>When cargo la landing<br>Then visualizo un mensaje claro de qué es Energix Manager. | EP07 |
-| US27     | Información en el footer                   | Como visitante, quiero ver información útil en el pie de página. | **Escenario 1:** Footer visible<br>Given que navego en la landing<br>When llego al pie de página<br>Then observo enlaces a contacto, términos y redes sociales. | EP07 |
-| US28     | Encabezado con navegación                  | Como visitante, quiero un encabezado con menú de navegación. | **Escenario 1:** Menú superior<br>Given que accedo a la landing<br>When interactúo con el encabezado<br>Then puedo navegar entre secciones principales. | EP07 |
-| US29     | Formulario de contacto                     | Como visitante, quiero un formulario para comunicarme con soporte. | **Escenario 1:** Envío de mensaje<br>Given que completo el formulario<br>When presiono “Enviar”<br>Then el sistema envía el mensaje a soporte y confirma el envío. | EP07 |
-| US30     | Planes de suscripción                      | Como visitante, quiero ver distintos planes de suscripción. | **Escenario 1:** Listado de planes<br>Given que accedo a la sección de precios<br>When cargo la vista<br>Then veo los diferentes planes con sus características y costos. | EP07 |
-| US31     | Características de Energix Manager         | Como visitante, quiero ver lista de características de la app. | **Escenario 1:** Información de features<br>Given que accedo a la landing<br>When voy a la sección “Características”<br>Then se listan las principales funcionalidades de la app. | EP07 |
-| US32     | Conociendo al equipo                       | Como visitante, quiero ver un video de presentación del equipo. | **Escenario 1:** Video visible<br>Given que accedo a la landing<br>When llego a la sección “Equipo”<br>Then se muestra un video de presentación. | EP07 |
-| US33     | Video tutorial introductorio               | Como visitante, quiero acceder a un tutorial para comprender cómo funciona la app. | **Escenario 1:** Acceso a tutorial<br>Given que accedo a la landing<br>When selecciono “Tutorial”<br>Then se reproduce un video explicativo de la app. | EP07 |
-| US34     | Multilenguaje                              | Como visitante, quiero cambiar entre español e inglés en la landing. | **Escenario 1:** Cambio de idioma<br>Given que accedo al encabezado<br>When selecciono “EN/ES”<br>Then la landing se traduce automáticamente. | EP07 |
-| US35     | Inicio con credenciales                    | Como usuario, quiero acceder con correo y contraseña de forma segura. | **Escenario 1:** Login válido<br>Given que ingreso usuario y contraseña correctos<br>When presiono ingresar<br>Then accedo a mi panel.<br>**Escenario 2:** Login inválido<br>Given que ingreso credenciales erróneas<br>When intento acceder<br>Then el sistema muestra error de autenticación. | EP08 |
-| US36     | Recuperación de contraseña                 | Como usuario, quiero recuperar mi contraseña olvidada. | **Escenario 1:** Recuperar clave<br>Given que selecciono “¿Olvidaste tu contraseña?”<br>When ingreso mi correo<br>Then el sistema envía un enlace de recuperación. | EP08 |
-| US37     | Creación de cuenta                         | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | **Escenario 1:** Registro exitoso<br>Given que completo el formulario de registro<br>When envío los datos<br>Then el sistema crea la cuenta y me da acceso inicial. | EP08 |
-| US38     | Cierre de sesión                           | Como usuario, quiero cerrar sesión de forma segura. | **Escenario 1:** Logout<br>Given que estoy autenticado<br>When selecciono “Cerrar sesión”<br>Then el sistema finaliza la sesión y me redirige a la página de inicio. | EP08 |
+| US03     | Consumo por dispositivo               | Como miembro de familia urbana con casa inteligente, quiero ver el consumo por aparato en un gráfico circular para identificar cuáles generan más gasto en mi hogar. | **Escenario 1:** Distribución por dispositivos<br>Given que tengo varios dispositivos registrados<br>When ingreso al "Panel"<br>Then el sistema muestra un gráfico circular con porcentajes de consumo por aparato. | EP01 |
+| US04     | Comparación mensual y gráfica de consumo   | Como miembro de familia urbana con casa inteligente, quiero comparar mi consumo entre meses y visualizarlo en barras para evaluar mis medidas de ahorro. | **Escenario 1:** Comparación de meses<br>Given que selecciono la opción "Comparar meses"<br>When elijo dos períodos<br>Then el sistema muestra consumos y diferencias porcentuales.<br>**Escenario 2:** Visualización mensual<br>Given que ingreso al "Panel"<br>When consulto "Uso este mes"<br>Then veo un gráfico de barras con consumo diario. | EP01 |
+| US05     | Pronóstico y costo estimado de consumo     | Como miembro de familia urbana con casa inteligente, quiero estimar mi consumo futuro en base a mis hábitos para anticipar el monto de mi factura de electricidad. | **Escenario 1:** Proyección de consumo<br>Given que el sistema tiene mis datos históricos<br>When consulto la predicción<br>Then se muestra la proyección del gasto mensual y su costo estimado. | EP01 |
+| US06     | Visualizar promedio de consumo             | Como usuario, quiero ver el consumo promedio en watts para entender mi nivel típico de gasto. | **Escenario 1:** Consumo promedio<br>Given que ingreso al "Panel"<br>When reviso el cuadro "Promedio"<br>Then el sistema muestra el promedio de consumo registrado. | EP01 |
+| US07     | Alerta de consumo inusual                  | Como estudiante con presupuesto ajustado, quiero recibir alertas cuando un dispositivo consuma más de lo normal para desconectarlo y no gastar de más. | **Escenario 1:** Notificación por consumo anormal<br>Given que un dispositivo excede su consumo promedio<br>When ocurre la variación<br>Then recibo una notificación inmediata. | EP02 |
+| US08     | Límite de consumo mensual                  | Como miembro de familia urbana con casa inteligente, quiero establecer un límite mensual y recibir avisos al acercarme para mantener control financiero en el hogar. | **Escenario 1:** Aviso preventivo al 80% del límite<br>Given que fijo un límite<br>When alcanzo el 80%<br>Then recibo una notificación.<br>**Escenario 2:** Aviso al superar el límite<br>Given que fijo un límite<br>When lo supero<br>Then recibo una alerta indicando exceso. | EP02 |
+| US09     | Aviso por luces encendidas                 | Como miembro de familia urbana de clase media, quiero recibir recordatorios cuando se detecten luces encendidas demasiado tiempo para evitar gastos innecesarios. | **Escenario 1:** Recordatorio por luces activas<br>Given que una luz permanece encendida más de X horas<br>When el sistema lo detecta<br>Then me envía una notificación. | EP02 |
+| US10     | Estimación de ahorro                       | Como usuario, quiero ver el ahorro potencial de aplicar un consejo. | **Escenario 1:** Cálculo de ahorro<br>Given que selecciono un consejo<br>When activo la opción "Estimar ahorro"<br>Then el sistema muestra el ahorro estimado en kWh y soles. | EP03 |
+| US11     | Panel integral de métricas y gráficas      | Como usuario, quiero ver en un panel mis indicadores principales (kWh, costo, ahorro). | **Escenario 1:** Visualización integral<br>Given que accedo al "Panel"<br>When cargo la vista<br>Then aparecen indicadores clave y gráficas relacionadas. | EP04 |
+| US12     | Gráfica de consumo diario por horas        | Como usuario, quiero ver mi consumo a lo largo del día en una gráfica de líneas para detectar picos de gasto. | **Escenario 1:** Consumo horario<br>Given que ingreso a la vista diaria<br>When consulto la gráfica<br>Then observo un gráfico de líneas con variaciones por hora. | EP04 |
+| US13     | Acceso a rewards desde menú lateral       | Como usuario, quiero acceder a la sección de Rewards desde el menú lateral. | **Escenario 1:** Navegación lateral a Rewards<br>Given que abro el menú lateral<br>When selecciono "Rewards"<br>Then soy redirigido a la sección de Rewards y puedo visualizar mis recompensas disponibles. | EP04 |
+| US14     | Gestión y acceso al perfil personal        | Como usuario, quiero registrar, actualizar y acceder a mis datos personales. | **Escenario 1:** Registro de datos<br>Given que accedo a "Mi perfil"<br>When agrego información<br>Then se guarda correctamente.<br>**Escenario 2:** Actualización de datos<br>Given que accedo a "Mi perfil"<br>When edito mis datos<br>Then el sistema guarda los cambios. | EP05 |
+| US15     | Configuración completa                     | Como usuario, quiero configurar el idioma desde el menú lateral. | **Escenario 1:** Configuración de idioma<br>Given que accedo a ajustes<br>When selecciono otro idioma<br>Then la interfaz cambia automáticamente. | EP05 |
+| US16     | Registro de dispositivos electrónicos              | Como usuario, quiero añadir o eliminar dispositivos en mi perfil. | **Escenario 1:** Agregar dispositivo<br>Given que accedo a la sección de dispositivos<br>When ingreso datos de un dispositivo<br>Then se guarda en mi perfil.<br>**Escenario 2:** Eliminar dispositivo<br>Given que accedo a la sección de dispositivos<br>When selecciono eliminar<br>Then el sistema borra el electrodoméstico de la lista. | EP05 |
+| US17     | Personalización del Dashboard | Como usuario, quiero activar o desactivar los gráficos del Dashboard desde la configuración, para visualizar solo los que me interesan. | **Escenario 1:** Gestión de métricas desde Dashboard Personalization<br>Given que estoy en la sección "Configuración"<br>And accedo a "Dashboard Personalization"<br>When activo o desactivo los gráficos mediante checkboxes<br>Then los gráficos seleccionados se muestran o se ocultan en mi Dashboard. | EP05 |
+| US18     | Compatibilidad con smart devices           | Como usuario con plan estudiante o familiar, quiero compatibilidad con dispositivos inteligentes IoT. | **Escenario 1:** Vinculación IoT<br>Given que tengo un dispositivo IoT<br>When lo vinculo en "Dispositivos"<br>Then el sistema reconoce y muestra su consumo en el Dashboard. | EP06 |
+| US19     | Página de bienvenida clara                 | Como visitante, quiero que la landing muestre qué es Energix Manager de manera simple. | **Escenario 1:** Página introductoria<br>Given que ingreso a la web<br>When cargo la landing<br>Then visualizo un mensaje claro de qué es Energix Manager. | EP07 |
+| US20     | Información en el footer                   | Como visitante, quiero ver información útil en el pie de página. | **Escenario 1:** Footer visible<br>Given que navego en la landing<br>When llego al pie de página<br>Then observo enlaces a contacto, términos y redes sociales. | EP07 |
+| US21     | Encabezado con navegación                  | Como visitante, quiero un encabezado con menú de navegación. | **Escenario 1:** Menú superior<br>Given que accedo a la landing<br>When interactúo con el encabezado<br>Then puedo navegar entre secciones principales. | EP07 |
+| US22     | Formulario de contacto                     | Como visitante, quiero un formulario para comunicarme con soporte. | **Escenario 1:** Envío de mensaje<br>Given que completo el formulario<br>When presiono "Enviar"<br>Then el sistema envía el mensaje a soporte y confirma el envío. | EP07 |
+| US23     | Planes de suscripción                      | Como visitante, quiero ver distintos planes de suscripción. | **Escenario 1:** Listado de planes<br>Given que accedo a la sección de precios<br>When cargo la vista<br>Then veo los diferentes planes con sus características y costos. | EP07 |
+| US24     | Visualización de características en la Landing Page | Como visitante, quiero conocer las principales características de Energix Manager desde la landing, para entender cómo me ayuda a controlar mi consumo. | **Escenario 1:** Visualización de Features en la Landing<br>Given que accedo a la landing page<br>When navego a la sección "Características"<br>Then se muestran las funcionalidades destacadas. | EP07 |
+| US25     | Conociendo al equipo                       | Como visitante, quiero ver un video de presentación del equipo. | **Escenario 1:** Video visible<br>Given que accedo a la landing<br>When llego a la sección "Equipo"<br>Then se muestra un video de presentación. | EP07 |
+| US26     | Presentación del producto en video | Como visitante, quiero ver un video corto que muestre los beneficios de Energix Manager para entender cómo me ayuda a gestionar mi consumo energético. | **Escenario 1:** Video promocional visible<br>Given que accedo a la landing<br>When llego a la sección "About the product"<br>Then puedo reproducir un video que muestra las funcionalidades clave y beneficios del producto. | EP07 |
+| US27     | Multilenguaje | Como visitante o usuario, quiero cambiar entre español e inglés tanto en la landing como en la web application, para visualizar todo el contenido en el idioma de mi preferencia. | **Escenario 1:** Cambio de idioma en Landing Page<br>Given que accedo al encabezado de la Landing Page<br>When selecciono el idioma "EN/ES"<br>Then todo el contenido visible se traduce automáticamente.<br><br>**Escenario 2:** Cambio de idioma en Web Application<br>Given que estoy logueado en la web application<br>And accedo al menú de configuración de idioma<br>When selecciono "EN/ES"<br>Then todas las secciones y etiquetas de la interfaz se traducen automáticamente al idioma seleccionado. | EP07 |
+| US28     | Inicio con credenciales                    | Como usuario, quiero acceder con correo y contraseña de forma segura. | **Escenario 1:** Login válido<br>Given que ingreso usuario y contraseña correctos<br>When presiono ingresar<br>Then accedo a mi panel.<br>**Escenario 2:** Login inválido<br>Given que ingreso credenciales erróneas<br>When intento acceder<br>Then el sistema muestra error de autenticación. | EP08 |
+| US29     | Creación de cuenta                         | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | **Escenario 1:** Registro exitoso<br>Given que completo el formulario de registro<br>When envío los datos<br>Then el sistema crea la cuenta y me da acceso inicial. | EP08 |
+| US30     | Cierre de sesión                           | Como usuario, quiero cerrar sesión de forma segura. | **Escenario 1:** Logout<br>Given que estoy autenticado<br>When selecciono "Cerrar sesión"<br>Then el sistema finaliza la sesión y me redirige a la página de inicio. | EP08 |
+| US31     | Consulta de metadatos de la base de datos         | Como administrador de datos, quiero consultar información estructural de las tablas monitoreadas, para validar que la base de datos mantiene su integridad y estructura esperada. | **Escenario 1:** Obtención de metadatos<br>Given que deseo obtener información de la BD<br>When realizo una petición GET a `/api/v1/dbinfo/tables`<br>Then el sistema retorna una lista de tablas con nombre, columnas y tipos. | EP09 |
+| US32     | Estado de conexión de la base de datos    | Como administrador de datos, quiero validar que la API mantiene conexión activa con la base de datos, para asegurar el servicio sin interrupciones. | **Escenario 1:** Validación de conexión<br>Given que necesito comprobar disponibilidad de BD<br>When realizo una petición GET a `/api/v1/dbinfo/status`<br>Then recibo un JSON con estado de conexión y tiempo de respuesta. | EP09 |
+| US33     | Monitoreo del crecimiento de la BD        | Como administrador de datos, quiero visualizar la cantidad de registros por tabla monitoreada, para prevenir problemas de almacenamiento o degradación del rendimiento. | **Escenario 1:** Consulta de tamaño de tablas<br>Given que deseo analizar crecimiento de datos<br>When realizo GET `/api/v1/dbinfo/tables/size`<br>Then recibo cantidad de registros por tabla y fecha de actualización. | EP09 |
+| US34     | Listado de usuarios registrados            | Como administrador, quiero ver un listado completo de todos los usuarios registrados en el sistema para gestionar las cuentas. | **Escenario 1:** Visualización de usuarios<br>Given que soy administrador autenticado<br>When accedo al panel de administración<br>Then veo listado con nombre, email, plan y fecha de registro de cada usuario. | EP10 |
+| US35     | Editar plan de suscripción de usuario      | Como administrador, quiero cambiar el plan de suscripción de un usuario para ajustar sus permisos y funcionalidades. | **Escenario 1:** Cambio de plan exitoso<br>Given que selecciono un usuario<br>When modifico su plan (Free/Student/Family)<br>Then el sistema actualiza el plan y muestra confirmación. | EP10 |
+| US36     | Activar y desactivar cuentas de usuario    | Como administrador, quiero activar o desactivar cuentas de usuario para controlar el acceso al sistema. | **Escenario 1:** Desactivación de cuenta<br>Given que selecciono un usuario activo<br>When desactivo su cuenta<br>Then el usuario no puede iniciar sesión.<br>**Escenario 2:** Activación de cuenta<br>Given que selecciono un usuario inactivo<br>When activo su cuenta<br>Then el usuario puede volver a acceder. | EP10 |
+| US37     | Estadísticas de uso por plan               | Como administrador, quiero ver estadísticas de usuarios por plan de suscripción para análisis de negocio. | **Escenario 1:** Dashboard de estadísticas<br>Given que accedo a estadísticas<br>When cargo la vista<br>Then veo gráficas con distribución de usuarios por plan, usuarios activos vs inactivos y tendencias. | EP10 |
+| US38     | Búsqueda y filtrado de usuarios            | Como administrador, quiero buscar y filtrar usuarios por nombre, email o plan para encontrar cuentas específicas rápidamente. | **Escenario 1:** Búsqueda por criterios<br>Given que ingreso texto en el buscador<br>When aplico filtros<br>Then el sistema muestra solo usuarios que coinciden con los criterios. | EP10 |
 
 *Nota.* Elaboración propia.
 
@@ -1000,46 +1002,40 @@ Las Technical Stories detallan requerimientos técnicos derivados de las User St
 **Tabla 9**  
 *Technical Stories*
 
-| ID   | Título Técnico                                | Descripción | Acceptance Criteria | Relacionado con (US ID) |
-|------|-----------------------------------------------|-------------|----------------------|--------------------------|
-| TS01 | Endpoint GET de consumo en tiempo real        | Como developer, quiero implementar un endpoint que devuelva el consumo energético en tiempo real del usuario autenticado. | **Escenario:** Consulta exitosa<br>Given que el usuario está autenticado<br>When consulta su consumo actual<br>Then el sistema retorna el valor en kWh y soles. | US01 |
-| TS02 | Endpoint GET historial de consumo             | Como developer, quiero implementar un endpoint que devuelva el historial de consumo por rango de fechas. | **Escenario:** Consulta por rango<br>Given que el usuario selecciona un rango de fechas<br>When envía la solicitud<br>Then el sistema retorna el consumo total y promedio. | US02 |
-| TS03 | Endpoint GET consumo por dispositivo     | Como developer, quiero implementar un endpoint que devuelva el consumo agregado por dispositivo. | **Escenario:** Distribución por dispositivos<br>Given que el usuario tiene dispositivos registrados<br>When consulta su distribución de consumo<br>Then el sistema muestra el consumo agrupado por aparato. | US03 |
-| TS04 | Job automático de resumen diario              | Como developer, quiero programar un job que genere y envíe por correo el resumen de consumo al final del día. | **Escenario:** Envío de correo automático<br>Given que el usuario activó las notificaciones<br>When finaliza el día<br>Then recibe un correo con su resumen de consumo. | US04 |
-| TS05 | Endpoint GET comparación mensual              | Como developer, quiero implementar un endpoint que compare el consumo entre dos meses distintos. | **Escenario:** Comparación exitosa<br>Given que existen datos de ambos meses<br>When el usuario solicita la comparación<br>Then el sistema muestra los consumos y la diferencia porcentual. | US05 |
-| TS06 | Endpoint GET pronóstico de consumo            | Como developer, quiero implementar un endpoint que genere una predicción de consumo futuro usando datos históricos. | **Escenario:** Predicción generada<br>Given que existen datos históricos<br>When el usuario consulta proyección<br>Then se devuelve estimación en kWh y soles. | US06 |
-| TS07 | Endpoint GET promedio de consumo              | Como developer, quiero implementar un endpoint que calcule el consumo promedio. | **Escenario:** Promedio calculado<br>Given que existen datos<br>When el usuario solicita su promedio<br>Then el sistema devuelve el valor calculado. | US07 |
-| TS08 | Sistema de alertas por consumo inusual        | Como developer, quiero implementar un servicio que detecte consumos inusuales y genere alertas. | **Escenario:** Detección de anomalía<br>Given que un dispositivo supera su promedio<br>When ocurre el evento<br>Then el sistema genera una alerta al usuario. | US08 |
-| TS09 | Endpoint POST límite de consumo mensual       | Como developer, quiero implementar un endpoint que permita fijar y almacenar un límite de consumo mensual. | **Escenario:** Registro de límite<br>Given que el usuario define un valor<br>When guarda el límite<br>Then queda almacenado y disponible para validación. | US09 |
-| TS10 | Servicio de notificaciones por límite         | Como developer, quiero implementar un proceso que monitoree el límite mensual y envíe notificaciones. | **Escenario:** Aviso de consumo<br>Given que el usuario fijó un límite<br>When se alcanza el 80% o se supera<br>Then el sistema envía alerta. | US09 |
-| TS11 | Sistema de detección de luces encendidas      | Como developer, quiero programar un servicio que detecte luces encendidas demasiado tiempo. | **Escenario:** Detección de luces<br>Given que un foco permanece encendido X horas<br>When el sistema lo detecta<br>Then envía notificación al usuario. | US10 |
-| TS12 | Configuración de alertas personalizables      | Como developer, quiero habilitar que el usuario configure qué alertas recibir. | **Escenario:** Personalización<br>Given que el usuario accede a configuración<br>When selecciona/deselecciona alertas<br>Then el sistema guarda las preferencias. | US11 |
-| TS13 | Ícono de notificaciones en panel              | Como developer, quiero implementar un ícono en el panel que muestre alertas pendientes. | **Escenario:** Visualización<br>Given que el usuario recibe alertas<br>When entra al panel<br>Then el ícono refleja las notificaciones. | US11 |
-| TS14 | Motor de recomendaciones personalizadas       | Como developer, quiero implementar un motor que genere consejos adaptados al usuario. | **Escenario:** Generación de consejos<br>Given que existen patrones de consumo<br>When el sistema los analiza<br>Then genera recomendaciones personalizadas. | US12 |
-| TS15 | Listado estático de buenas prácticas          | Como developer, quiero implementar un listado predefinido de prácticas de ahorro energético. | **Escenario:** Visualización<br>Given que el usuario accede a consejos<br>When selecciona “Prácticas generales”<br>Then se muestra el listado. | US13 |
-| TS16 | Endpoint GET horarios de menor costo          | Como developer, quiero crear un endpoint que devuelva los horarios de menor tarifa. | **Escenario:** Consulta exitosa<br>Given que existen tarifas<br>When el usuario consulta<br>Then recibe horarios con menor costo. | US14 |
-| TS17 | Cálculo de estimación de ahorro               | Como developer, quiero implementar un algoritmo que estime el ahorro potencial al aplicar un consejo. | **Escenario:** Cálculo correcto<br>Given que el usuario selecciona un consejo<br>When consulta ahorro<br>Then el sistema muestra el valor estimado. | US15 |
-| TS18 | Dashboard integral de métricas                | Como developer, quiero construir un panel que muestre métricas principales en una sola vista. | **Escenario:** Visualización<br>Given que el usuario accede al panel<br>When carga la vista<br>Then aparecen kWh, costo y ahorro. | US16 |
-| TS19 | Gráfica de consumo diario                     | Como developer, quiero implementar una gráfica de líneas que muestre el consumo por horas en un día. | **Escenario:** Visualización<br>Given que existen datos<br>When el usuario accede al gráfico diario<br>Then ve picos de consumo. | US17 |
-| TS20 | Acceso a reportes desde menú lateral          | Como developer, quiero añadir la opción de “Reportes” en el menú lateral. | **Escenario:** Navegación<br>Given que el usuario abre menú<br>When selecciona “Reportes”<br>Then se redirige a reportes. | US18 |
-| TS21 | CRUD de perfil personal                       | Como developer, quiero implementar el CRUD de datos personales del usuario. | **Escenario:** Guardado de datos<br>Given que el usuario ingresa información<br>When guarda<br>Then queda registrada en BD. | US19 |
-| TS22 | Configuración de idioma y notificaciones      | Como developer, quiero implementar endpoints para configurar idioma y notificaciones. | **Escenario:** Configuración<br>Given que el usuario ajusta valores<br>When guarda<br>Then el sistema aplica cambios. | US20 |
-| TS23 | CRUD de dispositivos                     | Como developer, quiero implementar un CRUD para registrar y eliminar dispositivos. | **Escenario:** Alta y baja<br>Given que el usuario gestiona dispositivos<br>When agrega o elimina<br>Then el sistema actualiza la lista. | US21 |
-| TS24 | Personalización de panel                      | Como developer, quiero implementar lógica para guardar preferencias de métricas en el panel. | **Escenario:** Personalización<br>Given que el usuario ordena métricas<br>When guarda configuración<br>Then el sistema muestra panel adaptado. | US22 |
-| TS25 | Integración de recibos digitales              | Como developer, quiero implementar un servicio que procese recibos de electricidad subidos por el usuario. | **Escenario:** Carga exitosa<br>Given que el usuario sube un PDF<br>When el sistema lo procesa<br>Then se almacena y se compara con consumos. | US23 |
-| TS26 | Integración con dispositivos IoT              | Como developer, quiero implementar compatibilidad con dispositivos inteligentes. | **Escenario:** Vinculación IoT<br>Given que el usuario tiene un IoT<br>When lo vincula<br>Then el sistema recibe y muestra sus datos. | US24 |
-| TS27 | Exportación de reportes en PDF                | Como developer, quiero generar reportes en formato PDF. | **Escenario:** Generación PDF<br>Given que el usuario solicita exportar<br>When selecciona PDF<br>Then se descarga archivo con estadísticas. | US25 |
-| TS28 | Exportación de reportes en Excel              | Como developer, quiero generar reportes en formato Excel. | **Escenario:** Generación Excel<br>Given que el usuario solicita exportar<br>When selecciona Excel<br>Then se descarga archivo .xlsx. | US25 |
-| TS29 | Página de bienvenida (landing)                | Como developer, quiero implementar la landing con descripción clara del producto. | **Escenario:** Carga landing<br>Given que un visitante entra<br>When se carga página<br>Then se muestra mensaje introductorio. | US26 |
-| TS30 | Footer con información                        | Como developer, quiero implementar un footer con enlaces y datos de contacto. | **Escenario:** Visualización<br>Given que un visitante navega<br>When llega al footer<br>Then observa enlaces útiles. | US27 |
-| TS31 | Encabezado con navegación                     | Como developer, quiero implementar un encabezado con menú de navegación. | **Escenario:** Navegación<br>Given que el visitante interactúa<br>When selecciona un enlace<br>Then se redirige a la sección correspondiente. | US28 |
-| TS32 | Formulario de contacto                        | Como developer, quiero implementar un formulario de contacto funcional. | **Escenario:** Envío de mensaje<br>Given que el visitante completa el formulario<br>When lo envía<br>Then se recibe en soporte. | US29 |
-| TS33 | Listado de planes de suscripción              | Como developer, quiero implementar un listado dinámico de planes en la landing. | **Escenario:** Visualización<br>Given que el visitante abre sección de precios<br>When carga<br>Then ve los planes disponibles. | US30 |
-| TS34 | Listado de características de la app          | Como developer, quiero implementar la sección de características de la app en la landing. | **Escenario:** Visualización<br>Given que el visitante abre landing<br>When navega a “Características”<br>Then observa el listado de funcionalidades. | US31 |
-| TS35 | Video de presentación del equipo              | Como developer, quiero integrar un video en la landing sobre el equipo. | **Escenario:** Visualización<br>Given que el visitante entra a “Equipo”<br>When carga<br>Then se reproduce video de presentación. | US32 |
-| TS36 | Video tutorial introductorio                  | Como developer, quiero integrar un video tutorial en la landing. | **Escenario:** Acceso al tutorial<br>Given que el visitante selecciona “Tutorial”<br>When carga<br>Then se reproduce el video explicativo. | US33 |
-| TS37 | Multilenguaje en landing                      | Como developer, quiero implementar cambio de idioma entre español e inglés. | **Escenario:** Cambio idioma<br>Given que el visitante selecciona “EN/ES”<br>When cambia<br>Then la landing se traduce automáticamente. | US34 |
-| TS38 | Módulo de autenticación                       | Como developer, quiero implementar el login, registro, recuperación y logout de usuarios. | **Escenario 1:** Login válido<br>Given credenciales correctas<br>When inicia sesión<br>Then accede.<br>**Escenario 2:** Registro exitoso<br>Given datos correctos<br>When se registra<br>Then se crea cuenta.<br>**Escenario 3:** Recuperación de contraseña<br>Given correo válido<br>When solicita recuperación<br>Then recibe enlace.<br>**Escenario 4:** Logout<br>Given sesión activa<br>When selecciona “Cerrar sesión”<br>Then el sistema lo desconecta. | US35, US36, US37, US38 |git commit -m "docs(chapter-3): add user stories and technical stories"
+| ID   | Título Técnico                                | Descripción | Acceptance Criteria | Relacionado con (US ID) | Endpoint |
+|------|-----------------------------------------------|-------------|----------------------|--------------------------|----------|
+| TS01 | Autenticación JWT con credenciales            | Como developer, quiero implementar un endpoint que valide credenciales y genere tokens JWT con expiración configurable. | **Escenario:** Login exitoso<br>Given que las credenciales (email y password) son correctas<br>When el usuario realiza POST a /api/v1/authentication/sign-in<br>Then el sistema retorna un token JWT válido con claims del usuario y tiempo de expiración. | US28 | POST /api/v1/authentication/sign-in |
+| TS02 | Validación de credenciales erróneas           | Como developer, quiero que el endpoint de login rechace credenciales inválidas con mensajes claros. | **Escenario:** Credenciales incorrectas<br>Given que el email o password son incorrectos<br>When el usuario intenta hacer login<br>Then el sistema retorna error 401 con mensaje descriptivo. | US28 | POST /api/v1/authentication/sign-in |
+| TS03 | Registro de usuario con validación de datos   | Como developer, quiero implementar un endpoint que registre usuarios validando unicidad de email y fortaleza de contraseña. | **Escenario:** Registro exitoso<br>Given que el email no existe y la contraseña cumple requisitos<br>When realiza POST a /api/v1/authentication/sign-up<br>Then el sistema crea la cuenta, hashea la contraseña y retorna confirmación. | US29 | POST /api/v1/authentication/sign-up |
+| TS04 | Prevención de duplicados en registro          | Como developer, quiero que el endpoint de registro detecte emails duplicados. | **Escenario:** Email duplicado<br>Given que el email ya está registrado<br>When intenta crear cuenta<br>Then retorna error 409 indicando que el email ya existe. | US29 | POST /api/v1/authentication/sign-up |
+| TS05 | Consulta de metadatos de tablas BD            | Como developer, quiero implementar un endpoint que obtenga información de las tablas registradas en la base de datos para monitoreo. | **Escenario:** Consulta de tablas<br>Given que el sistema está activo<br>When se consulta GET /api/v1/dbinfo/tables<br>Then retorna nombres, columnas y metadatos de las tablas. | N/A | GET /api/v1/dbinfo/tables |
+| TS06 | Listado de dispositivos del usuario           | Como developer, quiero implementar un endpoint que retorne todos los dispositivos con sus datos de consumo asociados al usuario autenticado. | **Escenario:** Listar dispositivos<br>Given que el usuario está autenticado<br>When consulta GET /api/v1/devices<br>Then retorna la lista completa con nombre, tipo, zona y consumo de cada dispositivo. | US16 | GET /api/v1/devices |
+| TS07 | Filtrado de dispositivos por zona             | Como developer, quiero permitir filtrar dispositivos por zona mediante query params. | **Escenario:** Filtrar por zona<br>Given que el usuario tiene dispositivos en múltiples zonas<br>When consulta GET /api/v1/devices?zone={zoneId}<br>Then retorna solo los dispositivos de esa zona. | US03, US16 | GET /api/v1/devices |
+| TS08 | Registro de nuevo dispositivo con validaciones| Como developer, quiero implementar un endpoint que registre dispositivos validando nombre único y zona válida. | **Escenario:** Crear dispositivo<br>Given que el usuario envía nombre, tipo, potencia y zona válidos<br>When realiza POST a /api/v1/devices<br>Then el dispositivo se registra y retorna el ID generado. | US16 | POST /api/v1/devices |
+| TS09 | Consulta de dispositivo por ID con consumo    | Como developer, quiero implementar un endpoint que obtenga detalles completos de un dispositivo incluyendo histórico de consumo. | **Escenario:** Detalle de dispositivo<br>Given que existe un dispositivo con ID válido<br>When consulta GET /api/v1/devices/{id}<br>Then retorna datos del dispositivo más su consumo histórico. | US03, US16 | GET /api/v1/devices/{id} |
+| TS10 | Actualización parcial de dispositivo          | Como developer, quiero implementar un endpoint que permita actualizar solo los campos necesarios de un dispositivo. | **Escenario:** Actualizar dispositivo<br>Given que el dispositivo existe<br>When envía PATCH a /api/v1/devices/{id} con campos a modificar<br>Then actualiza solo los campos enviados sin afectar los demás. | US16 | PATCH /api/v1/devices/{id} |
+| TS11 | Eliminación lógica de dispositivo             | Como developer, quiero implementar un endpoint que realice eliminación lógica de dispositivos manteniendo su histórico. | **Escenario:** Eliminar dispositivo<br>Given que el dispositivo existe y pertenece al usuario<br>When envía DELETE a /api/v1/devices/{id}<br>Then marca el dispositivo como inactivo sin eliminar datos históricos. | US16 | DELETE /api/v1/devices/{id} |
+| TS12 | Health check del servidor                     | Como developer, quiero implementar un endpoint que verifique el estado del servidor y conexión a BD. | **Escenario:** Servidor activo<br>Given que el servidor está corriendo<br>When consulta GET /<br>Then retorna status 200, versión del API y estado de conexión a BD. | N/A | GET / |
+| TS13 | Obtención de preferencias de dashboard        | Como developer, quiero implementar un endpoint que recupere la configuración personalizada de visualización del usuario. | **Escenario:** Obtener preferencias<br>Given que el usuario tiene preferencias guardadas<br>When consulta GET /api/v1/personalization/{id}<br>Then retorna configuración de gráficos activos, orden y tema visual. | US15, US17 | GET /api/v1/personalization/{id} |
+| TS14 | Configuración por defecto para nuevos usuarios| Como developer, quiero que el endpoint de personalización retorne configuración por defecto si el usuario no tiene preferencias. | **Escenario:** Usuario sin configuración<br>Given que el usuario no ha personalizado su dashboard<br>When consulta sus preferencias<br>Then retorna configuración predeterminada del sistema. | US17 | GET /api/v1/personalization/{id} |
+| TS15 | Actualización de preferencias visuales        | Como developer, quiero implementar un endpoint que actualice las preferencias de dashboard con validación de opciones válidas. | **Escenario:** Actualizar configuración<br>Given que el usuario modifica gráficos activos o tema<br>When envía PATCH a /api/v1/personalization/{id}<br>Then valida opciones y actualiza preferencias persistentemente. | US15, US17 | PATCH /api/v1/personalization/{id} |
+| TS16 | Consulta de perfil de usuario por ID          | Como developer, quiero implementar un endpoint que obtenga información completa de un usuario específico. | **Escenario:** Consulta de usuario<br>Given que existe un usuario con ID válido<br>When se consulta GET /api/v1/users/{id}<br>Then retorna nombre, email, plan de suscripción y fecha de registro. | US14 | GET /api/v1/users/{id} |
+| TS17 | Obtención de datos del usuario autenticado    | Como developer, quiero implementar un endpoint que extraiga el user ID del token JWT y retorne sus datos. | **Escenario:** Usuario autenticado<br>Given que el token JWT es válido<br>When se consulta GET /api/v1/users/me<br>Then extrae el ID del token y retorna datos del usuario en sesión. | US14 | GET /api/v1/users/me |
+| TS18 | Listado de zonas con conteo de dispositivos   | Como developer, quiero implementar un endpoint que retorne zonas del usuario incluyendo cantidad de dispositivos por zona. | **Escenario:** Listar zonas<br>Given que el usuario tiene zonas configuradas<br>When consulta GET /api/v1/zones<br>Then retorna zonas con nombre, descripción y conteo de dispositivos asociados. | US16 | GET /api/v1/zones |
+| TS19 | Creación de zona con nombre único             | Como developer, quiero implementar un endpoint que cree zonas validando unicidad de nombre por usuario. | **Escenario:** Crear zona<br>Given que el nombre de zona no existe para ese usuario<br>When realiza POST a /api/v1/zones<br>Then crea la zona y retorna el ID generado. | US16 | POST /api/v1/zones |
+| TS20 | Prevención de zonas duplicadas                | Como developer, quiero que el endpoint rechace creación de zonas con nombres duplicados. | **Escenario:** Zona duplicada<br>Given que el usuario ya tiene una zona con ese nombre<br>When intenta crear otra zona con el mismo nombre<br>Then retorna error 409 indicando duplicado. | US16 | POST /api/v1/zones |
+| TS21 | Detalle de zona con dispositivos asignados    | Como developer, quiero implementar un endpoint que obtenga información de zona incluyendo lista de dispositivos. | **Escenario:** Detalle de zona<br>Given que existe una zona con ID válido<br>When consulta GET /api/v1/zones/{id}<br>Then retorna datos de zona más lista de dispositivos asociados. | US16 | GET /api/v1/zones/{id} |
+| TS22 | Actualización de zona con validaciones        | Como developer, quiero implementar un endpoint que actualice zonas validando que el nuevo nombre no esté duplicado. | **Escenario:** Actualizar zona<br>Given que la zona existe<br>When envía PATCH a /api/v1/zones/{id} con nuevo nombre<br>Then valida unicidad y actualiza la zona correctamente. | US16 | PATCH /api/v1/zones/{id} |
+| TS23 | Eliminación de zona con verificación          | Como developer, quiero implementar un endpoint que elimine zonas solo si no tienen dispositivos asociados. | **Escenario:** Eliminar zona vacía<br>Given que la zona no tiene dispositivos asociados<br>When envía DELETE a /api/v1/zones/{id}<br>Then elimina la zona del sistema. | US16 | DELETE /api/v1/zones/{id} |
+| TS24 | Prevención de eliminación de zonas con uso   | Como developer, quiero que el endpoint rechace eliminación de zonas con dispositivos activos. | **Escenario:** Zona con dispositivos<br>Given que la zona tiene dispositivos asociados<br>When intenta eliminarla<br>Then retorna error 409 indicando que debe reasignar dispositivos primero. | US16 | DELETE /api/v1/zones/{id} |
+| TS25 | Endpoint de metadatos de tablas                        | Implementar consulta de tablas monitoreadas y sus columnas. | **Escenario:** Consulta correcta<br>Given que la BD responde<br>When se llama GET /api/v1/dbinfo/tables<br>Then retorna nombre de tablas, columnas y tipos. | US31 | GET /api/v1/dbinfo/tables |
+| TS26 | Endpoint de verificación de conexión a BD              | Proveer estado de conectividad con la base de datos. | **Escenario:** BD conectada<br>When GET /api/v1/dbinfo/status<br>Then retorna estado de conexión y tiempo de respuesta.<br>400 si falla conexión. | US32 | GET /api/v1/dbinfo/status |
+| TS27 | Endpoint de métricas de crecimiento de tablas          | Obtener conteo de registros por tabla y fecha de última actualización. | **Escenario:** Tablas monitoreadas<br>When GET /api/v1/dbinfo/tables/size<br>Then retorna lista con cantidad de registros. | US33 | GET /api/v1/dbinfo/tables/size |
+| TS28 | Listado de usuarios para panel admin              | Implementar listado completo con datos básicos. | **Escenario:** Admin autenticado<br>When GET /api/v1/admin/users<br>Then retorna todos los usuarios con nombre, email, plan y estado. | US34 | GET /api/v1/admin/users |
+| TS29 | Actualización del plan de suscripción             | Implementar cambio de plan y reglas de validación. | **Escenario:** Cambio válido<br>PATCH /api/v1/admin/users/{id}/plan<br>Then retorna plan actualizado. | US35 | PATCH /api/v1/admin/users/{id}/plan |
+| TS30 | Activación / desactivación de cuentas de usuario  | Habilitar cambios en el estado de la cuenta. | **Escenario:** Cambiar estado<br>PATCH /api/v1/admin/users/{id}/status<br>Then activa o desactiva acceso. | US36 | PATCH /api/v1/admin/users/{id}/status |
+| TS31 | Estadísticas de usuarios por plan                 | Obtener datos agregados por plan. | **Escenario:** Estadísticas<br>GET /api/v1/admin/users/stats<br>Then retorna lista de planes con conteos y tendencias. | US37 | GET /api/v1/admin/users/stats |
+| TS32 | Búsqueda y filtrado de usuarios                   | Soporte de parámetros de búsqueda y filtros. | **Escenario:** Filtro válido<br>GET /api/v1/admin/users?search=...&plan=...<br>Then muestra coincidencias. | US38 | GET /api/v1/admin/users?search&plan |
 
 *Nota.* Elaboración propia.
 
@@ -1066,7 +1062,7 @@ Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
 *Product Backlog*
 
 <p align="center">
-  <img src="images/Trello_ProductBacklog.png" alt="Product Backlog Energix Manager — Trello" width="1000">
+  <img src="images/Trello_ProductBacklogEnergix.png" alt="Product Backlog Energix Manager — Trello" width="1000">
 </p>
 
 *Nota.* Elaboración propia (realizado en Trello).
@@ -1076,46 +1072,46 @@ Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
 **Tabla 10**  
 *Product backlog*
 
-| Orden  | User Story Id | Título                                    | Descripción                                                                                                   | Story Points |
-|----|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|
-| 1  | US01          | Consumo en tiempo real                   | Como usuario, quiero ver mi consumo energético en vivo para reaccionar de inmediato y no pasarme de mi presupuesto. | 5            |
-| 2  | US02          | Historial de consumo                     | Como usuario, quiero ver el historial de consumo (día/semana/mes) para identificar patrones y planificar gastos. | 3            |
-| 3  | US03          | Consumo por dispositivo             | Como usuario, quiero ver el consumo por aparato en un gráfico circular para identificar cuáles generan más gasto en mi hogar. | 5            |
-| 4  | US05          | Comparación mensual y gráfica de consumo | Como usuario, quiero comparar mi consumo entre meses y verlo en gráficas para evaluar mis medidas de ahorro. | 5            |
-| 5  | US17          | Gráfica de consumo diario por horas      | Como usuario, quiero ver mi consumo a lo largo del día en una gráfica de líneas para detectar picos de gasto. | 5            |
-| 6  | US07          | Visualizar promedio de consumo           | Como usuario, quiero ver el consumo promedio en watts para entender mi nivel típico de gasto. | 2            |
-| 7  | US06          | Pronóstico y costo estimado              | Como usuario, quiero estimar mi consumo futuro en base a hábitos para anticipar el monto de la factura. | 8            |
-| 8  | US08          | Alerta de consumo inusual                | Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal. | 5            |
-| 9  | US09          | Límite de consumo mensual                | Como usuario, quiero establecer un límite mensual y recibir avisos al acercarme. | 5            |
-| 10 | US10          | Aviso por luces encendidas               | Como usuario, quiero recibir recordatorios cuando se detecten luces encendidas demasiado tiempo. | 3            |
-| 11 | US11          | Alertas personalizables en Panel         | Como usuario, quiero configurar qué alertas recibir y verlas reflejadas en el ícono del Panel. | 5            |
-| 12 | US04          | Resumen diario automático por correo     | Como usuario, quiero recibir un resumen automático diario en mi correo. | 3            |
-| 13 | US12          | Consejos adaptados al usuario            | Como usuario, quiero recibir consejos personalizados en base a mis patrones de consumo. | 5            |
-| 14 | US13          | Buenas prácticas generales               | Como usuario, quiero ver un listado de buenas prácticas rápidas para reducir consumo. | 2            |
-| 15 | US14          | Horarios de menor costo                  | Como usuario, quiero conocer las horas más económicas de electricidad. | 3            |
-| 16 | US15          | Estimación de ahorro                     | Como usuario, quiero ver el ahorro potencial de aplicar un consejo. | 3            |
-| 17 | US16          | Panel integral de métricas y gráficas    | Como usuario, quiero ver en un panel mis indicadores principales (kWh, costo, ahorro). | 5            |
-| 18 | US18          | Acceso a reportes desde menú lateral     | Como usuario, quiero acceder a la sección de reportes desde el menú lateral. | 2            |
-| 19 | US25          | Exportación de reportes                  | Como usuario, quiero exportar mis estadísticas en PDF o Excel. | 3            |
-| 20 | US23          | Integración con facturas eléctricas      | Como usuario, quiero vincular mi recibo digital de electricidad y comparar consumos. | 5            |
-| 21 | US24          | Compatibilidad con smart devices         | Como usuario premium, quiero compatibilidad con dispositivos inteligentes IoT. | 8            |
-| 22 | US21          | Registro de dispositivos            | Como usuario, quiero añadir o eliminar dispositivos en mi perfil. | 3            |
-| 23 | US22          | Personalización del panel                | Como usuario, quiero elegir qué métricas ver primero en mi panel. | 3            |
-| 24 | US19          | Gestión y acceso al perfil personal      | Como usuario, quiero registrar, actualizar y acceder a mis datos personales. | 2            |
-| 25 | US20          | Configuración completa                   | Como usuario, quiero configurar idioma y notificaciones desde el menú lateral. | 3            |
-| 26 | US26          | Página de bienvenida clara               | Como visitante, quiero que la landing muestre qué es Energix Manager de manera simple. | 2            |
-| 27 | US27          | Información en el footer                 | Como visitante, quiero ver información útil en el pie de página. | 1            |
-| 28 | US28          | Encabezado con navegación                | Como visitante, quiero un encabezado con menú de navegación. | 2            |
-| 29 | US30          | Planes de suscripción                    | Como visitante, quiero ver distintos planes de suscripción. | 2            |
-| 30 | US31          | Características de Energix Manager       | Como visitante, quiero ver lista de características de la app. | 2            |
-| 31 | US32          | Conociendo al equipo                     | Como visitante, quiero ver un video de presentación del equipo. | 3            |
-| 32 | US33          | Video tutorial introductorio             | Como visitante, quiero acceder a un tutorial para comprender cómo funciona la app. | 3            |
-| 33 | US34          | Multilenguaje                            | Como visitante, quiero cambiar entre español e inglés en la landing. | 3            |
-| 34 | US29          | Formulario de contacto                   | Como visitante, quiero un formulario para comunicarme con soporte. | 2            |
-| 35 | US35          | Inicio con credenciales                  | Como usuario, quiero acceder con correo y contraseña de forma segura. | 3            |
-| 36 | US36          | Recuperación de contraseña               | Como usuario, quiero recuperar mi contraseña olvidada. | 2            |
-| 37 | US37          | Creación de cuenta                       | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | 3            |
-| 38 | US38          | Cierre de sesión                         | Como usuario, quiero cerrar sesión de forma segura. | 1            |
+| Orden | User Story Id | Título                                    | Descripción                                                                                                   | Story Points |
+|-------|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US01          | Consumo en tiempo real                   | Como usuario, quiero ver mi consumo energético en vivo para reaccionar de inmediato y no pasarme de mi presupuesto. | 5            |
+| 2     | US02          | Historial de consumo                     | Como usuario, quiero ver el historial de consumo (día/semana/mes) para identificar patrones y planificar los gastos de mi hogar. | 3            |
+| 3     | US03          | Consumo por dispositivo                  | Como miembro de familia urbana con casa inteligente, quiero ver el consumo por aparato en un gráfico circular para identificar cuáles generan más gasto en mi hogar. | 5            |
+| 4     | US04          | Comparación mensual y gráfica de consumo | Como miembro de familia urbana con casa inteligente, quiero comparar mi consumo entre meses y visualizarlo en barras para evaluar mis medidas de ahorro. | 5            |
+| 5     | US05          | Pronóstico y costo estimado de consumo   | Como miembro de familia urbana con casa inteligente, quiero estimar mi consumo futuro en base a mis hábitos para anticipar el monto de mi factura de electricidad. | 8            |
+| 6     | US06          | Visualizar promedio de consumo           | Como usuario, quiero ver el consumo promedio en watts para entender mi nivel típico de gasto. | 2            |
+| 7     | US07          | Alerta de consumo inusual                | Como estudiante con presupuesto ajustado, quiero recibir alertas cuando un dispositivo consuma más de lo normal para desconectarlo y no gastar de más. | 5            |
+| 8     | US08          | Límite de consumo mensual                | Como miembro de familia urbana con casa inteligente, quiero establecer un límite mensual y recibir avisos al acercarme para mantener control financiero en el hogar. | 5            |
+| 9     | US09          | Aviso por luces encendidas               | Como miembro de familia urbana de clase media, quiero recibir recordatorios cuando se detecten luces encendidas demasiado tiempo para evitar gastos innecesarios. | 3            |
+| 10    | US10          | Estimación de ahorro                     | Como usuario, quiero ver el ahorro potencial de aplicar un consejo. | 3            |
+| 11    | US11          | Panel integral de métricas y gráficas    | Como usuario, quiero ver en un panel mis indicadores principales (kWh, costo, ahorro). | 5            |
+| 12    | US12          | Gráfica de consumo diario por horas      | Como usuario, quiero ver mi consumo a lo largo del día en una gráfica de líneas para detectar picos de gasto. | 5            |
+| 13    | US13          | Acceso a rewards desde menú lateral      | Como usuario, quiero acceder a la sección de Rewards desde el menú lateral. | 2            |
+| 14    | US14          | Gestión y acceso al perfil personal      | Como usuario, quiero registrar, actualizar y acceder a mis datos personales. | 2            |
+| 15    | US15          | Configuración completa                   | Como usuario, quiero configurar el idioma desde el menú lateral. | 3            |
+| 16    | US16          | Registro de dispositivos electrónicos    | Como usuario, quiero añadir o eliminar dispositivos en mi perfil. | 3            |
+| 17    | US17          | Personalización del Dashboard            | Como usuario, quiero activar o desactivar los gráficos del Dashboard desde la configuración, para visualizar solo los que me interesan. | 3            |
+| 18    | US18          | Compatibilidad con smart devices         | Como usuario con plan estudiante o familiar, quiero compatibilidad con dispositivos inteligentes IoT. | 8            |
+| 19    | US19          | Página de bienvenida clara               | Como visitante, quiero que la landing muestre qué es Energix Manager de manera simple. | 2            |
+| 20    | US20          | Información en el footer                 | Como visitante, quiero ver información útil en el pie de página. | 1            |
+| 21    | US21          | Encabezado con navegación                | Como visitante, quiero un encabezado con menú de navegación. | 2            |
+| 22    | US22          | Formulario de contacto                   | Como visitante, quiero un formulario para comunicarme con soporte. | 2            |
+| 23    | US23          | Planes de suscripción                    | Como visitante, quiero ver distintos planes de suscripción. | 2            |
+| 24    | US24          | Visualización de características en la Landing Page | Como visitante, quiero conocer las principales características de Energix Manager desde la landing, para entender cómo me ayuda a controlar mi consumo. | 2            |
+| 25    | US25          | Conociendo al equipo                     | Como visitante, quiero ver un video de presentación del equipo. | 3            |
+| 26    | US26          | Presentación del producto en video       | Como visitante, quiero ver un video corto que muestre los beneficios de Energix Manager para entender cómo me ayuda a gestionar mi consumo energético. | 3            |
+| 27    | US27          | Multilenguaje                            | Como visitante o usuario, quiero cambiar entre español e inglés tanto en la landing como en la web application, para visualizar todo el contenido en el idioma de mi preferencia. | 3            |
+| 28    | US28          | Inicio con credenciales                  | Como usuario, quiero acceder con correo y contraseña de forma segura. | 3            |
+| 29    | US29          | Creación de cuenta                       | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | 3            |
+| 30    | US30          | Cierre de sesión                         | Como usuario, quiero cerrar sesión de forma segura. | 1            |
+| 31    | US31          | Consulta de metadatos de la base de datos                         | Como administrador de datos, quiero consultar información estructural de las tablas monitoreadas. | 3            |
+| 32    | US32          | Estado de conexión de la base de datos                         | Como administrador de datos, quiero validar que la API mantiene conexión activa con la base de datos. | 2            |
+| 33    | US33          | Monitoreo del crecimiento de la BD                         | Como administrador de datos, quiero visualizar la cantidad de registros por tabla monitoreada. | 5            |
+| 34    | US34          | Listado de usuarios registrados                         | Como administrador, quiero ver un listado completo de todos los usuarios registrados. | 3            |
+| 35    | US35          | Editar plan de suscripción de usuario                         | Como administrador, quiero cambiar el plan de suscripción de un usuario. | 3            |
+| 36    | US36          | Activar y desactivar cuentas de usuario                         | Como administrador, quiero activar o desactivar cuentas de usuario. | 3            |
+| 37    | US37          | Estadísticas de uso por plan                         | Como administrador, quiero ver estadísticas de usuarios por plan de suscripción. | 5            |
+| 38    | US38          | Búsqueda y filtrado de usuarios                         | Como administrador, quiero buscar y filtrar usuarios por nombre, email o plan. | 3            |
 
 *Nota.* Elaboración propia.
 
@@ -1777,7 +1773,7 @@ La gestión del código fuente es una parte fundamental del desarrollo de cualqu
 
 **URL de los Repositorios**
 - **Organization:** https://github.com/AppWeb-Energix 
-- **Reporte:** https://github.com/AppWeb-Energix/ProjectReport
+- **Project Report:** https://github.com/AppWeb-Energix/ProjectReport
 - **Landing Page**: https://github.com/AppWeb-Energix/Landing-Page 
 <br>
 
@@ -2105,7 +2101,7 @@ En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. 
 *Sprint 1 — Trello Energix*
 
 <p align="center">
-  <img src="images/Trello_ProductBacklog.png" alt="Sprint 1 Trello — Energix" width="1000">
+  <img src="images/Trello_ProductBacklogEnergix_Sprint1.png" alt="Sprint 1 Trello — Energix" width="1000">
 </p>
 
 *Nota.* Obtenido de Trello.
@@ -2113,19 +2109,177 @@ En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. 
 **Tabla 16**  
 *Sprint Backlog — Sprint 1*
 
-| Sprint #   | Sprint 1                           |                |                          |                                                                       |                    |                 |                                              |
-|------------|------------------------------------|----------------|--------------------------|-----------------------------------------------------------------------|--------------------|-----------------|----------------------------------------------|
-| User Story |                                    | Work Item/Task |                          |                                                                       |                    |                 |                                              |
-| id         | Tittle                             | id             | Tittle                   | Description                                                           | Estimation (Hours) | Assigned to     | Status (To-do / InProcess / ToReview / Done) |
-| US26       | Página de bienvenida clara         | T1             | Implementar hero y CTA   | Diseño hero HTML/CSS responsive                                       | 3                  | Bryan Barba     | Done                                         |
-| US27       | Información en el footer           | T2             | Implementar footer       | Contenido y enlaces legales HTML/CSS responsive pruebas               | 1                  | Sofia Cotrina   | Done                                         |
-| US28       | Encabezado con navegación          | T3             | Header y menú responsive | Diseño header menú responsive manejo estado sesión pruebas móviles    | 3                  | Alexis Encalada | Done                                         |
-| US29       | Formulario de contacto             | T4             | Form + backend envío     | Formulario front API backend; validaciones confirmación/alertas tests | 1                  | Abigail Goñe    | Done                                         |
-| US30       | Planes de suscripción              | T5             | Sección planes y CTAs    | Diseño tablas de planes implementación front integración precios QA   | 2                  | Alvaro Salazar  | Done                                         |
-| US31       | Características de Energix Manager | T1             | Sección características  | Redacción de beneficios diseño tarjetas con iconos implementación QA  | 1                  | Bryan Barba     | Done                                         |
-| US32       | Conociendo al equipo               | T2             | Página equipo            | Contenido de miembros grid de fotos responsive accesibilidad          | 2                  | Sofia Cotrina   | Done                                         |
-| US33       | Video tutorial introductorio       | T3             | Producción y embed video | Guion corto grabación/edición 2-3 min export embed en web QA          | 3                  | Alexis Encalada | Done                                         |
-| US34       | Multilenguaje                      | T4             | Soporte i18n ES/EN       | Extraer textos integrar traducción inicial pruebas                    | 2                  | Abigail Goñe    | Done     
+<table>
+  <thead>
+    <tr>
+      <th colspan="8" style="text-align: center;">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">Work Item/Task</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned to</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>(To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">US19</td>
+      <td rowspan="2">Página de bienvenida clara</td>
+      <td>T1</td>
+      <td>Implementar sección Hero</td>
+      <td>Diseñar y desarrollar sección hero con mensaje principal, descripción del producto y CTA principal. Incluir diseño responsive y animaciones de entrada.</td>
+      <td>3</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T2</td>
+      <td>Integrar CTA de registro</td>
+      <td>Implementar botones de llamada a acción que redirijan a registro/login con tracking de conversión.</td>
+      <td>1</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Información en el footer</td>
+      <td>T3</td>
+      <td>Implementar footer completo</td>
+      <td>Desarrollar footer con enlaces legales (términos, privacidad), contacto, redes sociales y copyright. Diseño responsive.</td>
+      <td>2</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US21</td>
+      <td rowspan="2">Encabezado con navegación</td>
+      <td>T4</td>
+      <td>Desarrollar header responsivo</td>
+      <td>Crear header con logo, menú de navegación sticky, botón de login y menú hamburguesa para móviles.</td>
+      <td>3</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T5</td>
+      <td>Implementar navegación suave</td>
+      <td>Programar scroll suave entre secciones al hacer clic en enlaces del menú.</td>
+      <td>1</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US22</td>
+      <td rowspan="2">Formulario de contacto</td>
+      <td>T6</td>
+      <td>Crear formulario frontend</td>
+      <td>Diseñar formulario con campos: nombre, email, asunto, mensaje. Validaciones en tiempo real.</td>
+      <td>2</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T7</td>
+      <td>Integrar envío de correo</td>
+      <td>Conectar formulario con servicio de email (EmailJS/backend) y mostrar confirmación de envío.</td>
+      <td>2</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US23</td>
+      <td rowspan="2">Planes de suscripción</td>
+      <td>T8</td>
+      <td>Diseñar sección de pricing</td>
+      <td>Crear tarjetas de planes (Free, Student, Family) con características, precios y botón de selección.</td>
+      <td>3</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T9</td>
+      <td>Implementar comparador de planes</td>
+      <td>Desarrollar tabla comparativa destacando diferencias entre planes con diseño responsive.</td>
+      <td>2</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US24</td>
+      <td rowspan="2">Visualización de características en la Landing Page</td>
+      <td>T10</td>
+      <td>Sección de Features</td>
+      <td>Crear grid de características principales con iconos, títulos y descripciones breves. Diseño con cards.</td>
+      <td>3</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T11</td>
+      <td>Animaciones de aparición</td>
+      <td>Implementar animaciones scroll-triggered para cards de características usando AOS o Intersection Observer.</td>
+      <td>1</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US25</td>
+      <td rowspan="2">Conociendo al equipo</td>
+      <td>T12</td>
+      <td>Sección About the Team</td>
+      <td>Diseñar sección con grid de fotos del equipo, nombres, roles y descripción breve de cada miembro.</td>
+      <td>2</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T15</td>
+      <td>Producir y embeber video</td>
+      <td>Grabar/editar video demo del producto (2-3 min) mostrando funcionalidades clave y embedder en landing.</td>
+      <td>4</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="3">US27</td>
+      <td rowspan="3">Multilenguaje</td>
+      <td>T16</td>
+      <td>Configurar i18n en landing</td>
+      <td>Implementar librería de internacionalización (react-i18next o similar) con archivos de traducción ES/EN.</td>
+      <td>3</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T17</td>
+      <td>Selector de idioma en header</td>
+      <td>Crear toggle switch EN/ES en header que cambie idioma globalmente y persista preferencia en localStorage.</td>
+      <td>2</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T18</td>
+      <td>Traducir todo el contenido</td>
+      <td>Completar archivos de traducción con todos los textos de la landing en español e inglés.</td>
+      <td>2</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 *Nota.* Elaboración propia.
 
@@ -2242,9 +2396,11 @@ En el sprint 1, se avanzó significativamente con la página de inicio. La versi
 
 Para la revisión de sprint, se realizó el despliegue del sitio mediante **GitHub Pages**, garantizando que la documentación/landing sea accesible públicamente.
 
-Primero, se creó y configuró el repositorio público **AppWeb-Energix/ProjectReport**. Luego, se cargaron los archivos del sitio, se habilitó **GitHub Pages** seleccionando la rama **main** y la carpeta **/(docs)**, y se validó la disponibilidad en el enlace oficial: https://frontend-energix.netlify.app/login
+Primero, se creó y configuró el repositorio público **AppWeb-Energix/ProjectReport**. Luego, se cargaron los archivos del sitio y se habilitó **GitHub Pages** seleccionando la rama **main** y la carpeta **/(docs)**.
 
 Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub Pages publica automáticamente la nueva versión.
+
+**Enlace Landing Page deploy - Energix:** https://appweb-energix.github.io/Landing-Page/
 
 ### Evidencia de Deployment 1
 
@@ -2340,11 +2496,11 @@ Para lograrlo, dividimos el trabajo en tareas específicas basadas en cada histo
 
 Además, utilizamos la herramienta **Trello** para organizar de manera más eficiente nuestro **Backlog**.
 
-**Figura 78:**
+**Figura 78**
 *Sprint 2 — Trello Energix*
 
 <p align="center">
-  <img src="images/Trello_ProductBacklog_2.png" alt="Sprint 2 Trello — Energix" width="1000">
+  <img src="images/Trello_ProductBacklogEnergix_Sprint2.png" alt="Sprint 2 Trello — Energix" width="1000">
 </p>
 
 *Nota.* Obtenido de Trello.
@@ -2352,26 +2508,189 @@ Además, utilizamos la herramienta **Trello** para organizar de manera más efic
 **Tabla 22**  
 *Sprint Backlog — Sprint 2*
 
-| User Story | Subtarea | Descripción | Criterio de aceptación | Estimación (horas) | Asignado a | Estado |
-|-----------|---------|-------------|-----------------------|------------------|------------|--------|
-| US16 Panel integral de métricas | T1 | Generar vista de panel con indicadores principales | Los indicadores aparecen tras cargar el panel | 2 | Abigail Goñe | Do |
-| US16 Panel integral de métricas | T2 | Integrar visualización gráfica interactiva | Gráfica funcional en el dashboard | 2 | Alvaro Salazar | Do |
-| US17 Gráfica de consumo diario por horas | T1 | Implementar gráfica de líneas del consumo horario | Gráfico muestra variación por hora correctamente | 2 | Bryan Barba | Do |
-| US17 Gráfica de consumo diario por horas | T2 | Conectar frontend al backend para datos horarios | Datos se muestran y actualizan dinámicamente | 1 | Sofia Cotrina | Do |
-| US18 Acceso a reportes desde menú lateral | T1 | Agregar sección “Reportes” al menú lateral | Sección accesible desde cualquier pantalla | 1 | Alexis Encalada | Do |
-| US18 Acceso a reportes desde menú lateral | T2 | Crear diseño y lógica de vista de reportes | Reportes energéticos desplegados con filtros | 1 | Abigail Goñe | Do |
-| US19 Gestión y acceso al perfil personal | T1 | Habilitar formulario para editar datos personales | Los cambios se guardan en la BD | 1 | Alvaro Salazar | Do |
-| US19 Gestión y acceso al perfil personal | T2 | Implementar botón “guardar cambios” con validación | Solo guarda si la info es válida | 1.5 | Bryan Barba | Do |
-| US20 Configuración completa | T1 | Añadir selector de idioma en el panel de ajustes | Cambio de idioma inmediato al seleccionarlo | 0.5 | Sofia Cotrina | Do |
-| US20 Configuración completa | T2 | Desarrollar preferencia y lógica de notificaciones | Usuario puede activar/desactivar notificaciones | 0.5 | Alexis Encalada | Do |
-| US21 Registro de electrodomésticos | T1 | Formulario para agregar electrodoméstico nuevo | Elemento registrado se ve en la lista | 1 | Abigail Goñe | Do |
-| US21 Registro de electrodomésticos | T2 | Crear opción para eliminar electrodoméstico | Elemento desaparece al eliminarlo | 1 | Alvaro Salazar | Do |
-| US22 Personalización del panel | T1 | Permitir al usuario seleccionar y acomodar métricas prioritarias | Cambios son visibles y persistentes | 1 | Bryan Barba | Do |
-| US35 Inicio con credenciales | T1 | Programar formulario de inicio de sesión | Permite ingresar solo con credenciales válidas | 1 | Sofia Cotrina | Do |
-| US35 Inicio con credenciales | T2 | Validación visual y mensajes de error claros | Mensajes comprensibles en caso de error | 0.5 | Alexis Encalada | Do |
-| US36 Recuperación de contraseña | T1 | Habilitar recuperación de contraseña y envío de enlace | E-mail de recuperación se envía correctamente | 0.5 | Abigail Goñe | Do |
-| US37 Creación de cuenta | T1 | Implementar formulario de registro de usuario | Usuario accede luego de completar datos válidos | 1 | Alvaro Salazar | Do |
-| US38 Cierre de sesión | T1 | Desarrollar botón y lógica de logout | Usuario queda deslogueado y vuelve al inicio | 0.5 | Bryan Barba | Do |
+<table>
+  <thead>
+    <tr>
+      <th colspan="8" style="text-align: center;">Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">Work Item/Task</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned to</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>(To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">US11</td>
+      <td rowspan="2">Panel integral de métricas y gráficas</td>
+      <td>T1</td>
+      <td>Generar vista de panel con indicadores principales</td>
+      <td>Desarrollar componente dashboard que muestre kWh, costo en soles y ahorro acumulado con diseño de cards responsive.</td>
+      <td>2</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T2</td>
+      <td>Integrar visualización gráfica interactiva</td>
+      <td>Implementar gráficas con Chart.js/Recharts para mostrar consumo y tendencias de forma visual e interactiva.</td>
+      <td>2</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US12</td>
+      <td rowspan="2">Gráfica de consumo diario por horas</td>
+      <td>T3</td>
+      <td>Implementar gráfica de líneas del consumo horario</td>
+      <td>Crear componente de gráfica de líneas que muestre variación de consumo por hora del día seleccionado.</td>
+      <td>2</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T4</td>
+      <td>Conectar frontend al backend para datos horarios</td>
+      <td>Integrar API call para obtener datos horarios y actualizar gráfica dinámicamente según fecha seleccionada.</td>
+      <td>1</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US13</td>
+      <td rowspan="2">Acceso a rewards desde menú lateral</td>
+      <td>T5</td>
+      <td>Agregar sección "Rewards" al menú lateral</td>
+      <td>Añadir opción de Rewards en sidebar con icono y navegación a vista de recompensas.</td>
+      <td>1</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T6</td>
+      <td>Crear diseño y lógica de vista de Rewards</td>
+      <td>Desarrollar página de Rewards mostrando puntos acumulados, recompensas disponibles y desbloqueadas.</td>
+      <td>2</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US14</td>
+      <td rowspan="2">Gestión y acceso al perfil personal</td>
+      <td>T7</td>
+      <td>Habilitar formulario para editar datos personales</td>
+      <td>Crear formulario de perfil con campos: nombre, email, teléfono. Cargar datos del usuario autenticado.</td>
+      <td>1.5</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T8</td>
+      <td>Implementar botón "guardar cambios" con validación</td>
+      <td>Validar campos antes de guardar (email válido, campos requeridos) y mostrar confirmación de éxito.</td>
+      <td>1.5</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Configuración completa</td>
+      <td>T9</td>
+      <td>Añadir selector de idioma en panel de ajustes</td>
+      <td>Implementar dropdown ES/EN en configuración que cambie idioma de toda la aplicación inmediatamente.</td>
+      <td>1</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US16</td>
+      <td rowspan="2">Registro de dispositivos electrónicos</td>
+      <td>T10</td>
+      <td>Formulario para agregar dispositivo nuevo</td>
+      <td>Crear modal/formulario con campos: nombre, tipo, potencia, zona. Validar datos y enviar a backend.</td>
+      <td>2</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T11</td>
+      <td>Crear opción para eliminar dispositivo</td>
+      <td>Implementar botón de eliminar con confirmación modal. Actualizar lista tras eliminación exitosa.</td>
+      <td>1</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US17</td>
+      <td rowspan="2">Personalización del Dashboard</td>
+      <td>T12</td>
+      <td>Sección de configuración de gráficos</td>
+      <td>Crear vista "Dashboard Personalization" con checkboxes para activar/desactivar gráficos del dashboard.</td>
+      <td>2</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T13</td>
+      <td>Persistir preferencias de visualización</td>
+      <td>Guardar configuración en backend (PATCH /personalization) y aplicar al cargar dashboard.</td>
+      <td>1.5</td>
+      <td>Bryan Barba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US28</td>
+      <td rowspan="2">Inicio con credenciales</td>
+      <td>T14</td>
+      <td>Programar formulario de inicio de sesión</td>
+      <td>Crear página de login con campos email/password, validación y llamada a POST /authentication/sign-in.</td>
+      <td>2</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T15</td>
+      <td>Gestión de tokens JWT y redirección</td>
+      <td>Almacenar JWT en localStorage/sessionStorage tras login exitoso y redirigir a dashboard.</td>
+      <td>1</td>
+      <td>Alexis Encalada</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Creación de cuenta</td>
+      <td>T16</td>
+      <td>Implementar formulario de registro de usuario</td>
+      <td>Crear página de registro con validaciones (contraseña fuerte, email único) y llamada a POST /authentication/sign-up.</td>
+      <td>2</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Cierre de sesión</td>
+      <td>T17</td>
+      <td>Desarrollar botón y lógica de logout</td>
+      <td>Implementar botón de logout que limpie JWT del storage y redirija a landing/login.</td>
+      <td>0.5</td>
+      <td>Alvaro Salazar</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 *Nota.* Elaboración propia.
 
@@ -2537,11 +2856,11 @@ Para una comprensión de las funcionalidades implementadas, hemos realizado un *
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 
-Para la revisión de este sprint, se realizó el despliegue del **Frontend de Energix** utilizando **Vercel**, garantizando que la aplicación web sea accesible públicamente y se actualice automáticamente con cada commit a la rama principal.
+Para la revisión de este sprint 2, se realizó el despliegue del **Frontend de Energix** utilizando **Vercel**, garantizando que la aplicación web sea accesible públicamente y se actualice automáticamente con cada commit a la rama principal.
 
 Primero, se configuró el repositorio **Frontend-Energix** en GitHub. Luego, se vinculó el repositorio con Vercel, configurando el proyecto para desplegarse automáticamente desde la rama **main**.
 
-Durante este sprint, configuramos un **entorno de backend local** utilizando **JSON Server** y un archivo `db.json`, el cual actúa como una **base de datos simulada** para el sistema. Esta estrategia nos permitió **emular operaciones CRUD** (*crear, leer, actualizar y eliminar*) sin necesidad de un servidor completo, facilitando el desarrollo y las pruebas del **frontend**.
+Durante este sprint 2, configuramos un **entorno de backend local** utilizando **JSON Server** y un archivo `db.json`, el cual actúa como una **base de datos simulada** para el sistema. Esta estrategia nos permitió **emular operaciones CRUD** (*crear, leer, actualizar y eliminar*) sin necesidad de un servidor completo, facilitando el desarrollo y las pruebas del **frontend**.
 
 El archivo `db.json` contiene las siguientes **colecciones principales**:
 
@@ -2610,8 +2929,8 @@ A continuación, se presenta el **Sprint Planning 3** correspondiente al **Sprin
 | **Sprint Review Summary** | Se identificó que el backend requería nuevas capacidades para soportar análisis de datos y endpoints más robustos. Se decidió priorizar el módulo histórico y la estandarización de los servicios. |
 | **Sprint Retrospective Summary** | **Start:** Desarrollar el módulo de consumo histórico desde backend (entidades, repositorios, servicios y endpoints). Implementar middleware de validación y estandarización de respuestas. Documentar todos los endpoints creados en Swagger.<br><br>**Stop:** Avanzar funcionalidades sin pruebas unitarias mínimas. Realizar integraciones sin revisar dependencias internas de dominio.<br><br>**Continue:** Mantener sesiones breves de daily para detectar bloqueos. Continuar con la revisión cruzada de código antes del merge. Mantener prácticas de GitFlow y commits convencionales. |
 | **Sprint Goal** | Implement the backend for the historical consumption module and strengthen the Energix Manager service architecture through optimized endpoints, comprehensive documentation, centralized validations, and improved data flow management. The main objective is to have a robust, standardized, and functional backend ready for full integration with the frontend in subsequent sprints. |
-| **Sprint Velocity** | 4 |
-| **Sum of Story Points** | 31 |
+| **Sprint Velocity** | 17 |
+| **Sum of Story Points** | 27 |
 
 *Nota.* Elaboración propia.
 
@@ -2634,24 +2953,170 @@ A continuación, se presenta el **Sprint Planning 3** correspondiente al **Sprin
 
 En este tercer sprint, nos enfocamos en la implementación completa del módulo de consumo histórico desde el backend, así como en optimizaciones clave para mejorar la estabilidad, consistencia y escalabilidad del API. Todas las tareas asignadas en el sprint están alineadas al objetivo principal: preparar un backend sólido, documentado y listo para integrarse con las funcionalidades del frontend.
 
+Además, utilizamos la herramienta **Trello** para organizar de manera más eficiente nuestro **Backlog**.
+
+**Figura 84**
+*Sprint 3 — Trello Energix*
+
+<p align="center">
+  <img src="images/Trello_ProductBacklogEnergix_Sprint3.png" alt="Sprint 3 Trello — Energix" width="1000">
+</p>
+
+*Nota.* Obtenido de Trello.
+
 **Tabla 28**  
 *Sprint Backlog — Sprint 3*
 
-| User Story | Subtarea | Descripción | Criterio de aceptación | Estimación (horas) | Asignado a | Estado |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| US01 | TS01 | Como developer, quiero implementar un endpoint que devuelva el consumo energético en tiempo real del usuario autenticado. | Escenario: Consulta exitosa - Given que el usuario está autenticado - When consulta su consumo actual - Then el sistema retorna el valor en kWh y soles. | 4 | Abigail Goñe | DO |
-| US02 | TS02 | Como developer, quiero implementar un endpoint que devuelva el historial de consumo por rango de fechas. | Escenario: Consulta por rango - Given que el usuario selecciona un rango de fechas - When envía la solicitud - Then el sistema retorna el consumo total y promedio. | 4 | Alvaro Salazar | DO |
-| US03 | TS03 | Como developer, quiero implementar un endpoint que devuelva el consumo agregado por dispositivo. | Escenario: Distribución por dispositivos - Given que el usuario tiene dispositivos registrados - When consulta su distribución de consumo - Then el sistema muestra el consumo agrupado por aparato. | 4 | Bryan Barba | DO |
-| US04 | TS04 | Como developer, quiero programar un job que genere y envíe por correo el resumen de consumo al final del día. | Escenario: Envío de correo automático - Given que el usuario activó las notificaciones - When finaliza el día - Then recibe un correo con su resumen de consumo. | 2 | Sofia Cotrina | DO |
-| US05 | TS05 | Como developer, quiero implementar un endpoint que compare el consumo entre dos meses distintos. | Escenario: Comparación exitosa - Given que existen datos de ambos meses - When el usuario solicita la comparación - Then el sistema muestra los consumos y la diferencia porcentual. | 2 | Alexis Encalada | DO |
-| US06 | TS06 | Como developer, quiero implementar un endpoint que genere una predicción de consumo futuro usando datos históricos. | Escenario: Predicción generada - Given que existen datos históricos - When el usuario consulta proyección - Then se devuelve estimación en kWh y soles. | 2 | Abigail Goñe | DO |
-| US07 | TS07 | Como developer, quiero implementar un endpoint que calcule el consumo promedio. | Escenario: Promedio calculado - Given que existen datos - When el usuario solicita su promedio - Then el sistema devuelve el valor calculado. | 2 | Alvaro Salazar | DO |
-| US08 | TS08 | Como developer, quiero implementar un servicio que detecte consumos inusuales y genere alertas. | Escenario: Detección de anomalía - Given que un dispositivo supera su promedio - When ocurre el evento - Then el sistema genera una alerta al usuario. | 3 | Bryan Barba | DO |
-| US09 | TS09 | Como developer, quiero implementar un endpoint que permita fijar y almacenar un límite de consumo mensual. | Escenario: Registro de límite - Given que el usuario define un valor - When guarda el límite - Then queda almacenado y disponible para validación. | 1 | Sofia Cotrina | DO |
-| | TS10 | Como developer, quiero implementar un proceso que monitoree el límite mensual y envíe notificaciones. | Escenario: Aviso de consumo - Given que el usuario fijó un límite - When se alcanza el 80% o se supera - Then el sistema envía alerta. | 1 | Alexis Encalada | DO |
-| US10 | TS11 | Como developer, quiero programar un servicio que detecte luces encendidas demasiado tiempo. | Escenario: Detección de luces - Given que un foco permanece encendido X horas - When el sistema lo detecta - Then envía notificación al usuario. | 2 | Abigail Goñe | DO |
-| US11 | TS12 | Como developer, quiero habilitar que el usuario configure qué alertas recibir. | Escenario: Personalización - Given que el usuario accede a configuración - When selecciona/deselecciona alertas - Then el sistema guarda las preferencias. | 2 | Alvaro Salazar | |
-| | TS13 | Como developer, quiero implementar un ícono en el panel que muestre alertas pendientes. | Escenario: Visualización - Given que el usuario recibe alertas - When entra al panel - Then el ícono refleja las notificaciones. | 2 | Bryan Barba | |
+<table>
+  <thead>
+    <tr>
+      <th colspan="8" style="text-align: center;">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">Technical Story</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned to</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <th>Id</th><th>Title</th><th>Id</th><th>Title</th><th></th><th></th><th></th><th>(To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">US28</td>
+      <td rowspan="2">Inicio con credenciales</td>
+      <td>TS01</td><td>Autenticación JWT</td>
+      <td>Implementar POST /api/v1/authentication/sign-in con generación de JWT.</td>
+      <td>4</td><td>Abigail Goñe</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS02</td><td>Validación de credenciales</td>
+      <td>Manejo de errores 401 para credenciales incorrectas.</td>
+      <td>2</td><td>Abigail Goñe</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US29</td>
+      <td rowspan="2">Creación de cuenta</td>
+      <td>TS03</td><td>Registro con validaciones</td>
+      <td>POST /api/v1/authentication/sign-up con validación y hash.</td>
+      <td>4</td><td>Alvaro Salazar</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS04</td><td>Prevención de duplicados</td>
+      <td>Error 409 si el email ya existe.</td>
+      <td>2</td><td>Alvaro Salazar</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="6">US16</td>
+      <td rowspan="6">Registro de dispositivos electrónicos</td>
+      <td>TS06</td><td>Listado de dispositivos</td>
+      <td>GET /api/v1/devices retorna dispositivos del usuario.</td>
+      <td>3</td><td>Bryan Barba</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS08</td><td>Registrar dispositivo</td>
+      <td>POST /api/v1/devices con validaciones.</td>
+      <td>3</td><td>Bryan Barba</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS09</td><td>Detalle de dispositivo</td>
+      <td>GET /api/v1/devices/{id} con histórico de consumo.</td>
+      <td>2</td><td>Sofia Cotrina</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS10</td><td>Actualización parcial</td>
+      <td>PATCH /api/v1/devices/{id}</td>
+      <td>2</td><td>Alexis Encalada</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS11</td><td>Soft delete</td>
+      <td>DELETE /api/v1/devices/{id}</td>
+      <td>2</td><td>Abigail Goñe</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS18</td><td>Zonas con conteo</td>
+      <td>GET /api/v1/zones</td>
+      <td>3</td><td>Alvaro Salazar</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="3">US16</td><td rowspan="3">Registro de dispositivos electrónicos</td>
+      <td>TS19</td><td>Crear zona</td>
+      <td>POST /api/v1/zones</td>
+      <td>2</td><td>Bryan Barba</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS21</td><td>Detalle de zona</td>
+      <td>GET /api/v1/zones/{id}</td>
+      <td>2</td><td>Sofia Cotrina</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS22</td><td>Actualizar zona</td>
+      <td>PATCH /api/v1/zones/{id}</td>
+      <td>2</td><td>Alexis Encalada</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US14</td><td rowspan="2">Perfil personal</td>
+      <td>TS16</td><td>Consulta por ID</td>
+      <td>GET /api/v1/users/{id}</td>
+      <td>2</td><td>Alvaro Salazar</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS17</td><td>Datos del usuario autenticado</td>
+      <td>GET /api/v1/users/me</td>
+      <td>2</td><td>Bryan Barba</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US17</td><td rowspan="2">Personalización del Dashboard</td>
+      <td>TS13</td><td>Obtener preferencias</td>
+      <td>GET /api/v1/personalization/{id}</td>
+      <td>2</td><td>Sofia Cotrina</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS15</td><td>Actualizar preferencias</td>
+      <td>PATCH /api/v1/personalization/{id}</td>
+      <td>2</td><td>Alexis Encalada</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="3">US31</td><td rowspan="3">Infraestructura del API</td>
+      <td>TS25</td><td>Metadatos BD</td>
+      <td>GET /api/v1/dbinfo/tables</td>
+      <td>1</td><td>Abigail Goñe</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS26</td><td>Estado conexión BD</td>
+      <td>GET /api/v1/dbinfo/status</td>
+      <td>1</td><td>Alvaro Salazar</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>TS27</td><td>Tamaño de tablas</td>
+      <td>GET /api/v1/dbinfo/tables/size</td>
+      <td>2</td><td>Sofia Cotrina</td><td>Done</td>
+    </tr>
+    <tr>
+      <td>US32</td>
+      <td>Estado de conexión de la base de datos</td>
+      <td>TS28</td>
+      <td>Estado conexión BD</td>
+      <td>Implementar endpoint GET /api/v1/dbinfo/status que verifique si la conexión a la base de datos está activa y retorne latencia/estado.</td>
+      <td>1</td>
+      <td>Abigail Goñe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US33</td>
+      <td>Monitoreo del crecimiento de la BD</td>
+      <td>TS29</td>
+      <td>Tamaño de tablas</td>
+      <td>Implementar endpoint GET /api/v1/dbinfo/tables/size que retorne cantidad de registros por tabla monitoreada.</td>
+      <td>2</td>
+      <td>Sofia Cotrina</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 *Nota.* Elaboración propia.
 
@@ -2804,7 +3269,7 @@ Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las 
 | Sofia Alessandra Cotrina Siclla    | Implementación de componentes del backend relacionados con personalización y contribución al desarrollo de funcionalidades. |
 | Alexis Encalada Salazar            | Configuración y despliegue del backend, así como soporte técnico en la estructura del proyecto. |
 | Esther Abigail Goñe Araccata       | Implementación del backend para la gestión de dispositivos. |
-| Alvaro Fabrizzio Salazar Caballero | Implementación de componentes del backend relacionados con suscripción y contribución al desarrollo de funcionalidades. |
+| Alvaro Fabrizzio Salazar Caballero | Implementación de componentes del backend relacionados con suscripción y contribución al desarrollo de funcionalidades. |  
 
 *Nota.* Elaboración propia.
 
@@ -2841,8 +3306,8 @@ En esta sección se detallan los acuerdos, revisiones y decisiones tomadas duran
 | **Sprint Review Summary** | Se identificó la necesidad de reforzar el manejo administrativo de usuarios y suscripciones, así como mejorar la claridad de las métricas del panel y la gestión de alertas. Los endpoints desarrollados previamente funcionan correctamente, pero requieren mayor control de roles y visualización integral del sistema. |
 | **Sprint Retrospective Summary** | **Start:** Implementar un módulo completo de administración con permisos avanzados. Ajustar visualización y cálculo de promedios. Optimizar notificaciones y límites de dispositivos.<br><br>**Stop:** Realizar despliegues sin validación final de seguridad. Depender de datos no controlados para pruebas críticas.<br><br>**Continue:** Mantener prácticas de testing con Postman/Swagger, code review antes de merge y comunicación activa en daily meetings. |
 | **Sprint Goal** | Enable and secure the new Energix Administrator role, allowing full user management (roles, plans, account status) and perform essential corrections to subscription and metrics modules ensuring a stable and scalable ecosystem for the final product delivery. |
-| **Sprint Velocity** |  |
-| **Sum of Story Points** |  |
+| **Sprint Velocity** | 11 |
+| **Sum of Story Points** | 13 |
 
 *Nota.* Elaboración propia.
 
@@ -2865,12 +3330,77 @@ En esta sección se detallan los acuerdos, revisiones y decisiones tomadas duran
 
 En este cuarto sprint, el enfoque principal estuvo dirigido a habilitar el rol de administrador dentro del sistema, permitiendo la gestión completa de usuarios, planes de suscripción y estado de cuentas. Asimismo, se abordaron correcciones funcionales y mejoras de usabilidad identificadas tras la evaluación heurística y revisión del sistema en los sprints anteriores.
 
+Además, utilizamos la herramienta **Trello** para organizar de manera más eficiente nuestro **Backlog**.
 
+**Figura 89**    
+*Sprint 4 — Trello Energix*
+
+<p align="center">
+  <img src="images/Trello_ProductBacklogEnergix_Sprint4.png" alt="Sprint 4 Trello — Energix" width="1000">
+</p>
+
+*Nota.* Obtenido de Trello.
+
+**Tabla 34**  
+*Sprint Backlog — Sprint 4*
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="8" style="text-align: center;">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">Technical Story</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned to</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <th>Id</th><th>Title</th><th>Id</th><th>Title</th><th></th><th></th><th></th><th>(To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="1">US34</td><td rowspan="1">Listado de usuarios</td>
+      <td>TS28</td><td>Listado de usuarios</td>
+      <td>GET /api/v1/admin/users retorna listado completo con filtros básicos.</td>
+      <td>5</td><td>Bryan Barba</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US35</td><td rowspan="1">Editar plan del usuario</td>
+      <td>TS29</td><td>Cambiar plan</td>
+      <td>PATCH /api/v1/admin/users/{id}/plan con validaciones.</td>
+      <td>4</td><td>Sofia Cotrina</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US36</td><td rowspan="1">Activar/desactivar cuentas</td>
+      <td>TS30</td><td>Estado de cuenta</td>
+      <td>PATCH /api/v1/admin/users/{id}/status bloquea y habilita el acceso.</td>
+      <td>3</td><td>Alvaro Salazar</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US37</td><td rowspan="1">Estadísticas por plan</td>
+      <td>TS31</td><td>Dashboard de estadísticas</td>
+      <td>GET /api/v1/admin/users/stats con uso activo/inactivo.</td>
+      <td>3</td><td>Alexis Encalada</td><td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US38</td><td rowspan="1">Buscar y filtrar usuarios</td>
+      <td>TS32</td><td>Search + Filter</td>
+      <td>GET /api/v1/admin/users?search & plan</td>
+      <td>3</td><td>Abigail Goñe</td><td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia.
 
 #### **5.2.4.4. Development Evidence for Sprint Review**
 
 **Tabla 35**  
-*Evidencia de desarrollo — Sprint 3*
+*Evidencia de desarrollo — Sprint 4*
 
 <table>
   <thead>
@@ -2933,11 +3463,176 @@ En este cuarto sprint, el enfoque principal estuvo dirigido a habilitar el rol d
 
 #### **5.2.4.5. Execution Evidence for Sprint Review**
 
+Durante el Sprint 4 se continuó fortaleciendo el despliegue del sistema Energix Manager, aplicando mejoras tanto en backend como en frontend, enfocadas en la visualización de datos reales, corrección de errores y optimización de la experiencia del usuario.
+
+Se mantuvo activo el despliegue en Render (backend) y Vercel (frontend), habilitando la comunicación entre ambos servicios para garantizar el correcto funcionamiento de las nuevas funcionalidades implementadas.
+
+Las principales acciones realizadas fueron:
+
+- Integración total entre la Web Application y la API desplegada en Render.
+
+- Validación correcta de inicio de sesión, registro, gestión del perfil, dispositivos, zonas, suscripciones y recompensas.
+
+- Estilo visual refinado en las vistas del Dashboard, configuración y administración del usuario.
+
+- Corrección de errores y mejoras de usabilidad observadas durante pruebas internas.
+
+- Mantenimiento del acceso a documentación Swagger del servicio desplegado (sin cambios en endpoints del sprint anterior).
+
+A continuación se presentan las evidencia actualizadas del sistema desplegado en entorno web:
+
+**Dashboard**
+
+**Figura 90**  
+*Dashboard — Energix*
+
+<p align="center">
+  <img src="images/s4-dashboard.jpg" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Alerts**
+
+**Figura 91**  
+*Alerts — Energix*
+
+<p align="center">
+  <img src="images/s4-alerts.jpg" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+**My Devices**
+
+**Figura 92**  
+*My Devices — Energix*
+
+<p align="center">
+  <img src="images/s4-mydevices.jpg" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Subscriptions**
+
+**Figura 93**  
+*Subscriptions — Energix*
+
+<p align="center">
+  <img src="images/s4-subscriptions.jpg" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+- Payment
+
+  **Figura 94**  
+  *Subscriptions — Energix*
+
+  <p align="center">
+    <img src="images/s4-subscriptions-payment.jpg" width="1000">
+  </p>
+
+  *Nota.* Elaboración propia.
+
+**Rewards**
+
+**Figura 95**  
+*Rewards — Energix*
+
+<p align="center">
+  <img src="images/s4-rewards.jpg" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Configuration**
+
+**Figura 96**  
+*Configuration — Energix*  
+<p align="center">
+  <img src="images/s4-configuration.jpg" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+Finalmente, la API mantiene activo Swagger UI como herramienta de verificación del funcionamiento del Backend:
+
+**Figura 97**  
+*Swagger UI — Backend Energix*
+
+<p align="center">
+  <img src="images/swagger-part1.png" alt="Swagger Backend Energix Parte 1" width="1000"><br><br>
+  <img src="images/swagger-part2.png" alt="Swagger Backend Energix Parte 2" width="1000"><br><br>
+  <img src="images/swagger-part3.png" alt="Swagger Backend Energix Parte 3" width="1000">
+</p>
+
+*Nota.* Elaboración propia (capturas obtenidas desde Swagger UI del proyecto Energix).
+
+**Enlace del proyecto (FrontEnd) deploy - Energix**: https://frontend-energix.vercel.app/
+
+**Enlace Documentación Swagger - Energix**: https://backend-energix.onrender.com/swagger/index.html
+
+**Enlace del proyecto (BackEnd) API deploy - Energix**: https://backend-energix.onrender.com
+
 #### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+
+**Tabla n**  
+*Servicios implementados en el Sprint 3*
+
+| **Método y Endpoint** | **Path** | **Descripción** |
+|---------------|-----------|------------------|
+| **POST /auth/login** | `/auth/login` | Inicia sesión de un usuario (valida correo y contraseña). |
+| **POST /auth/register** | `/auth/register` | Registra un nuevo usuario (estudiante, familia o sin código). |
+| **POST /auth/validate-code** | `/auth/validate-code` | Verifica si el código ingresado pertenece a un estudiante o familia. |
+| **GET /dashboard** | `/dashboard` | Obtiene información principal del usuario: consumo, dispositivos y alertas. |
+| **GET /alerts** | `/alerts` | Devuelve la lista de alertas del usuario (como dispositivos conectados). |
+| **GET /devices** | `/devices` | Lista los dispositivos asociados a la cuenta del usuario. |
+| **POST /devices** | `/devices` | Agrega un nuevo dispositivo (enchufe, sensor, etc.). |
+| **PUT /devices/:id** | `/devices/:id` | Actualiza información de un dispositivo (nombre, zona, consumo, etc.). |
+| **DELETE /devices/:id** | `/devices/:id` | Elimina un dispositivo registrado. |
+| **GET /subscriptions** | `/subscriptions` | Consulta el plan actual (estudiantil, familiar o básico). |
+| **POST /subscriptions/activate** | `/subscriptions/activate` | Activa la suscripción mediante el código de registro. |
+| **GET /rewards** | `/rewards` | Muestra los puntos acumulados y los referidos del usuario. |
+| **GET /config** | `/config` | Obtiene la configuración actual del perfil y del panel. |
+| **PUT /config/profile** | `/config/profile` | Actualiza datos personales (nombre, apellido, correo, DNI, etc.). |
+| **PUT /config/password** | `/config/password` | Cambia la contraseña del usuario. |
+| **PUT /config/panel** | `/config/panel` | Personaliza el panel (gráficos, preferencias, visualización). |
+| **POST /logout** | `/logout` | Cierra la sesión actual del usuario. |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.4.7. Software Deployment Evidence for Sprint Review**
 
-#### **5.2.4.8. Team Collaboration Insights During Sprint**
+#### **5.2.3.8. Team Collaboration Insights During Sprint**
+
+Durante el Sprint 4, el equipo trabajó de manera coordinada para completar las tareas asignadas en el backend, manteniendo comunicación constante y aplicando prácticas colaborativas que permitieron avanzar con eficiencia.
+
+**Tabla 31**  
+*Colaboración del equipo — Sprint 4*
+
+| Alumno                             | Actividad / Responsabilidades asumidas |
+|------------------------------------|---------------------------------------|
+| Bryan Eduardo Barba Estrada        | Implementación de componentes del backend relacionados con autenticación y contribución al desarrollo de funcionalidades. |
+| Sofia Alessandra Cotrina Siclla    | Implementación de componentes del backend relacionados con personalización y contribución al desarrollo de funcionalidades. |
+| Alexis Encalada Salazar            | Configuración y despliegue del backend, así como soporte técnico en la estructura del proyecto. |
+| Esther Abigail Goñe Araccata       | Implementación del backend para la gestión de dispositivos. |
+| Alvaro Fabrizzio Salazar Caballero | Implementación de componentes del backend relacionados con suscripción y contribución al desarrollo de funcionalidades. |
+
+*Nota.* Elaboración propia.
+
+**Figura 88**  
+*Team Collaboration Insights Sprint 4 — Energix*
+
+<p align="center">
+  <img src="images/team_collaboration_4.jpg" alt="Team Collaboration Sprint 4 — Energix" width="1000">
+</p>
+
+*Nota.* Estadísticas de contribución durante Sprint 4 obtenidas del repositorio Backend-Energix.
+
+**Enlace Repositorio BackEnd - Energix:**  
+https://github.com/AppWeb-Energix/Backend-Energix
 
 ## 5.3. Validation Interviews
 
@@ -3250,7 +3945,7 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace del proyecto (FrontEnd) deploy - Energix: https://frontend-energix.vercel.app/
 
-- Enlace Landing Page deploy - Energix:** https://appweb-energix.github.io/Landing-Page/
+- Enlace Landing Page deploy - Energix: https://appweb-energix.github.io/Landing-Page/
 
 **Repositorios GitHub**
 
@@ -3263,6 +3958,7 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 - Enlace Repositorio Project Report - Energix: https://github.com/AppWeb-Energix/Frontend-Energix
 
 - Enlace Repositorio Trabajo Responsabilidad Social - Energix: https://github.com/AppWeb-Energix/srca-app-web
+<br>
 
 **Videos Exposiciones**
 
@@ -3289,6 +3985,7 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 **Video About The Product**
 
 - Enlace Video About The Product - Energix: https://tinyurl.com/about-the-product-energix
+<br>
 
 **Videos Aplicación**
 
