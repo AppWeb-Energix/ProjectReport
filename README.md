@@ -391,7 +391,7 @@ Los usuarios conocerán Energix Manager a través de campañas de difusión y co
 
 Según el estudio de Chucuya Fuentes (2021), los hábitos de consumo ineficiente son comunes. Dejar equipos encendidos fue el mal hábito más frecuente (46 menciones), seguido por el uso de "stand by" (25 menciones) y dejar las luces encendidas (21 menciones). En términos económicos, estos hábitos pueden generar un gasto anual adicional de hasta S/ 323.44 soles por hogar.
 
-**Figura 1:**  
+**Figura 1**  
 *Hábitos de consumo ineficiente en hogares peruanos*
 
 <p align="center">
@@ -495,7 +495,7 @@ Sabremos que hemos tenido éxito cuando el 70% de los usuarios que utilicen esta
 
 Tras completar las etapas del Lean UX Process, el siguiente paso es elaborar el Lean UX Canvas. Esta herramienta nos ayuda a visualizar de manera integral el problema y sirve como punto de partida para la investigación previa al diseño de la solución propuesta.
 
-**Figura 2:**  
+**Figura 2**  
 *Lean UX Canvas del proyecto*
 
 <p align="center">
@@ -506,45 +506,39 @@ Tras completar las etapas del Lean UX Process, el siguiente paso es elaborar el 
 
 ## **1.3. Segmentos Objetivo**
 
-Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
+Esta sección incluye la descripción de los segmentos asociados al dominio del problema, así como características demográficas y datos estadísticos de sustento vinculados al consumo eléctrico residencial.
 
-<ins>**1. Familias Urbanas de Clase Media**</ins>
+## Segmento Objetivo #1: Familias Urbanas con Casas Inteligentes
 
-Este segmento es nuestro público objetivo principal. Son los adultos o miembros del hogar quienes toman las decisiones de gasto.
-
-**Características Demográficas:**
-
-* **Edad:** 35 a 60 años.
-* **Nivel Socioeconómico:** C y B.
-* **Composición Familiar:** Familias consolidadas, con o sin hijos en casa.
-<br>
-
-**Hábitos y Motivación:** Pasan la mayor parte del día en el hogar y son los principales gestores del consumo de dispositivos electrónicos. Buscan soluciones prácticas y sencillas para controlar y reducir los costos de la factura de luz.
-
-**Información de Sustento:**
-
-La clase media en el Perú ha crecido significativamente, representando un segmento con un poder de consumo energético importante. Un hogar promedio en Lima consume alrededor de 172 kWh/mes, un valor que supera ampliamente el promedio nacional y refleja un alto uso de dispositivos (Autosolar Perú).
-
-<ins>**2. Estudiantes y Jóvenes con Presupuesto Ajustado**</ins>
-
-Este segmento busca soluciones prácticas para reducir gastos, ya que viven con presupuestos limitados. Son nativos digitales y están abiertos a probar aplicaciones que les ofrezcan beneficios tangibles de forma inmediata.
+Este segmento corresponde a hogares ubicados principalmente en zonas urbanas que cuentan con múltiples dispositivos eléctricos y soluciones inteligentes en su vivienda, lo que incrementa su consumo energético.
 
 **Características Demográficas:**
+- **Edad:** 20 a 55 años  
+- **Nivel Socioeconómico:** B y C  
+- **Composición Familiar:** Familias consolidadas con uno o más hijos  
 
-* **Edad:** 18 a 30 años.
-* **Nivel Socioeconómico:** C, D y E.
-* **Composición Familiar:** Viven en departamentos compartidos o alquilados.
-<br>
+**Hábitos y Motivación:**  
+Buscan eficiencia energética, confort y automatización en su hogar. Priorizan el control del presupuesto mensual y la seguridad del hogar, mientras utilizan equipamiento como routers inteligentes, Smart TVs, aire acondicionado, PCs, asistentes virtuales, etc.
 
-**Hábitos y Motivación:** Buscan maneras prácticas y rápidas de reducir sus gastos mensuales para hacer rendir su presupuesto.
+**Información de Sustento:**  
+Según Autosolar Perú, un hogar urbano en Lima consume en promedio **172 kWh/mes**, valor superior al promedio nacional debido a la cantidad de dispositivos conectados. Asimismo, el mercado de dispositivos inteligentes en Perú ha crecido significativamente en los últimos años, impulsando la necesidad de herramientas de gestión energética.
 
-**Información de Sustento:**
+## Segmento Objetivo #2: Estudiantes y Jóvenes que Alquilan Vivienda
 
-Las viviendas alquiladas en zonas universitarias o céntricas suelen tener un alto consumo de energía por la falta de conciencia compartida y la falta de control individual sobre el gasto.
+Este segmento se compone de jóvenes que asumen parcial o totalmente el pago de electricidad dentro de departamentos o habitaciones alquiladas.
 
-Este segmento está muy influenciado por la información en línea y las recomendaciones. Una solución fácil de usar que demuestre un ahorro real podría ser adoptada rápidamente y difundida a través de sus círculos sociales.
+**Características Demográficas:**
+- **Edad:** 18 a 30 años  
+- **Nivel Socioeconómico:** C y D  
+- **Lugar de Residencia:** Habitaciones o departamentos compartidos en zonas universitarias o céntricas  
 
-<hr>
+**Hábitos y Motivación:**  
+Buscan optimizar sus gastos mensuales y necesitan soluciones rápidas y simples que les permitan identificar qué dispositivos generan mayor gasto. Suelen utilizar laptops, cocinas eléctricas, terma y refrigeradoras compartidas, lo que eleva el consumo sin control individual.
+
+**Información de Sustento:**  
+De acuerdo con estudios de consumo urbano, la falta de conciencia en el uso de energía en viviendas compartidas incrementa el gasto mensual y genera conflictos entre ocupantes. Este segmento es altamente receptivo a aplicaciones móviles que brinden alertas y métricas claras en **soles**, impulsando decisiones inmediatas de ahorro.
+
+---
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
@@ -559,34 +553,54 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ## Competitive Analysis Landscape
 
-|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+**Tabla 1**  
+*Análisis competitivo de plataformas de monitoreo energético*
+
+|                       | **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Perfil / Overview** | Plataforma web que permite monitoreo en tiempo real, análisis por dispositivo, alertas personalizadas y consejos de ahorro. | Dispositivo físico que se instala en el panel eléctrico para monitoreo detallado a nivel de dispositivo. | Sistema conectado al cuadro eléctrico que ofrece análisis integral del consumo energético. | Aplicación que permite controlar y monitorear dispositivos inteligentes Samsung. |
 | **Ventaja competitiva / Valor** | Interfaz intuitiva, recomendaciones personalizadas, predicción de consumo, alertas inteligentes, enfoque en ahorro económico y hábitos sostenibles. | Alertas de consumo anormal, reportes detallados, monitoreo preciso de cada dispositivo. | Informes precisos, análisis predictivo, sugerencias de tarifas para optimizar gasto. | Integración con ecosistema Samsung, control remoto de dispositivos, visualización de consumo. |
 
+*Nota.* Elaboración propia.
+
 ## Perfil de Marketing
 
-|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+**Tabla 2**  
+*Perfil de Marketing*
+
+|                       | **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Mercado objetivo** | Hogares urbanos de clase media y estudiantes jóvenes preocupados por eficiencia y ahorro energético en Perú. | Propietarios de viviendas que buscan control detallado del consumo eléctrico. | Hogares que desean optimizar su consumo integralmente. | Usuarios de dispositivos Samsung interesados en eficiencia energética y control remoto. |
 | **Estrategias de marketing** | Marketing digital, colaboraciones con empresas eléctricas y Ministerio de Energía y Minas, campañas educativas. | Marketing de producto, asociaciones con instaladores eléctricos, campañas educativas. | Campañas educativas sobre ahorro energético, presencia en ferias de eficiencia. | Promociones cruzadas con productos Samsung y marketing digital. |
 
+*Nota.* Elaboración propia.
+
 ## Perfil de Producto
 
-|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+**Tabla 3**  
+*Perfil de Producto*
+
+|                       | **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Productos & Servicios** | Monitoreo en tiempo real, análisis detallado por dispositivo, alertas, recomendaciones personalizadas, gráficos comparativos, panel web. | Dispositivo + app móvil para monitoreo en tiempo real y alertas. | Hardware + app móvil para análisis de consumo y recomendaciones de ahorro. | App móvil para control de dispositivos, reportes de consumo, alertas. |
 | **Precios & Costos** | Freemium: plan básico gratuito, plan premium $5–$15/mes. | Dispositivo ~$250–$300, app incluida. | Hardware + suscripción mensual ~$15–$50. | App gratuita; requiere dispositivos Samsung. |
 | **Canales de distribución (Web y/o Móvil)** | Plataforma web accesible desde cualquier navegador, marketing digital y alianzas estratégicas. | Venta online, distribuidores especializados, app móvil complementaria. | Venta online, distribuidores autorizados, app móvil. | Samsung Galaxy Store, Google Play, control vía app móvil. |
 
+*Nota.* Elaboración propia.
+
 ## Análisis SWOT
 
-|                       | Su startup – **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
+**Tabla 4**  
+*Análisis FODA*
+
+|                       | **Energix Manager** | Competidor 1 – **Sense Home Energy Monitor** | Competidor 2 – **Wibeee Box** | Competidor 3 – **SmartThings Energy** |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Fortalezas** | Web intuitiva, alertas y recomendaciones, plan freemium, enfoque en ahorro y sostenibilidad. | Monitoreo preciso por dispositivo, alertas, reportes detallados. | Informes predictivos, análisis integral, buenas recomendaciones de ahorro. | Integración con Samsung, control remoto, app consolidada. |
 | **Debilidades** | Sin app móvil, depende de datos del usuario, marca poco conocida, integración limitada. | Requiere instalación, costo inicial alto, curva de aprendizaje. | Depende de hardware, costo mensual, adopción limitada. | Solo funciona con dispositivos Samsung, funcionalidad limitada fuera del ecosistema. |
 | **Oportunidades** | Alianzas con empresas y gobierno, expansión en Latinoamérica, gamificación, tendencia hacia eficiencia energética. | Expansión a hogares residenciales, integración con domótica. | Expansión internacional, alianzas con compañías de energía. | Crecimiento de smart homes, colaboración con Samsung. |
 | **Amenazas** | Competencia de apps móviles, resistencia al cambio de hábitos, apps gratuitas, conectividad limitada. | Nuevas soluciones IoT más económicas. | Competencia de apps sin hardware, saturación de mercado. | Competencia de apps multimarca, usuarios fuera de Samsung no pueden usarla. |
+
+*Nota.* Elaboración propia, información recopilada de sitios oficiales de Sense, Wibeee y SmartThings.
 
 ### **2.1.2. Estrategias y tácticas frente a competidores**
 
@@ -604,7 +618,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ### **2.2.1. Diseño de entrevistas**
 
-## Segmento 1: Familias Urbanas de Clase Media
+## Segmento #1: Familias Urbanas con Casas Inteligentes
 
 - ¿Compartes el pago de la electricidad con tus compañeros de vivienda? ¿Cómo organizan ese gasto?  
 - ¿Qué tanta atención presta al consumo eléctrico diario o mensual en tu alojamiento?  
@@ -615,7 +629,7 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 - ¿Qué tan dispuesto estarías a cambiar tus hábitos (apagar equipos, desconectar cargadores) si recibes recomendaciones personalizadas?  
 - ¿Qué barreras ves para adoptar una app que te ayude a reducir el gasto eléctrico?  
 
-## Segmento 2: Estudiantes y Jóvenes con Presupuesto Ajustado
+## Segmento #2: Estudiantes y Jóvenes que Alquilan Vivienda
 
 - ¿Qué importancia le das al control del consumo eléctrico dentro de tu presupuesto mensual?  
 - ¿Has tenido experiencias de aumentos inesperados en el recibo de luz? ¿Cómo los enfrentas?  
@@ -630,23 +644,65 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 ### Entrevistas por segmento
 
-## Segmento 1: Familias Urbanas de Clase Media
+## Segmento #1: Familias Urbanas con Casas Inteligentes
 
-| Número de registro | Datos del entrevistado | Captura |
-|--------------------|-------------------------|---------|
-| **1** | **Nombre:** Willy Guzman  <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración de la entrevista:** 4:28 minutos <br> **Enlace Video Entrevista - Segmento 1 - Willy Guzman:** https://youtu.be/aIU7QD1wems?si=Q6-a7qwEVHUx9Qr8 <br> **Resumen:** El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | **Figura 3:**  *Evidencia de entrevista — Segmento 1* <p align="center"> <img src="images/Evi_Seg1_2.png" alt="Evidencia Entrevista Segmento 1"> </p> *Nota.* Elaboración propia. |
-| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración de la entrevista:** 3:10 minutos <br> **Enlace Video Entrevista - Segmento 1 - Leimy Nuñez:** https://youtu.be/SaUrn95CV8E?si=zV5xGSbz7BuQLPQP <br> **Resumen:** La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | **Figura 4:** *Evidencia de entrevista — Segmento 1* <p align="center"> <img src="images/Evi_Seg2_2.png" alt="Evidencia Entrevista Segmento 1 — Leimy Nuñez"> </p> *Nota.* Elaboración propia. |
+**Tabla 5**  
+*Registro de entrevistas — Segmento #1*
 
-## Segmento 2: Estudiantes y Jóvenes con Presupuesto Ajustado
+| Número de registro | Datos del entrevistado | Resumen | Evidencia |
+|-------------------|----------------------|---------|-----------|
+| **1** | **Nombre:** Willy Guzman <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración:** 4:28 min <br> **Enlace:** https://youtu.be/aIU7QD1wems?si=Q6-a7qwEVHUx9Qr8 | El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | Ver **Figura 3** |
+| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración:** 3:10 min <br> **Enlace:** https://youtu.be/SaUrn95CV8E?si=zV5xGSbz7BuQLPQP | La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | Ver **Figura 4** |
 
-| Número de registro | Datos del entrevistado | Captura |
-|--------------------|-------------------------|---------|
-| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración de la entrevista:** 2:16 minutos <br> **Enlace Video Entrevista - Segmento 2 - Braden Garcia:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 <br> **Resumen:** Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | **Figura 5:** *Evidencia de entrevista — Segmento 2* <p align="center"> <img src="images/Evi_Seg1_1.png" alt="Evidencia Entrevista Segmento 2 — Braden Garcia"> </p> *Nota.* Elaboración propia. |
-| **2** | **Nombre:** Nestor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración de la entrevista:** 3:07 minutos <br> **Enlace Video Entrevista - Segmento 2 - Nestor Rojas:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N <br> **Resumen:** Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar el consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | **Figura 6:** *Evidencia de entrevista — Segmento 2* <p align="center"> <img src="images/Evi_Seg2_1.png" alt="Evidencia Entrevista Segmento 2 — Néstor Rojas" width="1000"> </p> *Nota.* Elaboración propia. |
+*Nota.* Elaboración propia.
+<br>
+
+**Figura 3**  
+*Evidencia de entrevista — Segmento #1 — Participante 1*
+
+![Evidencia 1](images/Evi_Seg1_2.png)
+
+*Nota.* Elaboración propia.
+<br>
+
+**Figura 4**  
+*Evidencia de entrevista — Segmento #1 — Participante 2*
+
+![Evidencia 2](images/Evi_Seg2_2.png)
+
+*Nota.* Elaboración propia.
+
+## Segmento #2: Estudiantes y Jóvenes que Alquilan Vivienda
+
+**Tabla 6**  
+*Registro de entrevistas — Segmento #2*
+
+| Número de registro | Datos del entrevistado | Resumen | Evidencia |
+|-------------------|----------------------|---------|-----------|
+| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración:** 2:16 min <br> **Enlace:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 | Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | Ver **Figura 5** |
+| **2** | **Nombre:** Néstor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración:** 3:07 min <br> **Enlace:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N | Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar el consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | Ver **Figura 6** |
+
+*Nota.* Elaboración propia.
+<br>
+
+**Figura 5**  
+*Evidencia de entrevista — Segmento #2 — Participante 1*
+
+![Evidencia 5](images/Evi_Seg1_1.png)
+
+*Nota.* Elaboración propia.
+<br>
+
+**Figura 6**  
+*Evidencia de entrevista — Segmento #2 — Participante 2*
+
+![Evidencia 6](images/Evi_Seg2_1.png)
+
+*Nota.* Elaboración propia.
 
 ### **2.2.3. Análisis de entrevistas**
 
-## Segmento 1: Familias Urbanas de Clase Media
+## Segmento #1: Familias Urbanas con Casas Inteligentes
 
 A partir de las entrevistas realizadas a estudiantes que comparten vivienda alquilada, podemos concluir lo siguiente:
 
@@ -660,7 +716,7 @@ A partir de las entrevistas realizadas a estudiantes que comparten vivienda alqu
 
 **Resumen:** Este segmento experimenta un bajo nivel de control consciente sobre el gasto eléctrico debido al carácter compartido de los pagos, lo que diluye la responsabilidad individual. Sin embargo, ven valor en herramientas que ofrezcan alertas en tiempo real, información clara y división automática de costos, siempre que sean fáciles de usar. La compatibilidad con dispositivos y la sencillez de la interfaz son claves para la adopción.
 
-## Segmento 2: Estudiantes y Jóvenes con Presupuesto Ajustado
+## Segmento #2: Estudiantes y Jóvenes que Alquilan Vivienda
 
 A partir de las dos entrevistas realizadas a jóvenes que asumen el pago de la electricidad en el hogar, podemos concluir lo siguiente:
 
@@ -686,9 +742,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 - **Estudiantes con Presupuesto Ajustado**  
 - **Familias Urbanas de Clase Media**
 
-## User Persona 1: Laura Fernández — Familias Urbanas de Clase Media
+## User Persona 1: Laura Fernández - Familias Urbanas con Casas Inteligentes
 
-**Figura 7:**  
+**Figura 7**  
 *User Persona 1*
 
 <p align="center">
@@ -697,9 +753,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 *Nota.* Elaboración propia (realizado en Uxpressia).
 
-## User Persona 2: Diego Rojas - Estudiantes y Jóvenes con Presupuesto Ajustado
+## User Persona 2: Diego Rojas - Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Figura 8:**  
+**Figura 8**  
 *User Persona 2*
 
 <p align="center">
@@ -710,7 +766,7 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 ### **2.3.2. User Task Matrix**
 
-**Figura 9:**  
+**Figura 9**  
 *User Task Matrix*
 
 <p align="center">
@@ -722,9 +778,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 ### **2.3.3. User Journey Mapping**
 
-## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+## User Persona 1: Laura Fernández - Familias Urbanas con Casas Inteligentes
 
-**Figura 10:**  
+**Figura 10**  
 *User Journey Mapping 1*
 
 <p align="center">
@@ -733,9 +789,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 *Nota.* Elaboración propia (realizado en Uxpressia).
 
-## User Persona 2: Diego Rojas - Estudiantes y Jóvenes con Presupuesto Ajustado
+## User Persona 2: Diego Rojas - Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Figura 11:**  
+**Figura 11**  
 *User Journey Mapping 2*
 
 <p align="center">
@@ -746,9 +802,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 ### **2.3.4. Empathy Mapping**
 
-## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+## User Persona 1: Laura Fernández - Familias Urbanas con Casas Inteligentes
 
-**Figura 12:**  
+**Figura 12**  
 *Empathy Mapping 1*
 
 <p align="center">
@@ -757,9 +813,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 *Nota.* Elaboración propia (realizado en Uxpressia).
 
-## User Persona 2: Diego Rojas - Estudiantes y Jóvenes con Presupuesto Ajustado
+## User Persona 2: Diego Rojas - Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Figura 13:**  
+**Figura 13**  
 *Empathy Mapping 2*
 
 <p align="center">
@@ -770,9 +826,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 ### **2.3.5. As-is Scenario Mapping**
 
-## User Persona 1: Laura Fernández - Familias Urbanas de Clase Media
+## User Persona 1: Laura Fernández - Familias Urbanas con Casas Inteligentes
 
-**Figura 14:**  
+**Figura 14**  
 *As-Is Scenario Mapping 1*
 
 <p align="center">
@@ -781,9 +837,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 *Nota.* Elaboración propia (realizado en Miro).
 
-## User Persona 2: Diego Rojas - Estudiantes y Jóvenes con Presupuesto Ajustado
+## User Persona 2: Diego Rojas - Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Figura 15:**  
+**Figura 15**  
 *As-Is Scenario Mapping 2*
 
 <p align="center">
@@ -794,7 +850,7 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 ## **2.4. Big Picture Evenstorming**
 
-**Figura 16:**  
+**Figura 16**  
 *Big Picture Event Storming*
 
 <p align="center">
@@ -839,9 +895,9 @@ En el caso de **Energix Manager**, se han definido dos perfiles principales:
 
 El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen con la solución propuesta en el futuro. Permite visualizar de manera narrativa y estructurada los procesos deseados, identificando mejoras frente a la situación actual y sirviendo como base para la definición de requerimientos.
 
-## Segmento 1: Familias Urbanas de Clase Media
+## Segmento #1: Familias Urbanas con Casas Inteligentes
 
-**Figura 17:**  
+**Figura 17**  
 *To-Be Scenario Map 1*
 
 <p align="center">
@@ -850,9 +906,9 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
 
 *Nota.* Elaboración propia (realizado en Miro).
 
-## Segmento 2: Estudiantes y Jóvenes con Presupuesto Ajustado
+## Segmento #2: Estudiantes y Jóvenes que Alquilan Vivienda
 
-**Figura 18:**  
+**Figura 18**  
 *To-Be Scenario Map 2*
 
 <p align="center">
@@ -865,6 +921,9 @@ El To-Be Scenario Mapping describe cómo se espera que los usuarios interactúen
 
 Las User Stories representan las necesidades y expectativas de los usuarios finales expresadas en un lenguaje sencillo y centrado en su valor. A través de ellas se traduce lo que los usuarios quieren lograr al usar el producto, asegurando que las funcionalidades desarrolladas estén alineadas con sus objetivos reales.
 
+**Tabla 7**  
+*Epics*
+
 | Epic                                      | ID   |
 |-------------------------------------------|------|
 | Monitoreo Inteligente del Consumo         | EP01 |
@@ -875,7 +934,12 @@ Las User Stories representan las necesidades y expectativas de los usuarios fina
 | Integración & Exportación de Datos        | EP06 |
 | Landing Page                              | EP07 |
 | Inicio de Sesión                          | EP08 |
+
+*Nota.* Elaboración propia.
 <br>
+
+**Tabla 8**  
+*User Stories*
 
 | Story ID | Título                                     | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |----------|---------------------------------------------|-------------|--------------------------|----------------------------|
@@ -918,9 +982,14 @@ Las User Stories representan las necesidades y expectativas de los usuarios fina
 | US37     | Creación de cuenta                         | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | **Escenario 1:** Registro exitoso<br>Given que completo el formulario de registro<br>When envío los datos<br>Then el sistema crea la cuenta y me da acceso inicial. | EP08 |
 | US38     | Cierre de sesión                           | Como usuario, quiero cerrar sesión de forma segura. | **Escenario 1:** Logout<br>Given que estoy autenticado<br>When selecciono “Cerrar sesión”<br>Then el sistema finaliza la sesión y me redirige a la página de inicio. | EP08 |
 
+*Nota.* Elaboración propia.
+
 ### **3.2.1. Technical Stories**
 
 Las Technical Stories detallan requerimientos técnicos derivados de las User Stories. Están orientadas al equipo de desarrollo y especifican aspectos relacionados con infraestructura, integraciones, seguridad o rendimiento, necesarios para que las funcionalidades puedan implementarse correctamente.
+
+**Tabla 9**  
+*Technical Stories*
 
 | ID   | Título Técnico                                | Descripción | Acceptance Criteria | Relacionado con (US ID) |
 |------|-----------------------------------------------|-------------|----------------------|--------------------------|
@@ -963,11 +1032,13 @@ Las Technical Stories detallan requerimientos técnicos derivados de las User St
 | TS37 | Multilenguaje en landing                      | Como developer, quiero implementar cambio de idioma entre español e inglés. | **Escenario:** Cambio idioma<br>Given que el visitante selecciona “EN/ES”<br>When cambia<br>Then la landing se traduce automáticamente. | US34 |
 | TS38 | Módulo de autenticación                       | Como developer, quiero implementar el login, registro, recuperación y logout de usuarios. | **Escenario 1:** Login válido<br>Given credenciales correctas<br>When inicia sesión<br>Then accede.<br>**Escenario 2:** Registro exitoso<br>Given datos correctos<br>When se registra<br>Then se crea cuenta.<br>**Escenario 3:** Recuperación de contraseña<br>Given correo válido<br>When solicita recuperación<br>Then recibe enlace.<br>**Escenario 4:** Logout<br>Given sesión activa<br>When selecciona “Cerrar sesión”<br>Then el sistema lo desconecta. | US35, US36, US37, US38 |git commit -m "docs(chapter-3): add user stories and technical stories"
 
+*Nota.* Elaboración propia.
+
 ## **3.3. Impact Mapping**
 
 El Impact Mapping es una técnica de planificación estratégica que conecta los objetivos del negocio con los entregables del producto. Ayuda a visualizar cómo las funcionalidades contribuyen a alcanzar los resultados esperados, identificando actores, impactos deseados y soluciones clave.
 
-**Figura 19:**  
+**Figura 19**  
 *Impact Mapping*
 
 <p align="center">
@@ -982,8 +1053,8 @@ El Product Backlog es una lista priorizada de funcionalidades, mejoras y requisi
 
 Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
 
-**Figura 20:**  
-*Product Backlog — Energix Manager*
+**Figura 20**  
+*Product Backlog*
 
 <p align="center">
   <img src="images/Trello_ProductBacklog.png" alt="Product Backlog Energix Manager — Trello" width="1000">
@@ -992,6 +1063,9 @@ Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
 *Nota.* Elaboración propia (realizado en Trello).
 
 **Enlace Product Backlog Trello - Energix:** https://trello.com/invite/b/6858d3899919c3f6565deafb/ATTI9188cbdb75bfd6dc0e468dc3688b2f0d6E232D66/productbacklog
+
+**Tabla 10**  
+*Product backlog*
 
 | Orden  | User Story Id | Título                                    | Descripción                                                                                                   | Story Points |
 |----|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|
@@ -1034,13 +1108,15 @@ Realizamos el product Backlog de Energix Manager en la plataforma de Trello:
 | 37 | US37          | Creación de cuenta                       | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave. | 3            |
 | 38 | US38          | Cierre de sesión                         | Como usuario, quiero cerrar sesión de forma segura. | 1            |
 
+*Nota.* Elaboración propia.
+
 <hr>
 
 # **Capítulo IV: Product UX/UI Design**
 ## **4.1. Style Guidelines**
 ### **4.1.1. General Style Guidelines**
 
-**Figura 21:**  
+**Figura 21**  
 *Paleta de colores*
 
 <p align="center">
@@ -1064,7 +1140,7 @@ El color 002349 (Azul marino): Representa confianza, seriedad y profesionalismo.
 
 El color FFFFFF (Blanco): Simboliza pureza y claridad, garantizando contraste y legibilidad.
 
-**Figura 22:**  
+**Figura 22**  
 *Tipografía*
 
 <p align="center">
@@ -1079,7 +1155,7 @@ Nuestra tipografía principal es Poppins, una fuente sans serif de estilo geomé
 
 La elección de esta tipografía busca transmitir modernidad, claridad y versatilidad.
 
-**Figura 23:**  
+**Figura 23**  
 *Logo*
 
 <p align="center">
@@ -1097,7 +1173,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Enlace Diseño Figma Landing Page Wireframe - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
-**Figura 24:**<br>
+**Figura 24**<br>
 *Wireframe — Landing Page Energix*
 
 <p align="center">
@@ -1110,7 +1186,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Enlace Diseño Figma Landing Page Mock-up - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
-**Figura 25:**<br>
+**Figura 25**<br>
 *Mock-up — Landing Page Energix*
 
 <p align="center">
@@ -1126,7 +1202,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Inicio Sesión**
 
-**Figura 26:**<br>
+**Figura 26**<br>
 *Wireframe — Inicio de Sesión*
 
 <p align="center">
@@ -1138,7 +1214,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Registro**
 
-**Figura 27:**<br>
+**Figura 27**<br>
 *Wireframe — Registro*
 
 <p align="center">
@@ -1150,7 +1226,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Dashboard**
 
-**Figura 28:**<br>
+**Figura 28**<br>
 *Wireframe — Dashboard*
 
 <p align="center">
@@ -1162,7 +1238,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Consumo**
 
-**Figura 29:**<br>
+**Figura 29**<br>
 *Wireframe — Consumo*
 
 <p align="center">
@@ -1174,7 +1250,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Alertas**
 
-**Figura 30:**<br>
+**Figura 30**<br>
 *Wireframe — Alertas*
 
 <p align="center">
@@ -1186,7 +1262,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Consejos & Ahorro**
 
-**Figura 31:**<br>
+**Figura 31**<br>
 *Wireframe — Consejos & Ahorro*
 
 <p align="center">
@@ -1198,7 +1274,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Reportes**
 
-**Figura 32:**<br>
+**Figura 32**<br>
 *Wireframe — Reportes*
 
 <p align="center">
@@ -1210,7 +1286,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Configuración**
 
-**Figura 33:**<br>
+**Figura 33**<br>
 *Wireframe — Configuración*
 
 <p align="center">
@@ -1222,7 +1298,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Cambiar Plan**
 
-**Figura 34:**<br>
+**Figura 34**<br>
 *Wireframe — Cambiar Plan*
 
 <p align="center">
@@ -1234,7 +1310,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 **Cerrar Sesión**
 
-**Figura 35:**<br>
+**Figura 35**<br>
 *Wireframe — Cerrar Sesión*
 
 <p align="center">
@@ -1245,7 +1321,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
   - Confirmación Cierre de Sesión
 
-    **Figura 36:**<br>
+    **Figura 36**<br>
     *Wireframe — Confirmación de Cierre de Sesión*
 
     <p align="center">
@@ -1262,7 +1338,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 El usuario ingresa a la aplicación desde la vista de login, donde introduce sus credenciales (correo y contraseña). Si las credenciales son correctas, el sistema lo redirige al dashboard principal, donde puede visualizar métricas de consumo energético en tiempo real. En caso de error (credenciales incorrectas), se muestra un mensaje de validación y se permite reintentar.
 
-**Figura 37:**<br>
+**Figura 37**<br>
 *Wireflow Diagram — Iniciar Sesión*
 <p align="center">
   <img src="images/usergoal_iniciarsesion.png" alt="Wireflow Diagram Iniciar Sesión — Energix" width="1000">
@@ -1276,7 +1352,7 @@ El usuario ingresa a la aplicación desde la vista de login, donde introduce sus
 
 Desde el dashboard, el usuario accede a la sección Consumo. En esta vista puede revisar su consumo energético en diferentes rangos de tiempo (día, últimos 7, 30 o 90 días), filtrar el consumo por dispositivo o visualizar el total general. Además, dispone de un resumen del periodo, que muestra el consumo total en kWh junto con su equivalente monetario, el promedio diario de consumo y el plan de suscripción activo.
 
-**Figura 38:**<br>
+**Figura 38**<br>
 *Wireflow Diagram — Monitorear Consumo Energético*
 
 <p align="center">
@@ -1291,7 +1367,7 @@ Desde el dashboard, el usuario accede a la sección Consumo. En esta vista puede
 
 Desde el Dashboard, el usuario selecciona la sección de Alertas, donde se muestran notificaciones generadas automáticamente por el sistema: consumo inusual, límites alcanzados o luces encendidas demasiado tiempo. El usuario puede revisar las alertas activas y gestionarlas según corresponda.
 
-**Figura 39:**<br>
+**Figura 39**<br>
 *Wireflow Diagram — Gestión de Alertas Automáticas*
 
 <p align="center">
@@ -1306,7 +1382,7 @@ Desde el Dashboard, el usuario selecciona la sección de Alertas, donde se muest
 
 El usuario accede a la sección de Tips & Savings, donde se le presentan consejos personalizados en base a sus patrones de consumo, buenas prácticas generales de ahorro, horarios de menor costo y una estimación del ahorro potencial. Esto facilita la adopción de hábitos eficientes de consumo.
 
-**Figura 40:**<br>
+**Figura 40**<br>
 *Wireflow Diagram — Tips & Savings*
 
 <p align="center">
@@ -1321,7 +1397,7 @@ El usuario accede a la sección de Tips & Savings, donde se le presentan consejo
 
 Desde la barra lateral, el usuario ingresa a Reportes para visualizar estadísticas detalladas y gráficas comparativas de su consumo energético. Allí puede consultar tendencias, realizar comparaciones entre periodos y, si lo requiere, exportar los reportes en formato PDF o Excel.
 
-**Figura 41:**<br>
+**Figura 41**<br>
 *Wireflow Diagram — Generación y Consulta de Reportes*
 
 <p align="center">
@@ -1336,7 +1412,7 @@ Desde la barra lateral, el usuario ingresa a Reportes para visualizar estadísti
 
 En la sección Settings, el usuario puede actualizar sus datos personales, configurar idioma y notificaciones, registrar o eliminar dispositivos, personalizar su panel y modificar el plan de suscripción. Estas opciones permiten adaptar la aplicación a sus necesidades específicas.
 
-**Figura 42:**<br>
+**Figura 42**<br>
 *Wireflow Diagram — Configuración y Gestión de Plan de Usuario*
 
 <p align="center">
@@ -1351,7 +1427,7 @@ En la sección Settings, el usuario puede actualizar sus datos personales, confi
 
 Desde el dashboard, el usuario selecciona la opción Log out, confirmando su intención de cerrar sesión. El sistema valida la acción y redirige a la pantalla de inicio de sesión, finalizando el acceso de manera segura.
 
-**Figura 43:**<br>
+**Figura 43**<br>
 *Wireflow Diagram — Cerrar Sesión*
 
 <p align="center">
@@ -1366,7 +1442,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Inicio Sesión**
 
-**Figura 44:**<br>
+**Figura 44**<br>
 *Mock-up — Inicio de Sesión*
 
 <p align="center">
@@ -1378,7 +1454,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Registro**
 
-**Figura 45:**<br>
+**Figura 45**<br>
 *Mock-up — Registro*
 
 <p align="center">
@@ -1390,7 +1466,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Dashboard**
 
-**Figura 46:**<br>
+**Figura 46**<br>
 *Mock-up — Dashboard*
 
 <p align="center">
@@ -1402,7 +1478,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Consumo**
 
-**Figura 47:**<br>
+**Figura 47**<br>
 *Mock-up — Consumo*
 
 <p align="center">
@@ -1414,7 +1490,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Alertas**
 
-**Figura 48:**<br>
+**Figura 48**<br>
 *Mock-up — Alertas*
 
 <p align="center">
@@ -1426,7 +1502,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Consejos & Ahorro**
 
-**Figura 49:**<br>
+**Figura 49**<br>
 *Mock-up — Consejos & Ahorro*
 
 <p align="center">
@@ -1438,7 +1514,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Reportes**
 
-**Figura 50:**<br>
+**Figura 50**<br>
 *Mock-up — Reportes*
 
 <p align="center">
@@ -1450,7 +1526,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Configuración**
 
-**Figura 51:**<br>
+**Figura 51**<br>
 *Mock-up — Configuración*
 
 <p align="center">
@@ -1462,7 +1538,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Cambiar Plan**
 
-**Figura 52:**<br>
+**Figura 52**<br>
 *Mock-up — Cambiar Plan*
 
 <p align="center">
@@ -1474,7 +1550,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 **Cerrar Sesión**
 
-**Figura 53:**<br>
+**Figura 53**<br>
 *Mock-up — Cerrar Sesión*
 
 <p align="center">
@@ -1486,7 +1562,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
   - Confirmación Cierre de Sesión
 
-    **Figura 54:**
+    **Figura 54**
     *Mock-up — Confirmación de Cierre de Sesión*
     
     <p align="center">
@@ -1499,7 +1575,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### User goal 1: Iniciar sesión para poder obversar el dashboard informativo
 
-**Figura 55:**<br>
+**Figura 55**<br>
 *User Flow Diagram 1*
 
 <p align="center">
@@ -1510,7 +1586,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### User goal 2: Entrar al dashboard interactivo para luego ir a la opción de consumo y poder visualizar mi historial de consumo energético a lo largo de los últimos 3 meses
 
-**Figura 56:**<br>
+**Figura 56**<br>
 *User Flow Diagram 2*
 
 <p align="center">
@@ -1521,7 +1597,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### User goal 3: Comprar una subscripción desde la página principal rellenando información del medio de pago elegido
 
-**Figura 57:**<br>
+**Figura 57**<br>
 *User Flow Diagram 3*
 
 <p align="center">
@@ -1532,7 +1608,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### User goal 4: Entrar al dashboard informativo para luego entrar en la opción de Reportes y descargar mi reporte generado a lo largo del mes
 
-**Figura 58:**<br>
+**Figura 58**<br>
 *User Flow Diagram 4*
 
 <p align="center">
@@ -1564,7 +1640,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 **Enlace Diseño Figma Prototype - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
 
-**Figura 59:**<br>
+**Figura 59**<br>
 *Prototype — Web Application Energix*
 
 <p align="center">
@@ -1579,7 +1655,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 ### **4.6.1 Design-Level EventStorming**
 
-**Figura 60:**<br>
+**Figura 60**<br>
 *Design-Level EventStorming*
 
 <p align="center">
@@ -1590,7 +1666,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 ### **4.6.2 Software Architecture Context Diagram**
 
-**Figura 61:**<br>
+**Figura 61**<br>
 *Software Architecture Context Diagram*
 
 <p align="center">
@@ -1601,7 +1677,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 ### **4.6.3 Software Architecture Container Diagram**
 
-**Figura 62:**
+**Figura 62**
 *Software Architecture Container Diagram*
 
 <p align="center">
@@ -1612,7 +1688,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 ### **4.6.4 Software Architecture Components Diagram**
 
-**Figura 63:**
+**Figura 63**
 *Software Architecture Components Diagram*
 
 <p align="center">
@@ -1625,7 +1701,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 ### **4.7.1 Class Diagrams**
 
-**Figura 64:**<br>
+**Figura 64**<br>
 *Class Diagrams*
 
 <p align="center">
@@ -1638,7 +1714,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 ### **4.8.1 Database Diagrams**
 
-**Figura 65:**<br>
+**Figura 65**<br>
 *Database Diagram*
 
 <p align="center">
@@ -1691,9 +1767,9 @@ lenguaje C# y la plataforma .NET, utilizados para crear Web Services basados en 
 La gestión del código fuente es una parte fundamental del desarrollo de cualquier proyecto de software, ya que permite rastrear cambios, revertir versiones y coordinar a varios desarrolladores trabajando simultáneamente. En ENERGIX, utilizaremos Git como sistema de control de versiones y GitHub como plataforma para alojar nuestros repositorios.
 
 **URL de los Repositorios**
-- **Organization:**  https://github.com/AppWeb-Energix 
+- **Organization:** https://github.com/AppWeb-Energix 
 - **Reporte:** https://github.com/AppWeb-Energix/ProjectReport
-- **Landing Page** :  https://github.com/AppWeb-Energix/Landing-Page 
+- **Landing Page**: https://github.com/AppWeb-Energix/Landing-Page 
 <br>
 
 **GitFlow**
@@ -1764,6 +1840,10 @@ En el proyecto **Energix**, se han definido guías de estilo que aseguran un des
 - RESTful Web Services (ASP.NET Core + C#)
 
 **Nomenclatura General**
+
+**Tabla 11**  
+*Guía de nomenclatura del código*
+
 | Element                  | Convention   | Example                           |
 |--------------------------|--------------|-----------------------------------|
 | Variables/Functions (JS) | `camelCase`  | `getDeviceStatus()`               |
@@ -1772,14 +1852,21 @@ En el proyecto **Energix**, se han definido guías de estilo que aseguran un des
 | Files & Folders          | `kebab-case` | `device-service.js`               |
 | Constants (JS)           | `ALL_CAPS`   | `MAX_DEVICES_ALLOWED`             |
 
+*Nota.* Elaboración propia.
+
 Todo el nombrado debe realizarse en **inglés** para garantizar la coherencia entre los miembros del equipo.
 
 **Espacios y Sangría**
+
+**Tabla 12**  
+*Configuración de espacios y sangría*
 
 | Technology                         | Configuration |
 |------------------------------------|---------------|
 | HTML / CSS / JavaScript / Vue      | 2 spaces      |
 | C#                                 | 4 spaces      |
+
+*Nota.* Elaboración propia.
 
 Ejemplo de estructura en HTML:
 ```html
@@ -1875,6 +1962,10 @@ En caso de requerir más espacio, la línea debe dividirse de forma que mantenga
 - Favorecer nombres descriptivos y expresivos que permitan entender el propósito del código sin necesidad de comentarios extensivos.
 
 **Referencias**
+
+**Tabla 13**  
+*Referencias de guías de estilo utilizadas*
+
 | Technology | Style Guide                                                                                              |
 |------------|----------------------------------------------------------------------------------------------------------|
 | HTML / CSS | Google HTML/CSS Style Guide                                                                              |
@@ -1890,6 +1981,8 @@ En caso de requerir más espacio, la línea debe dividirse de forma que mantenga
 | BDD        | Cucumber Gherkin Documentation                                                                           |
 |            | https://cucumber.io/docs/gherkin/                                                                        |
 
+*Nota.* Elaboración propia a partir de documentación oficial.
+
 ### **5.1.4. Software Deployment Configuration**
 En esta sección se detalla la configuración necesaria para el despliegue de la solución ENERGIX, incluyendo los pasos clave para lograr la publicación satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando GitHub Pages para visualizar cada commit del Landing Page.
 
@@ -1898,7 +1991,7 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 - **Acceso a las Configuraciones**: Una vez dentro del repositorio, haz clic en la pestaña Settings en la parte superior del repositorio.
 
-  **Figura 66:**<br>
+  **Figura 66**<br>
   *Configuración del Repositorio*
 
   <p align="center">
@@ -1909,7 +2002,7 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 - **Selección de GitHub Pages**: Dentro de la sección Settings, en el menú lateral, busca la opción llamada Pages. Esta opción permite configurar el despliegue de la página desde una rama específica del repositorio.
 
-  **Figura 67:**<br>
+  **Figura 67**<br>
   *Sección Pages en Settings*
 
   <p align="center">
@@ -1920,7 +2013,7 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 - **Configuración de la Rama Principal**: En la opción Pages, selecciona la rama principal (generalmente llamada main o master). Luego, haz clic en el botón Save para iniciar el proceso de despliegue de la página.
 
-  **Figura 68:**<br>
+  **Figura 68**<br>
   *Configuración de la Rama para Deploy*
 
   <p align="center">
@@ -1931,7 +2024,7 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 - **Confirmación del Deploy**: Una vez que GitHub complete el proceso de deploy, en la parte superior de la sección Pages se mostrará un mensaje de confirmación junto con el enlace generado para acceder a la Landing Page del proyecto.
 
-  **Figura 69:**<br>
+  **Figura 69**<br>
   *Confirmación de Deploy y URL Generada*
 
   <p align="center">
@@ -1942,7 +2035,7 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 - **Acceso a la Página**: Finalmente, podrás acceder a la Landing Page desde el enlace que se generó al finalizar el deploy. Aquí está el enlace para el proyecto ENERGIX:
 
-  **Figura 70:**<br>
+  **Figura 70**<br>
   *Landing Page Desplegada*
 
   <p align="center">
@@ -1956,6 +2049,9 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 ### **5.2.1 Sprint 1**
 #### **5.2.1.1 Sprint Planning 1**
 A continuación mostraremos nuestro sprint planning. Se detallará lo que se acordó y revisó en la reunión.
+
+**Tabla 14**  
+*Sprint Planning 1*
 
 | **Sprint #** | Sprint 1 |
 |--------------|----------|
@@ -1972,22 +2068,28 @@ A continuación mostraremos nuestro sprint planning. Se detallará lo que se aco
 | **Sprint Velocity** | 3 |
 | **Sum of Story Points** | 10 |
 
+*Nota.* Elaboración propia.
+
 #### **5.2.1.2 Aspect Leaders and Collaborators**
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Landing Page Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **Epics Leader (L) / Collaborator (C)** |
-|------------------------------------------|----------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------|
-| Barba Estrada, Bryan Eduardo             | br14nbe              | C                                             | C                                             | C                                        |
-| Cotrina Siclla, Sofia Alessandra         | IamAndreek           | C                                             | C                                             | C                                        |
-| Encalada Salazar, Alexis                 | Alexiz248            | L                                             | C                                             | C                                        |
-| Goñe Araccata, Esther Abigail            | abigoe02             | C                                             | L                                             | L                                        |
-| Salazar Caballero, Alvaro Fabrizzio      | IDymian              | C                                             | C                                             | C                                        |
+**Tabla 15**  
+*Roles del equipo — Sprint 1*
 
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Landing Page Leader (L) / Collaborator (C)** |
+|----------------------------------------|----------------------|----------------------------------------------------------------|
+| Barba Estrada, Bryan Eduardo            | br14nbe              | C |
+| Cotrina Siclla, Sofia Alessandra       | IamAndreek           | C |
+| Encalada Salazar, Alexis               | Alexiz248            | L |
+| Goñe Araccata, Esther Abigail          | abigoe02             | C |
+| Salazar Caballero, Alvaro Fabrizzio    | IDymian              | C |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.1.3 Sprint Backlog 1**
 
 En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. Para lograrlo, dividimos el trabajo en tareas específicas basadas en cada historia de usuario relacionada con la Landing Page, asignándolas a diferentes miembros del equipo. Además, utilizamos la herramienta “Trello” para organizar de manera más eficiente nuestro Backlog.
 
-**Figura 71:**<br>
+**Figura 71**<br>
 *Sprint 1 — Trello Energix*
 
 <p align="center">
@@ -1995,6 +2097,9 @@ En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. 
 </p>
 
 *Nota.* Obtenido de Trello.
+
+**Tabla 16**  
+*Sprint Backlog — Sprint 1*
 
 | Sprint #   | Sprint 1                           |                |                          |                                                                       |                    |                 |                                              |
 |------------|------------------------------------|----------------|--------------------------|-----------------------------------------------------------------------|--------------------|-----------------|----------------------------------------------|
@@ -2010,15 +2115,65 @@ En este primer sprint, nos enfocamos en desarrollar la Landing Page de Energix. 
 | US33       | Video tutorial introductorio       | T3             | Producción y embed video | Guion corto grabación/edición 2-3 min export embed en web QA          | 3                  | Alexis Encalada | Done                                         |
 | US34       | Multilenguaje                      | T4             | Soporte i18n ES/EN       | Extraer textos integrar traducción inicial pruebas                    | 2                  | Abigail Goñe    | Done     
 
+*Nota.* Elaboración propia.
+
 #### **5.2.1.4 Development Evidence for Sprint Review**
-|**Repository**                                                  |**Branch**        |**Commit ID**                             |**Commit Message**                                  |**Commit Message Body**    |**Commited on (Date)**  |
-|----------------------------------------------------------------|------------------|------------------------------------------|----------------------------------------------------|--------------------------|-------------------------|
-|AppWeb-Energix/Landing-Page: Landing Page del proyecto Energix  | **Feature/main** | f1dc735e91462ae27a3f7e8c18cc9f29e28f2d22 | Create index.html                                  | .                        |18/09/25                 |
-|                                                                | **Feature/main** | ab4d5c58aa7f9eef8902a4ad2f22dbab4f9190d9 | add header                                         | .                        |18/09/25                 |
-|                                                                | **Feature/main** | 6ad07d4e9d5e87e51b5afa6e9ab11846e3b7966d | add hero                                           | .                        |18/09/25                 |
-|                                                                | **Feature/main** | 28c51717e4b1949ee922d750ea058dabbd4bd25d | add videos & services                              | .                        |18/09/25                 |
-|                                                                | **Feature/main** | 19991dcc5b811ef087c7e5db6bf160521d1c380b | add contact                                        | .                        |18/09/25                 |
-|                                                                | **Feature/main** | 12a00370e53bc9213b0ee6219ed07010bb9c3f72 | add footer and modal for login and registration    | .                        |18/09/25                 |
+
+**Tabla 17**  
+*Evidencia de desarrollo — Sprint 1*
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6"><b>AppWeb-Energix / Landing-Page</b></td>
+      <td>feature/main</td>
+      <td>f1dc735e91462ae27a3f7e8c18cc9f29e28f2d22</td>
+      <td>Create index.html</td>
+      <td>18/09/25</td>
+    </tr>
+    <tr>
+      <td>feature/main</td>
+      <td>ab4d5c58aa7f9eef8902a4ad2f22dbab4f9190d9</td>
+      <td>add header</td>
+      <td>18/09/25</td>
+    </tr>
+    <tr>
+      <td>feature/main</td>
+      <td>6ad07d4e9d5e87e51b5afa6e9ab11846e3b7966d</td>
+      <td>add hero</td>
+      <td>18/09/25</td>
+    </tr>
+    <tr>
+      <td>feature/main</td>
+      <td>28c51717e4b1949ee922d750ea058dabbd4bd25d</td>
+      <td>add videos & services</td>
+      <td>18/09/25</td>
+    </tr>
+    <tr>
+      <td>feature/main</td>
+      <td>19991dcc5b811ef087c7e5db6bf160521d1c380b</td>
+      <td>add contact</td>
+      <td>18/09/25</td>
+    </tr>
+    <tr>
+      <td>feature/main</td>
+      <td>12a00370e53bc9213b0ee6219ed07010bb9c3f72</td>
+      <td>add footer and modal for login and registration</td>
+      <td>18/09/25</td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia a partir del repositorio Landing-Page.
 
 #### **5.2.1.5. Execution Evidence for Sprint Review**
 
@@ -2026,7 +2181,7 @@ En el sprint 1, se avanzó significativamente con la página de inicio. La versi
 
 **Enlace Landing Page deploy - Energix:** https://appweb-energix.github.io/Landing-Page/
 
-**Figura 72:**<br>
+**Figura 72**<br>
 *Execution Evidence — Landing Page*
 
 <p align="center">
@@ -2059,12 +2214,17 @@ En el sprint 1, se avanzó significativamente con la página de inicio. La versi
 
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
 
+**Tabla 18**  
+*Servicios implementados en el Sprint 1*
+
 | **Endpoint**                | **Path**              | **Descripción**                                               |
 |------------------------------|-----------------------|---------------------------------------------------------------|
 | Login                        | /api/auth/login       | Punto de acceso para la autenticación de usuarios.            |
 | Registro                     | /api/auth/register    | Punto de acceso para crear nuevas cuentas de usuario.         |
 | Recuperación de Contraseña   | /api/auth/recover     | Punto de acceso para solicitar el restablecimiento de contraseña. |
 | Formulario de Contacto       | /api/contact          | Punto de acceso para gestionar los mensajes del formulario de contacto. |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 
@@ -2076,7 +2236,7 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 
 ### Evidencia de Deployment 1
 
-**Figura 73:**<br>
+**Figura 73**<br>
 *Software Deployment Evidence 1*
 
 <p align="center">
@@ -2087,7 +2247,7 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 
 ### Evidencia de Deployment 2
 
-**Figura 74:**<br>
+**Figura 74**<br>
 *Software Deployment Evidence 2*
 
 <p align="center">
@@ -2098,15 +2258,20 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 
+**Tabla 19**  
+*Colaboración del equipo — Sprint 1*
+
 | Alumno                          | Actividad                                                                 |
 |---------------------------------|---------------------------------------------------------------------------|
-| Bryan Eduardo Barba Estrada     | Implementación de secciones de la landing page y contribución al README.md |
-| Sofia Alessandra Cotrina Siclla | Implementación de secciones de la landing page y contribución al README.md |
-| Alexis Encalada Salazar         | Implementación de secciones de la landing page y contribución al README.md |
-| Esther Abigail Goñe Araccata    | Implementación de secciones de la landing page y contribución al README.md |
-| Alvaro Fabrizzio Salazar Caballero | Implementación de secciones de la landing page y contribución al README.md |
+| Bryan Eduardo Barba Estrada     | Implementación de secciones de la landing page y contribución al Project Report |
+| Sofia Alessandra Cotrina Siclla | Implementación de secciones de la landing page y contribución al Project Report |
+| Alexis Encalada Salazar         | Implementación de secciones de la landing page y contribución al Project Report |
+| Esther Abigail Goñe Araccata    | Implementación de secciones de la landing page y contribución al Project Report |
+| Alvaro Fabrizzio Salazar Caballero | Implementación de secciones de la landing page y contribución al Project Report |
 
-**Figura 75:**<br>
+*Nota.* Elaboración propia.
+
+**Figura 75**<br>
 *Team Collaboration Insights Sprint 1*
 
 <p align="center">
@@ -2117,7 +2282,7 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 
 - Project Report
 
-  **Figura 76:**<br>
+  **Figura 76**<br>
   *Team Collaboration Insights Project Report*
 
   <p align="center">
@@ -2128,7 +2293,7 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 
 - Landing Page
 
-  **Figura 77:**<br>
+  **Figura 77**<br>
   *Team Collaboration Insights Landing Page*
 
   <p align="center">
@@ -2144,6 +2309,9 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 A continuación mostraremos nuestro **Sprint Planning 2**.  
 Se detallará lo que se acordó y revisó en la reunión.
 
+**Tabla 20**  
+*Sprint Planning 2*
+
 | **Sprint #** | **Sprint 2** |
 |--------------|--------------|
 | **Sprint Planning Background** | Durante el sprint 2 realizamos una reunión de planificación para coordinar el desarrollo de funcionalidades orientadas a la experiencia de usuario y la gestión administrativa del sistema. A partir del análisis del tablero, se identificaron las historias de usuario prioritarias relacionadas con métricas, reportes, gestión de perfil, autenticación y personalización. Se distribuyeron las tareas entre los integrantes del equipo para optimizar el trabajo grupal. |
@@ -2158,15 +2326,22 @@ Se detallará lo que se acordó y revisó en la reunión.
 | **Sprint Velocity** | 6 |
 | **Sum of Story Points** | 32 |
 
+*Nota.* Elaboración propia.
+
 #### **5.2.2.2. Aspect Leaders and Collaborators**
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Fronted-Energix Leader (L) / Collaborator (C)** | **Fronted-Energix Leader (L) / Collaborator (C)** | **Fronted-Energix Leader (L) / Collaborator (C)** |
-|----------------------------------------|----------------------|-----------------------------------------------|--------------------------------------------------|-------------------------------------------------------------|
-| Barba Estrada, Bryan Eduardo | br14nbe | C | C | C |
-| Cotrina Siclla, Sofia Alessandra | IamAndreek | C | C | C |
-| Encalada Salazar, Alexis | Alexiz248 | L | C | C |
-| Goñe Araccata, Esther Abigail | abigoe02 | C | L | L |
-| Salazar Caballero, Alvaro Fabrizzio | IDymian | C | C | C |
+**Tabla 21**  
+*Roles del equipo — Sprint 2*
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend-Energix Leader (L) / Collaborator (C)** |
+|----------------------------------------|----------------------|---------------------------------------------------|
+| Barba Estrada, Bryan Eduardo            | br14nbe              | C |
+| Cotrina Siclla, Sofia Alessandra       | IamAndreek           | C |
+| Encalada Salazar, Alexis               | Alexiz248            | L |
+| Goñe Araccata, Esther Abigail          | abigoe02             | C |
+| Salazar Caballero, Alvaro Fabrizzio    | IDymian              | C |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.2.3. Sprint Backlog 2**
 
@@ -2184,21 +2359,36 @@ Además, utilizamos la herramienta **Trello** para organizar de manera más efic
 
 *Nota.* Obtenido de Trello.
 
-| Orden | User Story Id | Título                                  | Descripción                                                                                                      | Story Points |
-|-------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------|
-| 1     | US16          | Panel integral de métricas y gráficas   | Como usuario, quiero ver en un panel mis indicadores principales (kWh, costo, ahorro).                           | 5            |
-| 2     | US17          | Gráfica de consumo diario por horas     | Como usuario, quiero ver mi consumo a lo largo del día en una gráfica de líneas para detectar picos de gasto.   | 5            |
-| 3     | US18          | Acceso a reportes desde menú lateral    | Como usuario, quiero acceder a la sección de reportes desde el menú lateral.                                    | 2            |
-| 4     | US19          | Gestión y acceso al perfil personal     | Como usuario, quiero registrar, actualizar y acceder a mis datos personales.                                    | 2            |
-| 5     | US20          | Configuración completa                  | Como usuario, quiero configurar idioma y notificaciones desde el menú lateral.                                  | 3            |
-| 6     | US21          | Registro de dispositivos                | Como usuario, quiero añadir o eliminar dispositivos en mi perfil.                                               | 3            |
-| 7     | US22          | Personalización del panel               | Como usuario, quiero elegir qué métricas ver primero en mi panel.                                               | 3            |
-| 8     | US35          | Inicio con credenciales                 | Como usuario, quiero acceder con correo y contraseña de forma segura.                                           | 3            |
-| 9     | US36          | Recuperación de contraseña              | Como usuario, quiero recuperar mi contraseña olvidada.                                                           | 2            |
-| 10    | US37          | Creación de cuenta                      | Como potencial usuario, quiero crear mi cuenta ingresando nombre, correo y clave.                               | 3            |
-| 11    | US38          | Cierre de sesión                        | Como usuario, quiero cerrar sesión de forma segura.                                                              | 1            |
+**Tabla 22**  
+*Sprint Backlog — Sprint 2*
+
+| User Story | Subtarea | Descripción | Criterio de aceptación | Estimación (horas) | Asignado a | Estado |
+|-----------|---------|-------------|-----------------------|------------------|------------|--------|
+| US16 Panel integral de métricas | T1 | Generar vista de panel con indicadores principales | Los indicadores aparecen tras cargar el panel | 2 | Abigail Goñe | Do |
+| US16 Panel integral de métricas | T2 | Integrar visualización gráfica interactiva | Gráfica funcional en el dashboard | 2 | Alvaro Salazar | Do |
+| US17 Gráfica de consumo diario por horas | T1 | Implementar gráfica de líneas del consumo horario | Gráfico muestra variación por hora correctamente | 2 | Bryan Barba | Do |
+| US17 Gráfica de consumo diario por horas | T2 | Conectar frontend al backend para datos horarios | Datos se muestran y actualizan dinámicamente | 1 | Sofia Cotrina | Do |
+| US18 Acceso a reportes desde menú lateral | T1 | Agregar sección “Reportes” al menú lateral | Sección accesible desde cualquier pantalla | 1 | Alexis Encalada | Do |
+| US18 Acceso a reportes desde menú lateral | T2 | Crear diseño y lógica de vista de reportes | Reportes energéticos desplegados con filtros | 1 | Abigail Goñe | Do |
+| US19 Gestión y acceso al perfil personal | T1 | Habilitar formulario para editar datos personales | Los cambios se guardan en la BD | 1 | Alvaro Salazar | Do |
+| US19 Gestión y acceso al perfil personal | T2 | Implementar botón “guardar cambios” con validación | Solo guarda si la info es válida | 1.5 | Bryan Barba | Do |
+| US20 Configuración completa | T1 | Añadir selector de idioma en el panel de ajustes | Cambio de idioma inmediato al seleccionarlo | 0.5 | Sofia Cotrina | Do |
+| US20 Configuración completa | T2 | Desarrollar preferencia y lógica de notificaciones | Usuario puede activar/desactivar notificaciones | 0.5 | Alexis Encalada | Do |
+| US21 Registro de electrodomésticos | T1 | Formulario para agregar electrodoméstico nuevo | Elemento registrado se ve en la lista | 1 | Abigail Goñe | Do |
+| US21 Registro de electrodomésticos | T2 | Crear opción para eliminar electrodoméstico | Elemento desaparece al eliminarlo | 1 | Alvaro Salazar | Do |
+| US22 Personalización del panel | T1 | Permitir al usuario seleccionar y acomodar métricas prioritarias | Cambios son visibles y persistentes | 1 | Bryan Barba | Do |
+| US35 Inicio con credenciales | T1 | Programar formulario de inicio de sesión | Permite ingresar solo con credenciales válidas | 1 | Sofia Cotrina | Do |
+| US35 Inicio con credenciales | T2 | Validación visual y mensajes de error claros | Mensajes comprensibles en caso de error | 0.5 | Alexis Encalada | Do |
+| US36 Recuperación de contraseña | T1 | Habilitar recuperación de contraseña y envío de enlace | E-mail de recuperación se envía correctamente | 0.5 | Abigail Goñe | Do |
+| US37 Creación de cuenta | T1 | Implementar formulario de registro de usuario | Usuario accede luego de completar datos válidos | 1 | Alvaro Salazar | Do |
+| US38 Cierre de sesión | T1 | Desarrollar botón y lógica de logout | Usuario queda deslogueado y vuelve al inicio | 0.5 | Bryan Barba | Do |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.2.4. Development Evidence for Sprint Review**
+
+**Tabla 23**  
+*Evidencia de desarrollo — Sprint 2*
 
 <table>
   <thead>
@@ -2257,6 +2447,8 @@ Además, utilizamos la herramienta **Trello** para organizar de manera más efic
   </tbody>
 </table>
 
+*Nota.* Elaboración propia a partir del repositorio del Fronted-Energix.
+
 #### **5.2.2.5. Execution Evidence for Sprint Review**
 
 Durante este sprint, hemos logrado implementar **funcionalidades esenciales** para el sistema de gestión **Energix Manager**:
@@ -2277,7 +2469,7 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
 
 - **Login y Autenticación**
 
-  **Figura 79:**<br>
+  **Figura 79**<br>
   *Login y Autenticación*
 
   <p align="center">
@@ -2289,7 +2481,7 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
 
 - **Dashboard principal**
 
-  **Figura 80:**<br>
+  **Figura 80**<br>
   *Dashboard Principal*
 
   <p align="center">
@@ -2301,7 +2493,7 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
   
 - **Mis dispositivos**
 
-  **Figura 81:**<br>
+  **Figura 81**<br>
   *Mis Dispositivos*
 
   <p align="center">
@@ -2313,7 +2505,7 @@ Estas implementaciones representan un **avance significativo** en nuestro objeti
   
 - **Suscripciones**
 
-  **Figura 82:**<br>
+  **Figura 82**<br>
   *Suscripciones*
 
   <p align="center">
@@ -2328,7 +2520,10 @@ Para una comprensión de las funcionalidades implementadas, hemos realizado un *
 
 #### 5.2.2.6. **Services Documentation Evidence for Sprint Review**
 
-| **Endpoint** | **Path** | **Descripción** |
+**Tabla 24**  
+*Servicios implementados en el Sprint 2*
+
+| **Método y Endpoint** | **Path** | **Descripción** |
 |---------------|-----------|------------------|
 | **POST /auth/login** | `/auth/login` | Inicia sesión de un usuario (valida correo y contraseña). |
 | **POST /auth/register** | `/auth/register` | Registra un nuevo usuario (estudiante, familia o sin código). |
@@ -2348,6 +2543,8 @@ Para una comprensión de las funcionalidades implementadas, hemos realizado un *
 | **PUT /config/panel** | `/config/panel` | Personaliza el panel (gráficos, preferencias, visualización). |
 | **POST /logout** | `/logout` | Cierra la sesión actual del usuario. |
 
+*Nota.* Elaboración propia.
+
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 
 Para la revisión de este sprint, se realizó el despliegue del **Frontend de Energix** utilizando **Vercel**, garantizando que la aplicación web sea accesible públicamente y se actualice automáticamente con cada commit a la rama principal.
@@ -2366,7 +2563,7 @@ El archivo `db.json` contiene las siguientes **colecciones principales**:
 
 Cuando se requieren cambios, se actualizan los archivos del repositorio y Vercel despliega automáticamente la nueva versión.
 
-**Figura 84:**<br>
+**Figura 84**<br>
 *Software Deployment Evidence*
 
 <p align="center">
@@ -2380,6 +2577,9 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y Vercel
 
 #### **5.2.2.8. Team Collaboration Insights During Sprint**
 
+**Tabla 25**  
+*Colaboración del equipo — Sprint 2*
+
 | Alumno                             | Actividad                                                                 |
 |------------------------------------|---------------------------------------------------------------------------|
 | Bryan Eduardo Barba Estrada        | Implementación de componentes del frontend y contribución al desarrollo de funcionalidades |
@@ -2388,7 +2588,9 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y Vercel
 | Esther Abigail Goñe Araccata       | Implementación de componentes del frontend y contribución al desarrollo de funcionalidades |
 | Alvaro Fabrizzio Salazar Caballero | Implementación de componentes del frontend y contribución al desarrollo de funcionalidades |
 
-**Figura 83:**<br>
+*Nota.* Elaboración propia.
+
+**Figura 83**<br>
 *Team Collaboration Insights Sprint 2*
 
 <p align="center">
@@ -2402,6 +2604,9 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y Vercel
 #### **5.2.3.1. Sprint Planning 3**
 
 A continuación, se presenta el **Sprint Planning** correspondiente al **Sprint 3**. En esta sección se detallan los acuerdos, revisiones y decisiones tomadas durante la reunión llevada a cabo por el equipo para la planificación del sprint.
+
+**Tabla 26**  
+*Sprint Planning 3*
 
 | **Sprint #** | **Sprint 3** |
 |--------------|--------------|
@@ -2417,19 +2622,29 @@ A continuación, se presenta el **Sprint Planning** correspondiente al **Sprint 
 | **Sprint Velocity** | 4 |
 | **Sum of Story Points** | 31 |
 
+*Nota.* Elaboración propia.
+
 #### **5.2.3.2. Aspect Leaders and Collaborators**
 
-| Team Member (Last Name, First Name) | GitHub Username | Documentation Leader (L) / Collaborator (C) | App Web Leader (L) / Collaborator (C) | BackEnd Leader (L) / Collaborator (C) |
-| :--- | :--- | :--- | :--- | :--- |
-| Barba Estrada, Bryan Eduardo | br14nbe | C | C | C |
-| Cotrina Siclla, Sofia Alessandra | IamAndreek | C | C | C |
-| Encalada Salazar, Alexis | Alexiz248 | L | C | C |
-| Goñe Araccata, Esther Abigail | abigoe02 | C | L | L |
-| Salazar Caballero, Alvaro Fabrizzio | IDymian | C | C | C |
+**Tabla 27**  
+*Roles del equipo — Sprint 3*
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend-Energix Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- |
+| Barba Estrada, Bryan Eduardo | br14nbe | C |
+| Cotrina Siclla, Sofia Alessandra | IamAndreek | C |
+| Encalada Salazar, Alexis | Alexiz248 | L |
+| Goñe Araccata, Esther Abigail | abigoe02 | C |
+| Salazar Caballero, Alvaro Fabrizzio | IDymian | C |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.3.3. Sprint Backlog 3**
 
 En este tercer sprint, nos enfocamos en la implementación completa del módulo de consumo histórico desde el backend, así como en optimizaciones clave para mejorar la estabilidad, consistencia y escalabilidad del API. Todas las tareas asignadas en el sprint están alineadas al objetivo principal: preparar un backend sólido, documentado y listo para integrarse con las funcionalidades del frontend.
+
+**Tabla 28**  
+*Sprint Backlog — Sprint 3*
 
 | User Story | Subtarea | Descripción | Criterio de aceptación | Estimación (horas) | Asignado a | Estado |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -2447,56 +2662,140 @@ En este tercer sprint, nos enfocamos en la implementación completa del módulo 
 | US11 | TS12 | Como developer, quiero habilitar que el usuario configure qué alertas recibir. | Escenario: Personalización - Given que el usuario accede a configuración - When selecciona/deselecciona alertas - Then el sistema guarda las preferencias. | 2 | Alvaro Salazar | |
 | | TS13 | Como developer, quiero implementar un ícono en el panel que muestre alertas pendientes. | Escenario: Visualización - Given que el usuario recibe alertas - When entra al panel - Then el ícono refleja las notificaciones. | 2 | Bryan Barba | |
 
+*Nota.* Elaboración propia.
+
 #### **5.2.3.4. Development Evidence for Sprint Review**
 
-| Repository | Branch | Commit Id | Commit Message Body | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- |
-| AppWeb-Energix/Backend-Energix | origin/develop | dd1d47958961be846ae4200bdee8184e256501d7 | Merge pull request #10 from AppWeb-Energix/feature/release | 14/11/2025 |
-| | origin/develop | 5f7879363de4dcd7c7a66637646cfdfaa2e8be73 | Merge pull request #9 from AppWeb-Energix/feature/config-backend | 14/11/2025 |
-| | origin/develop | 4560589de14df6fa272b68bcb6bde8c0f7b13166 | Merge pull request #7 from AppWeb-Energix/feature/identity | 14/11/2025 |
-| | origin/develop | 75f97e624be43f3677716601c30d63f17939d1cd | Merge pull request #5 from AppWeb-Energix/feature/devices | 10/11/2025 |
-| | origin/develop | | | |
-| | origin/develop | | | |
+**Tabla 29**  
+*Evidencia de desarrollo — Sprint 3*
+
+<table>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Fecha del commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4"><b>AppWeb-Energix/Backend-Energix</b></td>
+      <td>origin/develop</td>
+      <td>dd1d47958961be846ae4200bdee8184e256501d7</td>
+      <td>Merge pull request #10 from feature/release</td>
+      <td>14/11/25</td>
+    </tr>
+    <tr>
+      <td>origin/develop</td>
+      <td>5f7879363de4dcd7c7a66637646cfdfaa2e8be73</td>
+      <td>Merge pull request #9 from feature/config-backend</td>
+      <td>14/11/25</td>
+    </tr>
+    <tr>
+      <td>origin/develop</td>
+      <td>4560589de14df6fa272b68bcb6bde8c0f7b13166</td>
+      <td>Merge pull request #7 from feature/identity</td>
+      <td>14/11/25</td>
+    </tr>
+    <tr>
+      <td>origin/develop</td>
+      <td>75f97e624be43f3677716601c30d63f17939d1cd</td>
+      <td>Merge pull request #5 from feature/devices</td>
+      <td>10/11/25</td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia a partir del repositorio Backend-Energix.
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 
 A continuación, se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando el funcionamiento de los endpoints implementados en el backend. Las capturas reflejan las pruebas realizadas mediante herramientas como Postman, Swagger UI y la respuesta directa del servidor, verificando que los módulos desarrollados funcionan correctamente.
 
+**Capturas de pantalla de las principales vistas**
+
+**Figura 84**  
+*Swagger UI — Backend Energix (Endpoints implementados en Sprint 3)*
+
+<p align="center">
+  <img src="images/swagger-part1.png" alt="Swagger Backend Energix Parte 1" width="1000"><br><br>
+  <img src="images/swagger-part2.png" alt="Swagger Backend Energix Parte 2" width="1000"><br><br>
+  <img src="images/swagger-part3.png" alt="Swagger Backend Energix Parte 3" width="1000">
+</p>
+
+*Nota.* Elaboración propia (capturas obtenidas desde Swagger UI del proyecto Energix).
+
 **Enlace Documentación Swagger - Energix:** https://backend-energix.onrender.com/swagger/index.html
 
-#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+#### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
-| Endpoint | Path | Descripción |
-| :--- | :--- | :--- |
-| **POST** | `/api/v1/authentication/sign-in` | Permite a un usuario iniciar sesión y recibir un token JWT válido. |
-| **POST** | `/api/v1/authentication/sign-up` | Registra a un nuevo usuario en el sistema con validaciones de datos. |
-| **GET** | `/api/v1/dbinfo/tables` | Obtiene información sobre las tablas registradas en la base de datos del sistema. |
-| **GET** | `/api/v1/Devices` | Retorna la lista completa de dispositivos registrados para el usuario. |
-| **POST** | `/api/v1/Devices` | Registra un nuevo dispositivo asociado a un usuario. |
-| **GET** | `/api/v1/Devices/{id}` | Obtiene los detalles del dispositivo especificado por su ID. |
-| **PATCH** | `/api/v1/Devices/{id}` | Actualiza los datos de un dispositivo existente. |
-| **DELETE** | `/api/v1/Devices/{id}` | Elimina un dispositivo registrado por su ID. |
-| **GET** | `/` | Endpint base del API. Verifica el estado general del servidor Energix. |
-| **GET** | `/api/v1/Personalization/{id}` | Obtiene las preferencias de personalización asociadas al usuario. |
-| **PATCH** | `/api/v1/Personalization/{id}` | Actualiza las preferencias de personalización del usuario. |
-| **GET** | `/api/v1/users/{id}` | Obtiene la información del usuario indicado por su ID. |
-| **GET** | `/api/v1/users/me` | Retorna la información del usuario actualmente autenticado. |
-| **GET** | `/api/v1/Zones` | Retorna todas las zonas asociadas a un usuario o propiedad. |
-| **POST** | `/api/v1/Zones` | Registra una nueva zona dentro del sistema. |
-| **GET** | `/api/v1/Zones/{id}` | Obtiene la información detallada de una zona específica. |
-| **PATCH** | `/api/v1/Zones/{id}` | Actualiza los datos de una zona registrada. |
-| **DELETE** | `/api/v1/Zones/{id}` | Elimina una zona mediante su ID. |
+**Tabla 30**  
+*Servicios implementados — Sprint 3*
+
+| **Método y Endpoint** | **Path** | **Descripción** |
+|------------------|------|-------------|
+| POST /authentication/sign-in | `/api/v1/authentication/sign-in` | Inicia sesión y retorna token JWT válido. |
+| POST /authentication/sign-up | `/api/v1/authentication/sign-up` | Registra un nuevo usuario con validaciones de datos. |
+| GET /dbinfo/tables | `/api/v1/dbinfo/tables` | Obtiene información de las tablas registradas en la base de datos. |
+| GET /devices | `/api/v1/devices` | Retorna la lista completa de dispositivos del usuario. |
+| POST /devices | `/api/v1/devices` | Registra un nuevo dispositivo asociado al usuario. |
+| GET /devices/{id} | `/api/v1/devices/{id}` | Obtiene detalles de un dispositivo por su ID. |
+| PATCH /devices/{id} | `/api/v1/devices/{id}` | Actualiza los datos de un dispositivo específico. |
+| DELETE /devices/{id} | `/api/v1/devices/{id}` | Elimina un dispositivo registrado por su ID. |
+| GET / | `/` | Verifica el estado general del servidor Energix. |
+| GET /personalization/{id} | `/api/v1/personalization/{id}` | Obtiene preferencias personalizadas del usuario. |
+| PATCH /personalization/{id} | `/api/v1/personalization/{id}` | Actualiza preferencias del panel del usuario. |
+| GET /users/{id} | `/api/v1/users/{id}` | Obtiene información de un usuario según ID. |
+| GET /users/me | `/api/v1/users/me` | Devuelve los datos del usuario autenticado. |
+| GET /zones | `/api/v1/zones` | Retorna todas las zonas registradas del usuario. |
+| POST /zones | `/api/v1/zones` | Crea una nueva zona en el sistema. |
+| GET /zones/{id} | `/api/v1/zones/{id}` | Obtiene información detallada de una zona. |
+| PATCH /zones/{id} | `/api/v1/zones/{id}` | Actualiza una zona existente. |
+| DELETE /zones/{id} | `/api/v1/zones/{id}` | Elimina una zona registrada por su ID. |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
-Durante el Sprint 3 se realizó el despliegue del backend de Energix en un entorno de ejecución local para su validación y pruebas internas. El equipo utilizó el repositorio oficial del proyecto y ejecutó el servidor en modo desarrollo y producción local para verificar el funcionamiento de los endpoints implementados.
+Durante el Sprint 3 se realizó el despliegue del backend de Energix en un entorno productivo utilizando Render como proveedor de hosting. Este proceso permitió validar el funcionamiento de la API en un servidor remoto, asegurando su disponibilidad para futuras integraciones con el frontend.
 
-A continuación, se detallan las evidencias del proceso de ejecución y despliegue del backend:
+Para lograr el despliegue exitoso se realizaron las siguientes acciones clave:
 
-* Primero se realizaron ajustes en el archivo `Dockerfile` ubicado en la raíz del proyecto para asegurar que el proceso de construcción y despliegue del backend utilice correctamente el archivo de proyecto principal `Energix.API.csproj`.
-* Además, se revisaron y configuraron los archivos de entorno (`appsettings.json`, `appsettings.Development.json`, `appsettings.Production.json`) para definir las cadenas de conexión y parámetros de autenticación JWT.
-* También se verificó la configuración de los servicios en `docker-compose.yml` para garantizar la correcta comunicación entre la API y la base de datos MySQL.
-* Todos estos cambios se aplicaron en la rama `feature/release` y se subieron al repositorio remoto para su despliegue automático en Render.
+- Configuración del `Dockerfile` para generar la imagen del proyecto correcto (`Energix.API.csproj`).
+- Ajuste de variables de entorno en `appsettings.json`, `appsettings.Development.json` y `appsettings.Production.json`.
+- Configuración del contenedor de base de datos y API dentro del archivo `docker-compose.yml` para garantizar una correcta comunicación entre servicios.
+- Subida de los cambios en la rama `feature/release` y despliegue automático en Render con despliegues continuos desde GitHub.
+
+A continuación, se presentan evidencias del servicio desplegado y en ejecución:
+
+**Figura 85**<br>
+*Evidencia de despliegue — Backend Energix en Render (vista del servicio en producción)*
+
+<p align="center">
+  <img src="images/render-service.jpg" alt="Despliegue Backend Energix en Render — Vista de servicio en producción" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 86**<br>
+*Logs de inicialización del servicio Backend en Render*
+
+<p align="center">
+  <img src="images/render-logs.jpg" alt="Logs Render — Inicio de Backend Energix" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 87**<br>
+*Swagger UI — API Energix desplegada correctamente en Render*
+
+<p align="center">
+  <img src="images/render-swagger.jpg" alt="Swagger — API Energix desplegada" width="1000">
+</p>
+
+*Nota.* Elaboración propia.
 
 **Enlace del proyecto (BackEnd) API deploy - Energix:** https://backend-energix.onrender.com
 
@@ -2504,13 +2803,71 @@ A continuación, se detallan las evidencias del proceso de ejecución y desplieg
 
 Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las tareas asignadas en el backend, manteniendo comunicación constante y aplicando prácticas colaborativas que permitieron avanzar con eficiencia.
 
-**Enlace Repositorio BackEnd - Energix:** https://github.com/AppWeb-Energix/Backend-Energix
+**Tabla 31**  
+*Colaboración del equipo — Sprint 3*
+
+| Alumno                             | Actividad / Responsabilidades asumidas |
+|------------------------------------|---------------------------------------|
+| Bryan Eduardo Barba Estrada        | Implementación de componentes del backend relacionados con autenticación y contribución al desarrollo de funcionalidades. |
+| Sofia Alessandra Cotrina Siclla    | Implementación de componentes del backend relacionados con personalización y contribución al desarrollo de funcionalidades. |
+| Alexis Encalada Salazar            | Configuración y despliegue del backend, así como soporte técnico en la estructura del proyecto. |
+| Esther Abigail Goñe Araccata       | Implementación del backend para la gestión de dispositivos. |
+| Alvaro Fabrizzio Salazar Caballero | Implementación de componentes del backend relacionados con suscripción y contribución al desarrollo de funcionalidades. |
+
+*Nota.* Elaboración propia.
+
+**Figura 88**  
+*Team Collaboration Insights Sprint 3 — Energix*
+
+<p align="center">
+  <img src="images/team_collaboration_3.jpg" alt="Team Collaboration Sprint 3 — Energix" width="1000">
+</p>
+
+*Nota.* Estadísticas de contribución durante Sprint 3 obtenidas del repositorio Backend-Energix.
+
+**Enlace Repositorio BackEnd - Energix:**  
+https://github.com/AppWeb-Energix/Backend-Energix
 
 ### **5.2.4. Sprint 4**
 
 #### **5.2.4.1. Sprint Planning 4**
 
+A continuación, se presenta el último **Sprint Planning** correspondiente al **Sprint 4**.  
+En esta sección se detallan los acuerdos, revisiones y decisiones tomadas durante la reunión llevada a cabo por el equipo para la planificación del sprint.
+
+**Tabla 32**  
+*Sprint Planning 4*
+
+| **Sprint #** | **Sprint 4** |
+|--------------|--------------|
+| **Sprint Planning Background** | Durante esta reunión se analizó la necesidad de habilitar un rol de administración en Energix para facilitar el control interno del sistema y gestión de cuentas reales. Se acordó desarrollar el módulo de administrador en backend, incorporar funciones de gestión de usuarios y roles, así como ajustes al flujo de suscripciones y métricas. También se priorizaron correcciones detectadas en la evaluación heurística del sprint anterior. |
+| **Date** | 2025-11-30 |
+| **Time** | 17:00 |
+| **Location** | Server AppWeb |
+| **Prepared By** | Goñe Araccata, Esther Abigail |
+| **Attendees (to planning meeting)** | Barba Estrada, Cotrina Siclla, Encalada Salazar, Goñe Araccata, Salazar Caballero |
+| **Sprint Review Summary** | Se identificó la necesidad de reforzar el manejo administrativo de usuarios y suscripciones, así como mejorar la claridad de las métricas del panel y la gestión de alertas. Los endpoints desarrollados previamente funcionan correctamente, pero requieren mayor control de roles y visualización integral del sistema. |
+| **Sprint Retrospective Summary** | **Start:** Implementar un módulo completo de administración con permisos avanzados. Ajustar visualización y cálculo de promedios. Optimizar notificaciones y límites de dispositivos.<br><br>**Stop:** Realizar despliegues sin validación final de seguridad. Depender de datos no controlados para pruebas críticas.<br><br>**Continue:** Mantener prácticas de testing con Postman/Swagger, code review antes de merge y comunicación activa en daily meetings. |
+| **Sprint Goal** | Enable and secure the new Energix Administrator role, allowing full user management (roles, plans, account status) and perform essential corrections to subscription and metrics modules ensuring a stable and scalable ecosystem for the final product delivery. |
+| **Sprint Velocity** |  |
+| **Sum of Story Points** |  |
+
+*Nota.* Elaboración propia.
+
 #### **5.2.4.2. Aspect Leaders and Collaborators**
+
+**Tabla 33**  
+*Roles del equipo — Sprint 4*
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend-Energix Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- |
+| Barba Estrada, Bryan Eduardo | br14nbe | C |
+| Cotrina Siclla, Sofia Alessandra | IamAndreek | C |
+| Encalada Salazar, Alexis | Alexiz248 | L |
+| Goñe Araccata, Esther Abigail | abigoe02 | C |
+| Salazar Caballero, Alvaro Fabrizzio | IDymian | C |
+
+*Nota.* Elaboración propia.
 
 #### **5.2.4.3. Sprint Backlog 4**
 
@@ -2528,47 +2885,190 @@ Durante el Sprint 3, el equipo trabajó de manera coordinada para completar las 
 
 ### **5.3.1. Diseño de Entrevistas**
 
-Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos segmentos objetivos de **Energix**.
+Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos segmentos objetivo de **Energix**.
 
-#### User Flows Clave
+## User Flows Clave
 
-| Segmento | Flujos de Usuario (User Stories) |
-| :--- | :--- |
-| **1: Estudiantes que alquilan vivienda** | * **Cálculo de gasto:** Ver gasto total y dividido entre ocupantes. |
-| | * **Alertas de olvido:** Recibir alertas cuando un dispositivo queda encendido innecesariamente. |
-| | * **Simplicidad:** Tener una vista simple y clara del consumo sin tecnicismos. |
-| | * **Identificación de alto consumo:** Identificar qué dispositivos consumen más para evitar gastos excesivos. |
-| **2: Jóvenes adultos responsables del pago de electricidad** | * **Comparación de consumo:** Comparar el consumo mes a mes para entender las variaciones del recibo. |
-| | * **Métricas en Soles:** Visualizar el consumo en soles, no solo en kilowatts. |
-| | * **Alertas inmediatas:** Recibir alertas si un dispositivo está consumiendo más de lo normal (ej. terma, AC). |
-| | * **Detalle por dispositivo:** Ver el consumo por dispositivo para identificar incrementos inesperados. |
+**Tabla n**  
+*User Flows Clave — Segmentos Objetivos*
 
-#### Cuestionario (Segmento Objetivo #2)
+<table>
+  <thead>
+    <tr>
+      <th>Segmento</th>
+      <th>Flujos de Usuario (User Stories)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1: Estudiantes que alquilan vivienda</strong></td>
+      <td>
+        <ul>
+          <li><strong>Cálculo de gasto:</strong> Ver gasto total y dividido entre ocupantes.</li>
+          <li><strong>Alertas de olvido:</strong> Recibir alertas cuando un dispositivo queda encendido innecesariamente.</li>
+          <li><strong>Simplicidad:</strong> Tener una vista simple y clara del consumo sin tecnicismos.</li>
+          <li><strong>Identificación de alto consumo:</strong> Identificar qué dispositivos consumen más para evitar gastos excesivos.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>2: Jóvenes adultos responsables del pago de electricidad</strong></td>
+      <td>
+        <ul>
+          <li><strong>Comparación de consumo:</strong> Comparar el consumo mes a mes para entender las variaciones del recibo.</li>
+          <li><strong>Métricas en Soles:</strong> Visualizar el consumo en soles, no solo en kilowatts.</li>
+          <li><strong>Alertas inmediatas:</strong> Recibir alertas si un dispositivo está consumiendo más de lo normal (ej. terma, AC).</li>
+          <li><strong>Detalle por dispositivo:</strong> Ver el consumo por dispositivo para identificar incrementos inesperados.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-**Perfil del entrevistado:** Jóvenes adultos responsables del pago de la electricidad.
+*Nota.* Elaboración propia en función del alineamiento de funcionalidades a segmentos definidos.
 
-| Etapa | Pregunta |
-| :--- | :--- |
-| **Inicio** | * ¿Cuál es tu nombre y cómo manejas actualmente el pago de electricidad en tu hogar? |
-| | * ¿Revisas tu consumo eléctrico con frecuencia o solo cuando llega la factura? |
-| **Landing Page** | * ¿Qué es lo primero que te transmite esta página? |
-| | * ¿Entiendes qué hace Energix solo con ver la landing? |
-| | * ¿Qué tan claro te parece lo que ofrecemos aquí? |
-| | * ¿El valor del plan te parece razonable? |
-| **Demostración App**| * ¿Qué tan fácil te parece el proceso de registrarte? |
-| | * ¿Hubo algún punto donde hayas dudado qué hacer? |
-| | * ¿Hay algo que no entiendas a primera vista? |
-| | * ¿Te parece fácil agregar un dispositivo? |
-| **Cierre** | * Si esta plataforma estuviera disponible hoy, ¿la usarías? |
-| | * ¿Qué tendríamos que mejorar para que definitivamente la uses cada semana? |
+## Cuestionario (Segmento Objetivo #1)
+
+**Perfil del entrevistado:** Familias Urbanas con Casas Inteligentes
+
+**Tabla n**  
+*Cuestionario utilizado en entrevistas de validación — Segmento Objetivo #1*
+
+<table>
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Pregunta(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Inicio</strong></td>
+      <td>
+        <ul>
+          <li>¿Cuál es tu nombre y cómo manejas actualmente el pago de electricidad en tu hogar?</li>
+          <li>¿Revisas tu consumo eléctrico con frecuencia o solo cuando llega la factura?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Landing Page</strong></td>
+      <td>
+        <ul>
+          <li>¿Qué es lo primero que te transmite esta página?</li>
+          <li>¿Entiendes qué hace Energix solo con ver la landing?</li>
+          <li>¿Qué tan claro te parece lo que ofrecemos aquí?</li>
+          <li>¿El valor del plan te parece razonable?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Demostración App</strong></td>
+      <td>
+        <ul>
+          <li>¿Qué tan fácil te parece el proceso de registrarte?</li>
+          <li>¿Hubo algún punto donde hayas dudado qué hacer?</li>
+          <li>¿Hay algo que no entiendas a primera vista?</li>
+          <li>¿Te parece fácil agregar un dispositivo?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Cierre</strong></td>
+      <td>
+        <ul>
+          <li>Si esta plataforma estuviera disponible hoy, ¿la usarías?</li>
+          <li>¿Qué tendríamos que mejorar para que definitivamente la uses cada semana?</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia en base a los objetivos de investigación definidos para Energix.
+
+## Cuestionario (Segmento Objetivo #2)
+
+**Perfil del entrevistado:** Estudiantes y Jóvenes que Alquilan Vivienda
+
+**Tabla n**  
+*Cuestionario utilizado en entrevistas de validación — Segmento Objetivo #2*
+
+<table>
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Pregunta(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Inicio</strong></td>
+      <td>
+        <ul>
+          <li>¿Cuál es tu nombre y cómo manejas actualmente el pago de electricidad en tu hogar?</li>
+          <li>¿Revisas tu consumo eléctrico con frecuencia o solo cuando llega la factura?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Landing Page</strong></td>
+      <td>
+        <ul>
+          <li>¿Qué es lo primero que te transmite esta página?</li>
+          <li>¿Entiendes qué hace Energix solo con ver la landing?</li>
+          <li>¿Qué tan claro te parece lo que ofrecemos aquí?</li>
+          <li>¿El valor del plan te parece razonable?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Demostración App</strong></td>
+      <td>
+        <ul>
+          <li>¿Qué tan fácil te parece el proceso de registrarte?</li>
+          <li>¿Hubo algún punto donde hayas dudado qué hacer?</li>
+          <li>¿Hay algo que no entiendas a primera vista?</li>
+          <li>¿Te parece fácil agregar un dispositivo?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Cierre</strong></td>
+      <td>
+        <ul>
+          <li>Si esta plataforma estuviera disponible hoy, ¿la usarías?</li>
+          <li>¿Qué tendríamos que mejorar para que definitivamente la uses cada semana?</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia en base a los objetivos de investigación definidos para Energix.
 
 ### **5.3.2. Registro de Entrevistas**
 
-**Segmento objetivo #2:** Jóvenes adultos responsables del pago de la electricidad.
+## Segmento objetivo #2: Estudiantes y Jóvenes que Alquilan Vivienda
 
-| Entrevistado | Edad | Enlace Entrevista |
-| :--- | :--- | :--- |
-| **Néstor Rojas** | 22 | **Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas:** https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create |
+<table>
+  <thead>
+    <tr>
+      <th>N° Registro</th>
+      <th>Entrevistado</th>
+      <th>Edad</th>
+      <th>Enlace Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Néstor Rojas</td>
+      <td>22</td>
+      <td><strong>Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas:</strong> https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Resumen de Feedback (Néstor Rojas)
 
@@ -2580,51 +3080,87 @@ Se definieron los flujos de usuario (User Flows) y el cuestionario para los dos 
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
-| Auditor | Cliente(s) | Sitio a Evaluar |
-| :--- | :--- | :--- |
-| ENERGIX | Néstor Alonso Rojas Tello | Energix |
+### UX Heuristics & Principles Evaluation
+### Usability - Inclusive Design - Information Architecture
 
-**Tareas Evaluadas:** Visualización de Landing Page, Comprensión del valor ofrecido, Proceso de registro, Primera navegación, Comprensión de métricas, Vinculación de dispositivos, Percepción general.
+### Carrera: 
+Ingenieria de Software
+### Curso:
+Aplicaciones Web
+### Sección:
+7470
+### Profesores:
+Todos
+### Auditor:
+Energix
+### Clientes:
+- Del Carpio, Sebastián
+- Huaman, Yeira
+- Rojas, Néstor
+- Sandoval, Fabián
+### Site o App a evaluar:
+Energix Manager
 
-#### Escala de Severidad (Nielsen)
+### Tareas a evaluar:
+
+*El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+
+1. Visualización de Landing Page
+2. Comprensión del valor ofrecido
+3. Proceso de registro
+4. Primera navegación
+5. Comprensión de métricas
+6. Vinculación de dispositivos
+7. Percepción general
+
+### Escala de severidad:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | Nivel | Descripción |
-| :--- | :--- |
-| **1** | Problema superficial: fácilmente superado, no requiere arreglo urgente. |
-| **2** | Problema menor: ocurre frecuentemente o es ligeramente difícil de superar. Se recomienda atenderlo en el siguiente release. |
-| **3** | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Se debe corregir con prioridad alta. |
-| **4** | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento. |
+|:------:|--------------|
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
-#### Tabla Resumen de Problemas
+#### Tabla de resumen
 
 | # | Problema | Severidad | Heurística/Principio Violado |
 | :--- | :--- | :--- | :--- |
 | **1** | La sección de “promedios” puede generar ligera confusión inicial sobre su cálculo o lo que representan. | 1 | Correspondencia entre el sistema y el mundo real. |
 | **2** | El plan estudiantil permite vincular solo dos dispositivos, lo que es limitado para estudiantes que usan múltiples equipos. | 2 | Flexibilidad y eficiencia de uso / Conocer al usuario. |
 
-### Detalle de Problemas Encontrados
+## Descripción de problemas:
 
-#### PROBLEMA #1: Confusión en la métrica de "Promedios"
+**PROBLEMA \#1:**
+
+***Severidad:*** 1
+
+***Heurística violada:*** Correspondencia entre el sistema y el mundo real.
+
+***Problema:***   
+La sección de "promedios" dentro de la aplicación puede generar una ligera confusión en usuarios nuevos, ya que no queda totalmente claro cómo se calcula este valor o qué representa. No impide la navegación, pero afecta la comprensión.
 
 <img src="images/problema1_heuristicas.jpg" alt="Problema 1 - Heurísticas - Energix" width="800">
+<br>
 
-| Aspecto | Detalle |
-| :--- | :--- |
-| **Severidad** | 1 (Problema superficial) |
-| **Heurística Violada** | Correspondencia entre el sistema y el mundo real. |
-| **Problema** | La sección de "promedios" dentro de la aplicación puede generar una ligera confusión en usuarios nuevos, ya que no queda totalmente claro cómo se calcula este valor o qué representa. No impide la navegación, pero afecta la comprensión. |
-| **Recomendación** | Ampliar la información contextual (e.g., tooltips, descripciones breves) sobre el cálculo del promedio para que el usuario pueda tomar decisiones informadas. |
+***Recomendación:***   
+Ampliar la información contextual (e.g., tooltips, descripciones breves) sobre el cálculo del promedio para que el usuario pueda tomar decisiones informadas.
 
-#### PROBLEMA #2: Límite de dispositivos en el Plan Estudiantil
+**PROBLEMA \#2:**
+
+***Severidad:*** 2
+
+***Heurística violada:*** Flexibilidad y eficiencia de uso / Conocer al usuario.
+
+***Problema:***   
+El límite de dos dispositivos en el plan estudiantil es insuficiente para el segmento, ya que los estudiantes suelen usar múltiples equipos (celular, tablet, Kindle), lo que limita la utilidad percibida de la plataforma.
 
 <img src="images/problema2_heuristicas.jpg" alt="Problema 2 - Heurísticas - Energix" width="800">
+<br>
 
-| Aspecto | Detalle |
-| :--- | :--- |
-| **Severidad** | 2 (Problema menor) |
-| **Heurística Violada** | Flexibilidad y eficiencia de uso / Conocer al usuario. |
-| **Problema** | El límite de dos dispositivos en el plan estudiantil es insuficiente para el segmento, ya que los estudiantes suelen usar múltiples equipos (celular, tablet, Kindle), lo que limita la utilidad percibida de la plataforma. |
-| **Recomendación** | Aumentar el número permitido de dispositivos en el plan estudiantil o brindar mayor flexibilidad, alineándose mejor con el comportamiento típico de este segmento de usuarios. |
+***Recomendación:***   
+Aumentar el número permitido de dispositivos en el plan estudiantil o brindar mayor flexibilidad, alineándose mejor con el comportamiento típico de este segmento de usuarios.
 
 ## 5.4. Video About-The-Product
 
@@ -2718,18 +3254,18 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 **Videos Entrevistas y Validaciones**
 
-- Enlace Video Entrevista - Segmento 1 - Leimy Nuñez: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=c93113a2-00a9-4a0a-9379-a42de373a3a9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #1 - Leimy Nuñez: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=c93113a2-00a9-4a0a-9379-a42de373a3a9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video Entrevista - Segmento 1 - Willy Guzman: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=187c2b4a-39da-42ea-842b-d91279ae34cb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #1 - Willy Guzman: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=187c2b4a-39da-42ea-842b-d91279ae34cb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video Entrevista - Segmento 2 - Braden Garcia: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=e4d05e86-b3ac-405d-b951-526695ae58aa&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #2 - Braden Garcia: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=e4d05e86-b3ac-405d-b951-526695ae58aa&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video Entrevista - Segmento 2 - Nestor Rojas: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=534e0101-c2d6-425d-a69c-63f40550bd31&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #2 - Nestor Rojas: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=534e0101-c2d6-425d-a69c-63f40550bd31&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 
-- Enlace Video Validación Entrevista - Segmento 1 - Willy Guzman:
+- Enlace Video Validación Entrevista - Segmento #1 - Willy Guzman:
 
-- Enlace Video Validación Entrevista - Segmento 1 - Leimy Nuñez:
+- Enlace Video Validación Entrevista - Segmento #1 - Leimy Nuñez:
 
-- Enlace Video Validación Entrevista - Segmento 2 - Braden Garcia:
+- Enlace Video Validación Entrevista - Segmento #2 - Braden Garcia:
 
-- Enlace Video Validación Entrevista - Segmento 2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
