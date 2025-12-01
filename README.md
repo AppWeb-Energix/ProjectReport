@@ -1,7 +1,7 @@
 <div align="center">
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Descripción de la imagen" style="width: 50%; height: auto;"></p>
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Descripción de la imagen" style="width: 25%; height: auto;"></p>
 
-## Universidad Peruana de Ciencias Aplicadas
+## Universidad Peruana de Ciencias Aplicadas  
 
 **Facultad:** Ingeniería
  
@@ -24,6 +24,7 @@
 **Nombre del producto:** Energix Manager
 
 <strong>“Energía inteligente y conectada en la palma de tu mano”</strong>
+<br><br>
 
 #### Relación de integrantes
 
@@ -48,7 +49,7 @@
 | TB1         | 19/09/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros 5 capítulos del informe y también la primera versión del landing page de Energix. |
 | TP         | 10/08/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la segunda entrega del informe de nuestro proyecto, se realizó la documentación correspondiente al Sprint 2 y se realizó actualizaciones en las conclusiones y anexos del informe de reporte. Por otro lado, se realizó las respectivas mejoras y se desarrolló la primera versión del Fronted Web Applications. |
 | TB2        | 14/11/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la tercera entrega se revisaron las necesidades actuales del backend y se definió el alcance del Sprint 3. Se acordó enfocarse en la implementación completa del módulo de consumo histórico, la optimización de los servicios existentes, mejoras de seguridad básica, manejo adecuado de errores y la documentación interna del API. Asimismo, se revisaron las dependencias y tareas pendientes con el fin de asegurar una estructura estable en el próximo sprint. |
-| TF         |    | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro |  |
+| TF         |  30/11/2025   | Barba Estrada, Bryan Eduardo <br><br> Cotrina Siclla, Sofia Alessandra <br><br> Encalada Salazar, Alexis <br><br> Goñe Araccata, Esther Abigail <br><br> Salazar Caballero, Fabrizzio Alvaro | En la cuarta entrega, se revisaron las necesidades actuales del backend y se definió el alcance del Sprint 4. Se acordó priorizar la gestión administrativa de usuarios mediante la implementación del rol de administrador, así como optimizar los servicios existentes del backend. Además, se incluyeron tareas relacionadas con el manejo adecuado de errores, depuración de funcionalidades previas y la actualización de la documentación interna de la API. Finalmente, se revisaron dependencias y ajustes pendientes con el objetivo de garantizar una arquitectura estable para el cierre del proyecto. |
 
 <hr>
 
@@ -56,7 +57,9 @@
 
 Se elaboró el informe del proyecto en un repositorio llamado “ProjectReport” en la organización “AppWeb-Energix”.
 
-**Enlace del repositorio “ProjectReport”:** https://github.com/AppWeb-Energix/ProjectReport
+**Enlace Organización AppWeb-Energix:** https://github.com/AppWeb-Energix
+
+**Enlace Repositorio Project Report - Energix:** https://github.com/AppWeb-Energix/ProjectReport
 
 TB1: Para facilitar la elaboración colaborativa de este informe, el equipo comenzó trabajando en un documento compartido en Google. Posteriormente, el contenido se trasladó y organizó en un repositorio de GitHub, empleando el formato markdown para estructurar cada sección. A continuación, se presenta una imagen con los insights de los commits realizados por cada integrante dentro de dicho repositorio.
 
@@ -76,7 +79,7 @@ TB2: Para la elaboración del informe del TB2, seguimos una metodología similar
   <img src="images/report_collaborationtb2.jpg" alt="PB" width="1000">
 </p>
 
-TF:
+TF: Durante la elaboración del informe del TF correspondiente al Sprint 4, se llevó a cabo una revisión exhaustiva del contenido previamente entregado, corrigiendo errores identificados en la versión anterior y asegurando que toda la documentación esté alineada con el estado actual del proyecto. Para ello, se verificaron y restauraron enlaces, se actualizaron imágenes faltantes o desactualizadas, se mejoró la redacción y la estructura del reporte, y se integraron las nuevas evidencias del frontend y backend resultantes de este sprint. Todo el contenido actualizado fue posteriormente migrado al formato Markdown y subido al repositorio en GitHub mediante commits estructurados, garantizando trazabilidad, coherencia y calidad en la entrega final.
 
 <p align="center">
   <img src="images/report_collaborationtf.jpg" alt="PB" width="1000">
@@ -419,13 +422,14 @@ En esta parte se llevará a cabo el proceso de Lean UX, el cual incluye la defin
 * Familias urbanas en el Perú.
 * Adultos o jóvenes de 20 a 45 años, con educación media o superior, que gestionan las finanzas del hogar.
 * Personas preocupadas por el ahorro económico y la sostenibilidad.
-
+<br>
 
 **¿Dónde encaja nuestro servicio en su trabajo o vida?**
 
 * En la gestión de sus gastos mensuales.
 * En la toma de decisiones sobre el uso de dispositivos en el hogar.
 * En la rutina de monitoreo del hogar.
+<br>
 
 **¿Qué problemas tiene nuestro producto y cómo se puede resolver?**
 
@@ -516,6 +520,7 @@ Este segmento corresponde a hogares ubicados principalmente en zonas urbanas que
 - **Edad:** 20 a 55 años  
 - **Nivel Socioeconómico:** B y C  
 - **Composición Familiar:** Familias consolidadas con uno o más hijos  
+<br>
 
 **Hábitos y Motivación:**  
 Buscan eficiencia energética, confort y automatización en su hogar. Priorizan el control del presupuesto mensual y la seguridad del hogar, mientras utilizan equipamiento como routers inteligentes, Smart TVs, aire acondicionado, PCs, asistentes virtuales, etc.
@@ -531,6 +536,7 @@ Este segmento se compone de jóvenes que asumen parcial o totalmente el pago de 
 - **Edad:** 18 a 30 años  
 - **Nivel Socioeconómico:** C y D  
 - **Lugar de Residencia:** Habitaciones o departamentos compartidos en zonas universitarias o céntricas  
+<br>
 
 **Hábitos y Motivación:**  
 Buscan optimizar sus gastos mensuales y necesitan soluciones rápidas y simples que les permitan identificar qué dispositivos generan mayor gasto. Suelen utilizar laptops, cocinas eléctricas, terma y refrigeradoras compartidas, lo que eleva el consumo sin control individual.
@@ -651,8 +657,8 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 | Número de registro | Datos del entrevistado | Resumen | Evidencia |
 |-------------------|----------------------|---------|-----------|
-| **1** | **Nombre:** Willy Guzman <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración:** 4:28 min <br> **Enlace:** https://youtu.be/aIU7QD1wems?si=Q6-a7qwEVHUx9Qr8 | El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | Ver **Figura 3** |
-| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración:** 3:10 min <br> **Enlace:** https://youtu.be/SaUrn95CV8E?si=zV5xGSbz7BuQLPQP | La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | Ver **Figura 4** |
+| **1** | **Nombre:** Willy Guzman <br> **Edad:** 22 años <br> **Distrito:** SMP <br> **Duración:** 4:28 min <br> **Enlace Video Entrevista - Segmento #1 - Willy Guzman:** https://youtu.be/aIU7QD1wems?si=Q6-a7qwEVHUx9Qr8 | El entrevistado, estudiante de Cajamarca que vive en Lima con sus primos en una vivienda alquilada, comparte el pago de electricidad entre tres personas. No presta demasiada atención al consumo eléctrico diario o mensual y no recibe alertas de apps. Valora la idea de una app que muestre tanto el costo total como el consumo por artefacto, para identificar dispositivos de mayor gasto. Reconoce que equipos como la computadora, impresora, televisor, refrigerador y microondas impactan en el recibo. Afirma que estaría dispuesto a cambiar hábitos si recibe recomendaciones personalizadas y que valora información clara, visual y sencilla. Considera barrera principal la falta de compatibilidad de dispositivos. | Ver **Figura 3** |
+| **2** | **Nombre:** Leimy Nuñez <br> **Edad:** 20 años <br> **Distrito:** Callao <br> **Duración:** 3:10 min <br> **Enlace Video Entrevista - Segmento #1 - Leimy Nuñez:** https://youtu.be/SaUrn95CV8E?si=zV5xGSbz7BuQLPQP | La entrevistada comparte el pago de electricidad dividiéndolo en partes iguales con sus compañeros. No presta atención diaria al consumo eléctrico, pero sí al momento de pagar el recibo. Considera útiles alertas que avisen de dispositivos encendidos innecesariamente. No usa aplicaciones para organizar finanzas, pero estaría interesada en una que incluya el gasto eléctrico. Prefiere información simple (costo total dividido entre personas). Revisa información desde el celular. Manifiesta disposición a cambiar hábitos y considera barrera la posible falta de compatibilidad con dispositivos del hogar. | Ver **Figura 4** |
 
 *Nota.* Elaboración propia.
 <br>
@@ -679,8 +685,8 @@ Este análisis permite entender el posicionamiento de **Energix Manager** en el 
 
 | Número de registro | Datos del entrevistado | Resumen | Evidencia |
 |-------------------|----------------------|---------|-----------|
-| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración:** 2:16 min <br> **Enlace:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 | Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | Ver **Figura 5** |
-| **2** | **Nombre:** Néstor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración:** 3:07 min <br> **Enlace:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N | Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar el consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | Ver **Figura 6** |
+| **1** | **Nombre:** Braden Garcia <br> **Edad:** 23 años <br> **Distrito:** San Borja <br> **Duración:** 2:16 min <br> **Enlace Video Entrevista - Segmento #2 - Braden Garcia:** https://youtu.be/gCHaPFnEpZ4?si=YmXrpxZbYKI6Rp63 | Considera importante controlar el consumo eléctrico, destina entre 10% y 15% de su presupuesto mensual (≈150 soles) a la luz. Reconoce aumentos en épocas específicas y estaría interesado en alertas inmediatas sobre consumos anormales. Afirma que revisaría la información a diario si la app es accesible desde el móvil. Identifica como dispositivos de mayor impacto el aire acondicionado y la computadora. Estaría dispuesto a pagar un servicio (≈10–20 soles mensuales). Valora facilidad de acceso, posibilidad de comparativas y visualización clara del consumo. | Ver **Figura 5** |
+| **2** | **Nombre:** Néstor Rojas <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración:** 3:07 min <br> **Enlace Video Entrevista - Segmento #2 - Nestor Rojas:** https://youtu.be/fkTpOOHVGQ0?si=muU4Sj4Iaz7YVg3N | Vive con su abuela, considera importante el control del consumo eléctrico familiar. Ha enfrentado aumentos por enchufes conectados y por mayor uso de dispositivos electrónicos. Busca identificar el consumo por dispositivo y comparar entre meses. Prefiere revisarlo en tiempo real más que esperar la factura. Considera esencial recibir alertas inmediatas y saber qué aparato gasta más en el momento. Indica que pagaría por la app solo si le aporta un beneficio tangible. | Ver **Figura 6** |
 
 *Nota.* Elaboración propia.
 <br>
@@ -1171,7 +1177,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 ## **4.3. Landing Page UI Design**
 ### **4.3.1. Landing Page Wireframe**
 
-**Enlace Diseño Figma Landing Page Wireframe - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Landing Page Wireframe - Energix:** https://tinyurl.com/landing-page-wireframe-energix
 
 **Figura 24**<br>
 *Wireframe — Landing Page Energix*
@@ -1184,7 +1190,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 
 ### **4.3.2. Landing Page Mock-up**
 
-**Enlace Diseño Figma Landing Page Mock-up - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Landing Page Mock-up - Energix:** https://tinyurl.com/landing-page-mock-up-energix
 
 **Figura 25**<br>
 *Mock-up — Landing Page Energix*
@@ -1198,7 +1204,7 @@ El logo representa la esencia de nuestra aplicación a través de un diseño mod
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
 
-**Enlace Diseño Figma Web Application Wireframes - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Web Application Wireframes - Energix:** https://tinyurl.com/web-app-wireframes-energix
 
 **Inicio Sesión**
 
@@ -1438,7 +1444,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 
 ### **4.4.3. Web Applications Mock-ups**
 
-**Enlace Diseño Figma Web Application Mock-ups - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Web Application Mock-ups - Energix:** https://tinyurl.com/web-app-mock-ups-energix
 
 **Inicio Sesión**
 
@@ -1638,7 +1644,7 @@ Desde el dashboard, el usuario selecciona la opción Log out, confirmando su int
 ## **4.5. Web Applications Prototyping**
 Para la elaboración del prototype utilizamos la herramienta Figma, en la cual desarrollamos los mockups y añadimos las interacciones necesarias directamente dentro del mismo programa.
 
-**Enlace Diseño Figma Prototype - Energix:** https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+**Enlace Diseño Figma Prototype - Energix:** https://tinyurl.com/figma-prototype-energix
 
 **Figura 59**<br>
 *Prototype — Web Application Energix*
@@ -1649,7 +1655,7 @@ Para la elaboración del prototype utilizamos la herramienta Figma, en la cual d
 
 *Nota.* Elaboración propia (realizado en Figma).
 
-**Enlace Video Web Application Prototype - Energix:** https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Enlace Video Web Application Prototype - Energix:** https://tinyurl.com/prototype-energix
 
 ## **4.6 Domain-Driven Software Architecture**
 
@@ -1838,6 +1844,7 @@ En el proyecto **Energix**, se han definido guías de estilo que aseguran un des
 - Landing Page (HTML, CSS, JavaScript)
 - Web Applications (Vue + JavaScript)
 - RESTful Web Services (ASP.NET Core + C#)
+<br>
 
 **Nomenclatura General**
 
@@ -1947,6 +1954,7 @@ Siempre se coloca un espacio alrededor de los operadores y entre parámetros de 
   ```
 - En JavaScript se utilizan comillas simples `' '` para cadenas.
 - En HTML se utilizan comillas dobles `" "` para atributos.
+<br>
 
 **Límite de longitud de línea**
 
@@ -1960,6 +1968,7 @@ En caso de requerir más espacio, la línea debe dividirse de forma que mantenga
 - Usar comentarios únicamente cuando aporten contexto adicional.
 - Evitar nombres genéricos como: `data`, `test`, `temp`, `foo`, `bar`, etc.
 - Favorecer nombres descriptivos y expresivos que permitan entender el propósito del código sin necesidad de comentarios extensivos.
+<br>
 
 **Referencias**
 
@@ -2048,7 +2057,7 @@ A continuación, se describen los pasos para realizar el despliegue de la Landin
 
 ### **5.2.1 Sprint 1**
 #### **5.2.1.1 Sprint Planning 1**
-A continuación mostraremos nuestro sprint planning. Se detallará lo que se acordó y revisó en la reunión.
+A continuación mostraremos nuestro **Sprint Planning 1**. Se detallará lo que se acordó y revisó en la reunión.
 
 **Tabla 14**  
 *Sprint Planning 1*
@@ -2210,7 +2219,7 @@ En el sprint 1, se avanzó significativamente con la página de inicio. La versi
 
 *Nota.* Capturas de pantalla de la Landing Page desplegada en Sprint 1.
 
-**Enlace Video Ejecución Landing Page - Energix:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b120_upc_edu_pe/EdjYKV6p4BtDk509oaXU3dQBVx5fCknb9jrzrT0xwERvpw?e=TDgL3Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1QbGF5bGlzdCIsInJlZmVycmFsTW9kZSI6Im1pcyIsInJlZmVycmFsVmlldyI6InZpZGVvYWN0aW9ucy1zaGFyZSIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0ODJjZjZhZS1hMmYyLTQ3NzgtOGQwMi1hYTEzNGQxY2RkOGEifX0%3D
+**Enlace Video Ejecución Landing Page - Energix:** https://tinyurl.com/landing-page-energix
 
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
 
@@ -2275,32 +2284,10 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y GitHub
 *Team Collaboration Insights Sprint 1*
 
 <p align="center">
-  <img src="images/Evidencia_Team_Collaboration_1.png" alt="Team Collaboration — Energix" width="1000">
-</p>
-
-*Nota.* Estadísticas de commits durante el Sprint 1.
-
-- Project Report
-
-  **Figura 76**<br>
-  *Team Collaboration Insights Project Report*
-
-  <p align="center">
-    <img src="images/Evidencia_Team_Collaboration_2.png" alt="Team Collaboration Project Report — Energix" width="1000">
-  </p>
-
-  *Nota.* Estadísticas de commits.
-
-- Landing Page
-
-  **Figura 77**<br>
-  *Team Collaboration Insights Landing Page*
-
-  <p align="center">
     <img src="images/Evidencia_Team_Collaboration_3.png" alt="Team Collaboration Landing Page — Energix" width="1000">
   </p>
 
-  *Nota.* Estadísticas de commits.
+*Nota.* Estadísticas de commits del repositorio Landing-Page durante el Sprint 1.
 
 ### **5.2.2. Sprint 2**
 
@@ -2560,6 +2547,7 @@ El archivo `db.json` contiene las siguientes **colecciones principales**:
 - **devices:** dispositivos inteligentes registrados por el usuario.
 - **zones:** zonas de uso o habitaciones asociadas a los dispositivos.
 - **alerts:** alertas generadas en función del consumo energético y configuración de los dispositivos.
+<br>
 
 Cuando se requieren cambios, se actualizan los archivos del repositorio y Vercel despliega automáticamente la nueva versión.
 
@@ -2597,13 +2585,13 @@ Cuando se requieren cambios, se actualizan los archivos del repositorio y Vercel
   <img src="images/team_collaboration_2.png" alt="Team Collaboration Sprint 2 — Energix" width="1000">
 </p>
 
-*Nota.* Estadísticas de commits del repositorio Frontend durante el Sprint 2.
+*Nota.* Estadísticas de commits del repositorio Frontend-Energix durante el Sprint 2.
 
 ### **5.2.3. Sprint 3**
 
 #### **5.2.3.1. Sprint Planning 3**
 
-A continuación, se presenta el **Sprint Planning** correspondiente al **Sprint 3**. En esta sección se detallan los acuerdos, revisiones y decisiones tomadas durante la reunión llevada a cabo por el equipo para la planificación del sprint.
+A continuación, se presenta el **Sprint Planning 3** correspondiente al **Sprint 3**. En esta sección se detallan los acuerdos, revisiones y decisiones tomadas durante la reunión llevada a cabo por el equipo para la planificación del sprint.
 
 **Tabla 26**  
 *Sprint Planning 3*
@@ -2767,6 +2755,7 @@ Para lograr el despliegue exitoso se realizaron las siguientes acciones clave:
 - Ajuste de variables de entorno en `appsettings.json`, `appsettings.Development.json` y `appsettings.Production.json`.
 - Configuración del contenedor de base de datos y API dentro del archivo `docker-compose.yml` para garantizar una correcta comunicación entre servicios.
 - Subida de los cambios en la rama `feature/release` y despliegue automático en Render con despliegues continuos desde GitHub.
+<br>
 
 A continuación, se presentan evidencias del servicio desplegado y en ejecución:
 
@@ -2871,7 +2860,73 @@ En esta sección se detallan los acuerdos, revisiones y decisiones tomadas duran
 
 #### **5.2.4.3. Sprint Backlog 4**
 
+En este cuarto sprint, el enfoque principal estuvo dirigido a habilitar el rol de administrador dentro del sistema, permitiendo la gestión completa de usuarios, planes de suscripción y estado de cuentas. Asimismo, se abordaron correcciones funcionales y mejoras de usabilidad identificadas tras la evaluación heurística y revisión del sistema en los sprints anteriores.
+
+
+
 #### **5.2.4.4. Development Evidence for Sprint Review**
+
+**Tabla 35**  
+*Evidencia de desarrollo — Sprint 3*
+
+<table>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Fecha del commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7"><b>AppWeb-Energix/Backend-Energix</b></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota.* Elaboración propia a partir del repositorio Backend-Energix.
 
 #### **5.2.4.5. Execution Evidence for Sprint Review**
 
@@ -3164,7 +3219,7 @@ Aumentar el número permitido de dispositivos en el plan estudiantil o brindar m
 
 ## 5.4. Video About-The-Product
 
-**Enlace Video About The Product - Energix:** https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+**Enlace Video About The Product - Energix:** https://tinyurl.com/about-the-product-energix
 
 ## **Conclusiones**
 
@@ -3181,6 +3236,8 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 - Autosolar Perú. (s.f.). *Consumo energético familiar en Perú*. https://autosolar.pe/ahorro-de-energia/consumo-energetico-familiar-en-peru?srsltid=AfmBOoq0OeX8EQ6pqgCOG22w2vKRg0PCjXZnSkKVlPKlIssj2zNpBm8p
 
 ## **Anexos**
+
+**Enlace Organización AppWeb-Energix:** https://github.com/AppWeb-Energix
 
 **Despliegues y Documentación**
 
@@ -3206,11 +3263,11 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 **Videos Exposiciones**
 
-- Enlace Video Exposición TB1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=20a599eb-2ff5-4ef4-9223-c6ab96a977d5&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Exposición TB1 - Energix: https://tinyurl.com/expo-tb1-energix
 
 - Enlace Video Exposición TP - Energix:
 
-- Enlace Video Exposición TB2 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f01210be-d21c-4db9-8f37-1d8855e9de9a&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Exposición TB2 - Energix: https://tinyurl.com/expo-tb2-energix
 
 - Enlace Video Exposición TF - Energix:
 
@@ -3218,54 +3275,50 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video About The Team - Energix:
 
-- Enlace Video About The Team - Sprint 1 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=aa9c3b73-7697-4b1c-a7fe-a2078e1740b6&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video About The Team - Sprint 1 - Energix: https://tinyurl.com/sprint-1-energix
 
 - Enlace Video About The Team - Sprint 2 - Energix:
 
-- Enlace Video About The Team - Sprint 3 - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=4b518f41-e1ee-4478-9c6b-a38375b795a6&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video About The Team - Sprint 3 - Energix: https://tinyurl.com/sprint-3-energix
 
 - Enlace Video About The Team - Sprint 4 - Energix:
 
 **Video About The Product**
 
-- Enlace Video About The Product - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=d6d9e92e-de8a-4bff-b617-01d97f123f4d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video About The Product - Energix: https://tinyurl.com/about-the-product-energix
 
 **Videos Aplicación**
 
-- Enlace Video Ejecución Landing Page - Energix: 
+- Enlace Video Ejecución Landing Page - Energix: https://tinyurl.com/landing-page-energix
 
-- Enlace Video Web Application Prototype - Energix: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=13fd5f60-0c21-4005-bc70-473078bcd18d&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Web Application Prototype - Energix: https://tinyurl.com/prototype-energix
 
-- Enlace Video Presentación FrontEnd - Energix: https://upcedupe-my.sharepoint.com/personal/u20211g491_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=10316c51-02b1-402c-b582-c3a682247c07&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Presentación FrontEnd - Energix: https://tinyurl.com/web-app-fronted-energix
 
 - Enlace Video Presentación BackEnd - Energix:
 
 **Diseño Figma**
 
-- Enlace Diseño Figma Landing Page Mock-up - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Diseño Figma Landing Page Mock-up - Energix: https://tinyurl.com/landing-page-mock-up-energix
 
-- Enlace Diseño Figma Landing Page Wireframe - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Diseño Figma Landing Page Wireframe - Energix: https://tinyurl.com/landing-page-wireframe-energix
 
-- Enlace Diseño Figma Prototype - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Diseño Figma Prototype - Energix: https://tinyurl.com/figma-prototype-energix
 
-- Enlace Diseño Figma Web Application Mock-ups - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&t=Gndb8NpshRr6S3XR-1
+- Enlace Diseño Figma Web Application Mock-ups - Energix: https://tinyurl.com/web-app-mock-ups-energix
 
-- Enlace Diseño Figma Web Application Wireframes - Energix: https://www.figma.com/design/5OJsXwI0ncjULusmBwS2bS/Energix?node-id=0-1&
+- Enlace Diseño Figma Web Application Wireframes - Energix: https://tinyurl.com/web-app-wireframes-energix
 
 **Videos Entrevistas y Validaciones**
 
-- Enlace Video Entrevista - Segmento #1 - Leimy Nuñez: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=c93113a2-00a9-4a0a-9379-a42de373a3a9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #1 - Leimy Nuñez: https://tinyurl.com/ent-seg-1-lei-energix
 
-- Enlace Video Entrevista - Segmento #1 - Willy Guzman: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=187c2b4a-39da-42ea-842b-d91279ae34cb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #1 - Willy Guzman: https://tinyurl.com/ent-seg-1-wil-energix
 
-- Enlace Video Entrevista - Segmento #2 - Braden Garcia: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=e4d05e86-b3ac-405d-b951-526695ae58aa&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Entrevista - Segmento #2 - Braden Garcia: https://tinyurl.com/ent-seg-2-bra-energix
 
-- Enlace Video Entrevista - Segmento #2 - Nestor Rojas: https://upcedupe-my.sharepoint.com/personal/u202321941_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=534e0101-c2d6-425d-a69c-63f40550bd31&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
-
-- Enlace Video Validación Entrevista - Segmento #1 - Willy Guzman:
+- Enlace Video Entrevista - Segmento #2 - Néstor Rojas: https://tinyurl.com/ent-seg-2-nes-energix
 
 - Enlace Video Validación Entrevista - Segmento #1 - Leimy Nuñez:
 
-- Enlace Video Validación Entrevista - Segmento #2 - Braden Garcia:
-
-- Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas: https://upcedupe-my.sharepoint.com/personal/u202318049_upc_edu_pe/_layouts/15/embed.aspx?UniqueId=f7ee1995-0e60-487e-915b-3c7f989e52f9&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
+- Enlace Video Validación Entrevista - Segmento #2 - Néstor Rojas: https://tinyurl.com/val-seg-2-nes-energix
