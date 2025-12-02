@@ -4280,8 +4280,6 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 **Videos About The Team**
 
-- Enlace Video About The Team - Energix:
-
 - Enlace Video About The Team - Sprint 1 - Energix: https://tinyurl.com/sprint-1-energix
 
 - Enlace Video About The Team - Sprint 2 - Energix: https://tinyurl.com/sprint-2-energix
