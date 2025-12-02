@@ -4272,8 +4272,6 @@ Concluimos que Energix es una plataforma que ayudaría a muchos peruanos a optim
 
 - Enlace Video Exposición TB1 - Energix: https://tinyurl.com/expo-tb1-energix
 
-- Enlace Video Exposición TP - Energix: 
-
 - Enlace Video Exposición TB2 - Energix: https://tinyurl.com/expo-tb2-energix
 
 - Enlace Video Exposición TF - Energix:
